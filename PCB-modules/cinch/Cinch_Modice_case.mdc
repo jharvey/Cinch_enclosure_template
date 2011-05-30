@@ -1,0 +1,15 @@
+PCBNEW-LibDoc----V1  30/05/2011 08:30:30
+#
+$MODULE Cinch_60_pin_connector_5810160005S_layout
+Li Cinch_60_pin_connector_5810160005S_layout
+Cd 1219441216-5810160005S_rev_C.pdf
+Kw Cinch enclosure 60-way
+$EndMODULE
+#
+$MODULE Cinch_case_5810160031
+Li Cinch_case_5810160031
+Cd 1219441216-5810160005S_rev_C.pdf
+Kw Cinch enclosure 60-way
+$EndMODULE
+#
+$EndLIBDOC
