@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  05/06/2011 12:28:56
+PCBNEW-LibModule-V1  05/06/2011 12:29:32
 $INDEX
 Cinch_60_pin_connector_5810160005S_layout
 Cinch_case_5810160031
@@ -720,7 +720,7 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  Cinch_Right_spring_plate_5810000021
 $MODULE Cinch_112_molex_pin_connector_5810160005S_layout
-Po 0 0 0 15 4DA07937 00000000 ~~
+Po 0 0 0 15 4DEBAEDA 00000000 ~~
 Li Cinch_112_molex_pin_connector_5810160005S_layout
 Cd 1219441216-5810160005S_rev_C.pdf
 Kw Cinch enclosure 60-way
@@ -933,7 +933,7 @@ Sh "3" C 800 800 0 0 0
 Dr 500 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po -21171 1289
+Po -21890 1150
 $EndPAD
 $PAD
 Sh "16" C 800 800 0 0 0

@@ -1,10 +1,11 @@
-PCBNEW-LibModule-V1  05/06/2011 12:29:32
+PCBNEW-LibModule-V1  12/07/2011 18:41:55
 $INDEX
 Cinch_60_pin_connector_5810160005S_layout
 Cinch_case_5810160031
 Cinch_Left_spring_plate_5810000020
 Cinch_Right_spring_plate_5810000021
 Cinch_112_molex_pin_connector_5810160005S_layout
+test
 $EndINDEX
 $MODULE Cinch_60_pin_connector_5810160005S_layout
 Po 0 0 0 15 4DA07937 00000000 ~~
@@ -1292,4 +1293,14 @@ Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  Cinch_112_molex_pin_connector_5810160005S_layout
+$MODULE test
+Po 0 0 0 15 4E1CCDA1 00000000 ~~
+Li test
+Sc 00000000
+AR 
+Op 0 0 0
+T0 0 0 600 600 0 120 N V 21 N"test"
+T1 0 0 600 600 0 120 N V 21 N"VAL**"
+DS 0 0 1325 -1350 50 21
+$EndMODULE  test
 $EndLIBRARY

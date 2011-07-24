@@ -1,4 +1,4 @@
-update=30/05/2011 08:31:08
+update=23/07/2011 21:04:52
 last_client=pcbnew
 [cvpcb]
 version=1
@@ -105,4 +105,4 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-LibName11=Cinch_Modice_case
+LibName11=pcb_outline_edit
