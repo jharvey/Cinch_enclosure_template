@@ -1,0 +1,18 @@
+
+
+
+          SolidWorks Corporation - STEP Processor Error Log
+          ______________________________________________________
+
+                       STEP Post Processor
+                       ___________________
+
+
+STEP File Name: Y:\freeEMS\Cinch_enclosure\molex\64320-3319_stp\643203319.stp
+
+
+WARNING: Surface problem...Loops of curves have inconsistent directions.
+Surfaces successfully processed into a solid body.
+STEP-in completed.
+Error: Unable to create solid from trimmed surfaces.
+STEP-in did not complete successfully.

@@ -1,4 +1,4 @@
-update=7/31/2011 11:10:41 AM
+update=7/31/2011 8:27:27 PM
 last_client=pcbnew
 [cvpcb]
 version=1
@@ -85,7 +85,7 @@ TxtLar=120
 MSegLar=0
 LastNetListRead=
 [pcbnew/libraries]
-LibDir=../PCB-modules/cinch
+LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -96,4 +96,4 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-LibName11=Molex112_Cinch-ModeICE_5554SOM
+LibName11=../PCB-modules/Molex112_Cinch-ModeICE_5554SOM
