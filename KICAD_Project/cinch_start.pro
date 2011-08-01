@@ -1,4 +1,4 @@
-update=7/31/2011 8:27:27 PM
+update=8/1/2011 6:51:50 AM
 last_client=pcbnew
 [cvpcb]
 version=1
@@ -97,3 +97,4 @@ LibName8=valves
 LibName9=led
 LibName10=dip_sockets
 LibName11=../PCB-modules/Molex112_Cinch-ModeICE_5554SOM
+LibName12=../PCB-modules/Cinch_60_pin_connector_5810160005S_layout
