@@ -1,0 +1,141 @@
+PCBNEW-LibDoc----V1  16/5/2009-03:34:42
+#
+$MODULE QFP80
+Li QFP80
+Cd 80-PIN QFP (CASE NO. 841B)
+Kw 80-PIN QFP (CASE NO. 841B)
+$EndMODULE
+#
+$MODULE pin_array_36x36
+Li pin_array_36x36
+Cd Double rangee de contacts 36x36 pins
+Kw CONN
+$EndMODULE
+#
+$MODULE SO10L
+Li SO10L
+Cd module CMS SOJ 10 pins etroit
+Kw CMS SOJ
+$EndMODULE
+#
+$MODULE pin_array_36x5
+Li pin_array_36x5
+Cd Double rangee de contacts 36x5 pins
+Kw CONN
+$EndMODULE
+#
+$MODULE DB9F_CI_N
+Li DB9F_CI_N
+Cd Connecteur DB9 femelle encarte
+Kw CONN DB9
+$EndMODULE
+#
+$MODULE MPX2050DHP
+Li MPX2050DHP
+Cd 50 KPA PRESSURE SENSOR
+Kw 50 KPA PRESSURE SENSOR
+$EndMODULE
+#
+$MODULE PIN_ARRAY_14X2
+Li PIN_ARRAY_14X2
+Cd Double rangee de contacts 2 x 12 pins
+Kw CONN
+$EndMODULE
+#
+$MODULE 8DIPSO8E
+Li 8DIPSO8E
+Cd Module Dil 8 pins, pads ronds
+Kw DIL
+$EndMODULE
+#
+$MODULE PIN_ARRAY_27X2
+Li PIN_ARRAY_27X2
+Cd Double rangee de contacts 2 x 27 pins
+Kw CONN
+$EndMODULE
+#
+$MODULE SOT23BEC
+Li SOT23BEC
+Cd Module CMS SOT23 Transistore EBC
+Kw CMS SOT
+$EndMODULE
+#
+$MODULE pin_array_3x2
+Li pin_array_3x2
+Cd Double rangee de contacts 2 x 3 pins
+Kw CONN
+$EndMODULE
+#
+$MODULE CINCH
+Li CINCH
+Cd Double rangee de contacts 2 x 3 pins
+Kw CONN
+$EndMODULE
+#
+$MODULE 581-01-60-005
+Li 581-01-60-005
+Cd Double rangee de contacts 2 x 3 pins
+Kw CONN
+$EndMODULE
+#
+$MODULE TEST_POINT
+Li TEST_POINT
+Cd Double rangee de contacts 2 x 12 pins
+Kw CONN
+$EndMODULE
+#
+$MODULE PIN_ARRAY_7X2
+Li PIN_ARRAY_7X2
+Cd Double rangee de contacts 2 x 12 pins
+Kw CONN
+$EndMODULE
+#
+$MODULE SO18W
+Li SO18W
+Cd Module CMS SOJ 18 pins
+Kw CMS SOJ
+$EndMODULE
+#
+$MODULE TO220V
+Li TO220V
+Cd Regulateur TO220 serie LM78xx
+Kw TR TO220
+$EndMODULE
+#
+$MODULE SO8EP
+Li SO8EP
+Cd module CMS SOJ 8 pins etroit
+Kw CMS SOJ
+$EndMODULE
+#
+$MODULE TO220V_GCE
+Li TO220V_GCE
+Cd Regulateur TO220 serie LM78xx
+Kw TR TO220
+$EndMODULE
+#
+$MODULE U101
+Li U101
+Cd THIN QUAD FLAT PACK
+Kw THIN QUAD FLAT PACK
+$EndMODULE
+#
+$MODULE AWCR
+Li AWCR
+Cd Ceramic Resonator HC-18U vertical
+Kw CERAMIC DEV
+$EndMODULE
+#
+$MODULE TQFP144
+Li TQFP144
+Cd THIN QUAD FLAT PACK
+Kw THIN QUAD FLAT PACK
+$EndMODULE
+#
+$MODULE PIN_ARRAY_10X2
+Li PIN_ARRAY_10X2
+Cd Double rangee de contacts 2 x 10 pins
+Kw CONN
+$EndMODULE
+#
+$EndLIBDOC
