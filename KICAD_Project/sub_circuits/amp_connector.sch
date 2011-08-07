@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/6/2011 9:18:51 PM
+EESchema Schematic File Version 2  date 8/6/2011 11:05:38 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -29,8 +29,8 @@ EELAYER 25  0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 8 16
-Title "freeEMS PLUS"
+Sheet 6 14
+Title "freeEMS PLUS from Cinch template "
 Date "7 aug 2011"
 Rev "A"
 Comp "diyefi.org/openecu.info"
@@ -39,6 +39,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L MOLEX_HARNESS_SD-64333-100 J?
+U 1 1 4E3DF531
+P 3850 3900
+F 0 "J?" H 3850 5650 70  0000 C CNN
+F 1 "MOLEX_HARNESS_SD-64333-100" H 3900 1900 70  0000 C CNN
+	1    3850 3900
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	7975 2250 8050 2250
 Wire Wire Line

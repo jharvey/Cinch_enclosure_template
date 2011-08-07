@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/6/2011 9:18:51 PM
+EESchema Schematic File Version 2  date 8/6/2011 11:05:39 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -29,12 +29,12 @@ EELAYER 25  0
 EELAYER END
 $Descr User 11000 8500
 encoding utf-8
-Sheet 13 16
-Title ""
+Sheet 11 14
+Title "freeEMS PLUS from Cinch template "
 Date "7 aug 2011"
-Rev "A.01"
-Comp ""
-Comment1 ""
+Rev "A"
+Comp "diyefi.org/openecu.info"
+Comment1 "2 channels of Wide O2 "
 Comment2 ""
 Comment3 ""
 Comment4 ""

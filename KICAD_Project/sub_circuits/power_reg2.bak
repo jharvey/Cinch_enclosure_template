@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/6/2011 9:16:50 PM
+EESchema Schematic File Version 2  date 8/6/2011 9:18:50 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -29,7 +29,7 @@ EELAYER 25  0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 4 16
+Sheet 5 16
 Title "Puma board"
 Date "7 aug 2011"
 Rev "v0.02"
