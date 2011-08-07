@@ -1,0 +1,725 @@
+EESchema Schematic File Version 2  date 8/4/2011 7:01:19 AM
+LIBS:power
+LIBS:device
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:contrib
+LIBS:project_specific_libs
+LIBS:cinch_start-cache
+EELAYER 25  0
+EELAYER END
+$Descr A3 16535 11700
+encoding utf-8
+Sheet 6 14
+Title "IGDT FUEL INJECTOR DRIVERS"
+Date "4 aug 2011"
+Rev "C"
+Comp "Copyright (C) 2005-2009 by Pike Aerospace Research Corporation"
+Comment1 "AUTHOR: RM SHARKEY"
+Comment2 "STINGRAY III"
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5350 10350 5350 10150
+Wire Wire Line
+	5350 10850 5350 10950
+Connection ~ 5350 10250
+Wire Wire Line
+	5350 10250 5400 10250
+Wire Wire Line
+	5400 10150 3200 10150
+Wire Wire Line
+	8650 2450 7300 2450
+Wire Wire Line
+	7300 2450 7300 9350
+Wire Wire Line
+	7300 9350 6800 9350
+Wire Wire Line
+	8650 4950 7500 4950
+Wire Wire Line
+	7500 4950 7500 9550
+Wire Wire Line
+	7500 9550 6800 9550
+Wire Wire Line
+	8650 7450 7700 7450
+Wire Wire Line
+	7700 7450 7700 9750
+Wire Wire Line
+	7700 9750 6800 9750
+Wire Wire Line
+	8650 9950 6800 9950
+Connection ~ 4050 7900
+Wire Wire Line
+	4050 7900 4050 8450
+Connection ~ 3900 7900
+Wire Wire Line
+	4350 8450 4350 7900
+Wire Wire Line
+	4350 7900 3200 7900
+Connection ~ 3300 8100
+Wire Wire Line
+	3300 8450 3300 8100
+Connection ~ 3600 8100
+Wire Wire Line
+	3600 8100 3600 8450
+Connection ~ 4350 9950
+Wire Wire Line
+	4350 8950 4350 9950
+Connection ~ 4050 9750
+Wire Wire Line
+	4050 8950 4050 9750
+Connection ~ 3750 9550
+Wire Wire Line
+	3750 8950 3750 9550
+Connection ~ 3450 9350
+Wire Wire Line
+	3450 8950 3450 9350
+Wire Wire Line
+	3200 9550 5400 9550
+Wire Wire Line
+	9950 8450 9950 8100
+Wire Wire Line
+	9950 5950 9950 5600
+Wire Wire Line
+	9950 3450 9950 3100
+Wire Wire Line
+	9950 950  9950 600 
+Wire Wire Line
+	9950 1600 9950 1450
+Wire Wire Line
+	9950 600  10850 600 
+Wire Wire Line
+	9550 1200 9150 1200
+Wire Wire Line
+	5400 9250 3200 9250
+Wire Wire Line
+	9950 2850 9950 2700
+Wire Wire Line
+	10850 1850 9950 1850
+Wire Wire Line
+	9550 2450 9150 2450
+Wire Wire Line
+	5400 9350 3200 9350
+Wire Wire Line
+	9950 4100 9950 3950
+Wire Wire Line
+	9950 3100 10850 3100
+Wire Wire Line
+	9550 3700 9150 3700
+Wire Wire Line
+	5400 9450 3200 9450
+Wire Wire Line
+	9950 5350 9950 5200
+Wire Wire Line
+	10850 4350 9950 4350
+Wire Wire Line
+	9550 4950 9150 4950
+Wire Wire Line
+	9950 6600 9950 6450
+Wire Wire Line
+	9950 5600 10850 5600
+Wire Wire Line
+	9550 6200 9150 6200
+Wire Wire Line
+	5400 9650 3200 9650
+Wire Wire Line
+	9950 7850 9950 7700
+Wire Wire Line
+	10850 6850 9950 6850
+Wire Wire Line
+	9550 7450 9150 7450
+Wire Wire Line
+	5400 9750 3200 9750
+Wire Wire Line
+	9950 9100 9950 8950
+Wire Wire Line
+	9950 8100 10850 8100
+Wire Wire Line
+	9550 8700 9150 8700
+Wire Wire Line
+	5400 9850 3200 9850
+Wire Wire Line
+	9950 10350 9950 10200
+Wire Wire Line
+	10850 9350 9950 9350
+Wire Wire Line
+	9550 9950 9150 9950
+Wire Wire Line
+	5400 9950 3200 9950
+Wire Wire Line
+	9950 1850 9950 2200
+Wire Wire Line
+	9950 4350 9950 4700
+Wire Wire Line
+	9950 6850 9950 7200
+Wire Wire Line
+	9950 9350 9950 9700
+Wire Wire Line
+	3300 8950 3300 9250
+Connection ~ 3300 9250
+Wire Wire Line
+	3600 8950 3600 9450
+Connection ~ 3600 9450
+Wire Wire Line
+	3900 8950 3900 9650
+Connection ~ 3900 9650
+Wire Wire Line
+	4200 8950 4200 9850
+Connection ~ 4200 9850
+Wire Wire Line
+	3200 8100 3750 8100
+Wire Wire Line
+	3750 8100 3750 8450
+Wire Wire Line
+	3450 8100 3450 8450
+Connection ~ 3450 8100
+Wire Wire Line
+	3900 8450 3900 7900
+Wire Wire Line
+	4200 7900 4200 8450
+Connection ~ 4200 7900
+Wire Wire Line
+	8650 8700 7800 8700
+Wire Wire Line
+	6800 9850 7800 9850
+Wire Wire Line
+	6800 9650 7600 9650
+Wire Wire Line
+	7600 9650 7600 6200
+Wire Wire Line
+	7600 6200 8650 6200
+Wire Wire Line
+	6800 9450 7400 9450
+Wire Wire Line
+	7400 9450 7400 3700
+Wire Wire Line
+	7400 3700 8650 3700
+Wire Wire Line
+	8650 1200 7200 1200
+Wire Wire Line
+	7200 1200 7200 9250
+Wire Wire Line
+	7200 9250 6800 9250
+Connection ~ 5350 10150
+Wire Wire Line
+	7800 9850 7800 8700
+$Comp
+L DGND #PWR53
+U 1 1 4DCEA4F2
+P 9950 10350
+F 0 "#PWR53" H 9950 10350 40  0001 C CNN
+F 1 "DGND" H 9950 10280 40  0000 C CNN
+	1    9950 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR52
+U 1 1 4DCEA4EF
+P 9950 9100
+F 0 "#PWR52" H 9950 9100 40  0001 C CNN
+F 1 "DGND" H 9950 9030 40  0000 C CNN
+	1    9950 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR51
+U 1 1 4DCEA4EC
+P 9950 7850
+F 0 "#PWR51" H 9950 7850 40  0001 C CNN
+F 1 "DGND" H 9950 7780 40  0000 C CNN
+	1    9950 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR50
+U 1 1 4DCEA4E6
+P 9950 6600
+F 0 "#PWR50" H 9950 6600 40  0001 C CNN
+F 1 "DGND" H 9950 6530 40  0000 C CNN
+	1    9950 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR49
+U 1 1 4DCEA4E2
+P 9950 5350
+F 0 "#PWR49" H 9950 5350 40  0001 C CNN
+F 1 "DGND" H 9950 5280 40  0000 C CNN
+	1    9950 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR48
+U 1 1 4DCEA4DF
+P 9950 4100
+F 0 "#PWR48" H 9950 4100 40  0001 C CNN
+F 1 "DGND" H 9950 4030 40  0000 C CNN
+	1    9950 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR47
+U 1 1 4DCEA4DB
+P 9950 2850
+F 0 "#PWR47" H 9950 2850 40  0001 C CNN
+F 1 "DGND" H 9950 2780 40  0000 C CNN
+	1    9950 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR46
+U 1 1 4DCEA4D6
+P 9950 1600
+F 0 "#PWR46" H 9950 1600 40  0001 C CNN
+F 1 "DGND" H 9950 1530 40  0000 C CNN
+	1    9950 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS244 U723
+U 1 1 4A915D4C
+P 6100 9750
+F 0 "U723" H 6050 10350 60  0000 C CNN
+F 1 "74HCT244_THRU" H 6100 9150 60  0000 C CNN
+	1    6100 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1448
+U 1 1 4A903DC3
+P 5350 10600
+F 0 "R1448" V 5430 10600 50  0000 C CNN
+F 1 "10K" V 5350 10600 50  0000 C CNN
+	1    5350 10600
+	-1   0    0    1   
+$EndComp
+Text HLabel 3200 10150 0    60   Input ~ 0
+EFISTOP
+Text Notes 3250 8050 0    60   ~ 0
+10-20 KHz
+$Comp
+L GND #PWR058
+U 1 1 4A8EC008
+P 5350 10950
+F 0 "#PWR058" H 5350 10950 30  0001 C CNN
+F 1 "GND" H 5350 10880 30  0001 C CNN
+	1    5350 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1442
+U 1 1 4A8EBFA9
+P 3600 8700
+F 0 "R1442" V 3680 8700 50  0000 C CNN
+F 1 "4K7" V 3600 8700 50  0000 C CNN
+F 2 "R3_SM0805" V 1130 2600 60  0001 C CNN
+F 4 "SM>Stackpole>P680KAC" V 1130 2600 60  0001 C CNN "SM mfg>#"
+F 5 "TH>Stackpole>CF18JT4K70" V 1130 2600 60  0001 C CNN "thru mfg>#"
+F 6 "SM>digikey>P680KACT-ND" V 1130 2600 60  0001 C CNN "SM vend1>#"
+F 7 "TH>digikey>CF18JT4K70CT-ND" V 1130 2600 60  0001 C CNN "thru vend1>#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "Thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
+	1    3600 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1441
+U 1 1 4A8EBFA2
+P 3450 8700
+F 0 "R1441" V 3530 8700 50  0000 C CNN
+F 1 "4K7" V 3450 8700 50  0000 C CNN
+F 2 "R3_SM0805" V 1130 2600 60  0001 C CNN
+F 4 "SM>Stackpole>P680KAC" V 1130 2600 60  0001 C CNN "SM mfg>#"
+F 5 "TH>Stackpole>CF18JT4K70" V 1130 2600 60  0001 C CNN "thru mfg>#"
+F 6 "SM>digikey>P680KACT-ND" V 1130 2600 60  0001 C CNN "SM vend1>#"
+F 7 "TH>digikey>CF18JT4K70CT-ND" V 1130 2600 60  0001 C CNN "thru vend1>#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "Thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
+	1    3450 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1440
+U 1 1 4A8EBF9B
+P 3300 8700
+F 0 "R1440" V 3380 8700 50  0000 C CNN
+F 1 "4K7" V 3300 8700 50  0000 C CNN
+F 2 "R3_SM0805" V 1130 2600 60  0001 C CNN
+F 4 "SM>Stackpole>P680KAC" V 1130 2600 60  0001 C CNN "SM mfg>#"
+F 5 "TH>Stackpole>CF18JT4K70" V 1130 2600 60  0001 C CNN "thru mfg>#"
+F 6 "SM>digikey>P680KACT-ND" V 1130 2600 60  0001 C CNN "SM vend1>#"
+F 7 "TH>digikey>CF18JT4K70CT-ND" V 1130 2600 60  0001 C CNN "thru vend1>#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "Thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
+	1    3300 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1443
+U 1 1 4A8EBF94
+P 3750 8700
+F 0 "R1443" V 3830 8700 50  0000 C CNN
+F 1 "4K7" V 3750 8700 50  0000 C CNN
+F 2 "R3_SM0805" V 1130 2600 60  0001 C CNN
+F 4 "SM>Stackpole>P680KAC" V 1130 2600 60  0001 C CNN "SM mfg>#"
+F 5 "TH>Stackpole>CF18JT4K70" V 1130 2600 60  0001 C CNN "thru mfg>#"
+F 6 "SM>digikey>P680KACT-ND" V 1130 2600 60  0001 C CNN "SM vend1>#"
+F 7 "TH>digikey>CF18JT4K70CT-ND" V 1130 2600 60  0001 C CNN "thru vend1>#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "Thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
+	1    3750 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1447
+U 1 1 4A8EBF7E
+P 4350 8700
+F 0 "R1447" V 4430 8700 50  0000 C CNN
+F 1 "4K7" V 4350 8700 50  0000 C CNN
+F 2 "R3_SM0805" V 1130 2600 60  0001 C CNN
+F 4 "SM>Stackpole>P680KAC" V 1130 2600 60  0001 C CNN "SM mfg>#"
+F 5 "TH>Stackpole>CF18JT4K70" V 1130 2600 60  0001 C CNN "thru mfg>#"
+F 6 "SM>digikey>P680KACT-ND" V 1130 2600 60  0001 C CNN "SM vend1>#"
+F 7 "TH>digikey>CF18JT4K70CT-ND" V 1130 2600 60  0001 C CNN "thru vend1>#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "Thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
+	1    4350 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1446
+U 1 1 4A8EBF7B
+P 4200 8700
+F 0 "R1446" V 4280 8700 50  0000 C CNN
+F 1 "4K7" V 4200 8700 50  0000 C CNN
+F 2 "R3_SM0805" V 1130 2600 60  0001 C CNN
+F 4 "SM>Stackpole>P680KAC" V 1130 2600 60  0001 C CNN "SM mfg>#"
+F 5 "TH>Stackpole>CF18JT4K70" V 1130 2600 60  0001 C CNN "thru mfg>#"
+F 6 "SM>digikey>P680KACT-ND" V 1130 2600 60  0001 C CNN "SM vend1>#"
+F 7 "TH>digikey>CF18JT4K70CT-ND" V 1130 2600 60  0001 C CNN "thru vend1>#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "Thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
+	1    4200 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1445
+U 1 1 4A8EBF78
+P 4050 8700
+F 0 "R1445" V 4130 8700 50  0000 C CNN
+F 1 "4K7" V 4050 8700 50  0000 C CNN
+F 2 "R3_SM0805" V 1130 2600 60  0001 C CNN
+F 4 "SM>Stackpole>P680KAC" V 1130 2600 60  0001 C CNN "SM mfg>#"
+F 5 "TH>Stackpole>CF18JT4K70" V 1130 2600 60  0001 C CNN "thru mfg>#"
+F 6 "SM>digikey>P680KACT-ND" V 1130 2600 60  0001 C CNN "SM vend1>#"
+F 7 "TH>digikey>CF18JT4K70CT-ND" V 1130 2600 60  0001 C CNN "thru vend1>#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "Thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
+	1    4050 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1444
+U 1 1 4A8EBF6C
+P 3900 8700
+F 0 "R1444" V 3980 8700 50  0000 C CNN
+F 1 "4K7" V 3900 8700 50  0000 C CNN
+F 2 "R3_SM0805" V 1130 2600 60  0001 C CNN
+F 4 "SM>Stackpole>P680KAC" V 1130 2600 60  0001 C CNN "SM mfg>#"
+F 5 "TH>Stackpole>CF18JT4K70" V 1130 2600 60  0001 C CNN "thru mfg>#"
+F 6 "SM>digikey>P680KACT-ND" V 1130 2600 60  0001 C CNN "SM vend1>#"
+F 7 "TH>digikey>CF18JT4K70CT-ND" V 1130 2600 60  0001 C CNN "thru vend1>#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "Thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
+	1    3900 8700
+	1    0    0    -1  
+$EndComp
+Text HLabel 3200 7900 0    60   Input ~ 0
+EFIPWM1
+Text HLabel 3200 8100 0    60   Input ~ 0
+EFIPWM0
+$Comp
+L IGBT Q508
+U 1 1 49A248D7
+P 9750 9950
+F 0 "Q508" H 9653 10200 70  0000 C CNN
+F 1 "IRGB14C40LPBF" H 9500 9750 60  0000 C CNN
+	1    9750 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L IGBT Q507
+U 1 1 49A248D1
+P 9750 8700
+F 0 "Q507" H 9653 8950 70  0000 C CNN
+F 1 "IRGB14C40LPBF" H 9500 8500 60  0000 C CNN
+	1    9750 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L IGBT Q506
+U 1 1 49A248CB
+P 9750 7450
+F 0 "Q506" H 9653 7700 70  0000 C CNN
+F 1 "IRGB14C40LPBF" H 9500 7250 60  0000 C CNN
+	1    9750 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L IGBT Q505
+U 1 1 49A248C5
+P 9750 6200
+F 0 "Q505" H 9653 6450 70  0000 C CNN
+F 1 "IRGB14C40LPBF" H 9500 6000 60  0000 C CNN
+	1    9750 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L IGBT Q504
+U 1 1 49A24857
+P 9750 4950
+F 0 "Q504" H 9653 5200 70  0000 C CNN
+F 1 "IRGB14C40LPBF" H 9500 4750 60  0000 C CNN
+	1    9750 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L IGBT Q503
+U 1 1 49A24851
+P 9750 3700
+F 0 "Q503" H 9653 3950 70  0000 C CNN
+F 1 "IRGB14C40LPBF" H 9500 3500 60  0000 C CNN
+	1    9750 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L IGBT Q502
+U 1 1 49A2484A
+P 9750 2450
+F 0 "Q502" H 9653 2700 70  0000 C CNN
+F 1 "IRGB14C40LPBF" H 9500 2250 60  0000 C CNN
+	1    9750 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L IGBT Q501
+U 1 1 49A24843
+P 9750 1200
+F 0 "Q501" H 9653 1450 70  0000 C CNN
+F 1 "IRGB14C40LPBF" H 9500 1000 60  0000 C CNN
+	1    9750 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R518
+U 1 1 46700ECC
+P 8900 9950
+F 0 "R518" V 8980 9950 50  0000 C CNN
+F 1 "1K" V 8900 9950 50  0000 C CNN
+F 2 "R3_SM0805" V 1130 2600 60  0001 C CNN
+F 4 "SM>>" V 1130 2600 60  0001 C CNN "SM mfg>#"
+F 5 "TH>>" V 1130 2600 60  0001 C CNN "thru mfg>#"
+F 6 "SM>digikey>RHM1.00KCRCT-ND" V 1130 2600 60  0001 C CNN "SM vend1>#"
+F 7 "TH>digikey>" V 1130 2600 60  0001 C CNN "thru vend1>#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "Thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
+	1    8900 9950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R517
+U 1 1 46700EC9
+P 8900 8700
+F 0 "R517" V 8980 8700 50  0000 C CNN
+F 1 "1K" V 8900 8700 50  0000 C CNN
+F 2 "R3_SM0805" V 1130 2600 60  0001 C CNN
+F 4 "SM>>" V 1130 2600 60  0001 C CNN "SM mfg>#"
+F 5 "TH>>" V 1130 2600 60  0001 C CNN "thru mfg>#"
+F 6 "SM>digikey>RHM1.00KCRCT-ND" V 1130 2600 60  0001 C CNN "SM vend1>#"
+F 7 "TH>digikey>" V 1130 2600 60  0001 C CNN "thru vend1>#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "Thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
+	1    8900 8700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R516
+U 1 1 46700EC6
+P 8900 7450
+F 0 "R516" V 8980 7450 50  0000 C CNN
+F 1 "1K" V 8900 7450 50  0000 C CNN
+F 2 "R3_SM0805" V 1130 2600 60  0001 C CNN
+F 4 "SM>>" V 1130 2600 60  0001 C CNN "SM mfg>#"
+F 5 "TH>>" V 1130 2600 60  0001 C CNN "thru mfg>#"
+F 6 "SM>digikey>RHM1.00KCRCT-ND" V 1130 2600 60  0001 C CNN "SM vend1>#"
+F 7 "TH>digikey>" V 1130 2600 60  0001 C CNN "thru vend1>#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "Thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
+	1    8900 7450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R515
+U 1 1 46700EC3
+P 8900 6200
+F 0 "R515" V 8980 6200 50  0000 C CNN
+F 1 "1K" V 8900 6200 50  0000 C CNN
+F 2 "R3_SM0805" V 1130 2600 60  0001 C CNN
+F 4 "SM>>" V 1130 2600 60  0001 C CNN "SM mfg>#"
+F 5 "TH>>" V 1130 2600 60  0001 C CNN "thru mfg>#"
+F 6 "SM>digikey>RHM1.00KCRCT-ND" V 1130 2600 60  0001 C CNN "SM vend1>#"
+F 7 "TH>digikey>" V 1130 2600 60  0001 C CNN "thru vend1>#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "Thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
+	1    8900 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R514
+U 1 1 46700EB1
+P 8900 4950
+F 0 "R514" V 8980 4950 50  0000 C CNN
+F 1 "1K" V 8900 4950 50  0000 C CNN
+F 2 "R3_SM0805" V 1130 2600 60  0001 C CNN
+F 4 "SM>>" V 1130 2600 60  0001 C CNN "SM mfg>#"
+F 5 "TH>>" V 1130 2600 60  0001 C CNN "thru mfg>#"
+F 6 "SM>digikey>RHM1.00KCRCT-ND" V 1130 2600 60  0001 C CNN "SM vend1>#"
+F 7 "TH>digikey>" V 1130 2600 60  0001 C CNN "thru vend1>#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "Thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
+	1    8900 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R513
+U 1 1 46700EAE
+P 8900 3700
+F 0 "R513" V 8980 3700 50  0000 C CNN
+F 1 "1K" V 8900 3700 50  0000 C CNN
+F 2 "R3_SM0805" V 1130 2600 60  0001 C CNN
+F 4 "SM>>" V 1130 2600 60  0001 C CNN "SM mfg>#"
+F 5 "TH>>" V 1130 2600 60  0001 C CNN "thru mfg>#"
+F 6 "SM>digikey>RHM1.00KCRCT-ND" V 1130 2600 60  0001 C CNN "SM vend1>#"
+F 7 "TH>digikey>" V 1130 2600 60  0001 C CNN "thru vend1>#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "Thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
+	1    8900 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R512
+U 1 1 46700E87
+P 8900 2450
+F 0 "R512" V 8980 2450 50  0000 C CNN
+F 1 "1K" V 8900 2450 50  0000 C CNN
+F 2 "R3_SM0805" V 1130 2600 60  0001 C CNN
+F 4 "SM>>" V 1130 2600 60  0001 C CNN "SM mfg>#"
+F 5 "TH>>" V 1130 2600 60  0001 C CNN "thru mfg>#"
+F 6 "SM>digikey>RHM1.00KCRCT-ND" V 1130 2600 60  0001 C CNN "SM vend1>#"
+F 7 "TH>digikey>" V 1130 2600 60  0001 C CNN "thru vend1>#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "Thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
+	1    8900 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R511
+U 1 1 42529339
+P 8900 1200
+F 0 "R511" V 8980 1200 50  0000 C CNN
+F 1 "1K" V 8900 1200 50  0000 C CNN
+F 2 "R3_SM0805" V 1130 2600 60  0001 C CNN
+F 4 "SM>>" V 1130 2600 60  0001 C CNN "SM mfg>#"
+F 5 "TH>>" V 1130 2600 60  0001 C CNN "thru mfg>#"
+F 6 "SM>digikey>RHM1.00KCRCT-ND" V 1130 2600 60  0001 C CNN "SM vend1>#"
+F 7 "TH>digikey>" V 1130 2600 60  0001 C CNN "thru vend1>#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "Thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
+	1    8900 1200
+	0    -1   -1   0   
+$EndComp
+Text HLabel 10850 9350 2    60   Output ~ 0
+EFI_OUT7
+Text HLabel 10850 8100 2    60   Output ~ 0
+EFI_OUT6
+Text HLabel 10850 6850 2    60   Output ~ 0
+EFI_OUT5
+Text HLabel 10850 5600 2    60   Output ~ 0
+EFI_OUT4
+Text HLabel 10850 4350 2    60   Output ~ 0
+EFI_OUT3
+Text HLabel 10850 3100 2    60   Output ~ 0
+EFI_OUT2
+Text HLabel 10850 1850 2    60   Output ~ 0
+EFI_OUT1
+Text HLabel 10850 600  2    60   Output ~ 0
+EFI_OUT0
+Text HLabel 3200 9950 0    60   Input ~ 0
+EFI_IN7
+Text HLabel 3200 9850 0    60   Input ~ 0
+EFI_IN6
+Text HLabel 3200 9750 0    60   Input ~ 0
+EFI_IN5
+Text HLabel 3200 9650 0    60   Input ~ 0
+EFI_IN4
+Text HLabel 3200 9550 0    60   Input ~ 0
+EFI_IN3
+Text HLabel 3200 9450 0    60   Input ~ 0
+EFI_IN2
+Text HLabel 3200 9350 0    60   Input ~ 0
+EFI_IN1
+Text HLabel 3200 9250 0    60   Input ~ 0
+EFI_IN0
+$EndSCHEMATC

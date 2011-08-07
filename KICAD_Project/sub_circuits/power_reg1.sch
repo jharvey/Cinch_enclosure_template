@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/3/2011 6:26:21 AM
+EESchema Schematic File Version 2  date 8/6/2011 9:18:50 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -23,17 +23,15 @@ LIBS:display
 LIBS:cypress
 LIBS:siliconi
 LIBS:contrib
-LIBS:sharkey
-LIBS:stingray3
-LIBS:freeEMS_lib
+LIBS:project_specific_libs
 LIBS:cinch_start-cache
 EELAYER 25  0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 2 23
+Sheet 4 16
 Title "Puma board"
-Date "3 aug 2011"
+Date "7 aug 2011"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"

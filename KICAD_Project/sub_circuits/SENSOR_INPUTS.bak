@@ -1,0 +1,1942 @@
+EESchema Schematic File Version 2  date 8/6/2011 9:16:51 PM
+LIBS:power
+LIBS:device
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:contrib
+LIBS:project_specific_libs
+LIBS:cinch_start-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 14 16
+Title "freeEMS plus"
+Date "7 aug 2011"
+Rev "A.01"
+Comp "diyefi.org"
+Comment1 "knock dector"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 3100 5150
+Wire Wire Line
+	3200 5150 2250 5150
+Connection ~ 2500 3200
+Connection ~ 2500 5150
+Connection ~ 2500 4200
+Connection ~ 2500 3800
+Connection ~ 3100 1300
+Connection ~ 2500 2200
+Wire Wire Line
+	2250 2200 3100 2200
+Wire Wire Line
+	2550 1800 2200 1800
+Connection ~ 4100 2350
+Wire Wire Line
+	4100 2350 2250 2350
+Wire Wire Line
+	2250 4300 4100 4300
+Wire Wire Line
+	4100 4300 4100 1300
+Connection ~ 2500 1800
+Connection ~ 2250 1800
+Wire Wire Line
+	2250 1800 2250 1700
+Connection ~ 2250 2200
+Wire Wire Line
+	3150 1800 3050 1800
+Wire Wire Line
+	2250 3200 3100 3200
+Connection ~ 2250 3200
+Wire Wire Line
+	3050 2800 3150 2800
+Wire Wire Line
+	2250 4200 3100 4200
+Connection ~ 2250 4200
+Wire Wire Line
+	3050 3800 3150 3800
+Connection ~ 2250 5150
+Wire Wire Line
+	3050 4750 3200 4750
+Wire Wire Line
+	4100 3350 2250 3350
+Connection ~ 4100 3350
+Wire Wire Line
+	4100 1300 2250 1300
+Connection ~ 2250 1300
+Wire Wire Line
+	2250 2750 2250 2800
+Connection ~ 2250 2800
+Wire Wire Line
+	2550 2800 2200 2800
+Connection ~ 2500 2800
+Wire Wire Line
+	2200 3800 2550 3800
+Connection ~ 2250 3800
+Wire Wire Line
+	2250 3750 2250 3800
+Wire Wire Line
+	2250 4700 2250 4750
+Connection ~ 2250 4750
+Wire Wire Line
+	2550 4750 2200 4750
+Connection ~ 2500 4750
+Wire Notes Line
+	11150 3650 5000 3650
+Wire Notes Line
+	5000 3650 5000 7750
+Wire Notes Line
+	3700 6100 3700 7750
+Wire Wire Line
+	3250 6650 3100 6650
+Wire Wire Line
+	3100 7575 3250 7575
+Wire Wire Line
+	7250 1500 10600 1500
+Wire Wire Line
+	7300 1100 9100 1100
+Connection ~ 8150 700 
+Wire Wire Line
+	10600 850  10600 700 
+Wire Wire Line
+	9100 1350 9100 1300
+Wire Wire Line
+	7650 2700 8700 2700
+Wire Wire Line
+	8700 2700 8700 2900
+Wire Wire Line
+	9100 1100 9100 1150
+Wire Wire Line
+	7050 4500 7025 4500
+Wire Wire Line
+	6050 4700 6150 4700
+Wire Wire Line
+	6150 4700 6150 4600
+Wire Wire Line
+	10000 4425 9975 4425
+Wire Wire Line
+	9400 4000 9975 4000
+Wire Wire Line
+	8250 4700 9325 4700
+Wire Wire Line
+	9325 4700 9325 4600
+Connection ~ 9325 4600
+Connection ~ 8575 4000
+Wire Wire Line
+	9000 4000 8575 4000
+Connection ~ 9650 4000
+Wire Wire Line
+	6200 5000 6200 5025
+Connection ~ 6200 5200
+Wire Wire Line
+	6250 5200 6150 5200
+Connection ~ 6800 5200
+Wire Wire Line
+	6800 5100 6800 5200
+Connection ~ 6800 4600
+Wire Wire Line
+	6800 4700 6800 4600
+Connection ~ 6200 4600
+Wire Wire Line
+	6150 4600 6250 4600
+Wire Wire Line
+	8250 4500 8325 4500
+Wire Wire Line
+	10000 4600 9975 4600
+Wire Wire Line
+	8250 4600 8825 4600
+Wire Wire Line
+	8250 4300 8300 4300
+Wire Wire Line
+	6900 4300 7050 4300
+Wire Wire Line
+	6900 4400 7050 4400
+Wire Wire Line
+	9325 4600 9475 4600
+Wire Wire Line
+	9975 4600 9975 4700
+Wire Wire Line
+	7025 4500 7025 4525
+Wire Wire Line
+	9975 5100 9975 5150
+Wire Wire Line
+	7050 4600 6750 4600
+Wire Wire Line
+	7050 4700 7050 5200
+Wire Wire Line
+	7050 5200 6750 5200
+Wire Wire Line
+	6200 5600 6200 5625
+Wire Wire Line
+	9400 3775 9650 3775
+Wire Wire Line
+	9650 3775 9650 4125
+Wire Wire Line
+	9000 3775 8575 3775
+Wire Wire Line
+	8575 3775 8575 4400
+Wire Wire Line
+	8575 4400 8250 4400
+Wire Wire Line
+	8825 4600 8825 4500
+Wire Wire Line
+	9975 4425 9975 4400
+Wire Wire Line
+	8325 4500 8325 4425
+Wire Wire Line
+	8325 4425 9475 4425
+Wire Wire Line
+	6150 5200 6150 5300
+Wire Wire Line
+	6150 5300 6050 5300
+Wire Wire Line
+	6050 6650 6150 6650
+Wire Wire Line
+	6150 6650 6150 6550
+Wire Wire Line
+	9475 5775 8325 5775
+Wire Wire Line
+	8325 5775 8325 5850
+Wire Wire Line
+	9975 5750 9975 5775
+Wire Wire Line
+	8825 5850 8825 5950
+Wire Wire Line
+	8250 5750 8575 5750
+Wire Wire Line
+	8575 5750 8575 5125
+Wire Wire Line
+	8575 5125 9000 5125
+Wire Wire Line
+	9650 5475 9650 5125
+Wire Wire Line
+	9650 5125 9400 5125
+Wire Wire Line
+	6200 6950 6200 6975
+Wire Wire Line
+	6750 6550 7050 6550
+Wire Wire Line
+	7050 6550 7050 6050
+Wire Wire Line
+	7050 5950 6750 5950
+Wire Wire Line
+	9975 6450 9975 6500
+Wire Wire Line
+	7025 5875 7025 5850
+Wire Wire Line
+	9975 6050 9975 5950
+Wire Wire Line
+	9475 5950 9325 5950
+Wire Wire Line
+	6900 5750 7050 5750
+Wire Wire Line
+	6900 5650 7050 5650
+Wire Wire Line
+	8250 5650 8300 5650
+Wire Wire Line
+	8825 5950 8250 5950
+Wire Wire Line
+	9975 5950 10000 5950
+Wire Wire Line
+	8325 5850 8250 5850
+Wire Wire Line
+	6250 5950 6150 5950
+Connection ~ 6200 5950
+Wire Wire Line
+	6800 6050 6800 5950
+Connection ~ 6800 5950
+Wire Wire Line
+	6800 6450 6800 6550
+Connection ~ 6800 6550
+Wire Wire Line
+	6150 6550 6250 6550
+Connection ~ 6200 6550
+Wire Wire Line
+	6200 6350 6200 6375
+Connection ~ 9650 5350
+Wire Wire Line
+	9000 5350 8575 5350
+Connection ~ 8575 5350
+Connection ~ 9325 5950
+Wire Wire Line
+	9325 5950 9325 6050
+Wire Wire Line
+	9325 6050 8250 6050
+Wire Wire Line
+	9400 5350 9975 5350
+Wire Wire Line
+	9975 5775 10000 5775
+Wire Wire Line
+	6150 5950 6150 6050
+Wire Wire Line
+	6150 6050 6050 6050
+Wire Wire Line
+	7025 5850 7050 5850
+Wire Wire Line
+	4350 7550 4750 7550
+Wire Wire Line
+	4500 6550 4750 6550
+Wire Wire Line
+	4500 7050 4750 7050
+Wire Wire Line
+	8150 1500 8150 1300
+Connection ~ 7800 1500
+Connection ~ 7800 1100
+Connection ~ 7300 1100
+Connection ~ 7800 700 
+Connection ~ 7300 1500
+Wire Wire Line
+	8150 700  8150 900 
+Wire Wire Line
+	9100 3100 7650 3100
+Wire Wire Line
+	7650 3500 8700 3500
+Connection ~ 8300 2700
+Connection ~ 7800 2700
+Connection ~ 7800 3100
+Connection ~ 8300 3100
+Connection ~ 8300 3500
+Wire Wire Line
+	8700 2900 9100 2900
+Wire Wire Line
+	800  6450 1200 6450
+Wire Wire Line
+	8700 3500 8700 3300
+Wire Wire Line
+	8700 3300 9100 3300
+Wire Wire Line
+	9100 950  9100 900 
+Wire Wire Line
+	10600 1500 10600 1350
+Connection ~ 8150 1500
+Wire Wire Line
+	9100 900  8150 900 
+Wire Wire Line
+	8150 1300 9100 1300
+Wire Wire Line
+	10600 700  7250 700 
+Wire Wire Line
+	3100 7375 3250 7375
+Wire Wire Line
+	3100 6850 3250 6850
+Wire Wire Line
+	7250 1700 10600 1700
+Wire Wire Line
+	8150 2300 9100 2300
+Wire Wire Line
+	9100 1900 8150 1900
+Connection ~ 8150 2500
+Wire Wire Line
+	10600 2350 10600 2500
+Wire Wire Line
+	9100 1900 9100 1950
+Wire Wire Line
+	8150 1900 8150 1700
+Connection ~ 7300 2500
+Connection ~ 7800 1700
+Connection ~ 7300 2100
+Connection ~ 7800 2100
+Connection ~ 7800 2500
+Wire Wire Line
+	8150 2300 8150 2500
+Wire Wire Line
+	9100 2150 9100 2100
+Wire Wire Line
+	9100 2300 9100 2350
+Wire Wire Line
+	10600 1700 10600 1850
+Connection ~ 8150 1700
+Wire Wire Line
+	9100 2100 7300 2100
+Wire Wire Line
+	10600 2500 7250 2500
+Wire Notes Line
+	5000 6100 500  6100
+Wire Notes Line
+	6350 3650 6350 500 
+Connection ~ 3100 1800
+Wire Wire Line
+	3200 4400 3150 4400
+Wire Wire Line
+	3150 4400 3150 4300
+Connection ~ 3150 4300
+Text HLabel 3200 4400 2    60   Output ~ 0
+AN_HARN_TPS+5
+Text HLabel 3200 5150 2    60   Output ~ 0
+AN_HARN_TPS_GND
+$Comp
+L C C?
+U 1 1 4E3DE5E2
+P 2500 4950
+F 0 "C?" H 2550 5050 50  0000 L CNN
+F 1 "15nf" H 2550 4850 50  0000 L CNN
+F 2 "SM0805-C1" V 330 5950 60  0001 C CNN
+F 4 "-,-" V 180 10000 60  0001 C CNN "Field3"
+F 5 "-,-" V 180 10000 60  0001 C CNN "Field4"
+F 6 "50,V" V 180 10000 60  0001 C CNN "Field5"
+F 7 "10,%" V 180 10000 60  0001 C CNN "Field6"
+F 8 "Ceramic" V 180 10000 60  0001 C CNN "Field7"
+F 9 "other,more,stuff" V 180 10000 60  0001 C CNN "Field8"
+	1    2500 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4E3DE5AE
+P 2500 4000
+F 0 "C?" H 2550 4100 50  0000 L CNN
+F 1 "15nf" H 2550 3900 50  0000 L CNN
+F 2 "SM0805-C1" V 330 5000 60  0001 C CNN
+F 4 "-,-" V 180 9050 60  0001 C CNN "Field3"
+F 5 "-,-" V 180 9050 60  0001 C CNN "Field4"
+F 6 "50,V" V 180 9050 60  0001 C CNN "Field5"
+F 7 "10,%" V 180 9050 60  0001 C CNN "Field6"
+F 8 "Ceramic" V 180 9050 60  0001 C CNN "Field7"
+F 9 "other,more,stuff" V 180 9050 60  0001 C CNN "Field8"
+	1    2500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4E3DE5AC
+P 2500 3000
+F 0 "C?" H 2550 3100 50  0000 L CNN
+F 1 "15nf" H 2550 2900 50  0000 L CNN
+F 2 "SM0805-C1" V 330 4000 60  0001 C CNN
+F 4 "-,-" V 180 8050 60  0001 C CNN "Field3"
+F 5 "-,-" V 180 8050 60  0001 C CNN "Field4"
+F 6 "50,V" V 180 8050 60  0001 C CNN "Field5"
+F 7 "10,%" V 180 8050 60  0001 C CNN "Field6"
+F 8 "Ceramic" V 180 8050 60  0001 C CNN "Field7"
+F 9 "other,more,stuff" V 180 8050 60  0001 C CNN "Field8"
+	1    2500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4E3DE5A1
+P 3100 4950
+F 0 "C?" H 3150 5050 50  0000 L CNN
+F 1 ".1uF" H 3150 4850 50  0000 L CNN
+F 2 "SM0805-C1" V 930 5950 60  0001 C CNN
+F 4 "newark," V 780 10000 60  0001 C CNN "vend,#"
+F 5 "-,-" V 780 10000 60  0001 C CNN "Field3"
+F 6 "-,-" V 780 10000 60  0001 C CNN "Field4"
+F 7 "50,V" V 780 10000 60  0001 C CNN "Field5"
+F 8 "10,%" V 780 10000 60  0001 C CNN "Field6"
+F 9 "Ceramic" V 780 10000 60  0001 C CNN "Field7"
+F 10 "other,more,stuff" V 780 10000 60  0001 C CNN "Field8"
+	1    3100 4950
+	1    0    0    -1  
+$EndComp
+Text Label 2750 5150 0    60   ~ 0
+AN_GND
+Text Label 2750 4200 0    60   ~ 0
+AN_GND
+$Comp
+L C C?
+U 1 1 4E3DE59A
+P 3100 4000
+F 0 "C?" H 3150 4100 50  0000 L CNN
+F 1 ".1uF" H 3150 3900 50  0000 L CNN
+F 2 "SM0805-C1" V 930 5000 60  0001 C CNN
+F 4 "newark," V 780 9050 60  0001 C CNN "vend,#"
+F 5 "-,-" V 780 9050 60  0001 C CNN "Field3"
+F 6 "-,-" V 780 9050 60  0001 C CNN "Field4"
+F 7 "50,V" V 780 9050 60  0001 C CNN "Field5"
+F 8 "10,%" V 780 9050 60  0001 C CNN "Field6"
+F 9 "Ceramic" V 780 9050 60  0001 C CNN "Field7"
+F 10 "other,more,stuff" V 780 9050 60  0001 C CNN "Field8"
+	1    3100 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4E3DE596
+P 3100 3000
+F 0 "C?" H 3150 3100 50  0000 L CNN
+F 1 ".1uF" H 3150 2900 50  0000 L CNN
+F 2 "SM0805-C1" V 930 4000 60  0001 C CNN
+F 4 "newark," V 780 8050 60  0001 C CNN "vend,#"
+F 5 "-,-" V 780 8050 60  0001 C CNN "Field3"
+F 6 "-,-" V 780 8050 60  0001 C CNN "Field4"
+F 7 "50,V" V 780 8050 60  0001 C CNN "Field5"
+F 8 "10,%" V 780 8050 60  0001 C CNN "Field6"
+F 9 "Ceramic" V 780 8050 60  0001 C CNN "Field7"
+F 10 "other,more,stuff" V 780 8050 60  0001 C CNN "Field8"
+	1    3100 3000
+	1    0    0    -1  
+$EndComp
+Text Label 2750 3200 0    60   ~ 0
+AN_GND
+Text Label 2750 2200 0    60   ~ 0
+AN_GND
+$Comp
+L R R?
+U 1 1 4E3DE392
+P 3100 1550
+F 0 "R?" V 3180 1550 50  0000 C CNN
+F 1 "2K4" V 3100 1550 50  0000 C CNN
+F 2 "SM0805-R4" V 3280 1650 60  0001 C CNN
+F 4 "-,-" V 1780 5450 60  0001 C CNN "Field3"
+F 5 "-,-" V 1780 5450 60  0001 C CNN "Field4"
+F 6 "125,mW" V 1780 5450 60  0001 C CNN "Field5"
+F 7 "1,%" V 1780 5450 60  0001 C CNN "Field6"
+F 8 "thick film" V 1780 5450 60  0001 C CNN "Field7"
+F 9 "other,more,stuff" V 1780 5450 60  0001 C CNN "Field8"
+	1    3100 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4E3DE357
+P 3100 2000
+F 0 "C?" H 3150 2100 50  0000 L CNN
+F 1 ".1uF" H 3150 1900 50  0000 L CNN
+F 2 "SM0805-C1" V 930 3000 60  0001 C CNN
+F 4 "newark," V 780 7050 60  0001 C CNN "vend,#"
+F 5 "-,-" V 780 7050 60  0001 C CNN "Field3"
+F 6 "-,-" V 780 7050 60  0001 C CNN "Field4"
+F 7 "50,V" V 780 7050 60  0001 C CNN "Field5"
+F 8 "10,%" V 780 7050 60  0001 C CNN "Field6"
+F 9 "Ceramic" V 780 7050 60  0001 C CNN "Field7"
+F 10 "other,more,stuff" V 780 7050 60  0001 C CNN "Field8"
+	1    3100 2000
+	1    0    0    -1  
+$EndComp
+Text HLabel 7250 2500 0    60   Output ~ 0
+CPU_AN_MAP2
+$Comp
+L C C?
+U 1 1 4E3DD64B
+P 7800 2300
+F 0 "C?" H 7850 2400 50  0000 L CNN
+F 1 "1.5nF" H 7850 2200 50  0000 L CNN
+F 2 "SM0805" V 5130 3100 60  0001 C CNN
+F 4 "Yageo" V 5130 3100 60  0001 C CNN "mfg"
+F 5 "CC0805KRX7R9BB152" V 5130 3100 60  0001 C CNN "mfg#"
+F 6 "digikey" V 5130 3100 60  0001 C CNN "vend1"
+F 7 "311-1128-1-ND" V 5130 3100 60  0001 C CNN "vend1#"
+F 8 "50v" V 5130 3100 60  0001 C CNN "Voltage"
+F 9 "10%" V 5130 3100 60  0001 C CNN "tolerance"
+F 10 "ceramic" V 5130 3100 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 5130 3100 60  0001 C CNN "misc"
+	1    7800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4E3DD64A
+P 7800 1900
+F 0 "C?" H 7850 2000 50  0000 L CNN
+F 1 "0.1uF" H 7850 1800 50  0000 L CNN
+F 2 "SM0805" V 5130 3100 60  0001 C CNN
+F 4 "Murata" V 5130 3100 60  0001 C CNN "mfg"
+F 5 "GRM21BR71H104KA01L" V 5130 3100 60  0001 C CNN "mfg#"
+F 6 "digikey" V 5130 3100 60  0001 C CNN "vend1"
+F 7 "490-1666-2-ND" V 5130 3100 60  0001 C CNN "vend1#"
+F 8 "50v" V 5130 3100 60  0001 C CNN "Voltage"
+F 9 "10%" V 5130 3100 60  0001 C CNN "tolerance"
+F 10 "ceramic" V 5130 3100 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 5130 3100 60  0001 C CNN "misc"
+	1    7800 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4E3DD649
+P 10600 2100
+F 0 "R?" V 10700 2100 50  0000 C CNN
+F 1 "68k" V 10600 2100 50  0000 C CNN
+F 2 "SM0805" V 7580 2950 60  0001 C CNN
+F 4 "Panasonic-ECG" V 8830 3000 60  0001 C CNN "mfg"
+F 5 "ERJ-6GEYJ684V" V 8830 3000 60  0001 C CNN "mfg#"
+F 6 "digikey" V 8830 3000 60  0001 C CNN "vend1"
+F 7 "P680KACT-ND" V 8830 3000 60  0001 C CNN "vend1#"
+F 8 ".125w" V 8830 3000 60  0001 C CNN "Power"
+F 9 "5%" V 8830 3000 60  0001 C CNN "tolerance"
+F 10 "metal oxide" V 8830 3000 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 8830 3000 60  0001 C CNN "misc"
+	1    10600 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4E3DD648
+P 7300 2300
+F 0 "C?" H 7350 2400 50  0000 L CNN
+F 1 "33nF" H 7350 2200 50  0000 L CNN
+F 2 "SM0805" V 5130 3100 60  0001 C CNN
+F 4 "AVX" V 5130 3100 60  0001 C CNN "mfg"
+F 5 "08055C333KAZ2A" V 5130 3100 60  0001 C CNN "mfg#"
+F 6 "digikey" V 5130 3100 60  0001 C CNN "vend1"
+F 7 "478-3550-1-ND" V 5130 3100 60  0001 C CNN "vend1#"
+F 8 "50" V 5130 3100 60  0001 C CNN "voltage"
+F 9 "10%" V 5130 3100 60  0001 C CNN "tol"
+F 10 "ceramic" V 5130 3100 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 5130 3100 60  0001 C CNN "misc"
+	1    7300 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MPX4100A U?
+U 1 1 4E3DD647
+P 9750 2000
+F 0 "U?" H 10200 2400 70  0000 C CNN
+F 1 "MPX4250A" H 9650 1750 70  0000 C CNN
+F 2 "MPX4---AP" V 5780 3100 60  0001 C CNN
+F 4 "freescale" V 5780 3100 60  0001 C CNN "mfg"
+F 5 "MPX4250AP" V 5780 3100 60  0001 C CNN "mfg#"
+F 6 "digikey" V 5780 3100 60  0001 C CNN "vend1"
+F 7 "MPX4250AP-ND" V 5780 3100 60  0001 C CNN "vend1#"
+F 8 "x,x" V 5780 3100 60  0001 C CNN "Field5"
+F 9 "x,x" V 5780 3100 60  0001 C CNN "Field6"
+F 10 "x" V 5780 3100 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V 5780 3100 60  0001 C CNN "Field8"
+	1    9750 2000
+	1    0    0    1   
+$EndComp
+Text Label 7550 2500 0    60   ~ 0
+map2
+Text HLabel 9100 1950 0    60   Input ~ 0
+MAP_HARN_VS-2
+Text HLabel 9100 2150 0    60   Input ~ 0
+MAP_HARN_GND-2
+Text HLabel 9100 2350 0    60   Input ~ 0
+MAP_HARN_VOUT-2
+NoConn ~ 10400 1900
+NoConn ~ 10400 2100
+NoConn ~ 10400 2300
+Text Label 7375 1700 0    60   ~ 0
+5v_reg
+Text Label 7325 2100 0    60   ~ 0
+AN_GND
+Text Label 7325 1100 0    60   ~ 0
+AN_GND
+Text Label 4725 7550 2    60   ~ 0
+AN_GND
+Text Label 7650 3100 2    60   ~ 0
+AN_GND
+Text HLabel 4350 7550 0    60   BiDi ~ 0
+AN_GND
+Text Label 7025 5750 2    40   ~ 0
+MISO
+Text Label 7025 4400 2    40   ~ 0
+MISO
+Text Label 7000 5650 2    40   ~ 0
+SCK
+Text Label 7000 4300 2    40   ~ 0
+SCK
+Text Label 3250 6850 2    40   ~ 0
+SCK
+Text Label 3250 6650 2    40   ~ 0
+MISO
+Text Label 3250 7575 2    40   ~ 0
+SCK
+Text Label 3250 7375 2    40   ~ 0
+MISO
+Text Label 7650 2700 0    60   ~ 0
+5v reg
+Text Label 7375 700  0    60   ~ 0
+5v_reg
+Text Label 2500 1300 0    60   ~ 0
+5v_reg
+Text Notes 3750 6250 0    60   ~ 0
+BATTERY SENSOR
+NoConn ~ 10400 1300
+NoConn ~ 10400 1100
+NoConn ~ 10400 900 
+Text Label 2000 7575 0    40   ~ 0
+3.3v
+Text Label 1000 6450 0    40   ~ 0
+3.3v
+Text Label 2000 6850 0    40   ~ 0
+3.3v
+Text HLabel 800  6450 0    40   Input ~ 0
+3.3v
+Text HLabel 9100 1350 0    60   Input ~ 0
+MAP_HARN_VOUT-1
+Text HLabel 9100 1150 0    60   Input ~ 0
+MAP_HARN_GND-1
+Text HLabel 9100 950  0    60   Input ~ 0
+MAP_HARN_VS-1
+Text HLabel 4500 6550 0    60   Input ~ 0
+12V_BAT
+$Comp
+L MAX31855 U?
+U 1 1 4E3DB48F
+P 2550 7425
+F 0 "U?" H 2550 7675 60  0000 C CNN
+F 1 "MAX31855" H 2550 7125 60  0000 C CNN
+	1    2550 7425
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4E3DB48E
+P 2000 7275
+F 0 "#PWR?" H 2000 7275 30  0001 C CNN
+F 1 "GND" H 2000 7205 30  0001 C CNN
+	1    2000 7275
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4E3DB48D
+P 1200 6650
+F 0 "C?" H 1250 6750 50  0000 L CNN
+F 1 "0.1uF" H 1250 6550 50  0000 L CNN
+	1    1200 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4E3DB48C
+P 1200 6850
+F 0 "#PWR?" H 1200 6850 30  0001 C CNN
+F 1 "GND" H 1200 6780 30  0001 C CNN
+	1    1200 6850
+	1    0    0    -1  
+$EndComp
+Text HLabel 3100 7475 2    40   Input ~ 0
+CS-TCPL2
+NoConn ~ 3100 7275
+Text HLabel 2000 7375 0    40   Input ~ 0
+TCPL2-
+Text HLabel 2000 7475 0    40   Input ~ 0
+TCPL2+
+Text Label 8575 5325 1    60   ~ 0
+3.3V
+Text Label 8575 3975 1    60   ~ 0
+3.3V
+Text HLabel 10000 4425 2    60   Output ~ 0
+AN_HARN_KNOCK1+
+Text HLabel 8300 4300 1    60   BiDi ~ 0
+CS-KN1
+$Comp
+L R R?
+U 1 1 4E39E500
+P 9075 4600
+F 0 "R?" V 8975 4600 50  0000 C CNN
+F 1 "10K" V 9075 4600 50  0000 C CNN
+F 2 "SM0805-R4" H 9075 4600 60  0001 C CNN
+F 4 "bourns,CR0805-FX-1002ELF" H 9975 4200 60  0001 C CNN "mfg,#"
+F 5 "newark,02J2368" H 9975 4200 60  0001 C CNN "vend,#"
+F 6 "-" H 9975 4200 60  0001 C CNN "Field3"
+F 7 "-" H 9975 4200 60  0001 C CNN "Field4"
+F 8 "125,mW" H 9975 4200 60  0001 C CNN "Field5"
+F 9 "1,%" H 9975 4200 60  0001 C CNN "Field6"
+F 10 "thick film" H 9975 4200 60  0001 C CNN "Field7"
+F 11 "-" H 9975 4200 60  0001 C CNN "Field8"
+	1    9075 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4E39E4FF
+P 9725 4600
+F 0 "R?" V 9825 4600 50  0000 C CNN
+F 1 "20K" V 9725 4600 50  0000 C CNN
+F 2 "SM0805-R4" H 9725 4600 60  0001 C CNN
+F 4 "vishay,CRCW080520K0FKEA" H 9975 4200 60  0001 C CNN "mfg,#"
+F 5 "newark,52K9995" H 9975 4200 60  0001 C CNN "vend,#"
+F 6 "-" H 9975 4200 60  0001 C CNN "Field3"
+F 7 "-" H 9975 4200 60  0001 C CNN "Field4"
+F 8 "120,mW" H 9975 4200 60  0001 C CNN "Field5"
+F 9 "1,%" H 9975 4200 60  0001 C CNN "Field6"
+F 10 "thick film" H 9975 4200 60  0001 C CNN "Field7"
+F 11 "-" H 9975 4200 60  0001 C CNN "Field8"
+	1    9725 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_1 P?
+U 1 1 4E39E4FE
+P 6000 4600
+F 0 "P?" H 6080 4600 40  0000 L CNN
+F 1 "CONN_1" H 6000 4655 30  0001 C CNN
+F 2 "PINTST" H 6000 4600 60  0001 C CNN
+	1    6000 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MAX9939 U?
+U 1 1 4E39E4FD
+P 7650 4500
+F 0 "U?" H 7650 4800 60  0000 C CNN
+F 1 "MAX9939" H 7650 4200 50  0000 C CNN
+F 2 "uMAX-uSOP_10" H 7650 4500 60  0001 C CNN
+F 4 "maxim-ic,MAX9939AUB+" H 9975 4200 60  0001 C CNN "mfg,#"
+F 5 "mouser,700-MAX9939AUB" H 9975 4200 60  0001 C CNN "vend,#"
+F 6 "-" H 9975 4200 60  0001 C CNN "Field3"
+F 7 "-" H 9975 4200 60  0001 C CNN "Field4"
+F 8 "-,-" H 9975 4200 60  0001 C CNN "Field5"
+F 9 "-,-" H 9975 4200 60  0001 C CNN "Field6"
+F 10 "-" H 9975 4200 60  0001 C CNN "Field7"
+F 11 "-" H 9975 4200 60  0001 C CNN "Field8"
+	1    7650 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4E39E4FC
+P 9975 4900
+F 0 "C?" H 9850 5000 50  0000 L CNN
+F 1 "1nF" H 10000 5000 50  0000 L CNN
+F 2 "SM0805-C1" H 9975 4900 60  0001 C CNN
+F 4 "avx,08055F102K4Z2A" H 9975 4200 60  0001 C CNN "mfg,#"
+F 5 "newark,26M5154" H 9975 4200 60  0001 C CNN "vend,#"
+F 6 "-" H 9975 4200 60  0001 C CNN "Field3"
+F 7 "-" H 9975 4200 60  0001 C CNN "Field4"
+F 8 "50,v" H 9975 4200 60  0001 C CNN "Field5"
+F 9 "10,%" H 9975 4200 60  0001 C CNN "Field6"
+F 10 "ceramic" H 9975 4200 60  0001 C CNN "Field7"
+F 11 "-" H 9975 4200 60  0001 C CNN "Field8"
+	1    9975 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 P?
+U 1 1 4E39E4FB
+P 6000 5200
+F 0 "P?" H 6080 5200 40  0000 L CNN
+F 1 "CONN_1" H 6000 5255 30  0001 C CNN
+F 2 "PINTST" H 6000 5200 60  0001 C CNN
+	1    6000 5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4E39E4FA
+P 7025 4525
+F 0 "#PWR?" H 7025 4525 30  0001 C CNN
+F 1 "GND" H 7025 4455 30  0001 C CNN
+	1    7025 4525
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4E39E4F9
+P 9975 5150
+F 0 "#PWR?" H 9975 5150 30  0001 C CNN
+F 1 "GND" H 9975 5080 30  0001 C CNN
+	1    9975 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4E39E4F8
+P 9650 4125
+F 0 "#PWR?" H 9650 4125 30  0001 C CNN
+F 1 "GND" H 9650 4055 30  0001 C CNN
+	1    9650 4125
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4E39E4F7
+P 8575 4500
+F 0 "R?" V 8725 4475 50  0000 C CNN
+F 1 "10K" V 8575 4500 50  0000 C CNN
+F 2 "SM0805-R4" H 8575 4500 60  0001 C CNN
+F 4 "bourns,CR0805-FX-1002ELF" H 9975 4200 60  0001 C CNN "mfg,#"
+F 5 "newark,02J2368" H 9975 4200 60  0001 C CNN "vend,#"
+F 6 "-" H 9975 4200 60  0001 C CNN "Field3"
+F 7 "-" H 9975 4200 60  0001 C CNN "Field4"
+F 8 "125,mW" H 9975 4200 60  0001 C CNN "Field5"
+F 9 "1,%" H 9975 4200 60  0001 C CNN "Field6"
+F 10 "thick film" H 9975 4200 60  0001 C CNN "Field7"
+F 11 "-" H 9975 4200 60  0001 C CNN "Field8"
+	1    8575 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4E39E4F6
+P 9725 4425
+F 0 "R?" V 9625 4425 50  0000 C CNN
+F 1 "20K" V 9725 4425 50  0000 C CNN
+F 2 "SM0805-R4" H 9725 4425 60  0001 C CNN
+F 4 "vishay,CRCW080520K0FKEA" H 9975 4200 60  0001 C CNN "mfg,#"
+F 5 "newark,52K9995" H 9975 4200 60  0001 C CNN "vend,#"
+F 6 "-" H 9975 4200 60  0001 C CNN "Field3"
+F 7 "-" H 9975 4200 60  0001 C CNN "Field4"
+F 8 "120,mW" H 9975 4200 60  0001 C CNN "Field5"
+F 9 "1,%" H 9975 4200 60  0001 C CNN "Field6"
+F 10 "thick film" H 9975 4200 60  0001 C CNN "Field7"
+F 11 "-" H 9975 4200 60  0001 C CNN "Field8"
+	1    9725 4425
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 4E39E4F5
+P 6200 5400
+F 0 "C?" H 6075 5500 50  0000 L CNN
+F 1 "1nF" H 6225 5500 50  0000 L CNN
+F 2 "SM0805-C1" H 6200 5400 60  0001 C CNN
+F 4 "avx,08055F102K4Z2A" H 9975 4200 60  0001 C CNN "mfg,#"
+F 5 "newark,26M5154" H 9975 4200 60  0001 C CNN "vend,#"
+F 6 "-" H 9975 4200 60  0001 C CNN "Field3"
+F 7 "-" H 9975 4200 60  0001 C CNN "Field4"
+F 8 "50,v" H 9975 4200 60  0001 C CNN "Field5"
+F 9 "10,%" H 9975 4200 60  0001 C CNN "Field6"
+F 10 "ceramic" H 9975 4200 60  0001 C CNN "Field7"
+F 11 "-" H 9975 4200 60  0001 C CNN "Field8"
+	1    6200 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C?
+U 1 1 4E39E4F4
+P 6200 4800
+F 0 "C?" H 6075 4900 50  0000 L CNN
+F 1 "1nF" H 6225 4900 50  0000 L CNN
+F 2 "SM0805-C1" H 6200 4800 60  0001 C CNN
+F 4 "avx,08055F102K4Z2A" H 9975 4200 60  0001 C CNN "mfg,#"
+F 5 "newark,26M5154" H 9975 4200 60  0001 C CNN "vend,#"
+F 6 "-" H 9975 4200 60  0001 C CNN "Field3"
+F 7 "-" H 9975 4200 60  0001 C CNN "Field4"
+F 8 "50,v" H 9975 4200 60  0001 C CNN "Field5"
+F 9 "10,%" H 9975 4200 60  0001 C CNN "Field6"
+F 10 "ceramic" H 9975 4200 60  0001 C CNN "Field7"
+F 11 "-" H 9975 4200 60  0001 C CNN "Field8"
+	1    6200 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 4E39E4F3
+P 6500 4600
+F 0 "R?" V 6600 4600 50  0000 C CNN
+F 1 "20K" V 6500 4600 50  0000 C CNN
+F 2 "SM0805-R4" H 6500 4600 60  0001 C CNN
+F 4 "vishay,CRCW080520K0FKEA" H 9975 4200 60  0001 C CNN "mfg,#"
+F 5 "newark,52K9995" H 9975 4200 60  0001 C CNN "vend,#"
+F 6 "-" H 9975 4200 60  0001 C CNN "Field3"
+F 7 "-" H 9975 4200 60  0001 C CNN "Field4"
+F 8 "120,mW" H 9975 4200 60  0001 C CNN "Field5"
+F 9 "1,%" H 9975 4200 60  0001 C CNN "Field6"
+F 10 "thick film" H 9975 4200 60  0001 C CNN "Field7"
+F 11 "-" H 9975 4200 60  0001 C CNN "Field8"
+	1    6500 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4E39E4F2
+P 6500 5200
+F 0 "R?" V 6600 5200 50  0000 C CNN
+F 1 "20K" V 6500 5200 50  0000 C CNN
+F 2 "SM0805-R4" H 6500 5200 60  0001 C CNN
+F 4 "vishay,CRCW080520K0FKEA" H 9975 4200 60  0001 C CNN "mfg,#"
+F 5 "newark,52K9995" H 9975 4200 60  0001 C CNN "vend,#"
+F 6 "-" H 9975 4200 60  0001 C CNN "Field3"
+F 7 "-" H 9975 4200 60  0001 C CNN "Field4"
+F 8 "120,mW" H 9975 4200 60  0001 C CNN "Field5"
+F 9 "1,%" H 9975 4200 60  0001 C CNN "Field6"
+F 10 "thick film" H 9975 4200 60  0001 C CNN "Field7"
+F 11 "-" H 9975 4200 60  0001 C CNN "Field8"
+	1    6500 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 4E39E4F1
+P 6800 4900
+F 0 "C?" H 6675 5000 50  0000 L CNN
+F 1 "100pF" H 6825 5000 50  0000 L CNN
+F 2 "SM0805-C1" H 6800 4900 60  0001 C CNN
+F 4 "avx,08051A101FAT2A" H 9975 4200 60  0001 C CNN "mfg,#"
+F 5 "newark,96M1317" H 9975 4200 60  0001 C CNN "vend,#"
+F 6 "-" H 9975 4200 60  0001 C CNN "Field3"
+F 7 "-" H 9975 4200 60  0001 C CNN "Field4"
+F 8 "100,v" H 9975 4200 60  0001 C CNN "Field5"
+F 9 "1,%" H 9975 4200 60  0001 C CNN "Field6"
+F 10 "ceramic" H 9975 4200 60  0001 C CNN "Field7"
+F 11 "-" H 9975 4200 60  0001 C CNN "Field8"
+	1    6800 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4E39E4F0
+P 6200 5025
+F 0 "#PWR?" H 6200 5025 30  0001 C CNN
+F 1 "GND" H 6200 4955 30  0001 C CNN
+	1    6200 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4E39E4EF
+P 6200 5625
+F 0 "#PWR?" H 6200 5625 30  0001 C CNN
+F 1 "GND" H 6200 5555 30  0001 C CNN
+	1    6200 5625
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4E39E4EE
+P 9200 4000
+F 0 "C?" V 9250 4100 50  0000 L CNN
+F 1 ".1uF" V 9250 3800 50  0000 L CNN
+F 2 "SM0805-C1" H 9200 4000 60  0001 C CNN
+F 4 "avx,08051C104KAT2A" H 9975 4200 60  0001 C CNN "mfg,#"
+F 5 "newark,96M1354" H 9975 4200 60  0001 C CNN "vend,#"
+F 6 "-" H 9975 4200 60  0001 C CNN "Field3"
+F 7 "-" H 9975 4200 60  0001 C CNN "Field4"
+F 8 "100,v" H 9975 4200 60  0001 C CNN "Field5"
+F 9 "10,%" H 9975 4200 60  0001 C CNN "Field6"
+F 10 "ceramic" H 9975 4200 60  0001 C CNN "Field7"
+F 11 "-" H 9975 4200 60  0001 C CNN "Field8"
+	1    9200 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 4E39E4ED
+P 9200 3775
+F 0 "C?" V 9250 3875 50  0000 L CNN
+F 1 "1uF" V 9250 3575 50  0000 L CNN
+F 2 "SM0805-C1" H 9200 3775 60  0001 C CNN
+F 4 "avx,08051C103JAT2A" H 9975 4200 60  0001 C CNN "mfg,#"
+F 5 "newark,96M1352" H 9975 4200 60  0001 C CNN "vend,#"
+F 6 "-" H 9975 4200 60  0001 C CNN "Field3"
+F 7 "-" H 9975 4200 60  0001 C CNN "Field4"
+F 8 "100,v" H 9975 4200 60  0001 C CNN "Field5"
+F 9 "5,%" H 9975 4200 60  0001 C CNN "Field6"
+F 10 "ceramic" H 9975 4200 60  0001 C CNN "Field7"
+F 11 "-" H 9975 4200 60  0001 C CNN "Field8"
+	1    9200 3775
+	0    1    1    0   
+$EndComp
+Text HLabel 10000 4600 2    60   Output ~ 0
+AN_HARN_KNOCK1-
+$Comp
+L C C?
+U 1 1 4E39E4EC
+P 9975 4200
+F 0 "C?" H 9850 4300 50  0000 L CNN
+F 1 "100nF" H 9700 4100 50  0000 L CNN
+F 2 "SM0805-C1" H 9975 4200 60  0001 C CNN
+F 4 "murata,GRM21BR71H104KA01L" H 9975 4200 60  0001 C CNN "mfg,#"
+F 5 "newark,38K1694" H 9975 4200 60  0001 C CNN "vend,#"
+F 6 "-" H 9975 4200 60  0001 C CNN "Field3"
+F 7 "-" H 9975 4200 60  0001 C CNN "Field4"
+F 8 "50,v" H 9975 4200 60  0001 C CNN "Field5"
+F 9 "10,%" H 9975 4200 60  0001 C CNN "Field6"
+F 10 "ceramic" H 9975 4200 60  0001 C CNN "Field7"
+F 11 "-" H 9975 4200 60  0001 C CNN "Field8"
+	1    9975 4200
+	-1   0    0    1   
+$EndComp
+Text HLabel 6050 5300 0    60   BiDi ~ 0
+CPU_AN_KNOCK_1+
+Text HLabel 6050 4700 0    60   BiDi ~ 0
+CPU_AN_KNOCK_1-
+Text HLabel 6050 6050 0    60   BiDi ~ 0
+CPU_AN_KNOCK_2-
+Text HLabel 6050 6650 0    60   BiDi ~ 0
+CPU_AN_KNOCK_2+
+$Comp
+L C C
+U 1 1 4C313468
+P 9975 5550
+F 0 "C" H 9850 5650 50  0000 L CNN
+F 1 "100nF" H 9700 5450 50  0000 L CNN
+F 2 "SM0805-C1" H 9975 5550 60  0001 C CNN
+F 4 "murata,GRM21BR71H104KA01L" H 9975 5550 60  0001 C CNN "mfg,#"
+F 5 "newark,38K1694" H 9975 5550 60  0001 C CNN "vend,#"
+F 6 "-" H 9975 5550 60  0001 C CNN "Field3"
+F 7 "-" H 9975 5550 60  0001 C CNN "Field4"
+F 8 "50,v" H 9975 5550 60  0001 C CNN "Field5"
+F 9 "10,%" H 9975 5550 60  0001 C CNN "Field6"
+F 10 "ceramic" H 9975 5550 60  0001 C CNN "Field7"
+F 11 "-" H 9975 5550 60  0001 C CNN "Field8"
+	1    9975 5550
+	-1   0    0    1   
+$EndComp
+Text HLabel 10000 5950 2    60   Output ~ 0
+AN_HARN_KNOCK2-
+$Comp
+L C C
+U 1 1 4C18335D
+P 9200 5125
+F 0 "C" V 9250 5225 50  0000 L CNN
+F 1 "1uF" V 9250 4925 50  0000 L CNN
+F 2 "SM0805-C1" H 9200 5125 60  0001 C CNN
+F 4 "avx,08051C103JAT2A" H 9975 5550 60  0001 C CNN "mfg,#"
+F 5 "newark,96M1352" H 9975 5550 60  0001 C CNN "vend,#"
+F 6 "-" H 9975 5550 60  0001 C CNN "Field3"
+F 7 "-" H 9975 5550 60  0001 C CNN "Field4"
+F 8 "100,v" H 9975 5550 60  0001 C CNN "Field5"
+F 9 "5,%" H 9975 5550 60  0001 C CNN "Field6"
+F 10 "ceramic" H 9975 5550 60  0001 C CNN "Field7"
+F 11 "-" H 9975 5550 60  0001 C CNN "Field8"
+	1    9200 5125
+	0    1    1    0   
+$EndComp
+$Comp
+L C C
+U 1 1 4C18335B
+P 9200 5350
+F 0 "C" V 9250 5450 50  0000 L CNN
+F 1 ".1uF" V 9250 5150 50  0000 L CNN
+F 2 "SM0805-C1" H 9200 5350 60  0001 C CNN
+F 4 "avx,08051C104KAT2A" H 9975 5550 60  0001 C CNN "mfg,#"
+F 5 "newark,96M1354" H 9975 5550 60  0001 C CNN "vend,#"
+F 6 "-" H 9975 5550 60  0001 C CNN "Field3"
+F 7 "-" H 9975 5550 60  0001 C CNN "Field4"
+F 8 "100,v" H 9975 5550 60  0001 C CNN "Field5"
+F 9 "10,%" H 9975 5550 60  0001 C CNN "Field6"
+F 10 "ceramic" H 9975 5550 60  0001 C CNN "Field7"
+F 11 "-" H 9975 5550 60  0001 C CNN "Field8"
+	1    9200 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR0175
+U 1 1 4C1832FD
+P 6200 6975
+F 0 "#PWR0175" H 6200 6975 30  0001 C CNN
+F 1 "GND" H 6200 6905 30  0001 C CNN
+	1    6200 6975
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0176
+U 1 1 4C1832FA
+P 6200 6375
+F 0 "#PWR0176" H 6200 6375 30  0001 C CNN
+F 1 "GND" H 6200 6305 30  0001 C CNN
+	1    6200 6375
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C
+U 1 1 4C1832DC
+P 6800 6250
+F 0 "C" H 6675 6350 50  0000 L CNN
+F 1 "100pF" H 6825 6350 50  0000 L CNN
+F 2 "SM0805-C1" H 6800 6250 60  0001 C CNN
+F 4 "avx,08051A101FAT2A" H 9975 5550 60  0001 C CNN "mfg,#"
+F 5 "newark,96M1317" H 9975 5550 60  0001 C CNN "vend,#"
+F 6 "-" H 9975 5550 60  0001 C CNN "Field3"
+F 7 "-" H 9975 5550 60  0001 C CNN "Field4"
+F 8 "100,v" H 9975 5550 60  0001 C CNN "Field5"
+F 9 "1,%" H 9975 5550 60  0001 C CNN "Field6"
+F 10 "ceramic" H 9975 5550 60  0001 C CNN "Field7"
+F 11 "-" H 9975 5550 60  0001 C CNN "Field8"
+	1    6800 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R
+U 1 1 4C183291
+P 6500 6550
+F 0 "R" V 6600 6550 50  0000 C CNN
+F 1 "20K" V 6500 6550 50  0000 C CNN
+F 2 "SM0805-R4" H 6500 6550 60  0001 C CNN
+F 4 "vishay,CRCW080520K0FKEA" H 9975 5550 60  0001 C CNN "mfg,#"
+F 5 "newark,52K9995" H 9975 5550 60  0001 C CNN "vend,#"
+F 6 "-" H 9975 5550 60  0001 C CNN "Field3"
+F 7 "-" H 9975 5550 60  0001 C CNN "Field4"
+F 8 "120,mW" H 9975 5550 60  0001 C CNN "Field5"
+F 9 "1,%" H 9975 5550 60  0001 C CNN "Field6"
+F 10 "thick film" H 9975 5550 60  0001 C CNN "Field7"
+F 11 "-" H 9975 5550 60  0001 C CNN "Field8"
+	1    6500 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L R R
+U 1 1 4C18328A
+P 6500 5950
+F 0 "R" V 6600 5950 50  0000 C CNN
+F 1 "20K" V 6500 5950 50  0000 C CNN
+F 2 "SM0805-R4" H 6500 5950 60  0001 C CNN
+F 4 "vishay,CRCW080520K0FKEA" H 9975 5550 60  0001 C CNN "mfg,#"
+F 5 "newark,52K9995" H 9975 5550 60  0001 C CNN "vend,#"
+F 6 "-" H 9975 5550 60  0001 C CNN "Field3"
+F 7 "-" H 9975 5550 60  0001 C CNN "Field4"
+F 8 "120,mW" H 9975 5550 60  0001 C CNN "Field5"
+F 9 "1,%" H 9975 5550 60  0001 C CNN "Field6"
+F 10 "thick film" H 9975 5550 60  0001 C CNN "Field7"
+F 11 "-" H 9975 5550 60  0001 C CNN "Field8"
+	1    6500 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L C C
+U 1 1 4C183286
+P 6200 6150
+F 0 "C" H 6075 6250 50  0000 L CNN
+F 1 "1nF" H 6225 6250 50  0000 L CNN
+F 2 "SM0805-C1" H 6200 6150 60  0001 C CNN
+F 4 "avx,08055F102K4Z2A" H 9975 5550 60  0001 C CNN "mfg,#"
+F 5 "newark,26M5154" H 9975 5550 60  0001 C CNN "vend,#"
+F 6 "-" H 9975 5550 60  0001 C CNN "Field3"
+F 7 "-" H 9975 5550 60  0001 C CNN "Field4"
+F 8 "50,v" H 9975 5550 60  0001 C CNN "Field5"
+F 9 "10,%" H 9975 5550 60  0001 C CNN "Field6"
+F 10 "ceramic" H 9975 5550 60  0001 C CNN "Field7"
+F 11 "-" H 9975 5550 60  0001 C CNN "Field8"
+	1    6200 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C
+U 1 1 4C183283
+P 6200 6750
+F 0 "C" H 6075 6850 50  0000 L CNN
+F 1 "1nF" H 6225 6850 50  0000 L CNN
+F 2 "SM0805-C1" H 6200 6750 60  0001 C CNN
+F 4 "avx,08055F102K4Z2A" H 9975 5550 60  0001 C CNN "mfg,#"
+F 5 "newark,26M5154" H 9975 5550 60  0001 C CNN "vend,#"
+F 6 "-" H 9975 5550 60  0001 C CNN "Field3"
+F 7 "-" H 9975 5550 60  0001 C CNN "Field4"
+F 8 "50,v" H 9975 5550 60  0001 C CNN "Field5"
+F 9 "10,%" H 9975 5550 60  0001 C CNN "Field6"
+F 10 "ceramic" H 9975 5550 60  0001 C CNN "Field7"
+F 11 "-" H 9975 5550 60  0001 C CNN "Field8"
+	1    6200 6750
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R
+U 1 1 4C31345E
+P 9725 5775
+F 0 "R" V 9625 5775 50  0000 C CNN
+F 1 "20K" V 9725 5775 50  0000 C CNN
+F 2 "SM0805-R4" H 9725 5775 60  0001 C CNN
+F 4 "vishay,CRCW080520K0FKEA" H 9975 5550 60  0001 C CNN "mfg,#"
+F 5 "newark,52K9995" H 9975 5550 60  0001 C CNN "vend,#"
+F 6 "-" H 9975 5550 60  0001 C CNN "Field3"
+F 7 "-" H 9975 5550 60  0001 C CNN "Field4"
+F 8 "120,mW" H 9975 5550 60  0001 C CNN "Field5"
+F 9 "1,%" H 9975 5550 60  0001 C CNN "Field6"
+F 10 "thick film" H 9975 5550 60  0001 C CNN "Field7"
+F 11 "-" H 9975 5550 60  0001 C CNN "Field8"
+	1    9725 5775
+	0    1    1    0   
+$EndComp
+$Comp
+L R R
+U 1 1 4C31345D
+P 8575 5850
+F 0 "R" V 8725 5825 50  0000 C CNN
+F 1 "10K" V 8575 5850 50  0000 C CNN
+F 2 "SM0805-R4" H 8575 5850 60  0001 C CNN
+F 4 "bourns,CR0805-FX-1002ELF" H 9975 5550 60  0001 C CNN "mfg,#"
+F 5 "newark,02J2368" H 9975 5550 60  0001 C CNN "vend,#"
+F 6 "-" H 9975 5550 60  0001 C CNN "Field3"
+F 7 "-" H 9975 5550 60  0001 C CNN "Field4"
+F 8 "125,mW" H 9975 5550 60  0001 C CNN "Field5"
+F 9 "1,%" H 9975 5550 60  0001 C CNN "Field6"
+F 10 "thick film" H 9975 5550 60  0001 C CNN "Field7"
+F 11 "-" H 9975 5550 60  0001 C CNN "Field8"
+	1    8575 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR0177
+U 1 1 4C31345C
+P 9650 5475
+F 0 "#PWR0177" H 9650 5475 30  0001 C CNN
+F 1 "GND" H 9650 5405 30  0001 C CNN
+	1    9650 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0178
+U 1 1 4C31345B
+P 9975 6500
+F 0 "#PWR0178" H 9975 6500 30  0001 C CNN
+F 1 "GND" H 9975 6430 30  0001 C CNN
+	1    9975 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0179
+U 1 1 4C31345A
+P 7025 5875
+F 0 "#PWR0179" H 7025 5875 30  0001 C CNN
+F 1 "GND" H 7025 5805 30  0001 C CNN
+	1    7025 5875
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P
+U 1 1 4C313459
+P 6000 6550
+F 0 "P" H 6080 6550 40  0000 L CNN
+F 1 "CONN_1" H 6000 6605 30  0001 C CNN
+F 2 "PINTST" H 6000 6550 60  0001 C CNN
+	1    6000 6550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C
+U 1 1 4C313458
+P 9975 6250
+F 0 "C" H 9850 6350 50  0000 L CNN
+F 1 "1nF" H 10000 6350 50  0000 L CNN
+F 2 "SM0805-C1" H 9975 6250 60  0001 C CNN
+F 4 "avx,08055F102K4Z2A" H 9975 5550 60  0001 C CNN "mfg,#"
+F 5 "newark,26M5154" H 9975 5550 60  0001 C CNN "vend,#"
+F 6 "-" H 9975 5550 60  0001 C CNN "Field3"
+F 7 "-" H 9975 5550 60  0001 C CNN "Field4"
+F 8 "50,v" H 9975 5550 60  0001 C CNN "Field5"
+F 9 "10,%" H 9975 5550 60  0001 C CNN "Field6"
+F 10 "ceramic" H 9975 5550 60  0001 C CNN "Field7"
+F 11 "-" H 9975 5550 60  0001 C CNN "Field8"
+	1    9975 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L MAX9939 U
+U 1 1 4C182E9C
+P 7650 5850
+F 0 "U" H 7650 6150 60  0000 C CNN
+F 1 "MAX9939" H 7650 5550 50  0000 C CNN
+F 2 "uMAX-uSOP_10" H 7650 5850 60  0001 C CNN
+F 4 "maxim-ic,MAX9939AUB+" H 9975 5550 60  0001 C CNN "mfg,#"
+F 5 "mouser,700-MAX9939AUB" H 9975 5550 60  0001 C CNN "vend,#"
+F 6 "-" H 9975 5550 60  0001 C CNN "Field3"
+F 7 "-" H 9975 5550 60  0001 C CNN "Field4"
+F 8 "-,-" H 9975 5550 60  0001 C CNN "Field5"
+F 9 "-,-" H 9975 5550 60  0001 C CNN "Field6"
+F 10 "-" H 9975 5550 60  0001 C CNN "Field7"
+F 11 "-" H 9975 5550 60  0001 C CNN "Field8"
+	1    7650 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P
+U 1 1 4A9E7032
+P 6000 5950
+F 0 "P" H 6080 5950 40  0000 L CNN
+F 1 "CONN_1" H 6000 6005 30  0001 C CNN
+F 2 "PINTST" H 6000 5950 60  0001 C CNN
+	1    6000 5950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R
+U 1 1 4A9E6FD1
+P 9725 5950
+F 0 "R" V 9825 5950 50  0000 C CNN
+F 1 "20K" V 9725 5950 50  0000 C CNN
+F 2 "SM0805-R4" H 9725 5950 60  0001 C CNN
+F 4 "vishay,CRCW080520K0FKEA" H 9975 5550 60  0001 C CNN "mfg,#"
+F 5 "newark,52K9995" H 9975 5550 60  0001 C CNN "vend,#"
+F 6 "-" H 9975 5550 60  0001 C CNN "Field3"
+F 7 "-" H 9975 5550 60  0001 C CNN "Field4"
+F 8 "120,mW" H 9975 5550 60  0001 C CNN "Field5"
+F 9 "1,%" H 9975 5550 60  0001 C CNN "Field6"
+F 10 "thick film" H 9975 5550 60  0001 C CNN "Field7"
+F 11 "-" H 9975 5550 60  0001 C CNN "Field8"
+	1    9725 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R
+U 1 1 4A9E6F61
+P 9075 5950
+F 0 "R" V 8975 5925 50  0000 C CNN
+F 1 "10K" V 9075 5950 50  0000 C CNN
+F 2 "SM0805-R4" H 9075 5950 60  0001 C CNN
+F 4 "bourns,CR0805-FX-1002ELF" H 9975 5550 60  0001 C CNN "mfg,#"
+F 5 "newark,02J2368" H 9975 5550 60  0001 C CNN "vend,#"
+F 6 "-" H 9975 5550 60  0001 C CNN "Field3"
+F 7 "-" H 9975 5550 60  0001 C CNN "Field4"
+F 8 "125,mW" H 9975 5550 60  0001 C CNN "Field5"
+F 9 "1,%" H 9975 5550 60  0001 C CNN "Field6"
+F 10 "thick film" H 9975 5550 60  0001 C CNN "Field7"
+F 11 "-" H 9975 5550 60  0001 C CNN "Field8"
+	1    9075 5950
+	0    1    1    0   
+$EndComp
+Text HLabel 8300 5650 1    60   BiDi ~ 0
+CS-KN2
+Text HLabel 8575 5125 1    60   Output ~ 0
+3.3V
+Text HLabel 10000 5775 2    60   Output ~ 0
+AN_HARN_KNOCK2+
+Text Label 2300 1800 0    60   ~ 0
+iat
+$Comp
+L R R106
+U 1 1 4890FC9B
+P 4750 7300
+F 0 "R106" V 4830 7300 50  0000 C CNN
+F 1 "10k" V 4750 7300 50  0000 C CNN
+F 2 "SM0805" V 3380 7350 60  0001 C CNN
+F 4 "Stackpole" V 3380 7350 60  0001 C CNN "mfg"
+F 5 "RMCF0805JT10K0CT" V 3380 7350 60  0001 C CNN "mfg#"
+F 6 "digikey" V 3380 7350 60  0001 C CNN "vend1"
+F 7 "RMCF0805JT10K0CT-ND" V 3380 7350 60  0001 C CNN "vend1#"
+F 8 ".125w" V 3380 7350 60  0001 C CNN "power"
+F 9 "5%" V 3380 7350 60  0001 C CNN "tol"
+F 10 "thick film" V 3380 7350 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 3380 7350 60  0001 C CNN "misc"
+	1    4750 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R105
+U 1 1 4890FC93
+P 4750 6800
+F 0 "R105" V 4830 6800 50  0000 C CNN
+F 1 "39k" V 4750 6800 50  0000 C CNN
+F 2 "SM0805" V 3380 7350 60  0001 C CNN
+F 4 "Stackpole Electronics Inc" V 3380 7350 60  0001 C CNN "mfg"
+F 5 "RMCF0805JT39K0CT" V 3380 7350 60  0001 C CNN "mfg#"
+F 6 "digikey" V 3380 7350 60  0001 C CNN "vend1"
+F 7 "RMCF0805JT39K0CT-ND" V 3380 7350 60  0001 C CNN "vend1#"
+F 8 ".250mW" V 3380 7350 60  0001 C CNN "power"
+F 9 "5%" V 3380 7350 60  0001 C CNN "tol"
+F 10 "Thick Film" V 3380 7350 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 3380 7350 60  0001 C CNN "misc"
+	1    4750 6800
+	1    0    0    -1  
+$EndComp
+Text HLabel 4500 7050 0    60   Output ~ 0
+CPU_AN_BAT
+Text Notes 600  7275 0    30   ~ 0
+Care must be taken with the conector\nchosen for the TCPL to avoid inaccuracies.\n\nAlso, the connector must be as close as\npossible to the cold-juntion compensation.
+Text Notes 1850 6250 0    40   ~ 0
+MAX31855\nCold-Junction Compensated\nThermocouple-to-Digital Converter
+Text Notes 600  7125 0    30   ~ 0
+Datasheet:\nhttp://datasheets.maxim-ic.com/en/ds/MAX31855.pdf
+Text HLabel 2000 6750 0    40   Input ~ 0
+TCPL1+
+Text HLabel 2000 6650 0    40   Input ~ 0
+TCPL1-
+NoConn ~ 3100 6550
+Text HLabel 3250 6850 2    40   Input ~ 0
+SCK
+Text HLabel 3100 6750 2    40   Input ~ 0
+CS-TCPL1
+Text HLabel 3250 6650 2    40   Input ~ 0
+MISO
+$Comp
+L GND #PWR?
+U 1 1 4E13FFF9
+P 800 6850
+F 0 "#PWR?" H 800 6850 30  0001 C CNN
+F 1 "GND" H 800 6780 30  0001 C CNN
+	1    800  6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4E13FFE2
+P 800 6650
+F 0 "C?" H 850 6750 50  0000 L CNN
+F 1 "0.1uF" H 850 6550 50  0000 L CNN
+	1    800  6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4E13FFDB
+P 2000 6550
+F 0 "#PWR?" H 2000 6550 30  0001 C CNN
+F 1 "GND" H 2000 6480 30  0001 C CNN
+	1    2000 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MAX31855 U?
+U 1 1 4E13FF86
+P 2550 6700
+F 0 "U?" H 2550 6950 60  0000 C CNN
+F 1 "MAX31855" H 2550 6400 60  0000 C CNN
+	1    2550 6700
+	1    0    0    -1  
+$EndComp
+Text Label 7550 1500 0    60   ~ 0
+map1
+$Comp
+L MPX4100A U6
+U 1 1 4C2F532E
+P 9750 1000
+F 0 "U6" H 10200 1400 70  0000 C CNN
+F 1 "MPX4250A" H 9650 750 70  0000 C CNN
+F 2 "MPX4---AP" V 5780 2100 60  0001 C CNN
+F 4 "freescale" V 5780 2100 60  0001 C CNN "mfg"
+F 5 "MPX4250AP" V 5780 2100 60  0001 C CNN "mfg#"
+F 6 "digikey" V 5780 2100 60  0001 C CNN "vend1"
+F 7 "MPX4250AP-ND" V 5780 2100 60  0001 C CNN "vend1#"
+F 8 "x,x" V 5780 2100 60  0001 C CNN "Field5"
+F 9 "x,x" V 5780 2100 60  0001 C CNN "Field6"
+F 10 "x" V 5780 2100 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V 5780 2100 60  0001 C CNN "Field8"
+	1    9750 1000
+	1    0    0    1   
+$EndComp
+Text Notes 8600 1650 0    60   ~ 0
+Bosch's signal evaluation recommendation.
+$Comp
+L C C66
+U 1 1 4C4AEFB0
+P 7300 1300
+F 0 "C66" H 7350 1400 50  0000 L CNN
+F 1 "33nF" H 7350 1200 50  0000 L CNN
+F 2 "SM0805" V 5130 2100 60  0001 C CNN
+F 4 "AVX" V 5130 2100 60  0001 C CNN "mfg"
+F 5 "08055C333KAZ2A" V 5130 2100 60  0001 C CNN "mfg#"
+F 6 "digikey" V 5130 2100 60  0001 C CNN "vend1"
+F 7 "478-3550-1-ND" V 5130 2100 60  0001 C CNN "vend1#"
+F 8 "50" V 5130 2100 60  0001 C CNN "voltage"
+F 9 "10%" V 5130 2100 60  0001 C CNN "tol"
+F 10 "ceramic" V 5130 2100 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 5130 2100 60  0001 C CNN "misc"
+	1    7300 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R134
+U 1 1 4C4AEFA3
+P 10600 1100
+F 0 "R134" V 10700 1100 50  0000 C CNN
+F 1 "68k" V 10600 1100 50  0000 C CNN
+F 2 "SM0805" V 7580 1950 60  0001 C CNN
+F 4 "Panasonic-ECG" V 8830 2000 60  0001 C CNN "mfg"
+F 5 "ERJ-6GEYJ684V" V 8830 2000 60  0001 C CNN "mfg#"
+F 6 "digikey" V 8830 2000 60  0001 C CNN "vend1"
+F 7 "P680KACT-ND" V 8830 2000 60  0001 C CNN "vend1#"
+F 8 ".125w" V 8830 2000 60  0001 C CNN "Power"
+F 9 "5%" V 8830 2000 60  0001 C CNN "tolerance"
+F 10 "metal oxide" V 8830 2000 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 8830 2000 60  0001 C CNN "misc"
+	1    10600 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C23
+U 1 1 488D2158
+P 7800 900
+F 0 "C23" H 7850 1000 50  0000 L CNN
+F 1 "0.1uF" H 7850 800 50  0000 L CNN
+F 2 "SM0805" V 5130 2100 60  0001 C CNN
+F 4 "Murata" V 5130 2100 60  0001 C CNN "mfg"
+F 5 "GRM21BR71H104KA01L" V 5130 2100 60  0001 C CNN "mfg#"
+F 6 "digikey" V 5130 2100 60  0001 C CNN "vend1"
+F 7 "490-1666-2-ND" V 5130 2100 60  0001 C CNN "vend1#"
+F 8 "50v" V 5130 2100 60  0001 C CNN "Voltage"
+F 9 "10%" V 5130 2100 60  0001 C CNN "tolerance"
+F 10 "ceramic" V 5130 2100 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 5130 2100 60  0001 C CNN "misc"
+	1    7800 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C24
+U 1 1 4C2F52DE
+P 7800 1300
+F 0 "C24" H 7850 1400 50  0000 L CNN
+F 1 "1.5nF" H 7850 1200 50  0000 L CNN
+F 2 "SM0805" V 5130 2100 60  0001 C CNN
+F 4 "Yageo" V 5130 2100 60  0001 C CNN "mfg"
+F 5 "CC0805KRX7R9BB152" V 5130 2100 60  0001 C CNN "mfg#"
+F 6 "digikey" V 5130 2100 60  0001 C CNN "vend1"
+F 7 "311-1128-1-ND" V 5130 2100 60  0001 C CNN "vend1#"
+F 8 "50v" V 5130 2100 60  0001 C CNN "Voltage"
+F 9 "10%" V 5130 2100 60  0001 C CNN "tolerance"
+F 10 "ceramic" V 5130 2100 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 5130 2100 60  0001 C CNN "misc"
+	1    7800 1300
+	1    0    0    -1  
+$EndComp
+Text HLabel 7250 700  0    60   Input ~ 0
+5v reg
+Text HLabel 7250 1500 0    60   Output ~ 0
+CPU_AN_MAP1
+Text Label 7800 3500 0    60   ~ 0
+aap
+NoConn ~ 10400 3300
+NoConn ~ 10400 3100
+NoConn ~ 10400 2900
+$Comp
+L MPX4100A U5
+U 1 1 48B144B7
+P 9750 3000
+F 0 "U5" H 10200 3400 70  0000 C CNN
+F 1 "MPX4100A" H 9750 2750 70  0000 C CNN
+F 2 "MPX4---A" V 5780 4100 60  0001 C CNN
+F 4 "freescale" V 5780 4100 60  0001 C CNN "mfg"
+F 5 "MPX4100A" V 5780 4100 60  0001 C CNN "mfg#"
+F 6 "digikey" V 5780 4100 60  0001 C CNN "vend1"
+F 7 " MPX4100A-ND" V 5780 4100 60  0001 C CNN "vend1#"
+F 8 "x,x" V 5780 4100 60  0001 C CNN "Field5"
+F 9 "x,x" V 5780 4100 60  0001 C CNN "Field6"
+F 10 "x" V 5780 4100 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V 5780 4100 60  0001 C CNN "Field8"
+	1    9750 3000
+	1    0    0    1   
+$EndComp
+$Comp
+L C C20
+U 1 1 4C2F52DF
+P 8300 2900
+F 0 "C20" H 8350 3000 50  0000 L CNN
+F 1 ".01uF" H 8350 2800 50  0000 L CNN
+F 2 "SM0805" V 5630 4100 60  0001 C CNN
+F 4 "Murata" V 5630 4100 60  0001 C CNN "mfg"
+F 5 "GRM216R71H103KA01D" V 5630 4100 60  0001 C CNN "mfg#"
+F 6 "digikey" V 5630 4100 60  0001 C CNN "vend1"
+F 7 "490-1664-1-ND" V 5630 4100 60  0001 C CNN "vend1#"
+F 8 "50v" V 5630 4100 60  0001 C CNN "Voltate"
+F 9 "10%" V 5630 4100 60  0001 C CNN "tol"
+F 10 "???" V 5630 4100 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 5630 4100 60  0001 C CNN "misc"
+	1    8300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C21
+U 1 1 488D2153
+P 8300 3300
+F 0 "C21" H 8350 3400 50  0000 L CNN
+F 1 "330pF" H 8350 3200 50  0000 L CNN
+F 2 "SM0805" V 5630 4100 60  0001 C CNN
+F 4 "AVX" V 5630 4100 60  0001 C CNN "mfg"
+F 5 "08055C333KAZ2A" V 5630 4100 60  0001 C CNN "mfg#"
+F 6 "digikey" V 5630 4100 60  0001 C CNN "vend1"
+F 7 "478-3550-1-ND" V 5630 4100 60  0001 C CNN "vend1#"
+F 8 "50" V 5630 4100 60  0001 C CNN "voltage"
+F 9 "10%" V 5630 4100 60  0001 C CNN "tol"
+F 10 "ceramic" V 5630 4100 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 5630 4100 60  0001 C CNN "misc"
+	1    8300 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C19
+U 1 1 488D2133
+P 7800 2900
+F 0 "C19" H 7850 3000 50  0000 L CNN
+F 1 "0.1uF" H 7850 2800 50  0000 L CNN
+F 2 "SM0805" V 5630 4100 60  0001 C CNN
+F 4 "Murata" V 5630 4100 60  0001 C CNN "mfg"
+F 5 "GRM21BR71H104KA01L" V 5630 4100 60  0001 C CNN "mfg#"
+F 6 "digikey" V 5630 4100 60  0001 C CNN "vend1"
+F 7 "490-1666-2-ND" V 5630 4100 60  0001 C CNN "vend1#"
+F 8 "50v" V 5630 4100 60  0001 C CNN "Voltage"
+F 9 "10%" V 5630 4100 60  0001 C CNN "tolerance"
+F 10 "ceramic" V 5630 4100 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 5630 4100 60  0001 C CNN "misc"
+	1    7800 2900
+	1    0    0    -1  
+$EndComp
+Text HLabel 7650 3500 0    60   Output ~ 0
+CPU_AN_AAP
+Text HLabel 3200 4750 2    60   Output ~ 0
+AN_HARN_TPS
+Text HLabel 3150 3800 2    60   Output ~ 0
+AN_HARN_MISC
+Text HLabel 3150 2800 2    60   Output ~ 0
+AN_HARN_ET
+Text HLabel 2200 4750 0    60   Input ~ 0
+AN_CPU_TPS
+Text HLabel 2200 3800 0    60   Input ~ 0
+AN_CPU_MISC
+Text HLabel 2200 2800 0    60   Input ~ 0
+AN_CPU_ET
+$Comp
+L DIODE D?
+U 1 1 4C367DF7
+P 2250 4500
+F 0 "D?" H 2250 4600 40  0000 C CNN
+F 1 "MBR0520L" H 2250 4400 40  0000 C CNN
+F 2 "SOD123" V 780 2050 60  0001 C CNN
+F 4 "fairchild,MBR0520L" V 630 6100 60  0001 C CNN "mfg,#"
+F 5 "mouser,512-MBR0520L" V 630 6100 60  0001 C CNN "vend,#"
+F 6 "-,-" V 630 6100 60  0001 C CNN "Field3"
+F 7 "-,-" V 630 6100 60  0001 C CNN "Field4"
+F 8 "20,V-reverse" V 630 6100 60  0001 C CNN "Field5"
+F 9 ".5,A-forward" V 630 6100 60  0001 C CNN "Field6"
+F 10 "SMT" V 630 6100 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V 630 6100 60  0001 C CNN "Field8"
+	1    2250 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 4C367DF4
+P 2250 4950
+F 0 "D?" H 2250 5050 40  0000 C CNN
+F 1 "MBR0520L" H 2250 4850 40  0000 C CNN
+F 2 "SOD123" V 780 1900 60  0001 C CNN
+F 4 "fairchild,MBR0520L" V 630 5950 60  0001 C CNN "mfg,#"
+F 5 "mouser,512-MBR0520L" V 630 5950 60  0001 C CNN "vend,#"
+F 6 "-,-" V 630 5950 60  0001 C CNN "Field3"
+F 7 "-,-" V 630 5950 60  0001 C CNN "Field4"
+F 8 "20,V-reverse" V 630 5950 60  0001 C CNN "Field5"
+F 9 ".5,A-forward" V 630 5950 60  0001 C CNN "Field6"
+F 10 "SMT" V 630 5950 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V 630 5950 60  0001 C CNN "Field8"
+	1    2250 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4C367DF3
+P 2800 4750
+F 0 "R?" V 2880 4750 50  0000 C CNN
+F 1 "1k" V 2800 4750 50  0000 C CNN
+F 2 "SM0805-R4" V 2980 4850 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V -120 5950 60  0001 C CNN "Field1"
+F 5 "newark,05F1507" V -120 5950 60  0001 C CNN "Field2"
+F 6 "-,-" V -120 5950 60  0001 C CNN "Field3"
+F 7 "-,-" V -120 5950 60  0001 C CNN "Field4"
+F 8 "125,mW" V -120 5950 60  0001 C CNN "Field5"
+F 9 "1,%" V -120 5950 60  0001 C CNN "Field6"
+F 10 "thick film" V -120 5950 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V -120 5950 60  0001 C CNN "Field8"
+	1    2800 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4C367DF2
+P 2800 3800
+F 0 "R?" V 2880 3800 50  0000 C CNN
+F 1 "1k" V 2800 3800 50  0000 C CNN
+F 2 "SM0805-R4" V 2980 3900 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V -170 6400 60  0001 C CNN "Field1"
+F 5 "newark,05F1507" V -170 6400 60  0001 C CNN "Field2"
+F 6 "-,-" V -170 6400 60  0001 C CNN "Field3"
+F 7 "-,-" V -170 6400 60  0001 C CNN "Field4"
+F 8 "125,mW" V -170 6400 60  0001 C CNN "Field5"
+F 9 "1,%" V -170 6400 60  0001 C CNN "Field6"
+F 10 "thick film" V -170 6400 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V -170 6400 60  0001 C CNN "Field8"
+	1    2800 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 4C367DF1
+P 2250 4000
+F 0 "D?" H 2250 4100 40  0000 C CNN
+F 1 "MBR0520L" H 2250 3900 40  0000 C CNN
+F 2 "SOD123" V 730 2350 60  0001 C CNN
+F 4 "fairchild,MBR0520L" V 580 6400 60  0001 C CNN "mfg,#"
+F 5 "mouser,512-MBR0520L" V 580 6400 60  0001 C CNN "vend,#"
+F 6 "-,-" V 580 6400 60  0001 C CNN "Field3"
+F 7 "-,-" V 580 6400 60  0001 C CNN "Field4"
+F 8 "20,V-reverse" V 580 6400 60  0001 C CNN "Field5"
+F 9 ".5,A-forward" V 580 6400 60  0001 C CNN "Field6"
+F 10 "SMT" V 580 6400 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V 580 6400 60  0001 C CNN "Field8"
+	1    2250 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 4C367DEE
+P 2250 3550
+F 0 "D?" H 2250 3650 40  0000 C CNN
+F 1 "MBR0520L" H 2250 3450 40  0000 C CNN
+F 2 "SOD123" V 730 2500 60  0001 C CNN
+F 4 "fairchild,MBR0520L" V 580 6550 60  0001 C CNN "mfg,#"
+F 5 "mouser,512-MBR0520L" V 580 6550 60  0001 C CNN "vend,#"
+F 6 "-,-" V 580 6550 60  0001 C CNN "Field3"
+F 7 "-,-" V 580 6550 60  0001 C CNN "Field4"
+F 8 "20,V-reverse" V 580 6550 60  0001 C CNN "Field5"
+F 9 ".5,A-forward" V 580 6550 60  0001 C CNN "Field6"
+F 10 "SMT" V 580 6550 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V 580 6550 60  0001 C CNN "Field8"
+	1    2250 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 4C367DDC
+P 2250 2550
+F 0 "D?" H 2250 2650 40  0000 C CNN
+F 1 "MBR0520L" H 2250 2450 40  0000 C CNN
+F 2 "SOD123" V 680 2800 60  0001 C CNN
+F 4 "fairchild,MBR0520L" V 530 6850 60  0001 C CNN "mfg,#"
+F 5 "mouser,512-MBR0520L" V 530 6850 60  0001 C CNN "vend,#"
+F 6 "-,-" V 530 6850 60  0001 C CNN "Field3"
+F 7 "-,-" V 530 6850 60  0001 C CNN "Field4"
+F 8 "20,V-reverse" V 530 6850 60  0001 C CNN "Field5"
+F 9 ".5,A-forward" V 530 6850 60  0001 C CNN "Field6"
+F 10 "SMT" V 530 6850 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V 530 6850 60  0001 C CNN "Field8"
+	1    2250 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 4C367DD9
+P 2250 3000
+F 0 "D?" H 2250 3100 40  0000 C CNN
+F 1 "MBR0520L" H 2250 2900 40  0000 C CNN
+F 2 "SOD123" V 680 2650 60  0001 C CNN
+F 4 "fairchild,MBR0520L" V 530 6700 60  0001 C CNN "mfg,#"
+F 5 "mouser,512-MBR0520L" V 530 6700 60  0001 C CNN "vend,#"
+F 6 "-,-" V 530 6700 60  0001 C CNN "Field3"
+F 7 "-,-" V 530 6700 60  0001 C CNN "Field4"
+F 8 "20,V-reverse" V 530 6700 60  0001 C CNN "Field5"
+F 9 ".5,A-forward" V 530 6700 60  0001 C CNN "Field6"
+F 10 "SMT" V 530 6700 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V 530 6700 60  0001 C CNN "Field8"
+	1    2250 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4C367DD8
+P 2800 2800
+F 0 "R?" V 2880 2800 50  0000 C CNN
+F 1 "1k" V 2800 2800 50  0000 C CNN
+F 2 "SM0805-R4" V 2980 2900 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V -220 6700 60  0001 C CNN "Field1"
+F 5 "newark,05F1507" V -220 6700 60  0001 C CNN "Field2"
+F 6 "-,-" V -220 6700 60  0001 C CNN "Field3"
+F 7 "-,-" V -220 6700 60  0001 C CNN "Field4"
+F 8 "125,mW" V -220 6700 60  0001 C CNN "Field5"
+F 9 "1,%" V -220 6700 60  0001 C CNN "Field6"
+F 10 "thick film" V -220 6700 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V -220 6700 60  0001 C CNN "Field8"
+	1    2800 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 489597C4
+P 2250 5150
+F 0 "#PWR?" H 2250 5150 30  0001 C CNN
+F 1 "GND" H 2250 5080 30  0001 C CNN
+	1    2250 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 489597BE
+P 2250 4200
+F 0 "#PWR?" H 2250 4200 30  0001 C CNN
+F 1 "GND" H 2250 4130 30  0001 C CNN
+	1    2250 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 489597B8
+P 2250 3200
+F 0 "#PWR?" H 2250 3200 30  0001 C CNN
+F 1 "GND" H 2250 3130 30  0001 C CNN
+	1    2250 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 488CCA4A
+P 2800 1800
+F 0 "R?" V 2880 1800 50  0000 C CNN
+F 1 "470R" V 2800 1800 50  0000 C CNN
+F 2 "SM0805-R4" V 2980 1900 60  0001 C CNN
+F 4 "newark," V -270 7050 60  0001 C CNN "Field2"
+F 5 "-,-" V -270 7050 60  0001 C CNN "Field3"
+F 6 "-,-" V -270 7050 60  0001 C CNN "Field4"
+F 7 "125,mW" V -270 7050 60  0001 C CNN "Field5"
+F 8 "1,%" V -270 7050 60  0001 C CNN "Field6"
+F 9 "thick film" V -270 7050 60  0001 C CNN "Field7"
+F 10 "other,more,stuff" V -270 7050 60  0001 C CNN "Field8"
+	1    2800 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 486F8C14
+P 2250 2200
+F 0 "#PWR?" H 2250 2200 30  0001 C CNN
+F 1 "GND" H 2250 2130 30  0001 C CNN
+	1    2250 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 486F8B98
+P 2250 2000
+F 0 "D?" H 2250 2100 40  0000 C CNN
+F 1 "MBR0520L" H 2250 1900 40  0000 C CNN
+F 2 "SOD123" V 630 3000 60  0001 C CNN
+F 4 "fairchild,MBR0520L" V 480 7050 60  0001 C CNN "mfg,#"
+F 5 "mouser,512-MBR0520L" V 480 7050 60  0001 C CNN "vend,#"
+F 6 "-,-" V 480 7050 60  0001 C CNN "Field3"
+F 7 "-,-" V 480 7050 60  0001 C CNN "Field4"
+F 8 "20,V-reverse" V 480 7050 60  0001 C CNN "Field5"
+F 9 ".5,A-forward" V 480 7050 60  0001 C CNN "Field6"
+F 10 "SMT" V 480 7050 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V 480 7050 60  0001 C CNN "Field8"
+	1    2250 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C?
+U 1 1 486F8B93
+P 2500 2000
+F 0 "C?" H 2550 2100 50  0000 L CNN
+F 1 "15nf" H 2550 1900 50  0000 L CNN
+F 2 "SM0805-C1" V 330 3000 60  0001 C CNN
+F 4 "-,-" V 180 7050 60  0001 C CNN "Field3"
+F 5 "-,-" V 180 7050 60  0001 C CNN "Field4"
+F 6 "50,V" V 180 7050 60  0001 C CNN "Field5"
+F 7 "10,%" V 180 7050 60  0001 C CNN "Field6"
+F 8 "Ceramic" V 180 7050 60  0001 C CNN "Field7"
+F 9 "other,more,stuff" V 180 7050 60  0001 C CNN "Field8"
+	1    2500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 486F8B5C
+P 2250 1500
+F 0 "D?" H 2250 1600 40  0000 C CNN
+F 1 "MBR0520L" H 2250 1400 40  0000 C CNN
+F 2 "SOD123" V 630 3100 60  0001 C CNN
+F 4 "fairchild,MBR0520L" V 480 7150 60  0001 C CNN "mfg,#"
+F 5 "mouser,512-MBR0520L" V 480 7150 60  0001 C CNN "vend,#"
+F 6 "-,-" V 480 7150 60  0001 C CNN "Field3"
+F 7 "-,-" V 480 7150 60  0001 C CNN "Field4"
+F 8 "20,V-reverse" V 480 7150 60  0001 C CNN "Field5"
+F 9 ".5,A-forward" V 480 7150 60  0001 C CNN "Field6"
+F 10 "SMT" V 480 7150 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V 480 7150 60  0001 C CNN "Field8"
+	1    2250 1500
+	0    -1   -1   0   
+$EndComp
+Text HLabel 2200 1800 0    60   Input ~ 0
+AN_CPU_MIAT
+Text HLabel 3150 1800 2    60   Output ~ 0
+AN_HARN_MIAT
+$EndSCHEMATC

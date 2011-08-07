@@ -1,4 +1,4 @@
-update=8/3/2011 6:01:06 AM
+update=8/6/2011 3:26:55 PM
 last_client=eeschema
 [general]
 version=1
@@ -20,7 +20,6 @@ PadDrlX=320
 PadDimH=520
 PadDimV=520
 BoardThickness=630
-SgPcb45=1
 TxtPcbV=800
 TxtPcbH=600
 TxtModV=600
@@ -34,16 +33,13 @@ MSegLar=100
 LastNetListRead=stingray3.net
 [pcbnew/libraries]
 LibDir=
-LibName1=./biglogo
-LibName2=./sharkey
-LibName3=connect
-LibName4=discret
-LibName5=pin_array
-LibName6=divers
-LibName7=libcms
-LibName8=display
-LibName9=modules\\mod_smd_dil\\w_smd_dil
-LibName10=modules\\stingray
+LibName1=connect
+LibName2=discret
+LibName3=pin_array
+LibName4=divers
+LibName5=libcms
+LibName6=display
+LibName7=PCB-modules/project_specific_modules
 [eeschema]
 version=1
 LibDir=
@@ -100,6 +96,4 @@ LibName21=display
 LibName22=cypress
 LibName23=siliconi
 LibName24=contrib
-LibName25=sch-libs/sharkey
-LibName26=sch-libs/stingray3
-LibName27=sch-libs/freeEMS_lib
+LibName25=sch-libs/project_specific_libs

@@ -11,3 +11,5 @@ tree    d58a619a9214489eaf4b
 parent  c3bbe558f4f0b5641e87
 
 3DSTUFF folder was removed for space purposes.
+
+I have included two step files of the assembly, these contain the outside faces, and the larger one include a rough idea of what's inside the enclosure.

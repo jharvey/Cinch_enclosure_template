@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/3/2011 6:26:21 AM
+EESchema Schematic File Version 2  date 8/6/2011 9:18:51 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -23,22 +23,1700 @@ LIBS:display
 LIBS:cypress
 LIBS:siliconi
 LIBS:contrib
-LIBS:sharkey
-LIBS:stingray3
-LIBS:freeEMS_lib
+LIBS:project_specific_libs
 LIBS:cinch_start-cache
 EELAYER 25  0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A 11000 8500
 encoding utf-8
-Sheet 6 23
-Title ""
-Date "3 aug 2011"
-Rev ""
+Sheet 6 16
+Title "IGDT FUEL INJECTOR DRIVERS"
+Date "7 aug 2011"
+Rev "A"
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L R R?
+U 1 1 4E3D4B42
+P 5975 2975
+F 0 "R?" V 6055 2975 50  0000 C CNN
+F 1 "1K" V 5975 2975 50  0000 C CNN
+F 2 "SM0805" V -1795 4375 60  0001 C CNN
+F 4 "Rohm Semiconductor" V -1795 4375 60  0001 C CNN "mfg"
+F 5 "MCR10EZPF1001" V -1795 4375 60  0001 C CNN "mfg #"
+F 6 "digi" V -1795 4375 60  0001 C CNN "sm vend1"
+F 7 "RHM1.00KCRCT-ND" V -1795 4375 60  0001 C CNN "sm vend1 #"
+F 8 ".125w" V -1795 4375 60  0001 C CNN "power"
+F 9 "5%" V -1795 4375 60  0001 C CNN "tolerance"
+F 10 "Thick film" V -1795 4375 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V -1795 4375 60  0001 C CNN "misc"
+	1    5975 2975
+	0    1    -1   0   
+$EndComp
+$Comp
+L IRGS14C40L Q?
+U 1 1 4E3D4B41
+P 5475 2975
+F 0 "Q?" H 5375 3225 70  0000 C CNN
+F 1 "IRGS14C40L" H 5275 2775 60  0000 C CNN
+F 2 "DPAK2" H 5475 2975 60  0001 C CNN
+F 4 "irf" H 5475 2975 60  0001 C CNN "mfg"
+F 5 "IRGS14C40L" H 5475 2975 60  0001 C CNN "mfg #"
+F 6 "digi" H 5475 2975 60  0001 C CNN "sm vend1"
+F 7 "IRGS14C40LPBF-ND" H 5475 2975 60  0001 C CNN "sm vend1 #"
+	1    5475 2975
+	-1   0    0    -1  
+$EndComp
+$Comp
+L IRGS14C40L Q?
+U 1 1 4E3D4B40
+P 4925 2975
+F 0 "Q?" H 4828 3225 70  0000 C CNN
+F 1 "IRGS14C40L" H 4725 2775 60  0000 C CNN
+F 2 "DPAK2" H 4925 2975 60  0001 C CNN
+F 4 "irf" H 4925 2975 60  0001 C CNN "mfg"
+F 5 "IRGS14C40L" H 4925 2975 60  0001 C CNN "mfg #"
+F 6 "digi" H 4925 2975 60  0001 C CNN "sm vend1"
+F 7 "IRGS14C40LPBF-ND" H 4925 2975 60  0001 C CNN "sm vend1 #"
+	1    4925 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4E3D4B3F
+P 4425 2975
+F 0 "R?" V 4505 2975 50  0000 C CNN
+F 1 "1K" V 4425 2975 50  0000 C CNN
+F 2 "SM0805" V -3345 4375 60  0001 C CNN
+F 4 "Rohm Semiconductor" V -3345 4375 60  0001 C CNN "mfg"
+F 5 "MCR10EZPF1001" V -3345 4375 60  0001 C CNN "mfg #"
+F 6 "digi" V -3345 4375 60  0001 C CNN "sm vend1"
+F 7 "RHM1.00KCRCT-ND" V -3345 4375 60  0001 C CNN "sm vend1 #"
+F 8 ".125w" V -3345 4375 60  0001 C CNN "power"
+F 9 "5%" V -3345 4375 60  0001 C CNN "tolerance"
+F 10 "Thick film" V -3345 4375 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V -3345 4375 60  0001 C CNN "misc"
+	1    4425 2975
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4E3D4B3E
+P 4425 3775
+F 0 "R?" V 4505 3775 50  0000 C CNN
+F 1 "1K" V 4425 3775 50  0000 C CNN
+F 2 "SM0805" V -3345 5175 60  0001 C CNN
+F 4 "Rohm Semiconductor" V -3345 5175 60  0001 C CNN "mfg"
+F 5 "MCR10EZPF1001" V -3345 5175 60  0001 C CNN "mfg #"
+F 6 "digi" V -3345 5175 60  0001 C CNN "sm vend1"
+F 7 "RHM1.00KCRCT-ND" V -3345 5175 60  0001 C CNN "sm vend1 #"
+F 8 ".125w" V -3345 5175 60  0001 C CNN "power"
+F 9 "5%" V -3345 5175 60  0001 C CNN "tolerance"
+F 10 "Thick film" V -3345 5175 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V -3345 5175 60  0001 C CNN "misc"
+	1    4425 3775
+	0    1    1    0   
+$EndComp
+$Comp
+L IRGS14C40L Q?
+U 1 1 4E3D4B3D
+P 5475 3775
+F 0 "Q?" H 5378 4025 70  0000 C CNN
+F 1 "IRGS14C40L" H 5275 3575 60  0000 C CNN
+F 2 "DPAK2" H 5475 3775 60  0001 C CNN
+F 4 "irf" H 5475 3775 60  0001 C CNN "mfg"
+F 5 "IRGS14C40L" H 5475 3775 60  0001 C CNN "mfg #"
+F 6 "digi" H 5475 3775 60  0001 C CNN "sm vend1"
+F 7 "IRGS14C40LPBF-ND" H 5475 3775 60  0001 C CNN "sm vend1 #"
+	1    5475 3775
+	-1   0    0    1   
+$EndComp
+$Comp
+L IRGS14C40L Q?
+U 1 1 4E3D4B3C
+P 4925 3775
+F 0 "Q?" H 4825 4025 70  0000 C CNN
+F 1 "IRGS14C40L" H 4725 3575 60  0000 C CNN
+F 2 "DPAK2" H 4925 3775 60  0001 C CNN
+F 4 "irf" H 4925 3775 60  0001 C CNN "mfg"
+F 5 "IRGS14C40L" H 4925 3775 60  0001 C CNN "mfg #"
+F 6 "digi" H 4925 3775 60  0001 C CNN "sm vend1"
+F 7 "IRGS14C40LPBF-ND" H 4925 3775 60  0001 C CNN "sm vend1 #"
+	1    4925 3775
+	1    0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 4E3D4B3B
+P 5975 3775
+F 0 "R?" V 6055 3775 50  0000 C CNN
+F 1 "1K" V 5975 3775 50  0000 C CNN
+F 2 "SM0805" V -1795 5175 60  0001 C CNN
+F 4 "Rohm Semiconductor" V -1795 5175 60  0001 C CNN "mfg"
+F 5 "MCR10EZPF1001" V -1795 5175 60  0001 C CNN "mfg #"
+F 6 "digi" V -1795 5175 60  0001 C CNN "sm vend1"
+F 7 "RHM1.00KCRCT-ND" V -1795 5175 60  0001 C CNN "sm vend1 #"
+F 8 ".125w" V -1795 5175 60  0001 C CNN "power"
+F 9 "5%" V -1795 5175 60  0001 C CNN "tolerance"
+F 10 "Thick film" V -1795 5175 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V -1795 5175 60  0001 C CNN "misc"
+	1    5975 3775
+	0    1    -1   0   
+$EndComp
+$Comp
+L TCMT410 U?
+U 1 1 4E3D4B3A
+P 5200 1775
+F 0 "U?" V 5275 2250 70  0000 C CNN
+F 1 "TCMT410" V 5300 1225 70  0000 C CNN
+	1    5200 1775
+	0    -1   1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4E3D4B39
+P 6150 1125
+F 0 "#PWR?" H 6150 1125 30  0001 C CNN
+F 1 "GND" H 6150 1055 30  0001 C CNN
+	1    6150 1125
+	1    0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4E3D4B38
+P 5625 1125
+F 0 "#PWR?" H 5625 1125 30  0001 C CNN
+F 1 "GND" H 5625 1055 30  0001 C CNN
+	1    5625 1125
+	1    0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4E3D4B37
+P 5100 1125
+F 0 "#PWR?" H 5100 1125 30  0001 C CNN
+F 1 "GND" H 5100 1055 30  0001 C CNN
+	1    5100 1125
+	1    0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4E3D4B36
+P 4575 1125
+F 0 "#PWR?" H 4575 1125 30  0001 C CNN
+F 1 "GND" H 4575 1055 30  0001 C CNN
+	1    4575 1125
+	1    0    0    1   
+$EndComp
+$Comp
+L 7805 U?
+U 1 1 4E3D4B35
+P 6875 2450
+F 0 "U?" H 7025 2254 60  0000 C CNN
+F 1 "7805" H 6875 2650 60  0000 C CNN
+	1    6875 2450
+	-1   0    0    -1  
+$EndComp
+Text HLabel 7275 2350 1    60   Output ~ 0
+12v_bat
+$Comp
+L CP1 C?
+U 1 1 4E3D4B34
+P 7275 2625
+F 0 "C?" H 7325 2725 50  0000 L CNN
+F 1 "CP1" H 7325 2525 50  0000 L CNN
+	1    7275 2625
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 4E3D4B33
+P 6425 2625
+F 0 "C?" H 6475 2725 50  0000 L CNN
+F 1 "CP1" H 6475 2525 50  0000 L CNN
+	1    6425 2625
+	-1   0    0    -1  
+$EndComp
+Connection ~ 6875 2825
+Connection ~ 7275 2400
+Wire Wire Line
+	7275 2425 7275 2350
+Connection ~ 5275 3300
+Wire Wire Line
+	6875 3300 5275 3300
+Wire Wire Line
+	6875 2700 6875 3300
+Wire Wire Line
+	5100 2500 5100 2325
+Wire Wire Line
+	4175 2500 5100 2500
+Wire Wire Line
+	4175 2975 4175 2500
+Wire Wire Line
+	5625 2450 5625 2325
+Wire Wire Line
+	6100 2450 5625 2450
+Wire Wire Line
+	6100 2825 6100 2450
+Wire Wire Line
+	6225 2825 6100 2825
+Wire Wire Line
+	6225 2975 6225 2825
+Connection ~ 5325 2400
+Wire Wire Line
+	4800 2400 4800 2325
+Wire Wire Line
+	5850 2325 5850 2400
+Wire Wire Line
+	5850 1225 5850 1125
+Wire Wire Line
+	5475 3375 5125 3375
+Wire Wire Line
+	5275 3225 5275 3525
+Wire Wire Line
+	5125 4125 5125 4025
+Wire Wire Line
+	5275 4125 5325 4125
+Wire Wire Line
+	5675 3775 5725 3775
+Wire Wire Line
+	6275 3775 6225 3775
+Wire Wire Line
+	4125 3775 4175 3775
+Wire Wire Line
+	4725 3775 4675 3775
+Wire Wire Line
+	5075 4125 5125 4125
+Wire Wire Line
+	5125 2625 5125 2725
+Wire Wire Line
+	5075 2625 5125 2625
+Wire Wire Line
+	4725 2975 4675 2975
+Wire Wire Line
+	5675 2975 5725 2975
+Wire Wire Line
+	5275 2625 5325 2625
+Wire Wire Line
+	5275 2725 5275 2625
+Wire Wire Line
+	5275 4025 5275 4125
+Wire Wire Line
+	5125 3525 5125 3225
+Connection ~ 5275 3375
+Connection ~ 5125 3375
+Wire Wire Line
+	6150 1225 6150 1125
+Wire Wire Line
+	5325 1225 5325 1125
+Wire Wire Line
+	5625 1225 5625 1125
+Wire Wire Line
+	5100 1225 5100 1125
+Wire Wire Line
+	4575 1225 4575 1125
+Wire Wire Line
+	4800 1225 4800 1125
+Wire Wire Line
+	4275 1225 4275 1125
+Wire Wire Line
+	5325 2400 5325 2325
+Connection ~ 5850 2400
+Wire Wire Line
+	4275 2400 6475 2400
+Wire Wire Line
+	4275 2325 4275 2400
+Connection ~ 4800 2400
+Wire Wire Line
+	6275 2775 6275 3775
+Wire Wire Line
+	6150 2775 6275 2775
+Wire Wire Line
+	6150 2325 6150 2775
+Wire Wire Line
+	4575 2450 4575 2325
+Wire Wire Line
+	4125 2450 4575 2450
+Wire Wire Line
+	4125 2450 4125 3775
+Wire Wire Line
+	6425 2425 6425 2400
+Connection ~ 6425 2400
+Wire Wire Line
+	7275 2825 6425 2825
+Wire Wire Line
+	7275 6525 6425 6525
+Connection ~ 6425 6100
+Wire Wire Line
+	6425 6125 6425 6100
+Wire Wire Line
+	4125 6150 4125 7475
+Wire Wire Line
+	4125 6150 4575 6150
+Wire Wire Line
+	4575 6150 4575 6025
+Wire Wire Line
+	6150 6025 6150 6475
+Wire Wire Line
+	6150 6475 6275 6475
+Wire Wire Line
+	6275 6475 6275 7475
+Connection ~ 4800 6100
+Wire Wire Line
+	4275 6025 4275 6100
+Wire Wire Line
+	4275 6100 6475 6100
+Connection ~ 5850 6100
+Wire Wire Line
+	5325 6100 5325 6025
+Wire Wire Line
+	4275 4925 4275 4825
+Wire Wire Line
+	4800 4925 4800 4825
+Wire Wire Line
+	4575 4925 4575 4825
+Wire Wire Line
+	5100 4925 5100 4825
+Wire Wire Line
+	5625 4925 5625 4825
+Wire Wire Line
+	5325 4925 5325 4825
+Wire Wire Line
+	6150 4925 6150 4825
+Connection ~ 5125 7075
+Connection ~ 5275 7075
+Wire Wire Line
+	5125 7225 5125 6925
+Wire Wire Line
+	5275 7725 5275 7825
+Wire Wire Line
+	5275 6425 5275 6325
+Wire Wire Line
+	5275 6325 5325 6325
+Wire Wire Line
+	5675 6675 5725 6675
+Wire Wire Line
+	4725 6675 4675 6675
+Wire Wire Line
+	5075 6325 5125 6325
+Wire Wire Line
+	5125 6325 5125 6425
+Wire Wire Line
+	5075 7825 5125 7825
+Wire Wire Line
+	4725 7475 4675 7475
+Wire Wire Line
+	4125 7475 4175 7475
+Wire Wire Line
+	6275 7475 6225 7475
+Wire Wire Line
+	5675 7475 5725 7475
+Wire Wire Line
+	5275 7825 5325 7825
+Wire Wire Line
+	5125 7825 5125 7725
+Wire Wire Line
+	5275 6925 5275 7225
+Wire Wire Line
+	5475 7075 5125 7075
+Wire Wire Line
+	5850 4925 5850 4825
+Wire Wire Line
+	5850 6025 5850 6100
+Wire Wire Line
+	4800 6100 4800 6025
+Connection ~ 5325 6100
+Wire Wire Line
+	6225 6675 6225 6525
+Wire Wire Line
+	6225 6525 6100 6525
+Wire Wire Line
+	6100 6525 6100 6150
+Wire Wire Line
+	6100 6150 5625 6150
+Wire Wire Line
+	5625 6150 5625 6025
+Wire Wire Line
+	4175 6675 4175 6200
+Wire Wire Line
+	4175 6200 5100 6200
+Wire Wire Line
+	5100 6200 5100 6025
+Wire Wire Line
+	6875 6400 6875 7000
+Wire Wire Line
+	6875 7000 5275 7000
+Connection ~ 5275 7000
+Wire Wire Line
+	7275 6125 7275 6050
+Connection ~ 7275 6100
+Connection ~ 6875 6525
+$Comp
+L CP1 C?
+U 1 1 4E3D4B32
+P 6425 6325
+F 0 "C?" H 6475 6425 50  0000 L CNN
+F 1 "CP1" H 6475 6225 50  0000 L CNN
+	1    6425 6325
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 4E3D4B31
+P 7275 6325
+F 0 "C?" H 7325 6425 50  0000 L CNN
+F 1 "CP1" H 7325 6225 50  0000 L CNN
+	1    7275 6325
+	-1   0    0    -1  
+$EndComp
+Text HLabel 7275 6050 1    60   Output ~ 0
+12v_bat
+$Comp
+L 7805 U?
+U 1 1 4E3D4B30
+P 6875 6150
+F 0 "U?" H 7025 5954 60  0000 C CNN
+F 1 "7805" H 6875 6350 60  0000 C CNN
+	1    6875 6150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4E3D4B2F
+P 4575 4825
+F 0 "#PWR?" H 4575 4825 30  0001 C CNN
+F 1 "GND" H 4575 4755 30  0001 C CNN
+	1    4575 4825
+	1    0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4E3D4B2E
+P 5100 4825
+F 0 "#PWR?" H 5100 4825 30  0001 C CNN
+F 1 "GND" H 5100 4755 30  0001 C CNN
+	1    5100 4825
+	1    0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4E3D4B2D
+P 5625 4825
+F 0 "#PWR?" H 5625 4825 30  0001 C CNN
+F 1 "GND" H 5625 4755 30  0001 C CNN
+	1    5625 4825
+	1    0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4E3D4B2C
+P 6150 4825
+F 0 "#PWR?" H 6150 4825 30  0001 C CNN
+F 1 "GND" H 6150 4755 30  0001 C CNN
+	1    6150 4825
+	1    0    0    1   
+$EndComp
+$Comp
+L TCMT410 U?
+U 1 1 4E3D4B2B
+P 5200 5475
+F 0 "U?" V 5275 5950 70  0000 C CNN
+F 1 "TCMT410" V 5300 4925 70  0000 C CNN
+	1    5200 5475
+	0    -1   1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4E3D4B2A
+P 5975 7475
+F 0 "R?" V 6055 7475 50  0000 C CNN
+F 1 "1K" V 5975 7475 50  0000 C CNN
+F 2 "SM0805" V -1795 8875 60  0001 C CNN
+F 4 "Rohm Semiconductor" V -1795 8875 60  0001 C CNN "mfg"
+F 5 "MCR10EZPF1001" V -1795 8875 60  0001 C CNN "mfg #"
+F 6 "digi" V -1795 8875 60  0001 C CNN "sm vend1"
+F 7 "RHM1.00KCRCT-ND" V -1795 8875 60  0001 C CNN "sm vend1 #"
+F 8 ".125w" V -1795 8875 60  0001 C CNN "power"
+F 9 "5%" V -1795 8875 60  0001 C CNN "tolerance"
+F 10 "Thick film" V -1795 8875 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V -1795 8875 60  0001 C CNN "misc"
+	1    5975 7475
+	0    1    -1   0   
+$EndComp
+$Comp
+L IRGS14C40L Q?
+U 1 1 4E3D4B29
+P 4925 7475
+F 0 "Q?" H 4825 7725 70  0000 C CNN
+F 1 "IRGS14C40L" H 4725 7275 60  0000 C CNN
+F 2 "DPAK2" H 4925 7475 60  0001 C CNN
+F 4 "irf" H 4925 7475 60  0001 C CNN "mfg"
+F 5 "IRGS14C40L" H 4925 7475 60  0001 C CNN "mfg #"
+F 6 "digi" H 4925 7475 60  0001 C CNN "sm vend1"
+F 7 "IRGS14C40LPBF-ND" H 4925 7475 60  0001 C CNN "sm vend1 #"
+	1    4925 7475
+	1    0    0    1   
+$EndComp
+$Comp
+L IRGS14C40L Q?
+U 1 1 4E3D4B28
+P 5475 7475
+F 0 "Q?" H 5378 7725 70  0000 C CNN
+F 1 "IRGS14C40L" H 5275 7275 60  0000 C CNN
+F 2 "DPAK2" H 5475 7475 60  0001 C CNN
+F 4 "irf" H 5475 7475 60  0001 C CNN "mfg"
+F 5 "IRGS14C40L" H 5475 7475 60  0001 C CNN "mfg #"
+F 6 "digi" H 5475 7475 60  0001 C CNN "sm vend1"
+F 7 "IRGS14C40LPBF-ND" H 5475 7475 60  0001 C CNN "sm vend1 #"
+	1    5475 7475
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 4E3D4B27
+P 4425 7475
+F 0 "R?" V 4505 7475 50  0000 C CNN
+F 1 "1K" V 4425 7475 50  0000 C CNN
+F 2 "SM0805" V -3345 8875 60  0001 C CNN
+F 4 "Rohm Semiconductor" V -3345 8875 60  0001 C CNN "mfg"
+F 5 "MCR10EZPF1001" V -3345 8875 60  0001 C CNN "mfg #"
+F 6 "digi" V -3345 8875 60  0001 C CNN "sm vend1"
+F 7 "RHM1.00KCRCT-ND" V -3345 8875 60  0001 C CNN "sm vend1 #"
+F 8 ".125w" V -3345 8875 60  0001 C CNN "power"
+F 9 "5%" V -3345 8875 60  0001 C CNN "tolerance"
+F 10 "Thick film" V -3345 8875 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V -3345 8875 60  0001 C CNN "misc"
+	1    4425 7475
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4E3D4B26
+P 4425 6675
+F 0 "R?" V 4505 6675 50  0000 C CNN
+F 1 "1K" V 4425 6675 50  0000 C CNN
+F 2 "SM0805" V -3345 8075 60  0001 C CNN
+F 4 "Rohm Semiconductor" V -3345 8075 60  0001 C CNN "mfg"
+F 5 "MCR10EZPF1001" V -3345 8075 60  0001 C CNN "mfg #"
+F 6 "digi" V -3345 8075 60  0001 C CNN "sm vend1"
+F 7 "RHM1.00KCRCT-ND" V -3345 8075 60  0001 C CNN "sm vend1 #"
+F 8 ".125w" V -3345 8075 60  0001 C CNN "power"
+F 9 "5%" V -3345 8075 60  0001 C CNN "tolerance"
+F 10 "Thick film" V -3345 8075 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V -3345 8075 60  0001 C CNN "misc"
+	1    4425 6675
+	0    1    1    0   
+$EndComp
+$Comp
+L IRGS14C40L Q?
+U 1 1 4E3D4B25
+P 4925 6675
+F 0 "Q?" H 4828 6925 70  0000 C CNN
+F 1 "IRGS14C40L" H 4725 6475 60  0000 C CNN
+F 2 "DPAK2" H 4925 6675 60  0001 C CNN
+F 4 "irf" H 4925 6675 60  0001 C CNN "mfg"
+F 5 "IRGS14C40L" H 4925 6675 60  0001 C CNN "mfg #"
+F 6 "digi" H 4925 6675 60  0001 C CNN "sm vend1"
+F 7 "IRGS14C40LPBF-ND" H 4925 6675 60  0001 C CNN "sm vend1 #"
+	1    4925 6675
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRGS14C40L Q?
+U 1 1 4E3D4B24
+P 5475 6675
+F 0 "Q?" H 5375 6925 70  0000 C CNN
+F 1 "IRGS14C40L" H 5275 6475 60  0000 C CNN
+F 2 "DPAK2" H 5475 6675 60  0001 C CNN
+F 4 "irf" H 5475 6675 60  0001 C CNN "mfg"
+F 5 "IRGS14C40L" H 5475 6675 60  0001 C CNN "mfg #"
+F 6 "digi" H 5475 6675 60  0001 C CNN "sm vend1"
+F 7 "IRGS14C40LPBF-ND" H 5475 6675 60  0001 C CNN "sm vend1 #"
+	1    5475 6675
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4E3D4B23
+P 5975 6675
+F 0 "R?" V 6055 6675 50  0000 C CNN
+F 1 "1K" V 5975 6675 50  0000 C CNN
+F 2 "SM0805" V -1795 8075 60  0001 C CNN
+F 4 "Rohm Semiconductor" V -1795 8075 60  0001 C CNN "mfg"
+F 5 "MCR10EZPF1001" V -1795 8075 60  0001 C CNN "mfg #"
+F 6 "digi" V -1795 8075 60  0001 C CNN "sm vend1"
+F 7 "RHM1.00KCRCT-ND" V -1795 8075 60  0001 C CNN "sm vend1 #"
+F 8 ".125w" V -1795 8075 60  0001 C CNN "power"
+F 9 "5%" V -1795 8075 60  0001 C CNN "tolerance"
+F 10 "Thick film" V -1795 8075 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V -1795 8075 60  0001 C CNN "misc"
+	1    5975 6675
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4E3D4B16
+P 2025 6675
+F 0 "R?" V 2105 6675 50  0000 C CNN
+F 1 "1K" V 2025 6675 50  0000 C CNN
+F 2 "SM0805" V -5745 8075 60  0001 C CNN
+F 4 "Rohm Semiconductor" V -5745 8075 60  0001 C CNN "mfg"
+F 5 "MCR10EZPF1001" V -5745 8075 60  0001 C CNN "mfg #"
+F 6 "digi" V -5745 8075 60  0001 C CNN "sm vend1"
+F 7 "RHM1.00KCRCT-ND" V -5745 8075 60  0001 C CNN "sm vend1 #"
+F 8 ".125w" V -5745 8075 60  0001 C CNN "power"
+F 9 "5%" V -5745 8075 60  0001 C CNN "tolerance"
+F 10 "Thick film" V -5745 8075 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V -5745 8075 60  0001 C CNN "misc"
+	1    2025 6675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L IRGS14C40L Q?
+U 1 1 4E3D4B15
+P 2525 6675
+F 0 "Q?" H 2425 6925 70  0000 C CNN
+F 1 "IRGS14C40L" H 2325 6475 60  0000 C CNN
+F 2 "DPAK2" H 2525 6675 60  0001 C CNN
+F 4 "irf" H 2525 6675 60  0001 C CNN "mfg"
+F 5 "IRGS14C40L" H 2525 6675 60  0001 C CNN "mfg #"
+F 6 "digi" H 2525 6675 60  0001 C CNN "sm vend1"
+F 7 "IRGS14C40LPBF-ND" H 2525 6675 60  0001 C CNN "sm vend1 #"
+	1    2525 6675
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRGS14C40L Q?
+U 1 1 4E3D4B14
+P 3075 6675
+F 0 "Q?" H 2978 6925 70  0000 C CNN
+F 1 "IRGS14C40L" H 2875 6475 60  0000 C CNN
+F 2 "DPAK2" H 3075 6675 60  0001 C CNN
+F 4 "irf" H 3075 6675 60  0001 C CNN "mfg"
+F 5 "IRGS14C40L" H 3075 6675 60  0001 C CNN "mfg #"
+F 6 "digi" H 3075 6675 60  0001 C CNN "sm vend1"
+F 7 "IRGS14C40LPBF-ND" H 3075 6675 60  0001 C CNN "sm vend1 #"
+	1    3075 6675
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4E3D4B13
+P 3575 6675
+F 0 "R?" V 3655 6675 50  0000 C CNN
+F 1 "1K" V 3575 6675 50  0000 C CNN
+F 2 "SM0805" V -4195 8075 60  0001 C CNN
+F 4 "Rohm Semiconductor" V -4195 8075 60  0001 C CNN "mfg"
+F 5 "MCR10EZPF1001" V -4195 8075 60  0001 C CNN "mfg #"
+F 6 "digi" V -4195 8075 60  0001 C CNN "sm vend1"
+F 7 "RHM1.00KCRCT-ND" V -4195 8075 60  0001 C CNN "sm vend1 #"
+F 8 ".125w" V -4195 8075 60  0001 C CNN "power"
+F 9 "5%" V -4195 8075 60  0001 C CNN "tolerance"
+F 10 "Thick film" V -4195 8075 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V -4195 8075 60  0001 C CNN "misc"
+	1    3575 6675
+	0    -1   1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4E3D4B12
+P 3575 7475
+F 0 "R?" V 3655 7475 50  0000 C CNN
+F 1 "1K" V 3575 7475 50  0000 C CNN
+F 2 "SM0805" V -4195 8875 60  0001 C CNN
+F 4 "Rohm Semiconductor" V -4195 8875 60  0001 C CNN "mfg"
+F 5 "MCR10EZPF1001" V -4195 8875 60  0001 C CNN "mfg #"
+F 6 "digi" V -4195 8875 60  0001 C CNN "sm vend1"
+F 7 "RHM1.00KCRCT-ND" V -4195 8875 60  0001 C CNN "sm vend1 #"
+F 8 ".125w" V -4195 8875 60  0001 C CNN "power"
+F 9 "5%" V -4195 8875 60  0001 C CNN "tolerance"
+F 10 "Thick film" V -4195 8875 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V -4195 8875 60  0001 C CNN "misc"
+	1    3575 7475
+	0    -1   1    0   
+$EndComp
+$Comp
+L IRGS14C40L Q?
+U 1 1 4E3D4B11
+P 2525 7475
+F 0 "Q?" H 2428 7725 70  0000 C CNN
+F 1 "IRGS14C40L" H 2325 7275 60  0000 C CNN
+F 2 "DPAK2" H 2525 7475 60  0001 C CNN
+F 4 "irf" H 2525 7475 60  0001 C CNN "mfg"
+F 5 "IRGS14C40L" H 2525 7475 60  0001 C CNN "mfg #"
+F 6 "digi" H 2525 7475 60  0001 C CNN "sm vend1"
+F 7 "IRGS14C40LPBF-ND" H 2525 7475 60  0001 C CNN "sm vend1 #"
+	1    2525 7475
+	1    0    0    1   
+$EndComp
+$Comp
+L IRGS14C40L Q?
+U 1 1 4E3D4B10
+P 3075 7475
+F 0 "Q?" H 2975 7725 70  0000 C CNN
+F 1 "IRGS14C40L" H 2875 7275 60  0000 C CNN
+F 2 "DPAK2" H 3075 7475 60  0001 C CNN
+F 4 "irf" H 3075 7475 60  0001 C CNN "mfg"
+F 5 "IRGS14C40L" H 3075 7475 60  0001 C CNN "mfg #"
+F 6 "digi" H 3075 7475 60  0001 C CNN "sm vend1"
+F 7 "IRGS14C40LPBF-ND" H 3075 7475 60  0001 C CNN "sm vend1 #"
+	1    3075 7475
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 4E3D4B0F
+P 2025 7475
+F 0 "R?" V 2105 7475 50  0000 C CNN
+F 1 "1K" V 2025 7475 50  0000 C CNN
+F 2 "SM0805" V -5745 8875 60  0001 C CNN
+F 4 "Rohm Semiconductor" V -5745 8875 60  0001 C CNN "mfg"
+F 5 "MCR10EZPF1001" V -5745 8875 60  0001 C CNN "mfg #"
+F 6 "digi" V -5745 8875 60  0001 C CNN "sm vend1"
+F 7 "RHM1.00KCRCT-ND" V -5745 8875 60  0001 C CNN "sm vend1 #"
+F 8 ".125w" V -5745 8875 60  0001 C CNN "power"
+F 9 "5%" V -5745 8875 60  0001 C CNN "tolerance"
+F 10 "Thick film" V -5745 8875 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V -5745 8875 60  0001 C CNN "misc"
+	1    2025 7475
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TCMT410 U?
+U 1 1 4E3D4B0E
+P 2800 5475
+F 0 "U?" V 2875 5950 70  0000 C CNN
+F 1 "TCMT410" V 2900 4925 70  0000 C CNN
+	1    2800 5475
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4E3D4B0D
+P 1850 4825
+F 0 "#PWR?" H 1850 4825 30  0001 C CNN
+F 1 "GND" H 1850 4755 30  0001 C CNN
+	1    1850 4825
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4E3D4B0C
+P 2375 4825
+F 0 "#PWR?" H 2375 4825 30  0001 C CNN
+F 1 "GND" H 2375 4755 30  0001 C CNN
+	1    2375 4825
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4E3D4B0B
+P 2900 4825
+F 0 "#PWR?" H 2900 4825 30  0001 C CNN
+F 1 "GND" H 2900 4755 30  0001 C CNN
+	1    2900 4825
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4E3D4B0A
+P 3425 4825
+F 0 "#PWR?" H 3425 4825 30  0001 C CNN
+F 1 "GND" H 3425 4755 30  0001 C CNN
+	1    3425 4825
+	-1   0    0    1   
+$EndComp
+$Comp
+L 7805 U?
+U 1 1 4E3D4B09
+P 1125 6150
+F 0 "U?" H 1275 5954 60  0000 C CNN
+F 1 "7805" H 1125 6350 60  0000 C CNN
+	1    1125 6150
+	1    0    0    -1  
+$EndComp
+Text HLabel 725  6050 1    60   Output ~ 0
+12v_bat
+$Comp
+L CP1 C?
+U 1 1 4E3D4B08
+P 725 6325
+F 0 "C?" H 775 6425 50  0000 L CNN
+F 1 "CP1" H 775 6225 50  0000 L CNN
+	1    725  6325
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 4E3D4B07
+P 1575 6325
+F 0 "C?" H 1625 6425 50  0000 L CNN
+F 1 "CP1" H 1625 6225 50  0000 L CNN
+	1    1575 6325
+	1    0    0    -1  
+$EndComp
+Connection ~ 1125 6525
+Connection ~ 725  6100
+Wire Wire Line
+	725  6125 725  6050
+Connection ~ 2725 7000
+Wire Wire Line
+	1125 7000 2725 7000
+Wire Wire Line
+	1125 6400 1125 7000
+Wire Wire Line
+	2900 6200 2900 6025
+Wire Wire Line
+	3825 6200 2900 6200
+Wire Wire Line
+	3825 6675 3825 6200
+Wire Wire Line
+	2375 6150 2375 6025
+Wire Wire Line
+	1900 6150 2375 6150
+Wire Wire Line
+	1900 6525 1900 6150
+Wire Wire Line
+	1775 6525 1900 6525
+Wire Wire Line
+	1775 6675 1775 6525
+Connection ~ 2675 6100
+Wire Wire Line
+	3200 6100 3200 6025
+Wire Wire Line
+	2150 6025 2150 6100
+Wire Wire Line
+	2150 4925 2150 4825
+Wire Wire Line
+	2525 7075 2875 7075
+Wire Wire Line
+	2725 6925 2725 7225
+Wire Wire Line
+	2875 7825 2875 7725
+Wire Wire Line
+	2725 7825 2675 7825
+Wire Wire Line
+	2325 7475 2275 7475
+Wire Wire Line
+	1725 7475 1775 7475
+Wire Wire Line
+	3875 7475 3825 7475
+Wire Wire Line
+	3275 7475 3325 7475
+Wire Wire Line
+	2925 7825 2875 7825
+Wire Wire Line
+	2875 6325 2875 6425
+Wire Wire Line
+	2925 6325 2875 6325
+Wire Wire Line
+	3275 6675 3325 6675
+Wire Wire Line
+	2325 6675 2275 6675
+Wire Wire Line
+	2725 6325 2675 6325
+Wire Wire Line
+	2725 6425 2725 6325
+Wire Wire Line
+	2725 7725 2725 7825
+Wire Wire Line
+	2875 7225 2875 6925
+Connection ~ 2725 7075
+Connection ~ 2875 7075
+Wire Wire Line
+	1850 4925 1850 4825
+Wire Wire Line
+	2675 4925 2675 4825
+Wire Wire Line
+	2375 4925 2375 4825
+Wire Wire Line
+	2900 4925 2900 4825
+Wire Wire Line
+	3425 4925 3425 4825
+Wire Wire Line
+	3200 4925 3200 4825
+Wire Wire Line
+	3725 4925 3725 4825
+Wire Wire Line
+	2675 6100 2675 6025
+Connection ~ 2150 6100
+Wire Wire Line
+	3725 6100 1525 6100
+Wire Wire Line
+	3725 6025 3725 6100
+Connection ~ 3200 6100
+Wire Wire Line
+	1725 6475 1725 7475
+Wire Wire Line
+	1850 6475 1725 6475
+Wire Wire Line
+	1850 6025 1850 6475
+Wire Wire Line
+	3425 6150 3425 6025
+Wire Wire Line
+	3875 6150 3425 6150
+Wire Wire Line
+	3875 6150 3875 7475
+Wire Wire Line
+	1575 6125 1575 6100
+Connection ~ 1575 6100
+Wire Wire Line
+	725  6525 1575 6525
+Wire Wire Line
+	725  2825 1575 2825
+Connection ~ 1575 2400
+Wire Wire Line
+	1575 2425 1575 2400
+Wire Wire Line
+	3875 2450 3875 3775
+Wire Wire Line
+	3875 2450 3425 2450
+Wire Wire Line
+	3425 2450 3425 2325
+Wire Wire Line
+	1850 2325 1850 2775
+Wire Wire Line
+	1850 2775 1725 2775
+Wire Wire Line
+	1725 2775 1725 3775
+Connection ~ 3200 2400
+Wire Wire Line
+	3725 2325 3725 2400
+Wire Wire Line
+	3725 2400 1525 2400
+Connection ~ 2150 2400
+Wire Wire Line
+	2675 2400 2675 2325
+Wire Wire Line
+	3725 1225 3725 1125
+Wire Wire Line
+	3200 1225 3200 1125
+Wire Wire Line
+	3425 1225 3425 1125
+Wire Wire Line
+	2900 1225 2900 1125
+Wire Wire Line
+	2375 1225 2375 1125
+Wire Wire Line
+	2675 1225 2675 1125
+Wire Wire Line
+	1850 1225 1850 1125
+Connection ~ 2875 3375
+Connection ~ 2725 3375
+Wire Wire Line
+	2875 3525 2875 3225
+Wire Wire Line
+	2725 4025 2725 4125
+Wire Wire Line
+	2725 2725 2725 2625
+Wire Wire Line
+	2725 2625 2675 2625
+Wire Wire Line
+	2325 2975 2275 2975
+Wire Wire Line
+	3275 2975 3325 2975
+Wire Wire Line
+	2925 2625 2875 2625
+Wire Wire Line
+	2875 2625 2875 2725
+Wire Wire Line
+	2925 4125 2875 4125
+Wire Wire Line
+	3275 3775 3325 3775
+Wire Wire Line
+	3875 3775 3825 3775
+Wire Wire Line
+	1725 3775 1775 3775
+Wire Wire Line
+	2325 3775 2275 3775
+Wire Wire Line
+	2725 4125 2675 4125
+Wire Wire Line
+	2875 4125 2875 4025
+Wire Wire Line
+	2725 3225 2725 3525
+Wire Wire Line
+	2525 3375 2875 3375
+Wire Wire Line
+	9050 5150 9400 5150
+Wire Wire Line
+	9250 5300 9250 5000
+Wire Wire Line
+	9400 5800 9400 5900
+Wire Wire Line
+	9200 5900 9250 5900
+Wire Wire Line
+	8850 5550 8800 5550
+Wire Wire Line
+	8300 5550 8250 5550
+Wire Wire Line
+	10350 5550 10400 5550
+Wire Wire Line
+	9800 5550 9850 5550
+Wire Wire Line
+	9400 5900 9450 5900
+Wire Wire Line
+	9400 4500 9400 4400
+Wire Wire Line
+	9400 4400 9450 4400
+Wire Wire Line
+	9800 4750 9850 4750
+Wire Wire Line
+	10350 4750 10400 4750
+Wire Wire Line
+	8300 4750 8250 4750
+Wire Wire Line
+	8850 4750 8800 4750
+Wire Wire Line
+	9200 4400 9250 4400
+Wire Wire Line
+	9250 4400 9250 4500
+Wire Wire Line
+	9250 5900 9250 5800
+Wire Wire Line
+	9400 5000 9400 5300
+Connection ~ 9250 5150
+Connection ~ 9400 5150
+Connection ~ 9400 3400
+Connection ~ 9250 3400
+Wire Wire Line
+	9400 3550 9400 3250
+Wire Wire Line
+	9250 4050 9250 4150
+Wire Wire Line
+	9250 2750 9250 2650
+Wire Wire Line
+	9250 2650 9200 2650
+Wire Wire Line
+	8850 3000 8800 3000
+Wire Wire Line
+	8300 3000 8250 3000
+Wire Wire Line
+	10350 3000 10400 3000
+Wire Wire Line
+	9800 3000 9850 3000
+Wire Wire Line
+	9450 2650 9400 2650
+Wire Wire Line
+	9400 2650 9400 2750
+Wire Wire Line
+	9450 4150 9400 4150
+Wire Wire Line
+	9800 3800 9850 3800
+Wire Wire Line
+	10350 3800 10400 3800
+Wire Wire Line
+	8300 3800 8250 3800
+Wire Wire Line
+	8850 3800 8800 3800
+Wire Wire Line
+	9250 4150 9200 4150
+Wire Wire Line
+	9400 4150 9400 4050
+Wire Wire Line
+	9250 3250 9250 3550
+Wire Wire Line
+	9050 3400 9400 3400
+Wire Wire Line
+	2150 1225 2150 1125
+Wire Wire Line
+	2150 2325 2150 2400
+Wire Wire Line
+	3200 2400 3200 2325
+Connection ~ 2675 2400
+Wire Wire Line
+	1775 2975 1775 2825
+Wire Wire Line
+	1775 2825 1900 2825
+Wire Wire Line
+	1900 2825 1900 2450
+Wire Wire Line
+	1900 2450 2375 2450
+Wire Wire Line
+	2375 2450 2375 2325
+Wire Wire Line
+	3825 2975 3825 2500
+Wire Wire Line
+	3825 2500 2900 2500
+Wire Wire Line
+	2900 2500 2900 2325
+Wire Wire Line
+	1125 2700 1125 3300
+Wire Wire Line
+	1125 3300 2725 3300
+Connection ~ 2725 3300
+Wire Wire Line
+	725  2425 725  2350
+Connection ~ 725  2400
+Connection ~ 1125 2825
+$Comp
+L CP1 C?
+U 1 1 4E3D4A68
+P 1575 2625
+F 0 "C?" H 1625 2725 50  0000 L CNN
+F 1 "CP1" H 1625 2525 50  0000 L CNN
+	1    1575 2625
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 4E3D4A4E
+P 725 2625
+F 0 "C?" H 775 2725 50  0000 L CNN
+F 1 "CP1" H 775 2525 50  0000 L CNN
+	1    725  2625
+	1    0    0    -1  
+$EndComp
+Text HLabel 725  2350 1    60   Output ~ 0
+12v_bat
+$Comp
+L 7805 U?
+U 1 1 4E3D48E3
+P 1125 2450
+F 0 "U?" H 1275 2254 60  0000 C CNN
+F 1 "7805" H 1125 2650 60  0000 C CNN
+	1    1125 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4E3D481D
+P 3425 1125
+F 0 "#PWR?" H 3425 1125 30  0001 C CNN
+F 1 "GND" H 3425 1055 30  0001 C CNN
+	1    3425 1125
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4E3D4818
+P 2900 1125
+F 0 "#PWR?" H 2900 1125 30  0001 C CNN
+F 1 "GND" H 2900 1055 30  0001 C CNN
+	1    2900 1125
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4E3D4813
+P 2375 1125
+F 0 "#PWR?" H 2375 1125 30  0001 C CNN
+F 1 "GND" H 2375 1055 30  0001 C CNN
+	1    2375 1125
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4E3D47F5
+P 1850 1125
+F 0 "#PWR?" H 1850 1125 30  0001 C CNN
+F 1 "GND" H 1850 1055 30  0001 C CNN
+	1    1850 1125
+	-1   0    0    1   
+$EndComp
+$Comp
+L TCMT410 U?
+U 1 1 4E3D478A
+P 2800 1775
+F 0 "U?" V 2875 2250 70  0000 C CNN
+F 1 "TCMT410" V 2900 1225 70  0000 C CNN
+	1    2800 1775
+	0    1    1    0   
+$EndComp
+Text HLabel 9050 3400 0    60   Input ~ 0
+GND4_1
+Text HLabel 9200 4150 0    60   Output ~ 0
+EFI_OUT4-1
+$Comp
+L R R?
+U 1 1 4E07D355
+P 8550 3800
+F 0 "R?" V 8630 3800 50  0000 C CNN
+F 1 "1K" V 8550 3800 50  0000 C CNN
+F 2 "SM0805" V 780 5200 60  0001 C CNN
+F 4 "Rohm Semiconductor" V 780 5200 60  0001 C CNN "mfg"
+F 5 "MCR10EZPF1001" V 780 5200 60  0001 C CNN "mfg #"
+F 6 "digi" V 780 5200 60  0001 C CNN "sm vend1"
+F 7 "RHM1.00KCRCT-ND" V 780 5200 60  0001 C CNN "sm vend1 #"
+F 8 ".125w" V 780 5200 60  0001 C CNN "power"
+F 9 "5%" V 780 5200 60  0001 C CNN "tolerance"
+F 10 "Thick film" V 780 5200 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 780 5200 60  0001 C CNN "misc"
+	1    8550 3800
+	0    -1   -1   0   
+$EndComp
+Text HLabel 8250 3800 0    60   Output ~ 0
+EFI_SIG4-1
+$Comp
+L IRGS14C40L Q?
+U 1 1 4E07D354
+P 9600 3800
+F 0 "Q?" H 9500 4050 70  0000 C CNN
+F 1 "IRGS14C40L" H 9400 3600 60  0000 C CNN
+F 2 "DPAK2" H 9600 3800 60  0001 C CNN
+F 4 "irf" H 9600 3800 60  0001 C CNN "mfg"
+F 5 "IRGS14C40L" H 9600 3800 60  0001 C CNN "mfg #"
+F 6 "digi" H 9600 3800 60  0001 C CNN "sm vend1"
+F 7 "IRGS14C40LPBF-ND" H 9600 3800 60  0001 C CNN "sm vend1 #"
+	1    9600 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L IRGS14C40L Q?
+U 1 1 4E07D353
+P 9050 3800
+F 0 "Q?" H 8953 4050 70  0000 C CNN
+F 1 "IRGS14C40L" H 8850 3600 60  0000 C CNN
+F 2 "DPAK2" H 9050 3800 60  0001 C CNN
+F 4 "irf" H 9050 3800 60  0001 C CNN "mfg"
+F 5 "IRGS14C40L" H 9050 3800 60  0001 C CNN "mfg #"
+F 6 "digi" H 9050 3800 60  0001 C CNN "sm vend1"
+F 7 "IRGS14C40LPBF-ND" H 9050 3800 60  0001 C CNN "sm vend1 #"
+	1    9050 3800
+	1    0    0    1   
+$EndComp
+Text HLabel 10400 3800 2    60   Output ~ 0
+EFI_SIG4-3
+$Comp
+L R R?
+U 1 1 4E07D352
+P 10100 3800
+F 0 "R?" V 10180 3800 50  0000 C CNN
+F 1 "1K" V 10100 3800 50  0000 C CNN
+F 2 "SM0805" V 2330 5200 60  0001 C CNN
+F 4 "Rohm Semiconductor" V 2330 5200 60  0001 C CNN "mfg"
+F 5 "MCR10EZPF1001" V 2330 5200 60  0001 C CNN "mfg #"
+F 6 "digi" V 2330 5200 60  0001 C CNN "sm vend1"
+F 7 "RHM1.00KCRCT-ND" V 2330 5200 60  0001 C CNN "sm vend1 #"
+F 8 ".125w" V 2330 5200 60  0001 C CNN "power"
+F 9 "5%" V 2330 5200 60  0001 C CNN "tolerance"
+F 10 "Thick film" V 2330 5200 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 2330 5200 60  0001 C CNN "misc"
+	1    10100 3800
+	0    -1   1    0   
+$EndComp
+Text HLabel 9450 4150 2    60   Output ~ 0
+EFI_OUT4-3
+Text HLabel 9450 2650 2    60   Output ~ 0
+EFI_OUT4-2
+$Comp
+L R R?
+U 1 1 4E07D351
+P 10100 3000
+F 0 "R?" V 10180 3000 50  0000 C CNN
+F 1 "1K" V 10100 3000 50  0000 C CNN
+F 2 "SM0805" V 2330 4400 60  0001 C CNN
+F 4 "Rohm Semiconductor" V 2330 4400 60  0001 C CNN "mfg"
+F 5 "MCR10EZPF1001" V 2330 4400 60  0001 C CNN "mfg #"
+F 6 "digi" V 2330 4400 60  0001 C CNN "sm vend1"
+F 7 "RHM1.00KCRCT-ND" V 2330 4400 60  0001 C CNN "sm vend1 #"
+F 8 ".125w" V 2330 4400 60  0001 C CNN "power"
+F 9 "5%" V 2330 4400 60  0001 C CNN "tolerance"
+F 10 "Thick film" V 2330 4400 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 2330 4400 60  0001 C CNN "misc"
+	1    10100 3000
+	0    -1   1    0   
+$EndComp
+Text HLabel 10400 3000 2    60   Output ~ 0
+EFI_SIG4-2
+$Comp
+L IRGS14C40L Q?
+U 1 1 4E07D350
+P 9600 3000
+F 0 "Q?" H 9503 3250 70  0000 C CNN
+F 1 "IRGS14C40L" H 9400 2800 60  0000 C CNN
+F 2 "DPAK2" H 9600 3000 60  0001 C CNN
+F 4 "irf" H 9600 3000 60  0001 C CNN "mfg"
+F 5 "IRGS14C40L" H 9600 3000 60  0001 C CNN "mfg #"
+F 6 "digi" H 9600 3000 60  0001 C CNN "sm vend1"
+F 7 "IRGS14C40LPBF-ND" H 9600 3000 60  0001 C CNN "sm vend1 #"
+	1    9600 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L IRGS14C40L Q?
+U 1 1 4E07D34F
+P 9050 3000
+F 0 "Q?" H 8950 3250 70  0000 C CNN
+F 1 "IRGS14C40L" H 8850 2800 60  0000 C CNN
+F 2 "DPAK2" H 9050 3000 60  0001 C CNN
+F 4 "irf" H 9050 3000 60  0001 C CNN "mfg"
+F 5 "IRGS14C40L" H 9050 3000 60  0001 C CNN "mfg #"
+F 6 "digi" H 9050 3000 60  0001 C CNN "sm vend1"
+F 7 "IRGS14C40LPBF-ND" H 9050 3000 60  0001 C CNN "sm vend1 #"
+	1    9050 3000
+	1    0    0    -1  
+$EndComp
+Text HLabel 8250 3000 0    60   Output ~ 0
+EFI_SIG4-0
+$Comp
+L R R?
+U 1 1 4E07D34E
+P 8550 3000
+F 0 "R?" V 8630 3000 50  0000 C CNN
+F 1 "1K" V 8550 3000 50  0000 C CNN
+F 2 "SM0805" V 780 4400 60  0001 C CNN
+F 4 "Rohm Semiconductor" V 780 4400 60  0001 C CNN "mfg"
+F 5 "MCR10EZPF1001" V 780 4400 60  0001 C CNN "mfg #"
+F 6 "digi" V 780 4400 60  0001 C CNN "sm vend1"
+F 7 "RHM1.00KCRCT-ND" V 780 4400 60  0001 C CNN "sm vend1 #"
+F 8 ".125w" V 780 4400 60  0001 C CNN "power"
+F 9 "5%" V 780 4400 60  0001 C CNN "tolerance"
+F 10 "Thick film" V 780 4400 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 780 4400 60  0001 C CNN "misc"
+	1    8550 3000
+	0    -1   -1   0   
+$EndComp
+Text HLabel 9200 2650 0    60   Output ~ 0
+EFI_OUT4-0
+Text HLabel 9200 4400 0    60   Output ~ 0
+EFI_OUT5-0
+$Comp
+L R R?
+U 1 1 4E07D34D
+P 8550 4750
+F 0 "R?" V 8630 4750 50  0000 C CNN
+F 1 "1K" V 8550 4750 50  0000 C CNN
+F 2 "SM0805" V 780 6150 60  0001 C CNN
+F 4 "Rohm Semiconductor" V 780 6150 60  0001 C CNN "mfg"
+F 5 "MCR10EZPF1001" V 780 6150 60  0001 C CNN "mfg #"
+F 6 "digi" V 780 6150 60  0001 C CNN "sm vend1"
+F 7 "RHM1.00KCRCT-ND" V 780 6150 60  0001 C CNN "sm vend1 #"
+F 8 ".125w" V 780 6150 60  0001 C CNN "power"
+F 9 "5%" V 780 6150 60  0001 C CNN "tolerance"
+F 10 "Thick film" V 780 6150 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 780 6150 60  0001 C CNN "misc"
+	1    8550 4750
+	0    -1   -1   0   
+$EndComp
+Text HLabel 8250 4750 0    60   Output ~ 0
+EFI_SIG5-0
+$Comp
+L IRGS14C40L Q?
+U 1 1 4E07D34C
+P 9050 4750
+F 0 "Q?" H 8950 5000 70  0000 C CNN
+F 1 "IRGS14C40L" H 8850 4550 60  0000 C CNN
+F 2 "DPAK2" H 9050 4750 60  0001 C CNN
+F 4 "irf" H 9050 4750 60  0001 C CNN "mfg"
+F 5 "IRGS14C40L" H 9050 4750 60  0001 C CNN "mfg #"
+F 6 "digi" H 9050 4750 60  0001 C CNN "sm vend1"
+F 7 "IRGS14C40LPBF-ND" H 9050 4750 60  0001 C CNN "sm vend1 #"
+	1    9050 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRGS14C40L Q?
+U 1 1 4E07D34B
+P 9600 4750
+F 0 "Q?" H 9503 5000 70  0000 C CNN
+F 1 "IRGS14C40L" H 9400 4550 60  0000 C CNN
+F 2 "DPAK2" H 9600 4750 60  0001 C CNN
+F 4 "irf" H 9600 4750 60  0001 C CNN "mfg"
+F 5 "IRGS14C40L" H 9600 4750 60  0001 C CNN "mfg #"
+F 6 "digi" H 9600 4750 60  0001 C CNN "sm vend1"
+F 7 "IRGS14C40LPBF-ND" H 9600 4750 60  0001 C CNN "sm vend1 #"
+	1    9600 4750
+	-1   0    0    -1  
+$EndComp
+Text HLabel 10400 4750 2    60   Output ~ 0
+EFI_SIG5-2
+$Comp
+L R R?
+U 1 1 4E07D34A
+P 10100 4750
+F 0 "R?" V 10180 4750 50  0000 C CNN
+F 1 "1K" V 10100 4750 50  0000 C CNN
+F 2 "SM0805" V 2330 6150 60  0001 C CNN
+F 4 "Rohm Semiconductor" V 2330 6150 60  0001 C CNN "mfg"
+F 5 "MCR10EZPF1001" V 2330 6150 60  0001 C CNN "mfg #"
+F 6 "digi" V 2330 6150 60  0001 C CNN "sm vend1"
+F 7 "RHM1.00KCRCT-ND" V 2330 6150 60  0001 C CNN "sm vend1 #"
+F 8 ".125w" V 2330 6150 60  0001 C CNN "power"
+F 9 "5%" V 2330 6150 60  0001 C CNN "tolerance"
+F 10 "Thick film" V 2330 6150 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 2330 6150 60  0001 C CNN "misc"
+	1    10100 4750
+	0    -1   1    0   
+$EndComp
+Text HLabel 9450 4400 2    60   Output ~ 0
+EFI_OUT5-2
+Text HLabel 9450 5900 2    60   Output ~ 0
+EFI_OUT5-3
+$Comp
+L R R?
+U 1 1 4E07D349
+P 10100 5550
+F 0 "R?" V 10180 5550 50  0000 C CNN
+F 1 "1K" V 10100 5550 50  0000 C CNN
+F 2 "SM0805" V 2330 6950 60  0001 C CNN
+F 4 "Rohm Semiconductor" V 2330 6950 60  0001 C CNN "mfg"
+F 5 "MCR10EZPF1001" V 2330 6950 60  0001 C CNN "mfg #"
+F 6 "digi" V 2330 6950 60  0001 C CNN "sm vend1"
+F 7 "RHM1.00KCRCT-ND" V 2330 6950 60  0001 C CNN "sm vend1 #"
+F 8 ".125w" V 2330 6950 60  0001 C CNN "power"
+F 9 "5%" V 2330 6950 60  0001 C CNN "tolerance"
+F 10 "Thick film" V 2330 6950 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 2330 6950 60  0001 C CNN "misc"
+	1    10100 5550
+	0    -1   1    0   
+$EndComp
+Text HLabel 10400 5550 2    60   Output ~ 0
+EFI_SIG5-3
+$Comp
+L IRGS14C40L Q?
+U 1 1 4E07D348
+P 9050 5550
+F 0 "Q?" H 8953 5800 70  0000 C CNN
+F 1 "IRGS14C40L" H 8850 5350 60  0000 C CNN
+F 2 "DPAK2" H 9050 5550 60  0001 C CNN
+F 4 "irf" H 9050 5550 60  0001 C CNN "mfg"
+F 5 "IRGS14C40L" H 9050 5550 60  0001 C CNN "mfg #"
+F 6 "digi" H 9050 5550 60  0001 C CNN "sm vend1"
+F 7 "IRGS14C40LPBF-ND" H 9050 5550 60  0001 C CNN "sm vend1 #"
+	1    9050 5550
+	1    0    0    1   
+$EndComp
+$Comp
+L IRGS14C40L Q?
+U 1 1 4E07D347
+P 9600 5550
+F 0 "Q?" H 9500 5800 70  0000 C CNN
+F 1 "IRGS14C40L" H 9400 5350 60  0000 C CNN
+F 2 "DPAK2" H 9600 5550 60  0001 C CNN
+F 4 "irf" H 9600 5550 60  0001 C CNN "mfg"
+F 5 "IRGS14C40L" H 9600 5550 60  0001 C CNN "mfg #"
+F 6 "digi" H 9600 5550 60  0001 C CNN "sm vend1"
+F 7 "IRGS14C40LPBF-ND" H 9600 5550 60  0001 C CNN "sm vend1 #"
+	1    9600 5550
+	-1   0    0    1   
+$EndComp
+Text HLabel 8250 5550 0    60   Output ~ 0
+EFI_SIG5-1
+$Comp
+L R R?
+U 1 1 4E07D346
+P 8550 5550
+F 0 "R?" V 8630 5550 50  0000 C CNN
+F 1 "1K" V 8550 5550 50  0000 C CNN
+F 2 "SM0805" V 780 6950 60  0001 C CNN
+F 4 "Rohm Semiconductor" V 780 6950 60  0001 C CNN "mfg"
+F 5 "MCR10EZPF1001" V 780 6950 60  0001 C CNN "mfg #"
+F 6 "digi" V 780 6950 60  0001 C CNN "sm vend1"
+F 7 "RHM1.00KCRCT-ND" V 780 6950 60  0001 C CNN "sm vend1 #"
+F 8 ".125w" V 780 6950 60  0001 C CNN "power"
+F 9 "5%" V 780 6950 60  0001 C CNN "tolerance"
+F 10 "Thick film" V 780 6950 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 780 6950 60  0001 C CNN "misc"
+	1    8550 5550
+	0    -1   -1   0   
+$EndComp
+Text HLabel 9200 5900 0    60   Output ~ 0
+EFI_OUT5-1
+Text HLabel 9050 5150 0    60   Input ~ 0
+GND5_4
+Text HLabel 2525 7075 0    60   Input ~ 0
+GND2_4
+Text HLabel 2675 7825 0    60   Output ~ 0
+EFI_OUT2-0
+Text HLabel 2675 4825 1    60   Output ~ 0
+EFI_SIG2-1
+Text HLabel 3725 4825 1    60   Output ~ 0
+EFI_SIG2-3
+Text HLabel 2925 7825 2    60   Output ~ 0
+EFI_OUT2-3
+Text HLabel 2925 6325 2    60   Output ~ 0
+EFI_OUT2-2
+Text HLabel 3200 4825 1    60   Output ~ 0
+EFI_SIG2-2
+Text HLabel 2150 4825 1    60   Output ~ 0
+EFI_SIG2-0
+Text HLabel 2675 6325 0    60   Output ~ 0
+EFI_OUT2-1
+Text HLabel 5075 2625 0    60   Output ~ 0
+EFI_OUT1-1
+Text HLabel 4275 1125 1    60   Output ~ 0
+EFI_SIG1-0
+Text HLabel 5325 1125 1    60   Output ~ 0
+EFI_SIG1-2
+Text HLabel 5325 2625 2    60   Output ~ 0
+EFI_OUT1-2
+Text HLabel 5325 4125 2    60   Output ~ 0
+EFI_OUT1-3
+Text HLabel 5850 1125 1    60   Output ~ 0
+EFI_SIG1-3
+Text HLabel 4800 1125 1    60   Output ~ 0
+EFI_SIG1-1
+Text HLabel 5075 4125 0    60   Output ~ 0
+EFI_OUT1-0
+Text HLabel 5475 3375 2    60   Input ~ 0
+GND1_4
+Text HLabel 5075 6325 0    60   Output ~ 0
+EFI_OUT3-1
+Text HLabel 4275 4825 1    60   Output ~ 0
+EFI_SIG3-0
+Text HLabel 5325 4825 1    60   Output ~ 0
+EFI_SIG3-2
+Text HLabel 5325 6325 2    60   Output ~ 0
+EFI_OUT3-2
+Text HLabel 5325 7825 2    60   Output ~ 0
+EFI_OUT3-3
+Text HLabel 5850 4825 1    60   Output ~ 0
+EFI_SIG3-3
+Text HLabel 4800 4825 1    60   Output ~ 0
+EFI_SIG3-1
+Text HLabel 5075 7825 0    60   Output ~ 0
+EFI_OUT3-0
+Text HLabel 5475 7075 2    60   Input ~ 0
+GND3_4
+Text HLabel 2525 3375 0    60   Input ~ 0
+GND0_4
+Text HLabel 2675 4125 0    60   Output ~ 0
+EFI_OUT0-0
+$Comp
+L R R?
+U 1 1 4E07D05C
+P 2025 3775
+F 0 "R?" V 2105 3775 50  0000 C CNN
+F 1 "1K" V 2025 3775 50  0000 C CNN
+F 2 "SM0805" V -5745 5175 60  0001 C CNN
+F 4 "Rohm Semiconductor" V -5745 5175 60  0001 C CNN "mfg"
+F 5 "MCR10EZPF1001" V -5745 5175 60  0001 C CNN "mfg #"
+F 6 "digi" V -5745 5175 60  0001 C CNN "sm vend1"
+F 7 "RHM1.00KCRCT-ND" V -5745 5175 60  0001 C CNN "sm vend1 #"
+F 8 ".125w" V -5745 5175 60  0001 C CNN "power"
+F 9 "5%" V -5745 5175 60  0001 C CNN "tolerance"
+F 10 "Thick film" V -5745 5175 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V -5745 5175 60  0001 C CNN "misc"
+	1    2025 3775
+	0    -1   -1   0   
+$EndComp
+Text HLabel 2675 1125 1    60   Output ~ 0
+EFI_SIG0-1
+$Comp
+L IRGS14C40L Q?
+U 1 1 4E07D05A
+P 3075 3775
+F 0 "Q?" H 2975 4025 70  0000 C CNN
+F 1 "IRGS14C40L" H 2875 3575 60  0000 C CNN
+F 2 "DPAK2" H 3075 3775 60  0001 C CNN
+F 4 "irf" H 3075 3775 60  0001 C CNN "mfg"
+F 5 "IRGS14C40L" H 3075 3775 60  0001 C CNN "mfg #"
+F 6 "digi" H 3075 3775 60  0001 C CNN "sm vend1"
+F 7 "IRGS14C40LPBF-ND" H 3075 3775 60  0001 C CNN "sm vend1 #"
+	1    3075 3775
+	-1   0    0    1   
+$EndComp
+$Comp
+L IRGS14C40L Q?
+U 1 1 4E07D059
+P 2525 3775
+F 0 "Q?" H 2428 4025 70  0000 C CNN
+F 1 "IRGS14C40L" H 2325 3575 60  0000 C CNN
+F 2 "DPAK2" H 2525 3775 60  0001 C CNN
+F 4 "irf" H 2525 3775 60  0001 C CNN "mfg"
+F 5 "IRGS14C40L" H 2525 3775 60  0001 C CNN "mfg #"
+F 6 "digi" H 2525 3775 60  0001 C CNN "sm vend1"
+F 7 "IRGS14C40LPBF-ND" H 2525 3775 60  0001 C CNN "sm vend1 #"
+	1    2525 3775
+	1    0    0    1   
+$EndComp
+Text HLabel 3725 1125 1    60   Output ~ 0
+EFI_SIG0-3
+$Comp
+L R R?
+U 1 1 4E07D058
+P 3575 3775
+F 0 "R?" V 3655 3775 50  0000 C CNN
+F 1 "1K" V 3575 3775 50  0000 C CNN
+F 2 "SM0805" V -4195 5175 60  0001 C CNN
+F 4 "Rohm Semiconductor" V -4195 5175 60  0001 C CNN "mfg"
+F 5 "MCR10EZPF1001" V -4195 5175 60  0001 C CNN "mfg #"
+F 6 "digi" V -4195 5175 60  0001 C CNN "sm vend1"
+F 7 "RHM1.00KCRCT-ND" V -4195 5175 60  0001 C CNN "sm vend1 #"
+F 8 ".125w" V -4195 5175 60  0001 C CNN "power"
+F 9 "5%" V -4195 5175 60  0001 C CNN "tolerance"
+F 10 "Thick film" V -4195 5175 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V -4195 5175 60  0001 C CNN "misc"
+	1    3575 3775
+	0    -1   1    0   
+$EndComp
+Text HLabel 2925 4125 2    60   Output ~ 0
+EFI_OUT0-3
+Text HLabel 2925 2625 2    60   Output ~ 0
+EFI_OUT0-2
+$Comp
+L R R?
+U 1 1 4E07CFCC
+P 3575 2975
+F 0 "R?" V 3655 2975 50  0000 C CNN
+F 1 "1K" V 3575 2975 50  0000 C CNN
+F 2 "SM0805" V -4195 4375 60  0001 C CNN
+F 4 "Rohm Semiconductor" V -4195 4375 60  0001 C CNN "mfg"
+F 5 "MCR10EZPF1001" V -4195 4375 60  0001 C CNN "mfg #"
+F 6 "digi" V -4195 4375 60  0001 C CNN "sm vend1"
+F 7 "RHM1.00KCRCT-ND" V -4195 4375 60  0001 C CNN "sm vend1 #"
+F 8 ".125w" V -4195 4375 60  0001 C CNN "power"
+F 9 "5%" V -4195 4375 60  0001 C CNN "tolerance"
+F 10 "Thick film" V -4195 4375 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V -4195 4375 60  0001 C CNN "misc"
+	1    3575 2975
+	0    -1   1    0   
+$EndComp
+Text HLabel 3200 1125 1    60   Output ~ 0
+EFI_SIG0-2
+$Comp
+L IRGS14C40L Q?
+U 1 1 4E07CFCA
+P 3075 2975
+F 0 "Q?" H 2978 3225 70  0000 C CNN
+F 1 "IRGS14C40L" H 2875 2775 60  0000 C CNN
+F 2 "DPAK2" H 3075 2975 60  0001 C CNN
+F 4 "irf" H 3075 2975 60  0001 C CNN "mfg"
+F 5 "IRGS14C40L" H 3075 2975 60  0001 C CNN "mfg #"
+F 6 "digi" H 3075 2975 60  0001 C CNN "sm vend1"
+F 7 "IRGS14C40LPBF-ND" H 3075 2975 60  0001 C CNN "sm vend1 #"
+	1    3075 2975
+	-1   0    0    -1  
+$EndComp
+$Comp
+L IRGS14C40L Q?
+U 1 1 4E079222
+P 2525 2975
+F 0 "Q?" H 2425 3225 70  0000 C CNN
+F 1 "IRGS14C40L" H 2325 2775 60  0000 C CNN
+F 2 "DPAK2" H 2525 2975 60  0001 C CNN
+F 4 "irf" H 2525 2975 60  0001 C CNN "mfg"
+F 5 "IRGS14C40L" H 2525 2975 60  0001 C CNN "mfg #"
+F 6 "digi" H 2525 2975 60  0001 C CNN "sm vend1"
+F 7 "IRGS14C40LPBF-ND" H 2525 2975 60  0001 C CNN "sm vend1 #"
+	1    2525 2975
+	1    0    0    -1  
+$EndComp
+Text HLabel 2150 1125 1    60   Output ~ 0
+EFI_SIG0-0
+$Comp
+L R R?
+U 1 1 42529339
+P 2025 2975
+F 0 "R?" V 2105 2975 50  0000 C CNN
+F 1 "1K" V 2025 2975 50  0000 C CNN
+F 2 "SM0805" V -5745 4375 60  0001 C CNN
+F 4 "Rohm Semiconductor" V -5745 4375 60  0001 C CNN "mfg"
+F 5 "MCR10EZPF1001" V -5745 4375 60  0001 C CNN "mfg #"
+F 6 "digi" V -5745 4375 60  0001 C CNN "sm vend1"
+F 7 "RHM1.00KCRCT-ND" V -5745 4375 60  0001 C CNN "sm vend1 #"
+F 8 ".125w" V -5745 4375 60  0001 C CNN "power"
+F 9 "5%" V -5745 4375 60  0001 C CNN "tolerance"
+F 10 "Thick film" V -5745 4375 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V -5745 4375 60  0001 C CNN "misc"
+	1    2025 2975
+	0    -1   -1   0   
+$EndComp
+Text HLabel 2675 2625 0    60   Output ~ 0
+EFI_OUT0-1
 $EndSCHEMATC

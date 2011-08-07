@@ -1,7 +1,5 @@
-EESchema Schematic File Version 2  date 20/05/2011 18:53:33
+EESchema Schematic File Version 2  date 8/4/2011 7:01:51 AM
 LIBS:power
-LIBS:sharkey
-LIBS:stingray3
 LIBS:device
 LIBS:conn
 LIBS:linear
@@ -25,13 +23,15 @@ LIBS:display
 LIBS:cypress
 LIBS:siliconi
 LIBS:contrib
-LIBS:stingray3-cache
-EELAYER 24  0
+LIBS:project_specific_libs
+LIBS:cinch_start-cache
+EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11700
-Sheet 10 11
+encoding utf-8
+Sheet 6 14
 Title "IGDT FUEL INJECTOR DRIVERS"
-Date "20 may 2011"
+Date "4 aug 2011"
 Rev "C"
 Comp "Copyright (C) 2005-2009 by Pike Aerospace Research Corporation"
 Comment1 "AUTHOR: RM SHARKEY"

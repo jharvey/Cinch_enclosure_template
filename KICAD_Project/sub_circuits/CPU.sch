@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 04/07/2011 14:46:14
+EESchema Schematic File Version 2  date 8/6/2011 9:18:50 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -11,11 +11,9 @@ LIBS:memory
 LIBS:xilinx
 LIBS:special
 LIBS:microcontrollers
-LIBS:dsp
 LIBS:microchip
 LIBS:analog_switches
 LIBS:motorola
-LIBS:texas
 LIBS:intel
 LIBS:audio
 LIBS:interface
@@ -25,30 +23,15 @@ LIBS:display
 LIBS:cypress
 LIBS:siliconi
 LIBS:contrib
-LIBS:valves
-LIBS:tpic8101
-LIBS:l5970d
-LIBS:lm2903
-LIBS:max9927
-LIBS:max9939
-LIBS:mc10xs3412
-LIBS:mc33800
-LIBS:mc33810
-LIBS:mc33879
-LIBS:mpc5554
-LIBS:mpx4100a
-LIBS:ngd8201n
-LIBS:tja1054a
-LIBS:7805-diyefi
-LIBS:cj125
-LIBS:igbt
-LIBS:freeEMS_plus-cache
-EELAYER 24  0
+LIBS:project_specific_libs
+LIBS:cinch_start-cache
+EELAYER 25  0
 EELAYER END
 $Descr D 34000 22000
-Sheet 1 32
+encoding utf-8
+Sheet 7 16
 Title "freeEMS PLUS"
-Date "4 jul 2011"
+Date "7 aug 2011"
 Rev "A.02"
 Comp ""
 Comment1 ""
