@@ -1,3 +1,8 @@
-EESchema-DOCLIB  Version 2.0  Date: 8/6/2011 5:28:00 PM
+EESchema-DOCLIB  Version 2.0  Date: 8/7/2011 2:09:20 PM
+#
+$CMP VO1400
+D opto mos 2 controls, 2 switches, norm OFF
+K SWITCH OPTO
+$ENDCMP
 #
 #End Doc Library

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/6/2011 10:47:14 PM
+EESchema Schematic File Version 2  date 8/7/2011 7:05:52 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -535,8 +535,6 @@ Wire Wire Line
 Wire Wire Line
 	6650 3550 7150 3550
 Wire Wire Line
-	6400 1300 5900 1300
-Wire Wire Line
 	5900 1400 6400 1400
 Wire Wire Line
 	8125 2350 8800 2350
@@ -584,7 +582,7 @@ F 5 "newark,19K8259" H 2500 2550 60  0001 C CNN "vend,#"
 	-1   0    0    -1  
 $EndComp
 Text Label 3950 2650 0    60   ~ 0
-GND_PWR1
+GND_PWR8
 $Comp
 L CONN_1 P?
 U 1 1 4BF3BCD7
@@ -614,11 +612,11 @@ F 11 "other,more,stuff" V 3380 4300 60  0001 C CNN "Field8"
 	0    -1   1    0   
 $EndComp
 Text Label 1925 2550 0    60   ~ 0
-GND_PWR1
+GND_PWR8
 Text Label 2350 2150 0    60   ~ 0
-GND_PWR1
+GND_PWR8
 Text Label 2950 1850 0    60   ~ 0
-GND_PWR1
+GND_PWR8
 $Comp
 L GND #PWR?
 U 1 1 4C2B134E
@@ -629,23 +627,19 @@ F 1 "GND" H 6400 1355 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 8075 2700 2    60   ~ 0
-GND_PWR1
+GND_PWR8
 Text Label 9650 2550 2    60   ~ 0
-GND_PWR3
+GND_PWR8
 Text Label 9225 2150 2    60   ~ 0
-GND_PWR3
+GND_PWR8
 Text Label 8625 1850 2    60   ~ 0
-GND_PWR1
+GND_PWR8
 Text Label 9200 4425 2    60   ~ 0
-GND_PWR1
+GND_PWR8
 Text HLabel 5900 1400 0    60   Input ~ 0
-GND_PWR3
+GND_PWR8
 Text Label 6400 1400 2    60   ~ 0
-GND_PWR3
-Text Label 6400 1300 2    60   ~ 0
-GND_PWR1
-Text HLabel 5900 1300 0    60   Input ~ 0
-GND_PWR1
+GND_PWR8
 Text HLabel 3350 1650 1    60   Input ~ 0
 misc2_drv_LO
 Text HLabel 2750 1950 1    60   Input ~ 0
@@ -655,11 +649,11 @@ misc4_drv_LO
 Text HLabel 7650 1650 1    60   Input ~ 0
 misc1_drv_LO
 Text Label 7150 3550 2    60   ~ 0
-GND_PWR1
+GND_PWR8
 Text Label 7150 3050 2    60   ~ 0
-GND_PWR1
+GND_PWR8
 Text Label 7150 2850 2    60   ~ 0
-GND_PWR1
+GND_PWR8
 Text HLabel 8700 1950 1    60   Input ~ 0
 up_O2_heat_LO
 Text HLabel 9450 2350 1    60   Input ~ 0

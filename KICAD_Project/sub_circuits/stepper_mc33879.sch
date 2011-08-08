@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/6/2011 11:05:38 PM
+EESchema Schematic File Version 2  date 8/7/2011 7:33:14 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -49,8 +49,6 @@ Wire Wire Line
 	6950 6400 7075 6400
 Wire Wire Line
 	6625 5400 7025 5400
-Wire Wire Line
-	6400 4650 6450 4650
 Wire Wire Line
 	10425 5525 10425 5300
 Wire Wire Line
@@ -155,29 +153,25 @@ Connection ~ 6525 5600
 Wire Wire Line
 	9750 6100 8800 6100
 Text Label 6950 6900 1    60   ~ 0
-GND_PWR2
+GND_PWR8
 Text Label 5550 5300 0    60   ~ 0
-GND_PWR1
+GND_PWR8
 Text Label 7125 5200 0    60   ~ 0
-GND_PWR1
-Text HLabel 6400 4650 0    60   Input ~ 0
-GND_PWR1
-Text Label 6450 4650 0    60   ~ 0
-GND_PWR1
+GND_PWR8
 Text Label 6625 5400 0    60   ~ 0
-GND_PWR2
+GND_PWR8
 Text Label 9625 6425 0    60   ~ 0
-GND_PWR2
+GND_PWR8
 Text Label 9425 5525 0    60   ~ 0
-GND_PWR2
+GND_PWR8
 Text Label 6525 6625 2    60   ~ 0
-GND_PWR2
+GND_PWR8
 Text Label 6525 6025 2    60   ~ 0
-GND_PWR2
+GND_PWR8
 Text Label 6450 4775 0    60   ~ 0
-GND_PWR2
+GND_PWR8
 Text HLabel 6400 4775 0    60   Input ~ 0
-GND_PWR2
+GND_PWR8
 Text HLabel 9750 6300 2    60   Input ~ 0
 D5_PIN
 Text HLabel 9625 5700 2    60   Input ~ 0

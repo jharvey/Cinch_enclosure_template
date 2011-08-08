@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/6/2011 10:47:13 PM
+EESchema Schematic File Version 2  date 8/7/2011 7:05:51 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -29,7 +29,7 @@ EELAYER 25  0
 EELAYER END
 $Descr D 34000 22000
 encoding utf-8
-Sheet 2 14
+Sheet 3 14
 Title "freeEMS PLUS from Cinch template "
 Date "7 aug 2011"
 Rev "A"
