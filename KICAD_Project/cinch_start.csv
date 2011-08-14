@@ -1,0 +1,795 @@
+ref,value,footprint,Field1,Field2,Field3,Field4,Field5,Field6,Field7,Field8
+C201,1uF,SM0805,avx,08051C103JAT2A,newark,96M1352
+C202,1uF,SM0805,avx,08051C103JAT2A,newark,96M1352
+C203,1uF,SM0805,avx,08051C103JAT2A,newark,96M1352
+C204,1uF,SM0805,avx,08051C103JAT2A,newark,96M1352
+C205,1uF,SM0805,avx,08051C103JAT2A,newark,96M1352
+C206,1uF,SM0805,avx,08051C103JAT2A,newark,96M1352
+C207,1uF,SM0805,avx,08051C103JAT2A,newark,96M1352
+C208,1uF,SM0805,avx,08051C103JAT2A,newark,96M1352
+C209,1uF,SM0805,avx,08051C103JAT2A,newark,96M1352
+C210,1uF,SM0805,avx,08051C103JAT2A,newark,96M1352
+C211,1uF,SM0805,avx,08051C103JAT2A,newark,96M1352
+C212,1uF,SM0805,avx,08051C103JAT2A,newark,96M1352
+C213,1uF,SM0805,avx,08051C103JAT2A,newark,96M1352
+C214,1uF,SM0805,avx,08051C103JAT2A,newark,96M1352
+C215,1uF,SM0805,avx,08051C103JAT2A,newark,96M1352
+C216,1uF,SM0805,avx,08051C103JAT2A,newark,96M1352
+C217,1uF,SM0805,avx,08051C103JAT2A,newark,96M1352
+C218,1uF,SM0805,avx,08051C103JAT2A,newark,96M1352
+C401,.1uF,SM0805-C1,avx,08051C104KAT2A,newark,96M1354,-,-,-,-,100,V,10,%,ceramic,other,more,stuff
+C402,.1uF,SM0805-C1,avx,08051C104KAT2A,newark,96M1354,-,-,-,-,100,V,10,%,ceramic,other,more,stuff
+C403,10uF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,20,%,alum electro,other,more,stuff
+C404,10uF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,20,%,alum electro,other,more,stuff
+C405,1nF,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,10,V,10,%,multilayer ceramic,other,more,stuff
+C406,1nF,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,50,V,10,%,ceramic,other,more,stuff
+C407,1nF,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,10,V,10,%,multilayer ceramic,other,more,stuff
+C408,1nF,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,50,V,10,%,ceramic,other,more,stuff
+C409,.1uF,SM0805-C1,avx,08051C104KAT2A,newark,96M1354,-,-,-,-,100,V,10,%,ceramic,other,more,stuff
+C410,.1uF,SM0805-C1,avx,08051C104KAT2A,newark,96M1354,-,-,-,-,100,V,10,%,ceramic,other,more,stuff
+C411,10uF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,20,%,alum electro,other,more,stuff
+C412,10uF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,20,%,alum electro,other,more,stuff
+C413,1nF,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,10,V,10,%,multilayer ceramic,other,more,stuff
+C414,1nF,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,50,V,10,%,ceramic,other,more,stuff
+C415,1nF,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,10,V,10,%,multilayer ceramic,other,more,stuff
+C416,1nF,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,50,V,10,%,ceramic,other,more,stuff
+C501,10uF,SM1210,Nichicon,UVZ1C100MDD,digikey,493-1279-ND,16v,20%,aluminum,other,more,stuff
+C502,10uF,SM1210,Nichicon,UVZ1C100MDD,digikey,493-1279-ND,16v,20%,aluminum,other,more,stuff
+C503,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C504,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C505,100nF,SM0805-C1,murata,GRM21BR71H104KA01L ,newark,38K1694,-,-,-,-,50,V,10,%,ceramic,other,more,stuff
+C506,10uF,SM1210,Nichicon,UVZ1C100MDD,digikey,493-1279-ND,16v,20%,aluminum,other,more,stuff
+C507,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C508,100uF,SM0805-C1,ill cap,107CKE035M,newark,69K7903,-,-,-,-,35,V,20,%,alum electro,other,more,stuff
+C509,100nF,SM0805-C1,murata,GRM21BR71H104KA01L ,newark,38K1694,-,-,-,-,50,V,10,%,ceramic,other,more,stuff
+C510,22uF,SM2512,AVX,TAJC226M016RNJ,digikey,478-3901-1-ND,16v,20%,tantalum,other,more,stuff
+C511,22uF,SM2512,AVX,TAJC226M016RNJ,digikey,478-3901-1-ND,16v,20%,tantalum,other,more,stuff
+C512,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C513,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C514,100uF,SM0805-C1,ill cap,107CKE035M,newark,69K7903,-,-,-,-,35,V,20,%,alum electro,other,more,stuff
+C515,100nF,SM0805-C1,murata,GRM21BR71H104KA01L ,newark,38K1694,-,-,-,-,50,V,10,%,ceramic,other,more,stuff
+C516,22uF,SM2512,AVX,TAJC226M016RNJ,digikey,478-3901-1-ND,16v,20%,tantalum,other,more,stuff
+C517,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C518,2200uF,C1V8,United Chemi-Con,EKZE6R3ELL222MJ25S,digikey,565-1634-ND,6.3v,20%,aluminum,other,more,stuff
+C519,5.6nF,SM0805-C1,ill cap,226CKH050M,newark,69K7919,-,-,-,-,50,V,20,%,alum electro,other,more,stuff
+C520,27pF,SM0805-C1,avx,08051A221JAT2A,newark,96K4770,-,-,-,-,100,V,5,%,ceramic,other,more,stuff
+C521,330uF,SM0805-C1,kemet,T495X337K010ATE035,newark,69K7939,-,-,-,-,25,V,20,%,alum electro,other,more,stuff
+C522,10uF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,20,%,alum electro,other,more,stuff
+C523,10nF,SM0805-C1,murata,GRM216R71H103JA01D,newark,38K1697,-,-,-,-,50,V,5,%,ceramic,other,more,stuff
+C701,100nF,SM0805-C1,murata,GRM21BR71H104KA01L ,newark,38K1694,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C702,10uF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,20,%,alum electro,other,more,stuff
+C703,10uF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,20,%,alum electro,other,more,stuff
+C704,10uF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,20,%,alum electro,other,more,stuff
+C801,22nF,SM0805-C1,murata,GRM216R71H223KA01D,newark,38K1698,-,-,50,V,10,%,Ceramic,other,more,stuff
+C802,10uF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,200,V,20,%,alum electro,other,more,stuff
+C803,100nF,SM0805-C1,murata,GRM21BR71H104KA01L,newark,38K1694,-,-,50,V,10,%,Ceramic,other,more,stuff
+C804,22nF,SM0805-C1,murata,GRM216R71H223KA01D,newark,38K1698,-,-,50,V,10,%,Ceramic,other,more,stuff
+C805,22nF,SM0805-C1,murata,GRM216R71H223KA01D,newark,38K1698,-,-,50,V,10,%,Ceramic,other,more,stuff
+C806,100nF,SM0805-C1,murata,GRM21BR71H104KA01L ,newark,38K1694,-,-,50,V,10,%,ceramic,other,more,stuff
+C807,100uF,SM0805-C1,ill cap,107CKE035M,newark,69K7903,-,-,35,V,20,%,alum electro,other,more,stuff
+C808,22nF,SM0805-C1,murata,GRM216R71H223KA01D,newark,38K1698,-,-,50,V,10,%,Ceramic,other,more,stuff
+C809,22nF,SM0805-C1,murata,GRM216R71H223KA01D,newark,38K1698,-,-,50,V,10,%,Ceramic,other,more,stuff
+C901,10nF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,10,%,alum electro,other,more,stuff
+C902,10nF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,10,%,alum electro,other,more,stuff
+C903,10nF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,10,%,alum electro,other,more,stuff
+C904,10nF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,10,%,alum electro,other,more,stuff
+C905,10nF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,10,%,alum electro,other,more,stuff
+C906,10nF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,10,%,alum electro,other,more,stuff
+C907,10nF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,10,%,alum electro,other,more,stuff
+C908,10nF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,10,%,alum electro,other,more,stuff
+C909,10nF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,10,%,alum electro,other,more,stuff
+C910,10nF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,10,%,alum electro,other,more,stuff
+C911,10nF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,10,%,alum electro,other,more,stuff
+C912,10nF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,10,%,alum electro,other,more,stuff
+C913,10nF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,10,%,alum electro,other,more,stuff
+C914,100nF,SM0805-C1,mutata,GRM21BR71H104KA01L ,newark,38K1694,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C915,100nF,SM0805-C1,mutata,GRM21BR71H104KA01L ,newark,38K1694,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C916,10nF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,10,%,alum electro,other,more,stuff
+C917,10nF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,10,%,alum electro,other,more,stuff
+C918,10nF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,10,%,alum electro,other,more,stuff
+C919,10nF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,10,%,alum electro,other,more,stuff
+C920,10nF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,10,%,alum electro,other,more,stuff
+C921,10nF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,10,%,alum electro,other,more,stuff
+C922,10nF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,10,%,alum electro,other,more,stuff
+C923,10nF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,10,%,alum electro,other,more,stuff
+C924,10nF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,-,-,200,V,10,%,alum electro,other,more,stuff
+C1001,100nF,SM0805-C1,murata,GRM21BR71H104KA01L,newark,38K1694,-,-,50,V,10,%,ceramic,other,more,stuff
+C1002,10uF,SM0805-C1,ill cap,106CKE200M,newark,69K7896,-,-,200,V,20,%,alum electro,other,more,stuff
+C1101,1nF,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C1102,1nF,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C1103,33nF,SM0805-C1,yageo,CC0805KRX7R8BB333,newark,69C9599,-,-,-,-,25,V,10,%,Ceramic,other,more,stuff
+C1104,33nF,SM0805-C1,yageo,CC0805KRX7R8BB333,newark,69C9599,-,-,-,-,25,V,10,%,Ceramic,other,more,stuff
+C1105,100nF,SM0805-C1,murata,GRM21BR71H104KA01L ,newark,38K1694,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C1106,100nF,SM0805-C1,murata,GRM21BR71H104KA01L ,newark,38K1694,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C1107,2.2nF,SM0805-C1,avx,08051A221JAT2A,newark,96K4770,-,-,-,-,100,V,5,%,Ceramic,other,more,stuff
+C1108,2.2nF,SM0805-C1,avx,08051A221JAT2A,newark,96K4770,-,-,-,-,100,V,5,%,Ceramic,other,more,stuff
+C1109,33nF,SM0805-C1,yageo,CC0805KRX7R8BB333,newark,69C9599,-,-,-,-,25,V,10,%,Ceramic,other,more,stuff
+C1110,33nF,SM0805-C1,yageo,CC0805KRX7R8BB333,newark,69C9599,-,-,-,-,25,V,10,%,Ceramic,other,more,stuff
+C1111,100nF,SM0805-C1,murata,GRM21BR71H104KA01L ,newark,38K1694,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C1112,100nF,SM0805-C1,murata,GRM21BR71H104KA01L ,newark,38K1694,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C1113,33nF,SM0805-C1,yageo,CC0805KRX7R8BB333,newark,69C9599,-,-,-,-,25,V,10,%,Ceramic,other,more,stuff
+C1114,33nF,SM0805-C1,yageo,CC0805KRX7R8BB333,newark,69C9599,-,-,-,-,25,V,10,%,Ceramic,other,more,stuff
+C1115,10nF,SM0805-C1,murata,GRM216R71H103JA01D,newark,38K1697,-,-,-,-,50,V,5,%,Ceramic,other,more,stuff
+C1116,10nF,SM0805-C1,murata,GRM216R71H103JA01D,newark,38K1697,-,-,-,-,50,V,5,%,Ceramic,other,more,stuff
+C1201,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C1202,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C1203,15nf,SM0805-C1,avx,08055C102KAT2A,digi,478-1371-6-ND,50,V,10,%,Ceramic,other,more,stuff
+C1204,15nf,SM0805-C1,avx,08055C102KAT2A,digi,478-1371-6-ND,50,V,10,%,Ceramic,other,more,stuff
+C1205,15nf,SM0805-C1,avx,08055C102KAT2A,digi,478-1371-6-ND,50,V,10,%,Ceramic,other,more,stuff
+C1206,15nf,SM0805-C1,avx,08055C102KAT2A,digi,478-1371-6-ND,50,V,10,%,Ceramic,other,more,stuff
+C1207,15nf,SM0805-C1,avx,08055C102KAT2A,digi,478-1371-6-ND,50,V,10,%,Ceramic,other,more,stuff
+C1208,.1uF,SM0805-C1,avx,08051C104KAT2A,newark,96M1354,10,%,Ceramic,other,more,stuff
+C1209,.1uF,SM0805-C1,avx,08051C104KAT2A,newark,96M1354,10,%,Ceramic,other,more,stuff
+C1210,.1uF,SM0805-C1,avx,08051C104KAT2A,newark,96M1354,10,%,Ceramic,other,more,stuff
+C1211,.1uF,SM0805-C1,avx,08051C104KAT2A,newark,96M1354,10,%,Ceramic,other,more,stuff
+C1212,.1uF,SM0805-C1,avx,08051C104KAT2A,newark,96M1354,10,%,Ceramic,other,more,stuff
+C1213,1nF,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,50,v,10,%,ceramic,-
+C1214,1nF,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,50,v,10,%,ceramic,-
+C1215,1nF,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,50,v,10,%,ceramic,-
+C1216,1nF,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,50,v,10,%,ceramic,-
+C1217,100pF,SM0805-C1,avx,08051A101FAT2A,newark,96M1317,-,-,100,v,1,%,ceramic,-
+C1218,100pF,SM0805-C1,avx,08051A101FAT2A,newark,96M1317,-,-,100,v,1,%,ceramic,-
+C1219,33nF,SM0805,AVX,08055C333KAZ2A,digikey,478-3550-1-ND,50,10%,ceramic,other,more,stuff
+C1220,33nF,SM0805,AVX,08055C333KAZ2A,digikey,478-3550-1-ND,50,10%,ceramic,other,more,stuff
+C1221,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C1222,1.5nF,SM0805,Yageo,CC0805KRX7R9BB152,digikey,311-1128-1-ND,50v,10%,ceramic,other,more,stuff
+C1223,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C1224,1.5nF,SM0805,Yageo,CC0805KRX7R9BB152,digikey,311-1128-1-ND,50v,10%,ceramic,other,more,stuff
+C1225,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C1226,.01uF,SM0805,Murata,GRM216R71H103KA01D,digikey,490-1664-1-ND,50v,10%,???,other,more,stuff
+C1227,330pF,SM0805,AVX,08055C333KAZ2A,digikey,478-3550-1-ND,50,10%,ceramic,other,more,stuff
+C1228,1uF,SM0805-C1,avx,08051C103JAT2A,newark,96M1352,-,-,100,v,5,%,ceramic,-
+C1229,.1uF,SM0805-C1,avx,08051C104KAT2A,newark,96M1354,-,-,100,v,10,%,ceramic,-
+C1230,1uF,SM0805-C1,avx,08051C103JAT2A,newark,96M1352,-,-,100,v,5,%,ceramic,-
+C1231,.1uF,SM0805-C1,avx,08051C104KAT2A,newark,96M1354,-,-,100,v,10,%,ceramic,-
+C1232,100nF,SM0805-C1,murata,GRM21BR71H104KA01L,newark,38K1694,-,-,50,v,10,%,ceramic,-
+C1233,1nF,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,50,v,10,%,ceramic,-
+C1234,100nF,SM0805-C1,murata,GRM21BR71H104KA01L,newark,38K1694,-,-,50,v,10,%,ceramic,-
+C1235,1nF,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,50,v,10,%,ceramic,-
+C1301,100nf,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C1302,100nf,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C1303,100nf,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C1304,100nf,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C1305,100nf,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C1306,100nf,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C1307,100nf,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C1308,100nf,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C1309,100nf,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C1310,100nf,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C1311,100nf,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C1312,100nf,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C1313,100nf,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C1314,100nf,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C1315,100nf,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C1316,100nf,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C1317,100nf,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C1318,100nf,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C1319,100nf,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C1320,100nf,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C1321,100nf,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+C1322,100nf,SM0805-C1,avx,08055F102K4Z2A,newark,26M5154,-,-,-,-,50,V,10,%,Ceramic,other,more,stuff
+D101,PESD1CAN,SOT23-3,nxp,PESD1CAN,newark,74M3585
+D501,LED,LED-0805,OSRAM,LH R974-LP-1-0-20-R18,digikey,475-1415-1-ND,.02a,-%,RED,other,more,stuff
+D502,STTH4R02S,D4-SMB,st,STTH4R02U,newark,26M3786,-,-,-,-
+D503,TPSMA27A,DO214,vishay,TPSMA27A-E3/61T,mouser,625-TPSMA27A-E3,37.5,10.7,-,-
+D504,Schottky,SOD-123,Micro Commercial Co,1N4148W-TP,digikey,1N4148WTPMSCT-ND,.15a,-%,standard,other,more,stuff
+D505,Schottky,SOD-123,Micro Commercial Co,1N4148W-TP,digikey,1N4148WTPMSCT-ND,.15a,-%,standard,other,more,stuff
+D506,5v1,SOD-123
+D507,1N4148,SOD-123,Micro Commercial Co,1N4148W-TP,digikey,1N4148WTPMSCT-ND,.15a,-%,standard,other,more,stuff
+D508,STPS5L25,D4-SMB,STPS5L25B-TR,st,511-STPS2L25U,mouser,511-STPS2L25U,-,-,-,-,25,V,2,a,construct,other,more,stuff
+D901,MBRA340T3,D4-SMA,onsemi,MBRA340T3G,mouser,863-MBRA340T3G,-,-,-,-,.45,V,3,a,-,other,more,stuff
+D902,MBRA340T3,D4-SMA,onsemi,MBRA340T3G,mouser,863-MBRA340T3G,-,-,-,-,.45,V,3,a,-,other,more,stuff
+D1201,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1202,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1203,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1204,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1205,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1206,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1207,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1208,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1209,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1210,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1301,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1302,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1303,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1304,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1305,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1306,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1307,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1308,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1309,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1310,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1311,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1312,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1313,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1314,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1315,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1316,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1317,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1318,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1319,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1320,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1321,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+D1322,MBR0520L,SOD-123,fairchild,MBR0520L,mouser,512-MBR0520L,-,-,-,-,20,V-reverse,.5,A-forward,SMT,other,more,stuff
+J601,MOLEX_HARNESS_SD-64333-100,Molex_SD-64333-100_on_Cinch_ModICE_w_5554_SOM
+L501,4.7uH,SM4.7uH,coiltronics,UP0.4C-4R7-R,newark,52K7863,-,-,-,-,1.5,a,20,%,construct,other,more,stuff
+L502,DR125-330-R,SM100uH,DR125-330-R,newark,63K3559,-,-,-,-,1,a,20,%,-,other,more,stuff
+P101,CONN_1,PINTST
+P102,CONN_1,PINTST
+P103,CONN_1,PINTST
+P104,CONN_1,PINTST
+P105,CONN_1,PINTST
+P106,CONN_1,PINTST
+P107,CONN_1,PINTST
+P108,CONN_1,PINTST
+P109,CONN_1,PINTST
+P110,CONN_1,PINTST
+P111,CONN_1,PINTST
+P301,MPC5554,phyCORE-MPC5554
+P401,CONN_1,PINTST
+P402,CONN_1,PINTST
+P403,CONN_1,PINTST
+P404,CONN_1,PINTST
+P405,CONN_1,PINTST
+P406,CONN_1,PINTST
+P407,CONN_1,PINTST
+P408,CONN_1,PINTST
+P409,CONN_1,PINTST
+P410,CONN_1,PINTST
+P411,CONN_1,PINTST
+P412,CONN_1,PINTST
+P413,CONN_1,PINTST
+P414,CONN_1,PINTST
+P415,CONN_1,PINTST
+P416,CONN_1,PINTST
+P601,AMP35,
+P602,AMP35,
+P701,CONN_1,PINTST
+P702,CONN_1,PINTST
+P703,CONN_1,PINTST
+P704,CONN_1,PINTST
+P801,CONN_1,PINTST
+P802,CONN_1,PINTST
+P803,CONN_1,PINTST
+P804,CONN_1,PINTST
+P901,CONN_1,PINTST
+P902,CONN_1,PINTST
+P903,CONN_1,PINTST
+P904,CONN_1,PINTST
+P905,CONN_1,PINTST
+P906,CONN_1,PINTST
+P907,CONN_1,PINTST
+P908,CONN_1,PINTST
+P909,CONN_1,PINTST
+P910,CONN_1,PINTST
+P911,CONN_1,PINTST
+P912,CONN_1,PINTST
+P913,CONN_1,PINTST
+P914,CONN_1,PINTST
+P915,CONN_1,PINTST
+P916,CONN_1,PINTST
+P917,CONN_1,PINTST
+P918,CONN_1,PINTST
+P919,CONN_1,PINTST
+P920,CONN_1,PINTST
+P921,CONN_1,PINTST
+P922,CONN_1,PINTST
+P923,CONN_1,PINTST
+P924,CONN_1,PINTST
+P925,CONN_1,PINTST
+P926,CONN_1,PINTST
+P927,CONN_1,PINTST
+P928,CONN_1,PINTST
+P929,CONN_1,PINTST
+P930,CONN_1,PINTST
+P931,CONN_1,PINTST
+P1001,CONN_1,PINTST
+P1002,CONN_1,PINTST
+P1101,CONN_1,PINTST
+P1102,CONN_1,PINTST
+P1103,CONN_1,PINTST
+P1104,CONN_1,PINTST
+P1105,CONN_1,PINTST
+P1106,CONN_1,PINTST
+P1107,CONN_1,PINTST
+P1108,CONN_1,PINTST
+P1109,CONN_1,PINTST
+P1110,CONN_1,PINTST
+P1111,CONN_1,PINTST
+P1112,CONN_1,PINTST
+P1201,CONN_1,PINTST
+P1202,CONN_1,PINTST
+P1203,CONN_1,PINTST
+P1204,CONN_1,PINTST
+Q201,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q202,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q203,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q204,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q205,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q206,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q207,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q208,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q209,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q210,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q211,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q212,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q213,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q214,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q215,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q216,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q217,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q218,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q219,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q220,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q221,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q222,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q223,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q224,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q225,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q226,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q227,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q228,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q229,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q230,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q231,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q232,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q233,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q234,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q235,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q236,IRGS14C40L,DPAK2,irf,IRGS14C40L,digi,IRGS14C40LPBF-ND
+Q901,IRF7341,SO8E,irf,IRF7341PBF,newark,19K8259
+Q902,IRF7341,SO8E,irf,IRF7341PBF,newark,19K8259
+Q903,IRF7341,SO8E,irf,IRF7341PBF,newark,19K8259
+R101,200k,SM0805,vishay,CRCW0805200KJNEA,newark,53K0005,125,mW,5,%,thick film
+R201,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R202,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R203,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R204,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R205,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R206,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R207,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R208,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R209,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R210,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R211,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R212,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R213,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R214,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R215,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R216,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R217,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R218,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R219,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R220,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R221,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R222,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R223,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R224,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R225,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R226,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R227,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R228,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R229,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R230,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R231,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R232,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R233,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R234,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R235,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R236,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R237,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R238,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R239,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R240,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R241,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R242,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R243,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R244,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R245,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R246,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R247,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R248,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R249,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R250,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R251,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R252,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R253,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R254,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R255,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R256,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R257,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R258,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R259,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R260,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R261,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R262,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R263,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R264,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R265,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R266,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R267,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R268,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R269,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R270,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R271,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R272,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R273,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R274,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R275,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R276,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R277,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R278,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R279,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R280,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R281,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R282,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R283,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R284,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R285,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R286,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R287,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R288,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R289,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R290,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R291,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R292,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R293,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R294,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R295,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R296,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R297,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R298,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R299,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R300,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R301,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R302,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R303,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R304,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R305,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R306,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R307,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R308,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R309,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R310,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R311,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R312,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R313,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R314,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R315,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R316,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R317,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R318,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R319,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R320,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R321,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R322,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R323,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R324,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R325,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R326,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R327,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R328,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R329,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R330,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R331,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R332,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R333,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R334,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R335,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R336,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R337,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R338,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R339,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R340,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R341,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R342,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R343,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R344,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R345,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R346,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R347,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R348,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R349,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R350,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R351,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R352,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R353,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R354,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R355,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R356,100K,SM0805,Rohm Semiconductor,digi,.125w,5%,Thick film,other,more,stuff
+R357,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R358,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R359,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R360,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R361,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R362,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R363,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R364,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R365,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R366,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R367,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R368,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R369,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R370,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R371,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R372,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R373,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R374,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R375,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R376,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R377,0R,SM0805,vishay,CRCW08050000Z0EA,newark,52K9721
+R378,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R379,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R380,1K,SM0805,Rohm Semiconductor,MCR10EZPF1001,digi,RHM1.00KCRCT-ND,.125w,5%,Thick film,other,more,stuff
+R401,10k,SM0805,bourns,CR0805-FX-1002ELF,newark,02J2368,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R402,10k,SM0805,bourns,CR0805-FX-1002ELF,newark,02J2368,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R403,10k,SM0805,bourns,CR0805-FX-1002ELF,newark,02J2368,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R404,10k,SM0805,bourns,CR0805-FX-1002ELF,newark,02J2368,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R405,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R406,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R407,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R408,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R409,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R410,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R411,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R412,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R413,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R414,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R415,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R416,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R417,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R418,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R419,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R420,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R421,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R422,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R423,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R424,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R425,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R426,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R427,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R428,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R429,10k,SM0805,bourns,CR0805-FX-1002ELF,newark,02J2368,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R430,10k,SM0805,bourns,CR0805-FX-1002ELF,newark,02J2368,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R431,10k,SM0805,bourns,CR0805-FX-1002ELF,newark,02J2368,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R432,10k,SM0805,bourns,CR0805-FX-1002ELF,newark,02J2368,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R433,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R434,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R435,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R436,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R437,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R438,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R439,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R440,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R441,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R442,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R443,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R444,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R445,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R446,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R447,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R448,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R449,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R450,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R451,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R452,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R453,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R454,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R455,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R456,5k,SM0805,stackpole,RNCP0805FTD4K99,digikey,RNCP0805FTD4K99CT-ND,-,-,-,-,250,mW,1,%,thin film,other,more,stuff
+R501,3.3k,SM0805,Stackpole,RMCF0805JT3K30CT,digikey,RMCF0805JT3K30CT-ND,.125w,5%,Thick Film,other,more,stuff
+R502,10k,SM0805,Stackpole Electronics Inc,RMCF0805JT22K0CT,digikey,RMCF0805JT22K0CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R503,100k,SM0805
+R504,3.6K 1%,SM0805,Vishay,CRCW08052K70FKEA,newark,52K9964,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R505,39k 1%,SM0805,panasonic,ERA6AEB472V,newark,08N2175,-,-,-,-,125,mW,.1,%,metal film,other,more,stuff
+R506,13K 1%,SM0805,Vishay,CRCW08058K20FKEA,newark,53K0479,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R601,0R,SM0805-C1,vishay,CRCW08050000ZSTA,newark,36C9353
+R602,0R,SM0805-C1,vishay,CRCW08050000ZSTA,newark,36C9353
+R603,0R,SM0805-C1,vishay,CRCW08050000ZSTA,newark,36C9353
+R604,0R,SM0805-C1,vishay,CRCW08050000ZSTA,newark,36C9353
+R605,0R,SM0805-C1,vishay,CRCW08050000ZSTA,newark,36C9353
+R606,0R,SM0805-C1,vishay,CRCW08050000ZSTA,newark,36C9353
+R607,0R,SM0805-C1,vishay,CRCW08050000ZSTA,newark,36C9353
+R608,0R,SM0805-C1,vishay,CRCW08050000ZSTA,newark,36C9353
+R609,0R,SM0805-C1,vishay,CRCW08050000ZSTA,newark,36C9353
+R610,0R,SM0805-C1,vishay,CRCW08050000ZSTA,newark,36C9353
+R611,0R,SM0805-C1,vishay,CRCW08050000ZSTA,newark,36C9353
+R612,0R,SM0805-C1,vishay,CRCW08050000ZSTA,newark,36C9353
+R613,0R,SM0805-C1,vishay,CRCW08050000ZSTA,newark,36C9353
+R614,0R,SM0805-C1,vishay,CRCW08050000ZSTA,newark,36C9353
+R615,0R,SM0805-C1,vishay,CRCW08050000ZSTA,newark,36C9353
+R616,0R,SM0805-C1,vishay,CRCW08050000ZSTA,newark,36C9353
+R617,0R,SM0805-C1,vishay,CRCW08050000ZSTA,newark,36C9353
+R618,0R,SM0805-C1,vishay,CRCW08050000ZSTA,newark,36C9353
+R619,0R,SM0805-C1,vishay,CRCW08050000ZSTA,newark,36C9353
+R620,0R,SM0805-C1,vishay,CRCW08050000ZSTA,newark,36C9353
+R621,0R,SM0805-C1,vishay,CRCW08050000ZSTA,newark,36C9353
+R622,0R,SM0805-C1,vishay,CRCW08050000ZSTA,newark,36C9353
+R623,0R,SM0805-C1,vishay,CRCW08050000ZSTA,newark,36C9353
+R624,0R,SM0805-C1,vishay,CRCW08050000ZSTA,newark,36C9353
+R625,0R,SM0805-C1,vishay,CRCW08050000ZSTA,newark,36C9353
+R626,0R,SM0805-C1,vishay,CRCW08050000ZSTA,newark,36C9353
+R627,0R,SM0805-C1,vishay,CRCW08050000ZSTA,newark,36C9353
+R628,0R,SM0805-C1,vishay,CRCW08050000ZSTA,newark,36C9353
+R701,0R,SM0805,vishay,CRCW08050000ZSTA,newark,36C9353,-,-,-,-,-,V,-,%,na,other,more,stuff
+R702,0R,SM0805,vishay,CRCW08050000ZSTA,newark,36C9353,-,-,-,-,-,V,-,%,na,other,more,stuff
+R703,0R,SM0805,vishay,CRCW08050000ZSTA,newark,36C9353,-,-,-,-,-,V,-,%,na,other,more,stuff
+R704,0R,SM0805,vishay,CRCW08050000ZSTA,newark,36C9353,-,-,-,-,-,V,-,%,na,other,more,stuff
+R705,0R,SM0805,vishay,CRCW08050000ZSTA,newark,36C9353,-,-,-,-,-,V,-,%,na,other,more,stuff
+R706,0R,SM0805,vishay,CRCW08050000ZSTA,newark,36C9353,-,-,-,-,-,V,-,%,na,other,more,stuff
+R707,0R,SM0805,vishay,CRCW08050000ZSTA,newark,36C9353,-,-,-,-,-,V,-,%,na,other,more,stuff
+R708,0R,SM0805,vishay,CRCW08050000ZSTA,newark,36C9353,-,-,-,-,-,V,-,%,na,other,more,stuff
+R709,0R,SM0805,vishay,CRCW08050000ZSTA,newark,36C9353,-,-,-,-,-,V,-,%,na,other,more,stuff
+R710,0R,SM0805,vishay,CRCW08050000ZSTA,newark,36C9353,-,-,-,-,-,V,-,%,na,other,more,stuff
+R711,0R,SM0805,vishay,CRCW08050000ZSTA,newark,36C9353,-,-,-,-,-,V,-,%,na,other,more,stuff
+R712,0R,SM0805,vishay,CRCW08050000ZSTA,newark,36C9353,-,-,-,-,-,V,-,%,na,other,more,stuff
+R801,2.5k 1%,SM0805,-,-,-,-,-,-,125,mW,1,%,? film,other,more,stuff
+R802,100k,SM0805,bourns,CR0805-FX-1003ELF,newark,32K2766,-,-,125,mW,1,%,thick film,other,more,stuff
+R803,100k,SM0805,bourns,CR0805-FX-1003ELF,newark,32K2766,-,-,125,mW,1,%,carbon film,other,more,stuff
+R804,100k,SM0805,bourns,CR0805-FX-1003ELF,newark,32K2766,-,-,125,mW,1,%,carbon film,other,more,stuff
+R805,100k,SM0805,bourns,CR0805-FX-1003ELF,newark,32K2766,-,-,125,mW,1,%,thick film,other,more,stuff
+R806,100k,SM0805,bourns,CR0805-FX-1003ELF,newark,32K2766,-,-,125,mW,1,%,thick film,other,more,stuff
+R807,100k,SM0805,bourns,CR0805-FX-1003ELF,newark,32K2766,-,-,125,mW,1,%,thick film,other,more,stuff
+R808,10k,SM0805,bourns,CR0805-FX-1002ELF,newark,02J2368,-,-,125,mW,1,%,thick film,other,more,stuff
+R809,10k,SM0805,bourns,CR0805-FX-1002ELF,newark,02J2368,-,-,125,mW,1,%,thick film,other,more,stuff
+R810,0R,SM0805,vishay,CRCW08050000ZSTA,newark,36C9353,-,-,125,mW,-,%,na,other,more,stuff
+R811,0R,SM0805,vishay,CRCW08050000ZSTA,newark,36C9353,-,-,125,mW,-,%,na,other,more,stuff
+R812,0R,SM0805,vishay,CRCW08050000ZSTA,newark,36C9353,-,-,125,mW,-,%,na,other,more,stuff
+R813,6.6k 1%,SM0805,-,-,-,-,-,-,?,mW,?,%,? film,other,more,stuff
+R814,0R,SM0805,vishay,CRCW08050000ZSTA,newark,36C9353,-,-,125,mW,-,%,na,other,more,stuff
+R901,0R,SM0805,wishay,CRCW08050000ZSTA,newark,36C9353,-,-,-,-,-,mW,-,%,na,other,more,stuff
+R902,NA,SM0805,-,-,-,-,-,-,-,-,-,mW,-,%,-,other,more,stuff
+R903,1K,SM0805,vishay,CRCW08051K00FKTA,newark,05F1507,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R904,NA,SM0805,-,-,-,-,-,-,-,-,-,mW,-,%,-,other,more,stuff
+R905,NA,SM0805,-,-,-,-,-,-,-,-,-,mW,-,%,-,other,more,stuff
+R906,0R,SM0805,wishay,CRCW08050000ZSTA,newark,36C9353,-,-,-,-,-,mW,-,%,na,other,more,stuff
+R907,39k 1%,SM0805,multicomp,MC0805S8F3902T5E,newark,79M6085,-,-,-,-,.125,W,1,%,thick film,other,more,stuff
+R908,0R,SM0805,wishay,CRCW08050000ZSTA,newark,36C9353,-,-,-,-,-,mW,-,%,na,other,more,stuff
+R909,0R,SM0805,wishay,CRCW08050000ZSTA,newark,36C9353,-,-,-,-,-,mW,-,%,na,other,more,stuff
+R910,0R,SM0805,wishay,CRCW08050000ZSTA,newark,36C9353,-,-,-,-,-,mW,-,%,na,other,more,stuff
+R911,0R,SM0805,wishay,CRCW08050000ZSTA,newark,36C9353,-,-,-,-,-,mW,-,%,na,other,more,stuff
+R912,0R,SM0805,wishay,CRCW08050000ZSTA,newark,36C9353,-,-,-,-,-,mW,-,%,na,other,more,stuff
+R913,0R,SM0805,wishay,CRCW08050000ZSTA,newark,36C9353,-,-,-,-,-,mW,-,%,na,other,more,stuff
+R914,NA,SM0805,-,-,-,-,-,-,-,-,-,mW,-,%,-,other,more,stuff
+R915,0R,SM0805,wishay,CRCW08050000ZSTA,newark,36C9353,-,-,-,-,-,mW,-,%,na,other,more,stuff
+R916,NA,SM0805,-,-,-,-,-,-,-,-,-,mW,-,%,-,other,more,stuff
+R917,24R,SM0805,vishay,CRCW080524R0FKEA,newark,53K0044,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R918,NA,SM0805,-,-,-,-,-,-,-,-,-,mW,-,%,-,other,more,stuff
+R1001,511,SM0805,multicomp,MC0805S8F5110T5E,newark,04P0624,-,-,125,mW,1,%,thick film,other,more,stuff
+R1002,511,SM0805,multicomp,MC0805S8F5110T5E,newark,04P0624,-,-,125,mW,1,%,thick film,other,more,stuff
+R1101,10k,SM0805,bourns,CR0805-FX-1002ELF,newark,02J2368,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1102,10k,SM0805,bourns,CR0805-FX-1002ELF,newark,02J2368,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1103,27k,SM0805,vishay,CRCW080527K0FKEA,newark,53K0071,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1104,27k,SM0805,vishay,CRCW080527K0FKEA,newark,53K0071,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1105,61.9,SM0805,vishay,CRCW080561R9FKEA,newark,53K0407,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1106,10k,SM0805,bourns,CR0805-FX-1002ELF,newark,02J2368,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1107,6.8k,SM0805,vishay,CRCW08056K80FKEA,newark,53K0372,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1108,61.9,SM0805,vishay,CRCW080561R9FKEA,newark,53K0407,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1109,10k,SM0805,bourns,CR0805-FX-1002ELF,newark,02J2368,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1110,6.8k,SM0805,vishay,CRCW08056K80FKEA,newark,53K0372,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1111,1k,SM0805,vishay,CRCW08051K00FKTA,newark,05F1507,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1112,1k,SM0805,vishay,CRCW08051K00FKTA,newark,05F1507,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1113,82.5,SM0805,multicomp,MCTC0525B825JT5E,newark,01N7811,-,-,-,-,125,mW,.1,%,thin film,other,more,stuff
+R1114,82.5,SM0805,multicomp,MCTC0525B825JT5E,newark,01N7811,-,-,-,-,125,mW,.1,%,thin film,other,more,stuff
+R1115,4.7k,SM0805,panasonic,ERA6AEB472V,newark,08N2175,-,-,-,-,125,mW,.1,%,metal film,other,more,stuff
+R1116,4.7k,SM0805,panasonic,ERA6AEB472V,newark,08N2175,-,-,-,-,125,mW,.1,%,metal film,other,more,stuff
+R1117,100k,SM0805,bourns,CR0805-FX-1003ELF,newark,32K2766,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1118,100k,SM0805,bourns,CR0805-FX-1003ELF,newark,32K2766,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1119,100k,SM0805,bourns,CR0805-FX-1003ELF,newark,32K2766,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1120,470k,SM0805,vishay,CRCW0805470KFKEA,newark,53K0283,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1121,100k,SM0805,bourns,CR0805-FX-1003ELF,newark,32K2766,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1122,470k,SM0805,vishay,CRCW0805470KFKEA,newark,53K0283,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1123,1k,SM0805,vishay,CRCW08051K00FKTA,newark,05F1507,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1124,1k,SM0805,vishay,CRCW08051K00FKTA,newark,05F1507,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1201,470R,SM0805,VISHAY,CRCW0805470RFKEA ,DIGI,541-470CCT-ND,1,%,thick film,other,more,stuff
+R1202,470R,SM0805,VISHAY,CRCW0805470RFKEA ,DIGI,541-470CCT-ND,1,%,thick film,other,more,stuff
+R1203,470R,SM0805,VISHAY,CRCW0805470RFKEA ,DIGI,541-470CCT-ND,1,%,thick film,other,more,stuff
+R1204,470R,SM0805,VISHAY,CRCW0805470RFKEA ,DIGI,541-470CCT-ND,1,%,thick film,other,more,stuff
+R1205,470R,SM0805,VISHAY,CRCW0805470RFKEA ,DIGI,541-470CCT-ND,1,%,thick film,other,more,stuff
+R1206,2K4,SM0805-R4,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1207,2K4,SM0805-R4,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1208,39k,SM0805,Stackpole Electronics Inc,RMCF0805JT39K0CT,digikey,RMCF0805JT39K0CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R1209,10k,SM0805,Stackpole,RMCF0805JT10K0CT,digikey,RMCF0805JT10K0CT-ND,.125w,5%,thick film,other,more,stuff
+R1210,20K,SM0805,vishay,CRCW080520K0FKEA,newark,52K9995,-,-,120,mW,1,%,thick film,-
+R1211,20K,SM0805,vishay,CRCW080520K0FKEA,newark,52K9995,-,-,120,mW,1,%,thick film,-
+R1212,20K,SM0805,vishay,CRCW080520K0FKEA,newark,52K9995,-,-,120,mW,1,%,thick film,-
+R1213,20K,SM0805,vishay,CRCW080520K0FKEA,newark,52K9995,-,-,120,mW,1,%,thick film,-
+R1214,10K,SM0805,bourns,CR0805-FX-1002ELF,newark,02J2368,-,-,125,mW,1,%,thick film,-
+R1215,10K,SM0805,bourns,CR0805-FX-1002ELF,newark,02J2368,-,-,125,mW,1,%,thick film,-
+R1216,10K,SM0805,bourns,CR0805-FX-1002ELF,newark,02J2368,-,-,125,mW,1,%,thick film,-
+R1217,10K,SM0805,bourns,CR0805-FX-1002ELF,newark,02J2368,-,-,125,mW,1,%,thick film,-
+R1218,20K,SM0805,vishay,CRCW080520K0FKEA,newark,52K9995,-,-,120,mW,1,%,thick film,-
+R1219,20K,SM0805,vishay,CRCW080520K0FKEA,newark,52K9995,-,-,120,mW,1,%,thick film,-
+R1220,20K,SM0805,vishay,CRCW080520K0FKEA,newark,52K9995,-,-,120,mW,1,%,thick film,-
+R1221,20K,SM0805,vishay,CRCW080520K0FKEA,newark,52K9995,-,-,120,mW,1,%,thick film,-
+R1222,68k,SM0805,Panasonic-ECG,ERJ-6GEYJ684V,digikey,P680KACT-ND,.125w,5%,metal oxide,other,more,stuff
+R1223,68k,SM0805,Panasonic-ECG,ERJ-6GEYJ684V,digikey,P680KACT-ND,.125w,5%,metal oxide,other,more,stuff
+R1301,1k,SM0805,vishay,CRCW08051K00FKTA,newark,05F1507,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1302,1k,SM0805,vishay,CRCW08051K00FKTA,newark,05F1507,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1303,1k,SM0805,vishay,CRCW08051K00FKTA,newark,05F1507,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1304,1k,SM0805,vishay,CRCW08051K00FKTA,newark,05F1507,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1305,1k,SM0805,vishay,CRCW08051K00FKTA,newark,05F1507,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1306,1k,SM0805,vishay,CRCW08051K00FKTA,newark,05F1507,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1307,1k,SM0805,vishay,CRCW08051K00FKTA,newark,05F1507,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1308,1k,SM0805,vishay,CRCW08051K00FKTA,newark,05F1507,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1309,1k,SM0805,vishay,CRCW08051K00FKTA,newark,05F1507,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1310,1k,SM0805,vishay,CRCW08051K00FKTA,newark,05F1507,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1311,1k,SM0805,vishay,CRCW08051K00FKTA,newark,05F1507,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1312,1k,SM0805,vishay,CRCW08051K00FKTA,newark,05F1507,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1313,1k,SM0805,vishay,CRCW08051K00FKTA,newark,05F1507,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1314,1k,SM0805,vishay,CRCW08051K00FKTA,newark,05F1507,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1315,1k,SM0805,vishay,CRCW08051K00FKTA,newark,05F1507,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1316,1k,SM0805,vishay,CRCW08051K00FKTA,newark,05F1507,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1317,1k,SM0805,vishay,CRCW08051K00FKTA,newark,05F1507,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1318,1k,SM0805,vishay,CRCW08051K00FKTA,newark,05F1507,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1319,1k,SM0805,vishay,CRCW08051K00FKTA,newark,05F1507,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1320,1k,SM0805,vishay,CRCW08051K00FKTA,newark,05F1507,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1321,1k,SM0805,vishay,CRCW08051K00FKTA,newark,05F1507,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+R1322,1k,SM0805,vishay,CRCW08051K00FKTA,newark,05F1507,-,-,-,-,125,mW,1,%,thick film,other,more,stuff
+T101,ACT45B,ACT45B,tdk,ACT45B-101-2P-TL003,mouser,810-ACT45B1012PTL003
+U201,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U202,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U203,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U204,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U205,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U206,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U207,LP2951,MSOP_8,NAT SEMI,LP2951CMM/NOPB,digi,LP2951CMMCT-ND
+U208,LP2951,MSOP_8,NAT SEMI,LP2951CMM/NOPB,digi,LP2951CMMCT-ND
+U209,LP2951,MSOP_8,NAT SEMI,LP2951CMM/NOPB,digi,LP2951CMMCT-ND
+U210,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U211,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U212,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U213,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U214,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U215,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U216,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U217,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U218,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U219,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U220,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U221,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U222,LP2951,MSOP_8,NAT SEMI,LP2951CMM/NOPB,digi,LP2951CMMCT-ND
+U223,LP2951,MSOP_8,NAT SEMI,LP2951CMM/NOPB,digi,LP2951CMMCT-ND
+U224,LP2951,MSOP_8,NAT SEMI,LP2951CMM/NOPB,digi,LP2951CMMCT-ND
+U225,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U226,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U227,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U228,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U229,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U230,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U231,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U232,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U233,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U234,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U235,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U236,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U237,LP2951,MSOP_8,NAT SEMI,LP2951CMM/NOPB,digi,LP2951CMMCT-ND
+U238,LP2951,MSOP_8,NAT SEMI,LP2951CMM/NOPB,digi,LP2951CMMCT-ND
+U239,LP2951,MSOP_8,NAT SEMI,LP2951CMM/NOPB,digi,LP2951CMMCT-ND
+U240,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U241,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U242,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U243,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U244,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U245,VO1400,relay-SOP04,vishay,SFH690ABT,digi,751-1367-2-ND
+U401,MAX9926/9927,MAXIM-10-QSOP16,maxim,MAX9926UAEE+,mouser,700-MAX9926UAEE,-,-,-,-,-,other,more,stuff
+U402,MAX9926/9927,MAXIM-10-QSOP16,maxim,MAX9926UAEE+,mouser,700-MAX9926UAEE,-,-,-,-,-,other,more,stuff
+U403,MAX9926/9927,MAXIM-10-QSOP16,maxim,MAX9926UAEE+,mouser,700-MAX9926UAEE,-,-,-,-,-,other,more,stuff
+U404,MAX9926/9927,MAXIM-10-QSOP16,maxim,MAX9926UAEE+,mouser,700-MAX9926UAEE,-,-,-,-,-,other,more,stuff
+U501,LM2937,DPAK2,national semi,LM2937IMP-5.0/NOPB,digikey,LM2937IMP-5.0CT-ND
+U502,LM3940,DPAK2,national semi,LM3940IMP-3.3/NOPB,NEWARK,41K5122
+U503,MCP1826,DPAK5
+U504,L5973D,SO8E,L5973D013TR,st,E-L5970D,newark,25M9045,-,-,-,-,-,-,-,-,buck reg,other,more,stuff
+U701,MC33879,SOIC32,freescale,MCZ33879AEK,newark,30M1376,-,-,-,-,-,-,-,-,-,other,more,stuff
+U801,MC10XS3412,PQFN_24,freescale,MC10XS3412CPNA,newark,74P0356,-,-,5.5,V,6,a,el switch,other,more,stuff
+U901,MC33800,SOIC54,freescale,MCZ33800EK,newark,95M9556,-,-,-,-,-,-,-,-,-,other,more,stuff
+U1001,TJA1054A,SO14E,nxp,TJA1054AT,newark,TJA1054AT,-,-,5.25,v,-,-,CAN,other,more,stuff
+U1101,CJ125,SOIC24,bosh,cj125,future,8746778,-,-,-,-,-,-,-,-,wide O2,other,more,stuff
+U1102,CJ125,SOIC24,bosh,cj125,future,8746778,-,-,-,-,-,-,-,-,wide O2,other,more,stuff
+U1201,MAX31855,-SOIC8,MAXIM,MAX31855NASA+,MOUSER,700-MAX31855NASA+
+U1202,MAX31855,-SOIC8,MAXIM,MAX31855NASA+,MOUSER,700-MAX31855NASA+
+U1203,MAX9939,uMAX-uSOP_10,maxim-ic,MAX9939AUB+,mouser,700-MAX9939AUB,-,-,-,-,-,-,-,-
+U1204,MAX9939,uMAX-uSOP_10,maxim-ic,MAX9939AUB+,mouser,700-MAX9939AUB,-,-,-,-,-,-,-,-
+U1205,MPX4250A,MPX4---AP,freescale,MPX4250AP,digikey,MPX4250AP-ND,x,x,x,x,x,other,more,stuff
+U1206,MPX4250A,MPX4---AP,freescale,MPX4250AP,digikey,MPX4250AP-ND,x,x,x,x,x,other,more,stuff
+U1207,MPX4100A,MPX4---A,freescale,MPX4100A,digikey, MPX4100A-ND,x,x,x,x,x,other,more,stuff

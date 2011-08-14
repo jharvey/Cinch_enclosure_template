@@ -1,0 +1,11 @@
+93D AN9 I eQADC analog input 9 of the MPC5554.
+Alternative: ANX
+95D AN7 I eQADC analog input 7 of the MPC5554.
+Alternative: DAN3-
+96D AN5 I eQADC analog input 5 of the MPC5554.
+Alternative: DAN2-
+97D AN3 I eQADC analog input 3 of the MPC5554.
+Alternative: DAN1-
+98D AN1 I eQADC analog input 1 of the MPC5554.
+Alternative: DAN0-
+100D VRH O Reference voltage of the eQADC module
