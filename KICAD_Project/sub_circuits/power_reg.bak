@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/14/2011 2:55:21 PM
+EESchema Schematic File Version 2  date 8/14/2011 7:14:16 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -54,15 +54,15 @@ U 1 1 4E3DFCE7
 P 1375 6850
 F 0 "C504" H 1425 6950 50  0000 L CNN
 F 1 "0.1uF" H 1425 6750 50  0000 L CNN
-F 2 "SM0805" V -2745 5950 60  0001 C CNN
-F 4 "Murata" V -2745 5950 60  0001 C CNN "mfg"
-F 5 "GRM21BR71H104KA01L" V -2745 5950 60  0001 C CNN "mfg#"
-F 6 "digikey" V -2745 5950 60  0001 C CNN "vend1"
-F 7 "490-1666-2-ND" V -2745 5950 60  0001 C CNN "vend1#"
-F 8 "50v" V -2745 5950 60  0001 C CNN "Voltage"
-F 9 "10%" V -2745 5950 60  0001 C CNN "tolerance"
-F 10 "ceramic" V -2745 5950 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -2745 5950 60  0001 C CNN "misc"
+F 2 "SM0805-C1" V 1130 2600 60  0001 C CNN
+F 4 "avx,08051C104KAT2A," V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,96M1354" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "100V" V 1130 2600 60  0001 C CNN "V"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1375 6850
 	-1   0    0    -1  
 $EndComp
@@ -90,15 +90,15 @@ U 1 1 4E3DFCE5
 P 3575 6850
 F 0 "C513" H 3625 6950 50  0000 L CNN
 F 1 "0.1uF" H 3625 6750 50  0000 L CNN
-F 2 "SM0805" V -2745 5950 60  0001 C CNN
-F 4 "Murata" V -2745 5950 60  0001 C CNN "mfg"
-F 5 "GRM21BR71H104KA01L" V -2745 5950 60  0001 C CNN "mfg#"
-F 6 "digikey" V -2745 5950 60  0001 C CNN "vend1"
-F 7 "490-1666-2-ND" V -2745 5950 60  0001 C CNN "vend1#"
-F 8 "50v" V -2745 5950 60  0001 C CNN "Voltage"
-F 9 "10%" V -2745 5950 60  0001 C CNN "tolerance"
-F 10 "ceramic" V -2745 5950 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -2745 5950 60  0001 C CNN "misc"
+F 2 "SM0805-C1" V 1130 2600 60  0001 C CNN
+F 4 "avx,08051C104KAT2A," V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,96M1354" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "100V" V 1130 2600 60  0001 C CNN "V"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3575 6850
 	-1   0    0    -1  
 $EndComp
@@ -614,15 +614,15 @@ U 1 1 4BF8F93A
 P 8900 1750
 F 0 "C523" H 8700 1850 50  0000 L CNN
 F 1 "10nF" H 8700 1650 50  0000 L CNN
-F 2 "SM0805-C1" V 5180 850 60  0001 C CNN
-F 4 "murata,GRM216R71H103JA01D" V 4680 450 60  0001 C CNN "mfg,#"
-F 5 "newark,38K1697" V 4680 450 60  0001 C CNN "vend,#"
-F 6 "-,-" V 4680 450 60  0001 C CNN "Field3"
-F 7 "-,-" V 4680 450 60  0001 C CNN "Field4"
-F 8 "50,V" V 4680 450 60  0001 C CNN "Field5"
-F 9 "5,%" V 4680 450 60  0001 C CNN "Field6"
-F 10 "ceramic" V 4680 450 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 4680 450 60  0001 C CNN "Field8"
+F 2 "SM0805-C1" V 1130 2600 60  0001 C CNN
+F 4 "ill cap,106CKE200M" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,69K7896" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "200V" V 1130 2600 60  0001 C CNN "V"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "alum elec" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8900 1750
 	-1   0    0    -1  
 $EndComp
@@ -663,15 +663,15 @@ U 1 1 4895133C
 P 1500 1750
 F 0 "C505" H 1550 1850 50  0000 L CNN
 F 1 "100nF" H 1550 1650 50  0000 L CNN
-F 2 "SM0805-C1" V -3070 850 60  0001 C CNN
-F 4 "murata,GRM21BR71H104KA01L " V -3070 850 60  0001 C CNN "mfg,#"
-F 5 "newark,38K1694" V -3070 850 60  0001 C CNN "vend,#"
-F 6 "-,-" V -3070 850 60  0001 C CNN "Field3"
-F 7 "-,-" V -3070 850 60  0001 C CNN "Field4"
-F 8 "50,V" V -3070 850 60  0001 C CNN "Field5"
-F 9 "10,%" V -3070 850 60  0001 C CNN "Field6"
-F 10 "ceramic" V -3070 850 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V -3070 850 60  0001 C CNN "Field8"
+F 2 "SM0805-C1" V 1130 2600 60  0001 C CNN
+F 4 "avx,08055F102K4Z2A" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,26M5154" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "50V" V 1130 2600 60  0001 C CNN "V"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1500 1750
 	-1   0    0    -1  
 $EndComp
@@ -681,15 +681,15 @@ U 1 1 489512E0
 P 4200 1750
 F 0 "C515" H 4010 1850 50  0000 L CNN
 F 1 "100nF" H 3950 1650 50  0000 L CNN
-F 2 "SM0805-C1" V 1780 850 60  0001 C CNN
-F 4 "murata,GRM21BR71H104KA01L " V -3070 850 60  0001 C CNN "mfg,#"
-F 5 "newark,38K1694" V -3070 850 60  0001 C CNN "vend,#"
-F 6 "-,-" V -3070 850 60  0001 C CNN "Field3"
-F 7 "-,-" V -3070 850 60  0001 C CNN "Field4"
-F 8 "50,V" V -3070 850 60  0001 C CNN "Field5"
-F 9 "10,%" V -3070 850 60  0001 C CNN "Field6"
-F 10 "ceramic" V -3070 850 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V -3070 850 60  0001 C CNN "Field8"
+F 2 "SM0805-C1" V 1130 2600 60  0001 C CNN
+F 4 "avx,08055F102K4Z2A" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,26M5154" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "50V" V 1130 2600 60  0001 C CNN "V"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4200 1750
 	-1   0    0    -1  
 $EndComp
@@ -777,15 +777,15 @@ U 1 1 4D893030
 P 2800 1750
 F 0 "C509" H 2650 1860 50  0000 L CNN
 F 1 "100nF" H 2550 1650 50  0000 L CNN
-F 2 "SM0805-C1" V -920 850 60  0001 C CNN
-F 4 "murata,GRM21BR71H104KA01L " V -3070 850 60  0001 C CNN "mfg,#"
-F 5 "newark,38K1694" V -3070 850 60  0001 C CNN "vend,#"
-F 6 "-,-" V -3070 850 60  0001 C CNN "Field3"
-F 7 "-,-" V -3070 850 60  0001 C CNN "Field4"
-F 8 "50,V" V -3070 850 60  0001 C CNN "Field5"
-F 9 "10,%" V -3070 850 60  0001 C CNN "Field6"
-F 10 "ceramic" V -3070 850 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V -3070 850 60  0001 C CNN "Field8"
+F 2 "SM0805-C1" V 1130 2600 60  0001 C CNN
+F 4 "avx,08055F102K4Z2A" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,26M5154" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "50V" V 1130 2600 60  0001 C CNN "V"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    2800 1750
 	-1   0    0    -1  
 $EndComp
@@ -847,15 +847,15 @@ U 1 1 486ED024
 P 3575 5800
 F 0 "C512" H 3625 5900 50  0000 L CNN
 F 1 "0.1uF" H 3625 5700 50  0000 L CNN
-F 2 "SM0805" V -2745 4900 60  0001 C CNN
-F 4 "Murata" V -2745 4900 60  0001 C CNN "mfg"
-F 5 "GRM21BR71H104KA01L" V -2745 4900 60  0001 C CNN "mfg#"
-F 6 "digikey" V -2745 4900 60  0001 C CNN "vend1"
-F 7 "490-1666-2-ND" V -2745 4900 60  0001 C CNN "vend1#"
-F 8 "50v" V -2745 4900 60  0001 C CNN "Voltage"
-F 9 "10%" V -2745 4900 60  0001 C CNN "tolerance"
-F 10 "ceramic" V -2745 4900 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -2745 4900 60  0001 C CNN "misc"
+F 2 "SM0805-C1" V 1130 2600 60  0001 C CNN
+F 4 "avx,08051C104KAT2A," V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,96M1354" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "100V" V 1130 2600 60  0001 C CNN "V"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3575 5800
 	-1   0    0    -1  
 $EndComp
@@ -883,15 +883,15 @@ U 1 1 4C2F529C
 P 1375 5800
 F 0 "C503" H 1425 5900 50  0000 L CNN
 F 1 "0.1uF" H 1425 5700 50  0000 L CNN
-F 2 "SM0805" V -2745 4900 60  0001 C CNN
-F 4 "Murata" V -2745 4900 60  0001 C CNN "mfg"
-F 5 "GRM21BR71H104KA01L" V -2745 4900 60  0001 C CNN "mfg#"
-F 6 "digikey" V -2745 4900 60  0001 C CNN "vend1"
-F 7 "490-1666-2-ND" V -2745 4900 60  0001 C CNN "vend1#"
-F 8 "50v" V -2745 4900 60  0001 C CNN "Voltage"
-F 9 "10%" V -2745 4900 60  0001 C CNN "tolerance"
-F 10 "ceramic" V -2745 4900 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -2745 4900 60  0001 C CNN "misc"
+F 2 "SM0805-C1" V 1130 2600 60  0001 C CNN
+F 4 "avx,08051C104KAT2A," V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,96M1354" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "100V" V 1130 2600 60  0001 C CNN "V"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1375 5800
 	-1   0    0    -1  
 $EndComp
@@ -964,15 +964,15 @@ U 1 1 4C2F52A3
 P 5325 3475
 F 0 "C517" H 5375 3575 50  0000 L CNN
 F 1 "0.1uF" H 5375 3375 50  0000 L CNN
-F 2 "SM0805" V -995 2575 60  0001 C CNN
-F 4 "Murata" V -995 2575 60  0001 C CNN "mfg"
-F 5 "GRM21BR71H104KA01L" V -995 2575 60  0001 C CNN "mfg#"
-F 6 "digikey" V -995 2575 60  0001 C CNN "vend1"
-F 7 "490-1666-2-ND" V -995 2575 60  0001 C CNN "vend1#"
-F 8 "50v" V -995 2575 60  0001 C CNN "Voltage"
-F 9 "10%" V -995 2575 60  0001 C CNN "tolerance"
-F 10 "ceramic" V -995 2575 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -995 2575 60  0001 C CNN "misc"
+F 2 "SM0805-C1" V 1130 2600 60  0001 C CNN
+F 4 "avx,08051C104KAT2A," V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,96M1354" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "100V" V 1130 2600 60  0001 C CNN "V"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    5325 3475
 	-1   0    0    -1  
 $EndComp
@@ -1056,15 +1056,15 @@ U 1 1 486CA8CD
 P 1900 3475
 F 0 "C507" H 1950 3575 50  0000 L CNN
 F 1 "0.1uF" H 1950 3375 50  0000 L CNN
-F 2 "SM0805" V -2220 2575 60  0001 C CNN
-F 4 "Murata" V -2220 2575 60  0001 C CNN "mfg"
-F 5 "GRM21BR71H104KA01L" V -2220 2575 60  0001 C CNN "mfg#"
-F 6 "digikey" V -2220 2575 60  0001 C CNN "vend1"
-F 7 "490-1666-2-ND" V -2220 2575 60  0001 C CNN "vend1#"
-F 8 "50v" V -2220 2575 60  0001 C CNN "Voltage"
-F 9 "10%" V -2220 2575 60  0001 C CNN "tolerance"
-F 10 "ceramic" V -2220 2575 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -2220 2575 60  0001 C CNN "misc"
+F 2 "SM0805-C1" V 1130 2600 60  0001 C CNN
+F 4 "avx,08051C104KAT2A," V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,96M1354" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "100V" V 1130 2600 60  0001 C CNN "V"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1900 3475
 	-1   0    0    -1  
 $EndComp

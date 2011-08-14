@@ -5,7 +5,7 @@
 
 import commands,sys,os
 currentline = []
-fileNames = os.listdir("../.")#get file list
+fileNames = os.listdir("../sub_circuits")#get file list
 #fileNames = ["../digi_protect_I3.sch","../digi_protect_I4.sch","../freeEMS_lib.lib"]#limit how many fileNames we look at for debug purposes
 #fileNames = ["digi_protect_I3.sch"]#limit how many fileNames we look at for debug purposes
 
@@ -20,11 +20,11 @@ mytemplatefile.close()#not needed any more, so close it.
 
 for fileName in fileNames:#rake through each file
   if fileName.endswith (".sch"):#make sure it's a schematic
-    if not os.path.exists('../'+fileName+'.old'):#check that this file hasn't been processed yet, debug code
+    if not os.path.exists('../sub_circuits/'+fileName+'.old'):#check that this file hasn't been processed yet, debug code
       print "Processing "+fileName#let us know you are working
-      os.rename('../'+fileName, '../'+fileName+'.old')#remane newfile, to .old file
-      inFile = open('../'+fileName+'.old',"r")
-      outFile = open('../'+fileName,'w')
+      os.rename('../sub_circuits/'+fileName, '../sub_circuits/'+fileName+'.old')#remane newfile, to .old file
+      inFile = open('../sub_circuits/'+fileName+'.old',"r")
+      outFile = open('../sub_circuits/'+fileName,'w')
       line = inFile.readline()
       while line!='':# Process input file one line at a time, and replace when required
         if line.startswith(searchvar):#is a component to be replaced?
@@ -40,6 +40,6 @@ for fileName in fileNames:#rake through each file
         line=inFile.readline()#incriment the line
       outFile.close()
       inFile.close()
-      os.remove('../'+fileName+'.old')#remove old file
+      os.remove('../sub_circuits/'+fileName+'.old')#remove old file
     else:#debug code
       print "Already Processed "+fileName#debug code

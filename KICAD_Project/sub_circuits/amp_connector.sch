@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/14/2011 3:32:14 PM
+EESchema Schematic File Version 2  date 8/14/2011 7:31:25 PM
 LIBS:power
 LIBS:device
 LIBS:conn

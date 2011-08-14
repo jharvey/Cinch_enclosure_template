@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/14/2011 3:32:14 PM
+EESchema Schematic File Version 2  date 8/14/2011 7:31:25 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -460,15 +460,15 @@ U 1 1 4C0F6880
 P 6200 5300
 F 0 "C701" V 6120 5160 50  0000 L CNN
 F 1 "100nF" V 6125 5500 50  0000 L CNN
-F 2 "SM0805-C1" V 3280 6400 60  0001 C CNN
-F 4 "murata,GRM21BR71H104KA01L " V 3280 6400 60  0001 C CNN "mfg,#"
-F 5 "newark,38K1694" V 3280 6400 60  0001 C CNN "vend,#"
-F 6 "-,-" V 3280 6400 60  0001 C CNN "Field3"
-F 7 "-,-" V 3280 6400 60  0001 C CNN "Field4"
-F 8 "50,V" V 3280 6400 60  0001 C CNN "Field5"
-F 9 "10,%" V 3280 6400 60  0001 C CNN "Field6"
-F 10 "Ceramic" V 3280 6400 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 3280 6400 60  0001 C CNN "Field8"
+F 2 "SM0805-C1" V 1130 2600 60  0001 C CNN
+F 4 "avx,08051C104KAT2A" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,96M1354" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "100V" V 1130 2600 60  0001 C CNN "V"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    6200 5300
 	0    -1   -1   0   
 $EndComp

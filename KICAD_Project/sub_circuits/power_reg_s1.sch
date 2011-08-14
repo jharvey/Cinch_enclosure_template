@@ -350,15 +350,15 @@ AR Path="/4D80F957/4BF8F93A" Ref="C144"  Part="1"
 AR Path="/4E391B6E/4BF8F93A" Ref="C144"  Part="1" 
 F 0 "C144" H 4500 2550 50  0000 L CNN
 F 1 "10nF" H 4500 2350 50  0000 L CNN
-F 2 "SM0805-C1" V 980 1550 60  0001 C CNN
-F 4 "murata,GRM216R71H103JA01D" V 480 1150 60  0001 C CNN "mfg,#"
-F 5 "newark,38K1697" V 480 1150 60  0001 C CNN "vend,#"
-F 6 "-,-" V 480 1150 60  0001 C CNN "Field3"
-F 7 "-,-" V 480 1150 60  0001 C CNN "Field4"
-F 8 "50,V" V 480 1150 60  0001 C CNN "Field5"
-F 9 "5,%" V 480 1150 60  0001 C CNN "Field6"
-F 10 "ceramic" V 480 1150 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 480 1150 60  0001 C CNN "Field8"
+F 2 "SM0805-C1" V 1130 2600 60  0001 C CNN
+F 4 "ill cap,106CKE200M" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,69K7896" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "200V" V 1130 2600 60  0001 C CNN "V"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "alum elec" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4700 2450
 	-1   0    0    -1  
 $EndComp
@@ -411,15 +411,15 @@ AR Path="/4D80F957/4895133C" Ref="C134"  Part="1"
 AR Path="/4E391B6E/4895133C" Ref="C134"  Part="1" 
 F 0 "C134" H 1250 950 50  0000 L CNN
 F 1 "100nF" H 1250 750 50  0000 L CNN
-F 2 "SM0805-C1" V -3370 -50 60  0001 C CNN
-F 4 "murata,GRM21BR71H104KA01L " V -3370 -50 60  0001 C CNN "mfg,#"
-F 5 "newark,38K1694" V -3370 -50 60  0001 C CNN "vend,#"
-F 6 "-,-" V -3370 -50 60  0001 C CNN "Field3"
-F 7 "-,-" V -3370 -50 60  0001 C CNN "Field4"
-F 8 "50,V" V -3370 -50 60  0001 C CNN "Field5"
-F 9 "10,%" V -3370 -50 60  0001 C CNN "Field6"
-F 10 "ceramic" V -3370 -50 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V -3370 -50 60  0001 C CNN "Field8"
+F 2 "SM0805-C1" V 1130 2600 60  0001 C CNN
+F 4 "avx,08051C104KAT2A" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,96M1354" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "100V" V 1130 2600 60  0001 C CNN "V"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1200 850 
 	-1   0    0    -1  
 $EndComp
@@ -433,15 +433,15 @@ AR Path="/4D80F957/489512E0" Ref="C141"  Part="1"
 AR Path="/4E391B6E/489512E0" Ref="C141"  Part="1" 
 F 0 "C141" H 3710 950 50  0000 L CNN
 F 1 "100nF" H 3650 750 50  0000 L CNN
-F 2 "SM0805-C1" V 1480 -50 60  0001 C CNN
-F 4 "murata,GRM21BR71H104KA01L " V -3370 -50 60  0001 C CNN "mfg,#"
-F 5 "newark,38K1694" V -3370 -50 60  0001 C CNN "vend,#"
-F 6 "-,-" V -3370 -50 60  0001 C CNN "Field3"
-F 7 "-,-" V -3370 -50 60  0001 C CNN "Field4"
-F 8 "50,V" V -3370 -50 60  0001 C CNN "Field5"
-F 9 "10,%" V -3370 -50 60  0001 C CNN "Field6"
-F 10 "ceramic" V -3370 -50 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V -3370 -50 60  0001 C CNN "Field8"
+F 2 "SM0805-C1" V 1130 2600 60  0001 C CNN
+F 4 "avx,08051C104KAT2A" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,96M1354" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "100V" V 1130 2600 60  0001 C CNN "V"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3900 850 
 	-1   0    0    -1  
 $EndComp
@@ -549,15 +549,15 @@ AR Path="/4D80F957/4D893030" Ref="C138"  Part="1"
 AR Path="/4E391B6E/4D893030" Ref="C138"  Part="1" 
 F 0 "C138" H 2350 960 50  0000 L CNN
 F 1 "100nF" H 2250 750 50  0000 L CNN
-F 2 "SM0805-C1" V -1220 -50 60  0001 C CNN
-F 4 "murata,GRM21BR71H104KA01L " V -3370 -50 60  0001 C CNN "mfg,#"
-F 5 "newark,38K1694" V -3370 -50 60  0001 C CNN "vend,#"
-F 6 "-,-" V -3370 -50 60  0001 C CNN "Field3"
-F 7 "-,-" V -3370 -50 60  0001 C CNN "Field4"
-F 8 "50,V" V -3370 -50 60  0001 C CNN "Field5"
-F 9 "10,%" V -3370 -50 60  0001 C CNN "Field6"
-F 10 "ceramic" V -3370 -50 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V -3370 -50 60  0001 C CNN "Field8"
+F 2 "SM0805-C1" V 1130 2600 60  0001 C CNN
+F 4 "avx,08051C104KAT2A" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,96M1354" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "100V" V 1130 2600 60  0001 C CNN "V"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    2500 850 
 	-1   0    0    -1  
 $EndComp
