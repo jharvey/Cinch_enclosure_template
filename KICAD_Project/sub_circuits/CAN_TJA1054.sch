@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/14/2011 7:31:25 PM
+EESchema Schematic File Version 2  date 8/14/2011 8:37:17 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -240,8 +240,8 @@ F 1 "100nF" H 8525 7075 50  0000 L CNN
 F 2 "SM0805-C1" V 1130 2600 60  0001 C CNN
 F 4 "avx,08051C104KAT2A" V 1130 2600 60  0001 C CNN "mfg,mfg#"
 F 5 "newark,96M1354" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN ""
-F 7 "" V 1130 2600 60  0001 C CNN ""
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
 F 8 "100V" V 1130 2600 60  0001 C CNN "V"
 F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
 F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"

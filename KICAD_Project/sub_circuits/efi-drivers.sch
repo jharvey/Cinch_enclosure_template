@@ -310,6 +310,15 @@ U 1 1 4A903DC3
 P 5350 10600
 F 0 "R1448" V 5430 10600 50  0000 C CNN
 F 1 "10K" V 5350 10600 50  0000 C CNN
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "BOURNS,CR0805-FX-1002ELF" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,02J2368" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    5350 10600
 	-1   0    0    1   
 $EndComp
@@ -552,14 +561,14 @@ U 1 1 46700ECC
 P 8900 9950
 F 0 "R518" V 8980 9950 50  0000 C CNN
 F 1 "1K" V 8900 9950 50  0000 C CNN
-F 2 "R3_SM0805" V 1130 2600 60  0001 C CNN
-F 4 "SM>>" V 1130 2600 60  0001 C CNN "SM mfg>#"
-F 5 "TH>>" V 1130 2600 60  0001 C CNN "thru mfg>#"
-F 6 "SM>digikey>RHM1.00KCRCT-ND" V 1130 2600 60  0001 C CNN "SM vend1>#"
-F 7 "TH>digikey>" V 1130 2600 60  0001 C CNN "thru vend1>#"
-F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
-F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 1130 2600 60  0001 C CNN "construct"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8900 9950
 	0    -1   -1   0   
@@ -570,14 +579,14 @@ U 1 1 46700EC9
 P 8900 8700
 F 0 "R517" V 8980 8700 50  0000 C CNN
 F 1 "1K" V 8900 8700 50  0000 C CNN
-F 2 "R3_SM0805" V 1130 2600 60  0001 C CNN
-F 4 "SM>>" V 1130 2600 60  0001 C CNN "SM mfg>#"
-F 5 "TH>>" V 1130 2600 60  0001 C CNN "thru mfg>#"
-F 6 "SM>digikey>RHM1.00KCRCT-ND" V 1130 2600 60  0001 C CNN "SM vend1>#"
-F 7 "TH>digikey>" V 1130 2600 60  0001 C CNN "thru vend1>#"
-F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
-F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 1130 2600 60  0001 C CNN "construct"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8900 8700
 	0    -1   -1   0   
@@ -588,14 +597,14 @@ U 1 1 46700EC6
 P 8900 7450
 F 0 "R516" V 8980 7450 50  0000 C CNN
 F 1 "1K" V 8900 7450 50  0000 C CNN
-F 2 "R3_SM0805" V 1130 2600 60  0001 C CNN
-F 4 "SM>>" V 1130 2600 60  0001 C CNN "SM mfg>#"
-F 5 "TH>>" V 1130 2600 60  0001 C CNN "thru mfg>#"
-F 6 "SM>digikey>RHM1.00KCRCT-ND" V 1130 2600 60  0001 C CNN "SM vend1>#"
-F 7 "TH>digikey>" V 1130 2600 60  0001 C CNN "thru vend1>#"
-F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
-F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 1130 2600 60  0001 C CNN "construct"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8900 7450
 	0    -1   -1   0   
@@ -606,14 +615,14 @@ U 1 1 46700EC3
 P 8900 6200
 F 0 "R515" V 8980 6200 50  0000 C CNN
 F 1 "1K" V 8900 6200 50  0000 C CNN
-F 2 "R3_SM0805" V 1130 2600 60  0001 C CNN
-F 4 "SM>>" V 1130 2600 60  0001 C CNN "SM mfg>#"
-F 5 "TH>>" V 1130 2600 60  0001 C CNN "thru mfg>#"
-F 6 "SM>digikey>RHM1.00KCRCT-ND" V 1130 2600 60  0001 C CNN "SM vend1>#"
-F 7 "TH>digikey>" V 1130 2600 60  0001 C CNN "thru vend1>#"
-F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
-F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 1130 2600 60  0001 C CNN "construct"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8900 6200
 	0    -1   -1   0   
@@ -624,14 +633,14 @@ U 1 1 46700EB1
 P 8900 4950
 F 0 "R514" V 8980 4950 50  0000 C CNN
 F 1 "1K" V 8900 4950 50  0000 C CNN
-F 2 "R3_SM0805" V 1130 2600 60  0001 C CNN
-F 4 "SM>>" V 1130 2600 60  0001 C CNN "SM mfg>#"
-F 5 "TH>>" V 1130 2600 60  0001 C CNN "thru mfg>#"
-F 6 "SM>digikey>RHM1.00KCRCT-ND" V 1130 2600 60  0001 C CNN "SM vend1>#"
-F 7 "TH>digikey>" V 1130 2600 60  0001 C CNN "thru vend1>#"
-F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
-F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 1130 2600 60  0001 C CNN "construct"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8900 4950
 	0    -1   -1   0   
@@ -642,14 +651,14 @@ U 1 1 46700EAE
 P 8900 3700
 F 0 "R513" V 8980 3700 50  0000 C CNN
 F 1 "1K" V 8900 3700 50  0000 C CNN
-F 2 "R3_SM0805" V 1130 2600 60  0001 C CNN
-F 4 "SM>>" V 1130 2600 60  0001 C CNN "SM mfg>#"
-F 5 "TH>>" V 1130 2600 60  0001 C CNN "thru mfg>#"
-F 6 "SM>digikey>RHM1.00KCRCT-ND" V 1130 2600 60  0001 C CNN "SM vend1>#"
-F 7 "TH>digikey>" V 1130 2600 60  0001 C CNN "thru vend1>#"
-F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
-F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 1130 2600 60  0001 C CNN "construct"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8900 3700
 	0    -1   -1   0   
@@ -660,14 +669,14 @@ U 1 1 46700E87
 P 8900 2450
 F 0 "R512" V 8980 2450 50  0000 C CNN
 F 1 "1K" V 8900 2450 50  0000 C CNN
-F 2 "R3_SM0805" V 1130 2600 60  0001 C CNN
-F 4 "SM>>" V 1130 2600 60  0001 C CNN "SM mfg>#"
-F 5 "TH>>" V 1130 2600 60  0001 C CNN "thru mfg>#"
-F 6 "SM>digikey>RHM1.00KCRCT-ND" V 1130 2600 60  0001 C CNN "SM vend1>#"
-F 7 "TH>digikey>" V 1130 2600 60  0001 C CNN "thru vend1>#"
-F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
-F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 1130 2600 60  0001 C CNN "construct"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8900 2450
 	0    -1   -1   0   
@@ -678,14 +687,14 @@ U 1 1 42529339
 P 8900 1200
 F 0 "R511" V 8980 1200 50  0000 C CNN
 F 1 "1K" V 8900 1200 50  0000 C CNN
-F 2 "R3_SM0805" V 1130 2600 60  0001 C CNN
-F 4 "SM>>" V 1130 2600 60  0001 C CNN "SM mfg>#"
-F 5 "TH>>" V 1130 2600 60  0001 C CNN "thru mfg>#"
-F 6 "SM>digikey>RHM1.00KCRCT-ND" V 1130 2600 60  0001 C CNN "SM vend1>#"
-F 7 "TH>digikey>" V 1130 2600 60  0001 C CNN "thru vend1>#"
-F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
-F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 1130 2600 60  0001 C CNN "construct"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8900 1200
 	0    -1   -1   0   

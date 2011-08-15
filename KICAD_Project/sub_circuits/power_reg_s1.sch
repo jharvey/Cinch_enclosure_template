@@ -185,16 +185,15 @@ AR Path="/4D80F957/4BF8F942" Ref="L2"  Part="1"
 AR Path="/4E391B6E/4BF8F942" Ref="L2"  Part="1" 
 F 0 "L2" V 3200 2250 40  0000 C CNN
 F 1 "DR125-330-R" V 3350 2250 40  0000 C CNN
-F 2 "SM100uH" H 3250 2250 60  0001 C CNN
-F 3 "PF0504.473NL Pulse Eng" H 3250 2250 60  0001 C CNN
-F 4 "DR125-330-R" H 3250 2250 60  0001 C CNN "mfg,#"
-F 5 "newark,63K3559" H 3250 2250 60  0001 C CNN "vend,#"
-F 6 "-,-" V 880 800 60  0001 C CNN "Field3"
-F 7 "-,-" V 880 800 60  0001 C CNN "Field4"
-F 8 "1,a" V 880 800 60  0001 C CNN "Field5"
-F 9 "20,%" V 880 800 60  0001 C CNN "Field6"
-F 10 "-" V 880 800 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 880 800 60  0001 C CNN "Field8"
+F 2 "SM100uH" V 1130 2600 60  0001 C CNN
+F 4 "coiltronics,DR125-330-R" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "digi,513-1528-6-ND" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "33uH" V 1130 2600 60  0001 C CNN "H"
+F 9 "20%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "ferrite" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3250 2250
 	0    1    1    0   
 $EndComp

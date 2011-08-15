@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/14/2011 7:31:24 PM
+EESchema Schematic File Version 2  date 8/14/2011 8:37:15 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -2100,15 +2100,15 @@ U 1 1 4E3ED766
 P 9325 6500
 F 0 "R343" V 9405 6500 50  0000 C CNN
 F 1 "1K" V 9325 6500 50  0000 C CNN
-F 2 "SM0805" V 1555 7900 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 1555 7900 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V 1555 7900 60  0001 C CNN "mfg #"
-F 6 "digi" V 1555 7900 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V 1555 7900 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V 1555 7900 60  0001 C CNN "power"
-F 9 "5%" V 1555 7900 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 1555 7900 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1555 7900 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    9325 6500
 	0    1    1    0   
 $EndComp
@@ -2146,15 +2146,15 @@ U 1 1 4E3ED763
 P 10875 6500
 F 0 "R361" V 10955 6500 50  0000 C CNN
 F 1 "1K" V 10875 6500 50  0000 C CNN
-F 2 "SM0805" V 3105 7900 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 3105 7900 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V 3105 7900 60  0001 C CNN "mfg #"
-F 6 "digi" V 3105 7900 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V 3105 7900 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V 3105 7900 60  0001 C CNN "power"
-F 9 "5%" V 3105 7900 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 3105 7900 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 3105 7900 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    10875 6500
 	0    -1   1    0   
 $EndComp
@@ -2164,15 +2164,15 @@ U 1 1 4E3ED762
 P 10875 7300
 F 0 "R362" V 10955 7300 50  0000 C CNN
 F 1 "1K" V 10875 7300 50  0000 C CNN
-F 2 "SM0805" V 3105 8700 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 3105 8700 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V 3105 8700 60  0001 C CNN "mfg #"
-F 6 "digi" V 3105 8700 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V 3105 8700 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V 3105 8700 60  0001 C CNN "power"
-F 9 "5%" V 3105 8700 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 3105 8700 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 3105 8700 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    10875 7300
 	0    1    -1   0   
 $EndComp
@@ -2210,15 +2210,15 @@ U 1 1 4E3ED75F
 P 9325 7300
 F 0 "R344" V 9405 7300 50  0000 C CNN
 F 1 "1K" V 9325 7300 50  0000 C CNN
-F 2 "SM0805" V 1555 8700 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 1555 8700 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V 1555 8700 60  0001 C CNN "mfg #"
-F 6 "digi" V 1555 8700 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V 1555 8700 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V 1555 8700 60  0001 C CNN "power"
-F 9 "5%" V 1555 8700 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 1555 8700 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1555 8700 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    9325 7300
 	0    -1   -1   0   
 $EndComp
@@ -2253,15 +2253,15 @@ U 1 1 4E3ED757
 P 8475 6700
 F 0 "R323" V 8555 6700 50  0000 C CNN
 F 1 "1K" V 8475 6700 50  0000 C CNN
-F 2 "SM0805" V 705 8100 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 705 8100 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V 705 8100 60  0001 C CNN "mfg #"
-F 6 "digi" V 705 8100 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V 705 8100 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V 705 8100 60  0001 C CNN "power"
-F 9 "5%" V 705 8100 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 705 8100 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 705 8100 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8475 6700
 	0    1    1    0   
 $EndComp
@@ -2271,15 +2271,15 @@ U 1 1 4E3ED756
 P 8675 6900
 F 0 "R332" V 8755 6900 50  0000 C CNN
 F 1 "1K" V 8675 6900 50  0000 C CNN
-F 2 "SM0805" V 905 8300 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 905 8300 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V 905 8300 60  0001 C CNN "mfg #"
-F 6 "digi" V 905 8300 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V 905 8300 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V 905 8300 60  0001 C CNN "power"
-F 9 "5%" V 905 8300 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 905 8300 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 905 8300 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8675 6900
 	0    -1   -1   0   
 $EndComp
@@ -2289,15 +2289,15 @@ U 1 1 4E3ED755
 P 11524 6900
 F 0 "R371" V 11604 6900 50  0000 C CNN
 F 1 "1K" V 11524 6900 50  0000 C CNN
-F 2 "SM0805" V 3754 8300 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 3754 8300 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V 3754 8300 60  0001 C CNN "mfg #"
-F 6 "digi" V 3754 8300 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V 3754 8300 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V 3754 8300 60  0001 C CNN "power"
-F 9 "5%" V 3754 8300 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 3754 8300 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 3754 8300 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    11524 6900
 	0    1    -1   0   
 $EndComp
@@ -2307,15 +2307,15 @@ U 1 1 4E3ED754
 P 11724 6700
 F 0 "R380" V 11804 6700 50  0000 C CNN
 F 1 "1K" V 11724 6700 50  0000 C CNN
-F 2 "SM0805" V 3954 8100 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 3954 8100 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V 3954 8100 60  0001 C CNN "mfg #"
-F 6 "digi" V 3954 8100 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V 3954 8100 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V 3954 8100 60  0001 C CNN "power"
-F 9 "5%" V 3954 8100 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 3954 8100 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 3954 8100 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    11724 6700
 	0    -1   1    0   
 $EndComp
@@ -2334,11 +2334,15 @@ U 1 1 4E3ED752
 P 8625 6000
 F 0 "R328" V 8705 6000 50  0000 C CNN
 F 1 "0R" V 8625 6000 50  0000 C CNN
-F 2 "SM0805" V 855 7400 60  0001 C CNN
-F 4 "vishay" V 855 7400 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 855 7400 60  0001 C CNN "mfg #"
-F 6 "newark" V 855 7400 60  0001 C CNN "vend1"
-F 7 "52K9721" V 855 7400 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8625 6000
 	0    1    1    0   
 $EndComp
@@ -2348,13 +2352,15 @@ U 1 1 4E3ED751
 P 9775 6800
 F 0 "R349" V 9855 6800 50  0000 C CNN
 F 1 "100K" V 9775 6800 50  0000 C CNN
-F 2 "SM0805" V 2005 8200 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 2005 8200 60  0001 C CNN "mfg"
-F 5 "digi" V 2005 8200 60  0001 C CNN "sm vend1"
-F 6 ".125w" V 2005 8200 60  0001 C CNN "power"
-F 7 "5%" V 2005 8200 60  0001 C CNN "tolerance"
-F 8 "Thick film" V 2005 8200 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V 2005 8200 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    9775 6800
 	0    -1   -1   0   
 $EndComp
@@ -2364,13 +2370,15 @@ U 1 1 4E3ED750
 P 9775 7000
 F 0 "R350" V 9855 7000 50  0000 C CNN
 F 1 "100K" V 9775 7000 50  0000 C CNN
-F 2 "SM0805" V 2005 8400 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 2005 8400 60  0001 C CNN "mfg"
-F 5 "digi" V 2005 8400 60  0001 C CNN "sm vend1"
-F 6 ".125w" V 2005 8400 60  0001 C CNN "power"
-F 7 "5%" V 2005 8400 60  0001 C CNN "tolerance"
-F 8 "Thick film" V 2005 8400 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V 2005 8400 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    9775 7000
 	0    1    1    0   
 $EndComp
@@ -2380,13 +2388,15 @@ U 1 1 4E3ED74F
 P 10424 7000
 F 0 "R356" V 10504 7000 50  0000 C CNN
 F 1 "100K" V 10424 7000 50  0000 C CNN
-F 2 "SM0805" V 2654 8400 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 2654 8400 60  0001 C CNN "mfg"
-F 5 "digi" V 2654 8400 60  0001 C CNN "sm vend1"
-F 6 ".125w" V 2654 8400 60  0001 C CNN "power"
-F 7 "5%" V 2654 8400 60  0001 C CNN "tolerance"
-F 8 "Thick film" V 2654 8400 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V 2654 8400 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    10424 7000
 	0    -1   1    0   
 $EndComp
@@ -2396,13 +2406,15 @@ U 1 1 4E3ED74E
 P 10424 6800
 F 0 "R355" V 10504 6800 50  0000 C CNN
 F 1 "100K" V 10424 6800 50  0000 C CNN
-F 2 "SM0805" V 2654 8200 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 2654 8200 60  0001 C CNN "mfg"
-F 5 "digi" V 2654 8200 60  0001 C CNN "sm vend1"
-F 6 ".125w" V 2654 8200 60  0001 C CNN "power"
-F 7 "5%" V 2654 8200 60  0001 C CNN "tolerance"
-F 8 "Thick film" V 2654 8200 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V 2654 8200 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    10424 6800
 	0    1    -1   0   
 $EndComp
@@ -2426,11 +2438,15 @@ U 1 1 4E3ED74C
 P 9050 5875
 F 0 "R337" V 9130 5875 50  0000 C CNN
 F 1 "0R" V 9050 5875 50  0000 C CNN
-F 2 "SM0805" V 1280 7275 60  0001 C CNN
-F 4 "vishay" V 1280 7275 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 1280 7275 60  0001 C CNN "mfg #"
-F 6 "newark" V 1280 7275 60  0001 C CNN "vend1"
-F 7 "52K9721" V 1280 7275 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    9050 5875
 	1    0    0    -1  
 $EndComp
@@ -2440,11 +2456,15 @@ U 1 1 4E3ED74B
 P 9050 6850
 F 0 "R338" V 9130 6850 50  0000 C CNN
 F 1 "0R" V 9050 6850 50  0000 C CNN
-F 2 "SM0805" V 1280 8250 60  0001 C CNN
-F 4 "vishay" V 1280 8250 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 1280 8250 60  0001 C CNN "mfg #"
-F 6 "newark" V 1280 8250 60  0001 C CNN "vend1"
-F 7 "52K9721" V 1280 8250 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    9050 6850
 	1    0    0    -1  
 $EndComp
@@ -2454,11 +2474,15 @@ U 1 1 4E3ED74A
 P 11150 6850
 F 0 "R368" V 11230 6850 50  0000 C CNN
 F 1 "0R" V 11150 6850 50  0000 C CNN
-F 2 "SM0805" V 3380 8250 60  0001 C CNN
-F 4 "vishay" V 3380 8250 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 3380 8250 60  0001 C CNN "mfg #"
-F 6 "newark" V 3380 8250 60  0001 C CNN "vend1"
-F 7 "52K9721" V 3380 8250 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    11150 6850
 	-1   0    0    1   
 $EndComp
@@ -2468,11 +2492,15 @@ U 1 1 4E3ED749
 P 11150 5875
 F 0 "R367" V 11230 5875 50  0000 C CNN
 F 1 "0R" V 11150 5875 50  0000 C CNN
-F 2 "SM0805" V 3380 7275 60  0001 C CNN
-F 4 "vishay" V 3380 7275 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 3380 7275 60  0001 C CNN "mfg #"
-F 6 "newark" V 3380 7275 60  0001 C CNN "vend1"
-F 7 "52K9721" V 3380 7275 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    11150 5875
 	-1   0    0    1   
 $EndComp
@@ -2482,11 +2510,15 @@ U 1 1 4E3ED748
 P 8625 7600
 F 0 "R329" V 8705 7600 50  0000 C CNN
 F 1 "0R" V 8625 7600 50  0000 C CNN
-F 2 "SM0805" V 855 9000 60  0001 C CNN
-F 4 "vishay" V 855 9000 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 855 9000 60  0001 C CNN "mfg #"
-F 6 "newark" V 855 9000 60  0001 C CNN "vend1"
-F 7 "52K9721" V 855 9000 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8625 7600
 	0    -1   -1   0   
 $EndComp
@@ -2496,11 +2528,15 @@ U 1 1 4E3ED747
 P 11575 7600
 F 0 "R377" V 11655 7600 50  0000 C CNN
 F 1 "0R" V 11575 7600 50  0000 C CNN
-F 2 "SM0805" V 3805 9000 60  0001 C CNN
-F 4 "vishay" V 3805 9000 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 3805 9000 60  0001 C CNN "mfg #"
-F 6 "newark" V 3805 9000 60  0001 C CNN "vend1"
-F 7 "52K9721" V 3805 9000 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    11575 7600
 	0    -1   -1   0   
 $EndComp
@@ -2510,11 +2546,15 @@ U 1 1 4E3ED746
 P 11575 6000
 F 0 "R376" V 11655 6000 50  0000 C CNN
 F 1 "0R" V 11575 6000 50  0000 C CNN
-F 2 "SM0805" V 3805 7400 60  0001 C CNN
-F 4 "vishay" V 3805 7400 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 3805 7400 60  0001 C CNN "mfg #"
-F 6 "newark" V 3805 7400 60  0001 C CNN "vend1"
-F 7 "52K9721" V 3805 7400 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    11575 6000
 	0    1    1    0   
 $EndComp
@@ -2524,11 +2564,15 @@ U 1 1 4E3ED745
 P 7775 6000
 F 0 "R316" V 7855 6000 50  0000 C CNN
 F 1 "0R" V 7775 6000 50  0000 C CNN
-F 2 "SM0805" V 5   7400 60  0001 C CNN
-F 4 "vishay" V 5   7400 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 5   7400 60  0001 C CNN "mfg #"
-F 6 "newark" V 5   7400 60  0001 C CNN "vend1"
-F 7 "52K9721" V 5   7400 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    7775 6000
 	0    1    1    0   
 $EndComp
@@ -2538,11 +2582,15 @@ U 1 1 4E3ED744
 P 7775 7600
 F 0 "R317" V 7855 7600 50  0000 C CNN
 F 1 "0R" V 7775 7600 50  0000 C CNN
-F 2 "SM0805" V 5   9000 60  0001 C CNN
-F 4 "vishay" V 5   9000 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 5   9000 60  0001 C CNN "mfg #"
-F 6 "newark" V 5   9000 60  0001 C CNN "vend1"
-F 7 "52K9721" V 5   9000 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    7775 7600
 	0    -1   -1   0   
 $EndComp
@@ -2552,11 +2600,15 @@ U 1 1 4E3ED743
 P 4825 7600
 F 0 "R269" V 4905 7600 50  0000 C CNN
 F 1 "0R" V 4825 7600 50  0000 C CNN
-F 2 "SM0805" V -2945 9000 60  0001 C CNN
-F 4 "vishay" V -2945 9000 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -2945 9000 60  0001 C CNN "mfg #"
-F 6 "newark" V -2945 9000 60  0001 C CNN "vend1"
-F 7 "52K9721" V -2945 9000 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4825 7600
 	0    -1   -1   0   
 $EndComp
@@ -2566,11 +2618,15 @@ U 1 1 4E3ED742
 P 7350 5875
 F 0 "R307" V 7430 5875 50  0000 C CNN
 F 1 "0R" V 7350 5875 50  0000 C CNN
-F 2 "SM0805" V -420 7275 60  0001 C CNN
-F 4 "vishay" V -420 7275 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -420 7275 60  0001 C CNN "mfg #"
-F 6 "newark" V -420 7275 60  0001 C CNN "vend1"
-F 7 "52K9721" V -420 7275 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    7350 5875
 	-1   0    0    1   
 $EndComp
@@ -2580,11 +2636,15 @@ U 1 1 4E3ED741
 P 7350 6850
 F 0 "R308" V 7430 6850 50  0000 C CNN
 F 1 "0R" V 7350 6850 50  0000 C CNN
-F 2 "SM0805" V -420 8250 60  0001 C CNN
-F 4 "vishay" V -420 8250 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -420 8250 60  0001 C CNN "mfg #"
-F 6 "newark" V -420 8250 60  0001 C CNN "vend1"
-F 7 "52K9721" V -420 8250 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    7350 6850
 	-1   0    0    1   
 $EndComp
@@ -2594,11 +2654,15 @@ U 1 1 4E3ED740
 P 5250 6850
 F 0 "R278" V 5330 6850 50  0000 C CNN
 F 1 "0R" V 5250 6850 50  0000 C CNN
-F 2 "SM0805" V -2520 8250 60  0001 C CNN
-F 4 "vishay" V -2520 8250 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -2520 8250 60  0001 C CNN "mfg #"
-F 6 "newark" V -2520 8250 60  0001 C CNN "vend1"
-F 7 "52K9721" V -2520 8250 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    5250 6850
 	1    0    0    -1  
 $EndComp
@@ -2608,11 +2672,15 @@ U 1 1 4E3ED73F
 P 5250 5875
 F 0 "R277" V 5330 5875 50  0000 C CNN
 F 1 "0R" V 5250 5875 50  0000 C CNN
-F 2 "SM0805" V -2520 7275 60  0001 C CNN
-F 4 "vishay" V -2520 7275 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -2520 7275 60  0001 C CNN "mfg #"
-F 6 "newark" V -2520 7275 60  0001 C CNN "vend1"
-F 7 "52K9721" V -2520 7275 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    5250 5875
 	1    0    0    -1  
 $EndComp
@@ -2636,13 +2704,15 @@ U 1 1 4E3ED73D
 P 6624 6800
 F 0 "R295" V 6704 6800 50  0000 C CNN
 F 1 "100K" V 6624 6800 50  0000 C CNN
-F 2 "SM0805" V -1146 8200 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -1146 8200 60  0001 C CNN "mfg"
-F 5 "digi" V -1146 8200 60  0001 C CNN "sm vend1"
-F 6 ".125w" V -1146 8200 60  0001 C CNN "power"
-F 7 "5%" V -1146 8200 60  0001 C CNN "tolerance"
-F 8 "Thick film" V -1146 8200 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V -1146 8200 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    6624 6800
 	0    1    -1   0   
 $EndComp
@@ -2652,13 +2722,15 @@ U 1 1 4E3ED73C
 P 6624 7000
 F 0 "R296" V 6704 7000 50  0000 C CNN
 F 1 "100K" V 6624 7000 50  0000 C CNN
-F 2 "SM0805" V -1146 8400 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -1146 8400 60  0001 C CNN "mfg"
-F 5 "digi" V -1146 8400 60  0001 C CNN "sm vend1"
-F 6 ".125w" V -1146 8400 60  0001 C CNN "power"
-F 7 "5%" V -1146 8400 60  0001 C CNN "tolerance"
-F 8 "Thick film" V -1146 8400 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V -1146 8400 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    6624 7000
 	0    -1   1    0   
 $EndComp
@@ -2668,13 +2740,15 @@ U 1 1 4E3ED73B
 P 5975 7000
 F 0 "R290" V 6055 7000 50  0000 C CNN
 F 1 "100K" V 5975 7000 50  0000 C CNN
-F 2 "SM0805" V -1795 8400 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -1795 8400 60  0001 C CNN "mfg"
-F 5 "digi" V -1795 8400 60  0001 C CNN "sm vend1"
-F 6 ".125w" V -1795 8400 60  0001 C CNN "power"
-F 7 "5%" V -1795 8400 60  0001 C CNN "tolerance"
-F 8 "Thick film" V -1795 8400 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V -1795 8400 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    5975 7000
 	0    1    1    0   
 $EndComp
@@ -2684,13 +2758,15 @@ U 1 1 4E3ED73A
 P 5975 6800
 F 0 "R289" V 6055 6800 50  0000 C CNN
 F 1 "100K" V 5975 6800 50  0000 C CNN
-F 2 "SM0805" V -1795 8200 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -1795 8200 60  0001 C CNN "mfg"
-F 5 "digi" V -1795 8200 60  0001 C CNN "sm vend1"
-F 6 ".125w" V -1795 8200 60  0001 C CNN "power"
-F 7 "5%" V -1795 8200 60  0001 C CNN "tolerance"
-F 8 "Thick film" V -1795 8200 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V -1795 8200 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    5975 6800
 	0    -1   -1   0   
 $EndComp
@@ -2700,11 +2776,15 @@ U 1 1 4E3ED739
 P 4825 6000
 F 0 "R268" V 4905 6000 50  0000 C CNN
 F 1 "0R" V 4825 6000 50  0000 C CNN
-F 2 "SM0805" V -2945 7400 60  0001 C CNN
-F 4 "vishay" V -2945 7400 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -2945 7400 60  0001 C CNN "mfg #"
-F 6 "newark" V -2945 7400 60  0001 C CNN "vend1"
-F 7 "52K9721" V -2945 7400 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4825 6000
 	0    1    1    0   
 $EndComp
@@ -2723,15 +2803,15 @@ U 1 1 4E3ED737
 P 7924 6700
 F 0 "R320" V 8004 6700 50  0000 C CNN
 F 1 "1K" V 7924 6700 50  0000 C CNN
-F 2 "SM0805" V 154 8100 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 154 8100 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V 154 8100 60  0001 C CNN "mfg #"
-F 6 "digi" V 154 8100 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V 154 8100 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V 154 8100 60  0001 C CNN "power"
-F 9 "5%" V 154 8100 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 154 8100 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 154 8100 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    7924 6700
 	0    -1   1    0   
 $EndComp
@@ -2741,15 +2821,15 @@ U 1 1 4E3ED736
 P 7724 6900
 F 0 "R311" V 7804 6900 50  0000 C CNN
 F 1 "1K" V 7724 6900 50  0000 C CNN
-F 2 "SM0805" V -46 8300 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -46 8300 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -46 8300 60  0001 C CNN "mfg #"
-F 6 "digi" V -46 8300 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -46 8300 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -46 8300 60  0001 C CNN "power"
-F 9 "5%" V -46 8300 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -46 8300 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -46 8300 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    7724 6900
 	0    1    -1   0   
 $EndComp
@@ -2759,15 +2839,15 @@ U 1 1 4E3ED735
 P 4875 6900
 F 0 "R272" V 4955 6900 50  0000 C CNN
 F 1 "1K" V 4875 6900 50  0000 C CNN
-F 2 "SM0805" V -2895 8300 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -2895 8300 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -2895 8300 60  0001 C CNN "mfg #"
-F 6 "digi" V -2895 8300 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -2895 8300 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -2895 8300 60  0001 C CNN "power"
-F 9 "5%" V -2895 8300 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -2895 8300 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -2895 8300 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4875 6900
 	0    -1   -1   0   
 $EndComp
@@ -2777,15 +2857,15 @@ U 1 1 4E3ED734
 P 4675 6700
 F 0 "R263" V 4755 6700 50  0000 C CNN
 F 1 "1K" V 4675 6700 50  0000 C CNN
-F 2 "SM0805" V -3095 8100 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -3095 8100 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -3095 8100 60  0001 C CNN "mfg #"
-F 6 "digi" V -3095 8100 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -3095 8100 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -3095 8100 60  0001 C CNN "power"
-F 9 "5%" V -3095 8100 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -3095 8100 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -3095 8100 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4675 6700
 	0    1    1    0   
 $EndComp
@@ -2820,15 +2900,15 @@ U 1 1 4E3ED72C
 P 5525 7300
 F 0 "R284" V 5605 7300 50  0000 C CNN
 F 1 "1K" V 5525 7300 50  0000 C CNN
-F 2 "SM0805" V -2245 8700 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -2245 8700 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -2245 8700 60  0001 C CNN "mfg #"
-F 6 "digi" V -2245 8700 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -2245 8700 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -2245 8700 60  0001 C CNN "power"
-F 9 "5%" V -2245 8700 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -2245 8700 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -2245 8700 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    5525 7300
 	0    1    1    0   
 $EndComp
@@ -2866,15 +2946,15 @@ U 1 1 4E3ED729
 P 7075 7300
 F 0 "R302" V 7155 7300 50  0000 C CNN
 F 1 "1K" V 7075 7300 50  0000 C CNN
-F 2 "SM0805" V -695 8700 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -695 8700 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -695 8700 60  0001 C CNN "mfg #"
-F 6 "digi" V -695 8700 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -695 8700 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -695 8700 60  0001 C CNN "power"
-F 9 "5%" V -695 8700 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -695 8700 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -695 8700 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    7075 7300
 	0    1    -1   0   
 $EndComp
@@ -2884,15 +2964,15 @@ U 1 1 4E3ED728
 P 7075 6500
 F 0 "R301" V 7155 6500 50  0000 C CNN
 F 1 "1K" V 7075 6500 50  0000 C CNN
-F 2 "SM0805" V -695 7900 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -695 7900 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -695 7900 60  0001 C CNN "mfg #"
-F 6 "digi" V -695 7900 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -695 7900 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -695 7900 60  0001 C CNN "power"
-F 9 "5%" V -695 7900 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -695 7900 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -695 7900 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    7075 6500
 	0    -1   1    0   
 $EndComp
@@ -2930,15 +3010,15 @@ U 1 1 4E3ED725
 P 5525 6500
 F 0 "R283" V 5605 6500 50  0000 C CNN
 F 1 "1K" V 5525 6500 50  0000 C CNN
-F 2 "SM0805" V -2245 7900 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -2245 7900 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -2245 7900 60  0001 C CNN "mfg #"
-F 6 "digi" V -2245 7900 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -2245 7900 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -2245 7900 60  0001 C CNN "power"
-F 9 "5%" V -2245 7900 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -2245 7900 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -2245 7900 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    5525 6500
 	0    -1   -1   0   
 $EndComp
@@ -2948,15 +3028,15 @@ U 1 1 4E3ED724
 P 1725 6500
 F 0 "R223" V 1805 6500 50  0000 C CNN
 F 1 "1K" V 1725 6500 50  0000 C CNN
-F 2 "SM0805" V -6045 7900 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -6045 7900 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -6045 7900 60  0001 C CNN "mfg #"
-F 6 "digi" V -6045 7900 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -6045 7900 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -6045 7900 60  0001 C CNN "power"
-F 9 "5%" V -6045 7900 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -6045 7900 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -6045 7900 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1725 6500
 	0    1    1    0   
 $EndComp
@@ -2994,15 +3074,15 @@ U 1 1 4E3ED721
 P 3275 6500
 F 0 "R241" V 3355 6500 50  0000 C CNN
 F 1 "1K" V 3275 6500 50  0000 C CNN
-F 2 "SM0805" V -4495 7900 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -4495 7900 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -4495 7900 60  0001 C CNN "mfg #"
-F 6 "digi" V -4495 7900 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -4495 7900 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -4495 7900 60  0001 C CNN "power"
-F 9 "5%" V -4495 7900 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -4495 7900 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -4495 7900 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3275 6500
 	0    -1   1    0   
 $EndComp
@@ -3012,15 +3092,15 @@ U 1 1 4E3ED720
 P 3275 7300
 F 0 "R242" V 3355 7300 50  0000 C CNN
 F 1 "1K" V 3275 7300 50  0000 C CNN
-F 2 "SM0805" V -4495 8700 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -4495 8700 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -4495 8700 60  0001 C CNN "mfg #"
-F 6 "digi" V -4495 8700 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -4495 8700 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -4495 8700 60  0001 C CNN "power"
-F 9 "5%" V -4495 8700 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -4495 8700 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -4495 8700 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3275 7300
 	0    1    -1   0   
 $EndComp
@@ -3058,15 +3138,15 @@ U 1 1 4E3ED71D
 P 1725 7300
 F 0 "R224" V 1805 7300 50  0000 C CNN
 F 1 "1K" V 1725 7300 50  0000 C CNN
-F 2 "SM0805" V -6045 8700 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -6045 8700 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -6045 8700 60  0001 C CNN "mfg #"
-F 6 "digi" V -6045 8700 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -6045 8700 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -6045 8700 60  0001 C CNN "power"
-F 9 "5%" V -6045 8700 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -6045 8700 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -6045 8700 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1725 7300
 	0    -1   -1   0   
 $EndComp
@@ -3101,15 +3181,15 @@ U 1 1 4E3ED715
 P 875 6700
 F 0 "R203" V 955 6700 50  0000 C CNN
 F 1 "1K" V 875 6700 50  0000 C CNN
-F 2 "SM0805" V -6895 8100 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -6895 8100 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -6895 8100 60  0001 C CNN "mfg #"
-F 6 "digi" V -6895 8100 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -6895 8100 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -6895 8100 60  0001 C CNN "power"
-F 9 "5%" V -6895 8100 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -6895 8100 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -6895 8100 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    875  6700
 	0    1    1    0   
 $EndComp
@@ -3119,15 +3199,15 @@ U 1 1 4E3ED714
 P 1075 6900
 F 0 "R212" V 1155 6900 50  0000 C CNN
 F 1 "1K" V 1075 6900 50  0000 C CNN
-F 2 "SM0805" V -6695 8300 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -6695 8300 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -6695 8300 60  0001 C CNN "mfg #"
-F 6 "digi" V -6695 8300 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -6695 8300 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -6695 8300 60  0001 C CNN "power"
-F 9 "5%" V -6695 8300 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -6695 8300 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -6695 8300 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1075 6900
 	0    -1   -1   0   
 $EndComp
@@ -3137,15 +3217,15 @@ U 1 1 4E3ED713
 P 3924 6900
 F 0 "R251" V 4004 6900 50  0000 C CNN
 F 1 "1K" V 3924 6900 50  0000 C CNN
-F 2 "SM0805" V -3846 8300 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -3846 8300 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -3846 8300 60  0001 C CNN "mfg #"
-F 6 "digi" V -3846 8300 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -3846 8300 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -3846 8300 60  0001 C CNN "power"
-F 9 "5%" V -3846 8300 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -3846 8300 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -3846 8300 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3924 6900
 	0    1    -1   0   
 $EndComp
@@ -3155,15 +3235,15 @@ U 1 1 4E3ED712
 P 4124 6700
 F 0 "R260" V 4204 6700 50  0000 C CNN
 F 1 "1K" V 4124 6700 50  0000 C CNN
-F 2 "SM0805" V -3646 8100 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -3646 8100 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -3646 8100 60  0001 C CNN "mfg #"
-F 6 "digi" V -3646 8100 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -3646 8100 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -3646 8100 60  0001 C CNN "power"
-F 9 "5%" V -3646 8100 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -3646 8100 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -3646 8100 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4124 6700
 	0    -1   1    0   
 $EndComp
@@ -3182,11 +3262,15 @@ U 1 1 4E3ED710
 P 1025 6000
 F 0 "R208" V 1105 6000 50  0000 C CNN
 F 1 "0R" V 1025 6000 50  0000 C CNN
-F 2 "SM0805" V -6745 7400 60  0001 C CNN
-F 4 "vishay" V -6745 7400 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -6745 7400 60  0001 C CNN "mfg #"
-F 6 "newark" V -6745 7400 60  0001 C CNN "vend1"
-F 7 "52K9721" V -6745 7400 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1025 6000
 	0    1    1    0   
 $EndComp
@@ -3196,13 +3280,15 @@ U 1 1 4E3ED70F
 P 2175 6800
 F 0 "R229" V 2255 6800 50  0000 C CNN
 F 1 "100K" V 2175 6800 50  0000 C CNN
-F 2 "SM0805" V -5595 8200 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -5595 8200 60  0001 C CNN "mfg"
-F 5 "digi" V -5595 8200 60  0001 C CNN "sm vend1"
-F 6 ".125w" V -5595 8200 60  0001 C CNN "power"
-F 7 "5%" V -5595 8200 60  0001 C CNN "tolerance"
-F 8 "Thick film" V -5595 8200 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V -5595 8200 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    2175 6800
 	0    -1   -1   0   
 $EndComp
@@ -3212,13 +3298,15 @@ U 1 1 4E3ED70E
 P 2175 7000
 F 0 "R230" V 2255 7000 50  0000 C CNN
 F 1 "100K" V 2175 7000 50  0000 C CNN
-F 2 "SM0805" V -5595 8400 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -5595 8400 60  0001 C CNN "mfg"
-F 5 "digi" V -5595 8400 60  0001 C CNN "sm vend1"
-F 6 ".125w" V -5595 8400 60  0001 C CNN "power"
-F 7 "5%" V -5595 8400 60  0001 C CNN "tolerance"
-F 8 "Thick film" V -5595 8400 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V -5595 8400 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    2175 7000
 	0    1    1    0   
 $EndComp
@@ -3228,13 +3316,15 @@ U 1 1 4E3ED70D
 P 2824 7000
 F 0 "R236" V 2904 7000 50  0000 C CNN
 F 1 "100K" V 2824 7000 50  0000 C CNN
-F 2 "SM0805" V -4946 8400 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -4946 8400 60  0001 C CNN "mfg"
-F 5 "digi" V -4946 8400 60  0001 C CNN "sm vend1"
-F 6 ".125w" V -4946 8400 60  0001 C CNN "power"
-F 7 "5%" V -4946 8400 60  0001 C CNN "tolerance"
-F 8 "Thick film" V -4946 8400 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V -4946 8400 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    2824 7000
 	0    -1   1    0   
 $EndComp
@@ -3244,13 +3334,15 @@ U 1 1 4E3ED70C
 P 2824 6800
 F 0 "R235" V 2904 6800 50  0000 C CNN
 F 1 "100K" V 2824 6800 50  0000 C CNN
-F 2 "SM0805" V -4946 8200 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -4946 8200 60  0001 C CNN "mfg"
-F 5 "digi" V -4946 8200 60  0001 C CNN "sm vend1"
-F 6 ".125w" V -4946 8200 60  0001 C CNN "power"
-F 7 "5%" V -4946 8200 60  0001 C CNN "tolerance"
-F 8 "Thick film" V -4946 8200 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V -4946 8200 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    2824 6800
 	0    1    -1   0   
 $EndComp
@@ -3274,11 +3366,15 @@ U 1 1 4E3ED70A
 P 1450 5875
 F 0 "R217" V 1530 5875 50  0000 C CNN
 F 1 "0R" V 1450 5875 50  0000 C CNN
-F 2 "SM0805" V -6320 7275 60  0001 C CNN
-F 4 "vishay" V -6320 7275 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -6320 7275 60  0001 C CNN "mfg #"
-F 6 "newark" V -6320 7275 60  0001 C CNN "vend1"
-F 7 "52K9721" V -6320 7275 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1450 5875
 	1    0    0    -1  
 $EndComp
@@ -3288,11 +3384,15 @@ U 1 1 4E3ED709
 P 1450 6850
 F 0 "R218" V 1530 6850 50  0000 C CNN
 F 1 "0R" V 1450 6850 50  0000 C CNN
-F 2 "SM0805" V -6320 8250 60  0001 C CNN
-F 4 "vishay" V -6320 8250 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -6320 8250 60  0001 C CNN "mfg #"
-F 6 "newark" V -6320 8250 60  0001 C CNN "vend1"
-F 7 "52K9721" V -6320 8250 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1450 6850
 	1    0    0    -1  
 $EndComp
@@ -3302,11 +3402,15 @@ U 1 1 4E3ED708
 P 3550 6850
 F 0 "R248" V 3630 6850 50  0000 C CNN
 F 1 "0R" V 3550 6850 50  0000 C CNN
-F 2 "SM0805" V -4220 8250 60  0001 C CNN
-F 4 "vishay" V -4220 8250 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -4220 8250 60  0001 C CNN "mfg #"
-F 6 "newark" V -4220 8250 60  0001 C CNN "vend1"
-F 7 "52K9721" V -4220 8250 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3550 6850
 	-1   0    0    1   
 $EndComp
@@ -3316,11 +3420,15 @@ U 1 1 4E3ED707
 P 3550 5875
 F 0 "R247" V 3630 5875 50  0000 C CNN
 F 1 "0R" V 3550 5875 50  0000 C CNN
-F 2 "SM0805" V -4220 7275 60  0001 C CNN
-F 4 "vishay" V -4220 7275 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -4220 7275 60  0001 C CNN "mfg #"
-F 6 "newark" V -4220 7275 60  0001 C CNN "vend1"
-F 7 "52K9721" V -4220 7275 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3550 5875
 	-1   0    0    1   
 $EndComp
@@ -3330,11 +3438,15 @@ U 1 1 4E3ED706
 P 1025 7600
 F 0 "R209" V 1105 7600 50  0000 C CNN
 F 1 "0R" V 1025 7600 50  0000 C CNN
-F 2 "SM0805" V -6745 9000 60  0001 C CNN
-F 4 "vishay" V -6745 9000 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -6745 9000 60  0001 C CNN "mfg #"
-F 6 "newark" V -6745 9000 60  0001 C CNN "vend1"
-F 7 "52K9721" V -6745 9000 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1025 7600
 	0    -1   -1   0   
 $EndComp
@@ -3344,11 +3456,15 @@ U 1 1 4E3ED705
 P 3975 7600
 F 0 "R257" V 4055 7600 50  0000 C CNN
 F 1 "0R" V 3975 7600 50  0000 C CNN
-F 2 "SM0805" V -3795 9000 60  0001 C CNN
-F 4 "vishay" V -3795 9000 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -3795 9000 60  0001 C CNN "mfg #"
-F 6 "newark" V -3795 9000 60  0001 C CNN "vend1"
-F 7 "52K9721" V -3795 9000 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3975 7600
 	0    -1   -1   0   
 $EndComp
@@ -3358,11 +3474,15 @@ U 1 1 4E3ED704
 P 3975 6000
 F 0 "R256" V 4055 6000 50  0000 C CNN
 F 1 "0R" V 3975 6000 50  0000 C CNN
-F 2 "SM0805" V -3795 7400 60  0001 C CNN
-F 4 "vishay" V -3795 7400 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -3795 7400 60  0001 C CNN "mfg #"
-F 6 "newark" V -3795 7400 60  0001 C CNN "vend1"
-F 7 "52K9721" V -3795 7400 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3975 6000
 	0    1    1    0   
 $EndComp
@@ -3372,11 +3492,15 @@ U 1 1 4E3ED703
 P 3975 3600
 F 0 "R254" V 4055 3600 50  0000 C CNN
 F 1 "0R" V 3975 3600 50  0000 C CNN
-F 2 "SM0805" V -3795 5000 60  0001 C CNN
-F 4 "vishay" V -3795 5000 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -3795 5000 60  0001 C CNN "mfg #"
-F 6 "newark" V -3795 5000 60  0001 C CNN "vend1"
-F 7 "52K9721" V -3795 5000 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3975 3600
 	0    1    1    0   
 $EndComp
@@ -3386,11 +3510,15 @@ U 1 1 4E3ED702
 P 3975 5200
 F 0 "R255" V 4055 5200 50  0000 C CNN
 F 1 "0R" V 3975 5200 50  0000 C CNN
-F 2 "SM0805" V -3795 6600 60  0001 C CNN
-F 4 "vishay" V -3795 6600 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -3795 6600 60  0001 C CNN "mfg #"
-F 6 "newark" V -3795 6600 60  0001 C CNN "vend1"
-F 7 "52K9721" V -3795 6600 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3975 5200
 	0    -1   -1   0   
 $EndComp
@@ -3400,11 +3528,15 @@ U 1 1 4E3ED701
 P 1025 5200
 F 0 "R207" V 1105 5200 50  0000 C CNN
 F 1 "0R" V 1025 5200 50  0000 C CNN
-F 2 "SM0805" V -6745 6600 60  0001 C CNN
-F 4 "vishay" V -6745 6600 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -6745 6600 60  0001 C CNN "mfg #"
-F 6 "newark" V -6745 6600 60  0001 C CNN "vend1"
-F 7 "52K9721" V -6745 6600 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1025 5200
 	0    -1   -1   0   
 $EndComp
@@ -3414,11 +3546,15 @@ U 1 1 4E3ED700
 P 3550 3475
 F 0 "R245" V 3630 3475 50  0000 C CNN
 F 1 "0R" V 3550 3475 50  0000 C CNN
-F 2 "SM0805" V -4220 4875 60  0001 C CNN
-F 4 "vishay" V -4220 4875 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -4220 4875 60  0001 C CNN "mfg #"
-F 6 "newark" V -4220 4875 60  0001 C CNN "vend1"
-F 7 "52K9721" V -4220 4875 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3550 3475
 	-1   0    0    1   
 $EndComp
@@ -3428,11 +3564,15 @@ U 1 1 4E3ED6FF
 P 3550 4450
 F 0 "R246" V 3630 4450 50  0000 C CNN
 F 1 "0R" V 3550 4450 50  0000 C CNN
-F 2 "SM0805" V -4220 5850 60  0001 C CNN
-F 4 "vishay" V -4220 5850 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -4220 5850 60  0001 C CNN "mfg #"
-F 6 "newark" V -4220 5850 60  0001 C CNN "vend1"
-F 7 "52K9721" V -4220 5850 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3550 4450
 	-1   0    0    1   
 $EndComp
@@ -3442,11 +3582,15 @@ U 1 1 4E3ED6FE
 P 1450 4450
 F 0 "R216" V 1530 4450 50  0000 C CNN
 F 1 "0R" V 1450 4450 50  0000 C CNN
-F 2 "SM0805" V -6320 5850 60  0001 C CNN
-F 4 "vishay" V -6320 5850 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -6320 5850 60  0001 C CNN "mfg #"
-F 6 "newark" V -6320 5850 60  0001 C CNN "vend1"
-F 7 "52K9721" V -6320 5850 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1450 4450
 	1    0    0    -1  
 $EndComp
@@ -3456,11 +3600,15 @@ U 1 1 4E3ED6FD
 P 1450 3475
 F 0 "R215" V 1530 3475 50  0000 C CNN
 F 1 "0R" V 1450 3475 50  0000 C CNN
-F 2 "SM0805" V -6320 4875 60  0001 C CNN
-F 4 "vishay" V -6320 4875 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -6320 4875 60  0001 C CNN "mfg #"
-F 6 "newark" V -6320 4875 60  0001 C CNN "vend1"
-F 7 "52K9721" V -6320 4875 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1450 3475
 	1    0    0    -1  
 $EndComp
@@ -3484,13 +3632,15 @@ U 1 1 4E3ED6FB
 P 2824 4400
 F 0 "R233" V 2904 4400 50  0000 C CNN
 F 1 "100K" V 2824 4400 50  0000 C CNN
-F 2 "SM0805" V -4946 5800 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -4946 5800 60  0001 C CNN "mfg"
-F 5 "digi" V -4946 5800 60  0001 C CNN "sm vend1"
-F 6 ".125w" V -4946 5800 60  0001 C CNN "power"
-F 7 "5%" V -4946 5800 60  0001 C CNN "tolerance"
-F 8 "Thick film" V -4946 5800 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V -4946 5800 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    2824 4400
 	0    1    -1   0   
 $EndComp
@@ -3500,13 +3650,15 @@ U 1 1 4E3ED6FA
 P 2824 4600
 F 0 "R234" V 2904 4600 50  0000 C CNN
 F 1 "100K" V 2824 4600 50  0000 C CNN
-F 2 "SM0805" V -4946 6000 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -4946 6000 60  0001 C CNN "mfg"
-F 5 "digi" V -4946 6000 60  0001 C CNN "sm vend1"
-F 6 ".125w" V -4946 6000 60  0001 C CNN "power"
-F 7 "5%" V -4946 6000 60  0001 C CNN "tolerance"
-F 8 "Thick film" V -4946 6000 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V -4946 6000 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    2824 4600
 	0    -1   1    0   
 $EndComp
@@ -3516,13 +3668,15 @@ U 1 1 4E3ED6F9
 P 2175 4600
 F 0 "R228" V 2255 4600 50  0000 C CNN
 F 1 "100K" V 2175 4600 50  0000 C CNN
-F 2 "SM0805" V -5595 6000 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -5595 6000 60  0001 C CNN "mfg"
-F 5 "digi" V -5595 6000 60  0001 C CNN "sm vend1"
-F 6 ".125w" V -5595 6000 60  0001 C CNN "power"
-F 7 "5%" V -5595 6000 60  0001 C CNN "tolerance"
-F 8 "Thick film" V -5595 6000 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V -5595 6000 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    2175 4600
 	0    1    1    0   
 $EndComp
@@ -3532,13 +3686,15 @@ U 1 1 4E3ED6F8
 P 2175 4400
 F 0 "R227" V 2255 4400 50  0000 C CNN
 F 1 "100K" V 2175 4400 50  0000 C CNN
-F 2 "SM0805" V -5595 5800 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -5595 5800 60  0001 C CNN "mfg"
-F 5 "digi" V -5595 5800 60  0001 C CNN "sm vend1"
-F 6 ".125w" V -5595 5800 60  0001 C CNN "power"
-F 7 "5%" V -5595 5800 60  0001 C CNN "tolerance"
-F 8 "Thick film" V -5595 5800 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V -5595 5800 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    2175 4400
 	0    -1   -1   0   
 $EndComp
@@ -3548,11 +3704,15 @@ U 1 1 4E3ED6F7
 P 1025 3600
 F 0 "R206" V 1105 3600 50  0000 C CNN
 F 1 "0R" V 1025 3600 50  0000 C CNN
-F 2 "SM0805" V -6745 5000 60  0001 C CNN
-F 4 "vishay" V -6745 5000 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -6745 5000 60  0001 C CNN "mfg #"
-F 6 "newark" V -6745 5000 60  0001 C CNN "vend1"
-F 7 "52K9721" V -6745 5000 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1025 3600
 	0    1    1    0   
 $EndComp
@@ -3571,15 +3731,15 @@ U 1 1 4E3ED6F5
 P 4124 4300
 F 0 "R259" V 4204 4300 50  0000 C CNN
 F 1 "1K" V 4124 4300 50  0000 C CNN
-F 2 "SM0805" V -3646 5700 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -3646 5700 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -3646 5700 60  0001 C CNN "mfg #"
-F 6 "digi" V -3646 5700 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -3646 5700 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -3646 5700 60  0001 C CNN "power"
-F 9 "5%" V -3646 5700 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -3646 5700 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -3646 5700 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4124 4300
 	0    -1   1    0   
 $EndComp
@@ -3589,15 +3749,15 @@ U 1 1 4E3ED6F4
 P 3924 4500
 F 0 "R250" V 4004 4500 50  0000 C CNN
 F 1 "1K" V 3924 4500 50  0000 C CNN
-F 2 "SM0805" V -3846 5900 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -3846 5900 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -3846 5900 60  0001 C CNN "mfg #"
-F 6 "digi" V -3846 5900 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -3846 5900 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -3846 5900 60  0001 C CNN "power"
-F 9 "5%" V -3846 5900 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -3846 5900 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -3846 5900 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3924 4500
 	0    1    -1   0   
 $EndComp
@@ -3607,15 +3767,15 @@ U 1 1 4E3ED6F3
 P 1075 4500
 F 0 "R211" V 1155 4500 50  0000 C CNN
 F 1 "1K" V 1075 4500 50  0000 C CNN
-F 2 "SM0805" V -6695 5900 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -6695 5900 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -6695 5900 60  0001 C CNN "mfg #"
-F 6 "digi" V -6695 5900 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -6695 5900 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -6695 5900 60  0001 C CNN "power"
-F 9 "5%" V -6695 5900 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -6695 5900 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -6695 5900 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1075 4500
 	0    -1   -1   0   
 $EndComp
@@ -3625,15 +3785,15 @@ U 1 1 4E3ED6F2
 P 875 4300
 F 0 "R202" V 955 4300 50  0000 C CNN
 F 1 "1K" V 875 4300 50  0000 C CNN
-F 2 "SM0805" V -6895 5700 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -6895 5700 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -6895 5700 60  0001 C CNN "mfg #"
-F 6 "digi" V -6895 5700 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -6895 5700 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -6895 5700 60  0001 C CNN "power"
-F 9 "5%" V -6895 5700 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -6895 5700 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -6895 5700 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    875  4300
 	0    1    1    0   
 $EndComp
@@ -3668,15 +3828,15 @@ U 1 1 4E3ED6EA
 P 1725 4900
 F 0 "R222" V 1805 4900 50  0000 C CNN
 F 1 "1K" V 1725 4900 50  0000 C CNN
-F 2 "SM0805" V -6045 6300 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -6045 6300 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -6045 6300 60  0001 C CNN "mfg #"
-F 6 "digi" V -6045 6300 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -6045 6300 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -6045 6300 60  0001 C CNN "power"
-F 9 "5%" V -6045 6300 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -6045 6300 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -6045 6300 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1725 4900
 	0    -1   -1   0   
 $EndComp
@@ -3714,15 +3874,15 @@ U 1 1 4E3ED6E7
 P 3275 4900
 F 0 "R240" V 3355 4900 50  0000 C CNN
 F 1 "1K" V 3275 4900 50  0000 C CNN
-F 2 "SM0805" V -4495 6300 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -4495 6300 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -4495 6300 60  0001 C CNN "mfg #"
-F 6 "digi" V -4495 6300 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -4495 6300 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -4495 6300 60  0001 C CNN "power"
-F 9 "5%" V -4495 6300 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -4495 6300 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -4495 6300 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3275 4900
 	0    1    -1   0   
 $EndComp
@@ -3732,15 +3892,15 @@ U 1 1 4E3ED6E6
 P 3275 4100
 F 0 "R239" V 3355 4100 50  0000 C CNN
 F 1 "1K" V 3275 4100 50  0000 C CNN
-F 2 "SM0805" V -4495 5500 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -4495 5500 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -4495 5500 60  0001 C CNN "mfg #"
-F 6 "digi" V -4495 5500 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -4495 5500 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -4495 5500 60  0001 C CNN "power"
-F 9 "5%" V -4495 5500 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -4495 5500 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -4495 5500 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3275 4100
 	0    1    -1   0   
 $EndComp
@@ -3778,15 +3938,15 @@ U 1 1 4E3ED6E3
 P 1725 4100
 F 0 "R221" V 1805 4100 50  0000 C CNN
 F 1 "1K" V 1725 4100 50  0000 C CNN
-F 2 "SM0805" V -6045 5500 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -6045 5500 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -6045 5500 60  0001 C CNN "mfg #"
-F 6 "digi" V -6045 5500 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -6045 5500 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -6045 5500 60  0001 C CNN "power"
-F 9 "5%" V -6045 5500 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -6045 5500 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -6045 5500 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1725 4100
 	0    -1   -1   0   
 $EndComp
@@ -3796,15 +3956,15 @@ U 1 1 4E3ED6E2
 P 5525 4100
 F 0 "R281" V 5605 4100 50  0000 C CNN
 F 1 "1K" V 5525 4100 50  0000 C CNN
-F 2 "SM0805" V -2245 5500 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -2245 5500 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -2245 5500 60  0001 C CNN "mfg #"
-F 6 "digi" V -2245 5500 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -2245 5500 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -2245 5500 60  0001 C CNN "power"
-F 9 "5%" V -2245 5500 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -2245 5500 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -2245 5500 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    5525 4100
 	0    -1   -1   0   
 $EndComp
@@ -3842,15 +4002,15 @@ U 1 1 4E3ED6DF
 P 7075 4100
 F 0 "R299" V 7155 4100 50  0000 C CNN
 F 1 "1K" V 7075 4100 50  0000 C CNN
-F 2 "SM0805" V -695 5500 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -695 5500 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -695 5500 60  0001 C CNN "mfg #"
-F 6 "digi" V -695 5500 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -695 5500 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -695 5500 60  0001 C CNN "power"
-F 9 "5%" V -695 5500 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -695 5500 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -695 5500 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    7075 4100
 	0    1    -1   0   
 $EndComp
@@ -3860,15 +4020,15 @@ U 1 1 4E3ED6DE
 P 7075 4900
 F 0 "R300" V 7155 4900 50  0000 C CNN
 F 1 "1K" V 7075 4900 50  0000 C CNN
-F 2 "SM0805" V -695 6300 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -695 6300 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -695 6300 60  0001 C CNN "mfg #"
-F 6 "digi" V -695 6300 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -695 6300 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -695 6300 60  0001 C CNN "power"
-F 9 "5%" V -695 6300 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -695 6300 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -695 6300 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    7075 4900
 	0    1    -1   0   
 $EndComp
@@ -3906,15 +4066,15 @@ U 1 1 4E3ED6DB
 P 5525 4900
 F 0 "R282" V 5605 4900 50  0000 C CNN
 F 1 "1K" V 5525 4900 50  0000 C CNN
-F 2 "SM0805" V -2245 6300 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -2245 6300 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -2245 6300 60  0001 C CNN "mfg #"
-F 6 "digi" V -2245 6300 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -2245 6300 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -2245 6300 60  0001 C CNN "power"
-F 9 "5%" V -2245 6300 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -2245 6300 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -2245 6300 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    5525 4900
 	0    -1   -1   0   
 $EndComp
@@ -3949,15 +4109,15 @@ U 1 1 4E3ED6D3
 P 4675 4300
 F 0 "R262" V 4755 4300 50  0000 C CNN
 F 1 "1K" V 4675 4300 50  0000 C CNN
-F 2 "SM0805" V -3095 5700 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -3095 5700 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -3095 5700 60  0001 C CNN "mfg #"
-F 6 "digi" V -3095 5700 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -3095 5700 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -3095 5700 60  0001 C CNN "power"
-F 9 "5%" V -3095 5700 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -3095 5700 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -3095 5700 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4675 4300
 	0    1    1    0   
 $EndComp
@@ -3967,15 +4127,15 @@ U 1 1 4E3ED6D2
 P 4875 4500
 F 0 "R271" V 4955 4500 50  0000 C CNN
 F 1 "1K" V 4875 4500 50  0000 C CNN
-F 2 "SM0805" V -2895 5900 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -2895 5900 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -2895 5900 60  0001 C CNN "mfg #"
-F 6 "digi" V -2895 5900 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -2895 5900 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -2895 5900 60  0001 C CNN "power"
-F 9 "5%" V -2895 5900 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -2895 5900 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -2895 5900 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4875 4500
 	0    -1   -1   0   
 $EndComp
@@ -3985,15 +4145,15 @@ U 1 1 4E3ED6D1
 P 7724 4500
 F 0 "R310" V 7804 4500 50  0000 C CNN
 F 1 "1K" V 7724 4500 50  0000 C CNN
-F 2 "SM0805" V -46 5900 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -46 5900 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -46 5900 60  0001 C CNN "mfg #"
-F 6 "digi" V -46 5900 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -46 5900 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -46 5900 60  0001 C CNN "power"
-F 9 "5%" V -46 5900 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -46 5900 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -46 5900 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    7724 4500
 	0    1    -1   0   
 $EndComp
@@ -4003,15 +4163,15 @@ U 1 1 4E3ED6D0
 P 7924 4300
 F 0 "R319" V 8004 4300 50  0000 C CNN
 F 1 "1K" V 7924 4300 50  0000 C CNN
-F 2 "SM0805" V 154 5700 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 154 5700 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V 154 5700 60  0001 C CNN "mfg #"
-F 6 "digi" V 154 5700 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V 154 5700 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V 154 5700 60  0001 C CNN "power"
-F 9 "5%" V 154 5700 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 154 5700 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 154 5700 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    7924 4300
 	0    -1   1    0   
 $EndComp
@@ -4030,11 +4190,15 @@ U 1 1 4E3ED6CE
 P 4825 3600
 F 0 "R266" V 4905 3600 50  0000 C CNN
 F 1 "0R" V 4825 3600 50  0000 C CNN
-F 2 "SM0805" V -2945 5000 60  0001 C CNN
-F 4 "vishay" V -2945 5000 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -2945 5000 60  0001 C CNN "mfg #"
-F 6 "newark" V -2945 5000 60  0001 C CNN "vend1"
-F 7 "52K9721" V -2945 5000 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4825 3600
 	0    1    1    0   
 $EndComp
@@ -4044,13 +4208,15 @@ U 1 1 4E3ED6CD
 P 5975 4400
 F 0 "R287" V 6055 4400 50  0000 C CNN
 F 1 "100K" V 5975 4400 50  0000 C CNN
-F 2 "SM0805" V -1795 5800 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -1795 5800 60  0001 C CNN "mfg"
-F 5 "digi" V -1795 5800 60  0001 C CNN "sm vend1"
-F 6 ".125w" V -1795 5800 60  0001 C CNN "power"
-F 7 "5%" V -1795 5800 60  0001 C CNN "tolerance"
-F 8 "Thick film" V -1795 5800 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V -1795 5800 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    5975 4400
 	0    -1   -1   0   
 $EndComp
@@ -4060,13 +4226,15 @@ U 1 1 4E3ED6CC
 P 5975 4600
 F 0 "R288" V 6055 4600 50  0000 C CNN
 F 1 "100K" V 5975 4600 50  0000 C CNN
-F 2 "SM0805" V -1795 6000 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -1795 6000 60  0001 C CNN "mfg"
-F 5 "digi" V -1795 6000 60  0001 C CNN "sm vend1"
-F 6 ".125w" V -1795 6000 60  0001 C CNN "power"
-F 7 "5%" V -1795 6000 60  0001 C CNN "tolerance"
-F 8 "Thick film" V -1795 6000 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V -1795 6000 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    5975 4600
 	0    1    1    0   
 $EndComp
@@ -4076,13 +4244,15 @@ U 1 1 4E3ED6CB
 P 6624 4600
 F 0 "R294" V 6704 4600 50  0000 C CNN
 F 1 "100K" V 6624 4600 50  0000 C CNN
-F 2 "SM0805" V -1146 6000 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -1146 6000 60  0001 C CNN "mfg"
-F 5 "digi" V -1146 6000 60  0001 C CNN "sm vend1"
-F 6 ".125w" V -1146 6000 60  0001 C CNN "power"
-F 7 "5%" V -1146 6000 60  0001 C CNN "tolerance"
-F 8 "Thick film" V -1146 6000 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V -1146 6000 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    6624 4600
 	0    -1   1    0   
 $EndComp
@@ -4092,13 +4262,15 @@ U 1 1 4E3ED6CA
 P 6624 4400
 F 0 "R293" V 6704 4400 50  0000 C CNN
 F 1 "100K" V 6624 4400 50  0000 C CNN
-F 2 "SM0805" V -1146 5800 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -1146 5800 60  0001 C CNN "mfg"
-F 5 "digi" V -1146 5800 60  0001 C CNN "sm vend1"
-F 6 ".125w" V -1146 5800 60  0001 C CNN "power"
-F 7 "5%" V -1146 5800 60  0001 C CNN "tolerance"
-F 8 "Thick film" V -1146 5800 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V -1146 5800 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    6624 4400
 	0    1    -1   0   
 $EndComp
@@ -4122,11 +4294,15 @@ U 1 1 4E3ED6C8
 P 5250 3475
 F 0 "R275" V 5330 3475 50  0000 C CNN
 F 1 "0R" V 5250 3475 50  0000 C CNN
-F 2 "SM0805" V -2520 4875 60  0001 C CNN
-F 4 "vishay" V -2520 4875 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -2520 4875 60  0001 C CNN "mfg #"
-F 6 "newark" V -2520 4875 60  0001 C CNN "vend1"
-F 7 "52K9721" V -2520 4875 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    5250 3475
 	1    0    0    -1  
 $EndComp
@@ -4136,11 +4312,15 @@ U 1 1 4E3ED6C7
 P 5250 4450
 F 0 "R276" V 5330 4450 50  0000 C CNN
 F 1 "0R" V 5250 4450 50  0000 C CNN
-F 2 "SM0805" V -2520 5850 60  0001 C CNN
-F 4 "vishay" V -2520 5850 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -2520 5850 60  0001 C CNN "mfg #"
-F 6 "newark" V -2520 5850 60  0001 C CNN "vend1"
-F 7 "52K9721" V -2520 5850 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    5250 4450
 	1    0    0    -1  
 $EndComp
@@ -4150,11 +4330,15 @@ U 1 1 4E3ED6C6
 P 7350 4450
 F 0 "R306" V 7430 4450 50  0000 C CNN
 F 1 "0R" V 7350 4450 50  0000 C CNN
-F 2 "SM0805" V -420 5850 60  0001 C CNN
-F 4 "vishay" V -420 5850 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -420 5850 60  0001 C CNN "mfg #"
-F 6 "newark" V -420 5850 60  0001 C CNN "vend1"
-F 7 "52K9721" V -420 5850 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    7350 4450
 	-1   0    0    1   
 $EndComp
@@ -4164,11 +4348,15 @@ U 1 1 4E3ED6C5
 P 7350 3475
 F 0 "R305" V 7430 3475 50  0000 C CNN
 F 1 "0R" V 7350 3475 50  0000 C CNN
-F 2 "SM0805" V -420 4875 60  0001 C CNN
-F 4 "vishay" V -420 4875 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -420 4875 60  0001 C CNN "mfg #"
-F 6 "newark" V -420 4875 60  0001 C CNN "vend1"
-F 7 "52K9721" V -420 4875 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    7350 3475
 	-1   0    0    1   
 $EndComp
@@ -4178,11 +4366,15 @@ U 1 1 4E3ED6C4
 P 4825 5200
 F 0 "R267" V 4905 5200 50  0000 C CNN
 F 1 "0R" V 4825 5200 50  0000 C CNN
-F 2 "SM0805" V -2945 6600 60  0001 C CNN
-F 4 "vishay" V -2945 6600 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -2945 6600 60  0001 C CNN "mfg #"
-F 6 "newark" V -2945 6600 60  0001 C CNN "vend1"
-F 7 "52K9721" V -2945 6600 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4825 5200
 	0    -1   -1   0   
 $EndComp
@@ -4192,11 +4384,15 @@ U 1 1 4E3ED6C3
 P 7775 5200
 F 0 "R315" V 7855 5200 50  0000 C CNN
 F 1 "0R" V 7775 5200 50  0000 C CNN
-F 2 "SM0805" V 5   6600 60  0001 C CNN
-F 4 "vishay" V 5   6600 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 5   6600 60  0001 C CNN "mfg #"
-F 6 "newark" V 5   6600 60  0001 C CNN "vend1"
-F 7 "52K9721" V 5   6600 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    7775 5200
 	0    -1   -1   0   
 $EndComp
@@ -4206,11 +4402,15 @@ U 1 1 4E3ED6C2
 P 7775 3600
 F 0 "R314" V 7855 3600 50  0000 C CNN
 F 1 "0R" V 7775 3600 50  0000 C CNN
-F 2 "SM0805" V 5   5000 60  0001 C CNN
-F 4 "vishay" V 5   5000 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 5   5000 60  0001 C CNN "mfg #"
-F 6 "newark" V 5   5000 60  0001 C CNN "vend1"
-F 7 "52K9721" V 5   5000 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    7775 3600
 	0    1    1    0   
 $EndComp
@@ -4220,11 +4420,15 @@ U 1 1 4E3ED6C1
 P 11575 3600
 F 0 "R374" V 11655 3600 50  0000 C CNN
 F 1 "0R" V 11575 3600 50  0000 C CNN
-F 2 "SM0805" V 3805 5000 60  0001 C CNN
-F 4 "vishay" V 3805 5000 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 3805 5000 60  0001 C CNN "mfg #"
-F 6 "newark" V 3805 5000 60  0001 C CNN "vend1"
-F 7 "52K9721" V 3805 5000 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    11575 3600
 	0    1    1    0   
 $EndComp
@@ -4234,11 +4438,15 @@ U 1 1 4E3ED6C0
 P 11575 5200
 F 0 "R375" V 11655 5200 50  0000 C CNN
 F 1 "0R" V 11575 5200 50  0000 C CNN
-F 2 "SM0805" V 3805 6600 60  0001 C CNN
-F 4 "vishay" V 3805 6600 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 3805 6600 60  0001 C CNN "mfg #"
-F 6 "newark" V 3805 6600 60  0001 C CNN "vend1"
-F 7 "52K9721" V 3805 6600 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    11575 5200
 	0    -1   -1   0   
 $EndComp
@@ -4248,11 +4456,15 @@ U 1 1 4E3ED6BF
 P 8625 5200
 F 0 "R327" V 8705 5200 50  0000 C CNN
 F 1 "0R" V 8625 5200 50  0000 C CNN
-F 2 "SM0805" V 855 6600 60  0001 C CNN
-F 4 "vishay" V 855 6600 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 855 6600 60  0001 C CNN "mfg #"
-F 6 "newark" V 855 6600 60  0001 C CNN "vend1"
-F 7 "52K9721" V 855 6600 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8625 5200
 	0    -1   -1   0   
 $EndComp
@@ -4262,11 +4474,15 @@ U 1 1 4E3ED6BE
 P 11150 3475
 F 0 "R365" V 11230 3475 50  0000 C CNN
 F 1 "0R" V 11150 3475 50  0000 C CNN
-F 2 "SM0805" V 3380 4875 60  0001 C CNN
-F 4 "vishay" V 3380 4875 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 3380 4875 60  0001 C CNN "mfg #"
-F 6 "newark" V 3380 4875 60  0001 C CNN "vend1"
-F 7 "52K9721" V 3380 4875 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    11150 3475
 	-1   0    0    1   
 $EndComp
@@ -4276,11 +4492,15 @@ U 1 1 4E3ED6BD
 P 11150 4450
 F 0 "R366" V 11230 4450 50  0000 C CNN
 F 1 "0R" V 11150 4450 50  0000 C CNN
-F 2 "SM0805" V 3380 5850 60  0001 C CNN
-F 4 "vishay" V 3380 5850 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 3380 5850 60  0001 C CNN "mfg #"
-F 6 "newark" V 3380 5850 60  0001 C CNN "vend1"
-F 7 "52K9721" V 3380 5850 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    11150 4450
 	-1   0    0    1   
 $EndComp
@@ -4290,11 +4510,15 @@ U 1 1 4E3ED6BC
 P 9050 4450
 F 0 "R336" V 9130 4450 50  0000 C CNN
 F 1 "0R" V 9050 4450 50  0000 C CNN
-F 2 "SM0805" V 1280 5850 60  0001 C CNN
-F 4 "vishay" V 1280 5850 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 1280 5850 60  0001 C CNN "mfg #"
-F 6 "newark" V 1280 5850 60  0001 C CNN "vend1"
-F 7 "52K9721" V 1280 5850 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    9050 4450
 	1    0    0    -1  
 $EndComp
@@ -4304,11 +4528,15 @@ U 1 1 4E3ED6BB
 P 9050 3475
 F 0 "R335" V 9130 3475 50  0000 C CNN
 F 1 "0R" V 9050 3475 50  0000 C CNN
-F 2 "SM0805" V 1280 4875 60  0001 C CNN
-F 4 "vishay" V 1280 4875 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 1280 4875 60  0001 C CNN "mfg #"
-F 6 "newark" V 1280 4875 60  0001 C CNN "vend1"
-F 7 "52K9721" V 1280 4875 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    9050 3475
 	1    0    0    -1  
 $EndComp
@@ -4332,13 +4560,15 @@ U 1 1 4E3ED6B9
 P 10424 4400
 F 0 "R353" V 10504 4400 50  0000 C CNN
 F 1 "100K" V 10424 4400 50  0000 C CNN
-F 2 "SM0805" V 2654 5800 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 2654 5800 60  0001 C CNN "mfg"
-F 5 "digi" V 2654 5800 60  0001 C CNN "sm vend1"
-F 6 ".125w" V 2654 5800 60  0001 C CNN "power"
-F 7 "5%" V 2654 5800 60  0001 C CNN "tolerance"
-F 8 "Thick film" V 2654 5800 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V 2654 5800 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    10424 4400
 	0    1    -1   0   
 $EndComp
@@ -4348,13 +4578,15 @@ U 1 1 4E3ED6B8
 P 10424 4600
 F 0 "R354" V 10504 4600 50  0000 C CNN
 F 1 "100K" V 10424 4600 50  0000 C CNN
-F 2 "SM0805" V 2654 6000 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 2654 6000 60  0001 C CNN "mfg"
-F 5 "digi" V 2654 6000 60  0001 C CNN "sm vend1"
-F 6 ".125w" V 2654 6000 60  0001 C CNN "power"
-F 7 "5%" V 2654 6000 60  0001 C CNN "tolerance"
-F 8 "Thick film" V 2654 6000 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V 2654 6000 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    10424 4600
 	0    -1   1    0   
 $EndComp
@@ -4364,13 +4596,15 @@ U 1 1 4E3ED6B7
 P 9775 4600
 F 0 "R348" V 9855 4600 50  0000 C CNN
 F 1 "100K" V 9775 4600 50  0000 C CNN
-F 2 "SM0805" V 2005 6000 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 2005 6000 60  0001 C CNN "mfg"
-F 5 "digi" V 2005 6000 60  0001 C CNN "sm vend1"
-F 6 ".125w" V 2005 6000 60  0001 C CNN "power"
-F 7 "5%" V 2005 6000 60  0001 C CNN "tolerance"
-F 8 "Thick film" V 2005 6000 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V 2005 6000 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    9775 4600
 	0    1    1    0   
 $EndComp
@@ -4380,13 +4614,15 @@ U 1 1 4E3ED6B6
 P 9775 4400
 F 0 "R347" V 9855 4400 50  0000 C CNN
 F 1 "100K" V 9775 4400 50  0000 C CNN
-F 2 "SM0805" V 2005 5800 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 2005 5800 60  0001 C CNN "mfg"
-F 5 "digi" V 2005 5800 60  0001 C CNN "sm vend1"
-F 6 ".125w" V 2005 5800 60  0001 C CNN "power"
-F 7 "5%" V 2005 5800 60  0001 C CNN "tolerance"
-F 8 "Thick film" V 2005 5800 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V 2005 5800 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    9775 4400
 	0    -1   -1   0   
 $EndComp
@@ -4396,11 +4632,15 @@ U 1 1 4E3ED6B5
 P 8625 3600
 F 0 "R326" V 8705 3600 50  0000 C CNN
 F 1 "0R" V 8625 3600 50  0000 C CNN
-F 2 "SM0805" V 855 5000 60  0001 C CNN
-F 4 "vishay" V 855 5000 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 855 5000 60  0001 C CNN "mfg #"
-F 6 "newark" V 855 5000 60  0001 C CNN "vend1"
-F 7 "52K9721" V 855 5000 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8625 3600
 	0    1    1    0   
 $EndComp
@@ -4419,15 +4659,15 @@ U 1 1 4E3ED6B3
 P 11724 4300
 F 0 "R379" V 11804 4300 50  0000 C CNN
 F 1 "1K" V 11724 4300 50  0000 C CNN
-F 2 "SM0805" V 3954 5700 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 3954 5700 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V 3954 5700 60  0001 C CNN "mfg #"
-F 6 "digi" V 3954 5700 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V 3954 5700 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V 3954 5700 60  0001 C CNN "power"
-F 9 "5%" V 3954 5700 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 3954 5700 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 3954 5700 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    11724 4300
 	0    -1   1    0   
 $EndComp
@@ -4437,15 +4677,15 @@ U 1 1 4E3ED6B2
 P 11524 4500
 F 0 "R370" V 11604 4500 50  0000 C CNN
 F 1 "1K" V 11524 4500 50  0000 C CNN
-F 2 "SM0805" V 3754 5900 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 3754 5900 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V 3754 5900 60  0001 C CNN "mfg #"
-F 6 "digi" V 3754 5900 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V 3754 5900 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V 3754 5900 60  0001 C CNN "power"
-F 9 "5%" V 3754 5900 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 3754 5900 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 3754 5900 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    11524 4500
 	0    1    -1   0   
 $EndComp
@@ -4455,15 +4695,15 @@ U 1 1 4E3ED6B1
 P 8675 4500
 F 0 "R331" V 8755 4500 50  0000 C CNN
 F 1 "1K" V 8675 4500 50  0000 C CNN
-F 2 "SM0805" V 905 5900 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 905 5900 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V 905 5900 60  0001 C CNN "mfg #"
-F 6 "digi" V 905 5900 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V 905 5900 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V 905 5900 60  0001 C CNN "power"
-F 9 "5%" V 905 5900 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 905 5900 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 905 5900 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8675 4500
 	0    -1   -1   0   
 $EndComp
@@ -4473,15 +4713,15 @@ U 1 1 4E3ED6B0
 P 8475 4300
 F 0 "R322" V 8555 4300 50  0000 C CNN
 F 1 "1K" V 8475 4300 50  0000 C CNN
-F 2 "SM0805" V 705 5700 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 705 5700 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V 705 5700 60  0001 C CNN "mfg #"
-F 6 "digi" V 705 5700 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V 705 5700 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V 705 5700 60  0001 C CNN "power"
-F 9 "5%" V 705 5700 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 705 5700 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 705 5700 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8475 4300
 	0    1    1    0   
 $EndComp
@@ -4516,15 +4756,15 @@ U 1 1 4E3ED6A8
 P 9325 4900
 F 0 "R342" V 9405 4900 50  0000 C CNN
 F 1 "1K" V 9325 4900 50  0000 C CNN
-F 2 "SM0805" V 1555 6300 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 1555 6300 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V 1555 6300 60  0001 C CNN "mfg #"
-F 6 "digi" V 1555 6300 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V 1555 6300 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V 1555 6300 60  0001 C CNN "power"
-F 9 "5%" V 1555 6300 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 1555 6300 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1555 6300 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    9325 4900
 	0    -1   -1   0   
 $EndComp
@@ -4562,15 +4802,15 @@ U 1 1 4E3ED6A5
 P 10875 4900
 F 0 "R360" V 10955 4900 50  0000 C CNN
 F 1 "1K" V 10875 4900 50  0000 C CNN
-F 2 "SM0805" V 3105 6300 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 3105 6300 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V 3105 6300 60  0001 C CNN "mfg #"
-F 6 "digi" V 3105 6300 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V 3105 6300 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V 3105 6300 60  0001 C CNN "power"
-F 9 "5%" V 3105 6300 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 3105 6300 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 3105 6300 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    10875 4900
 	0    1    -1   0   
 $EndComp
@@ -4580,15 +4820,15 @@ U 1 1 4E3ED6A4
 P 10875 4100
 F 0 "R359" V 10955 4100 50  0000 C CNN
 F 1 "1K" V 10875 4100 50  0000 C CNN
-F 2 "SM0805" V 3105 5500 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 3105 5500 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V 3105 5500 60  0001 C CNN "mfg #"
-F 6 "digi" V 3105 5500 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V 3105 5500 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V 3105 5500 60  0001 C CNN "power"
-F 9 "5%" V 3105 5500 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 3105 5500 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 3105 5500 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    10875 4100
 	0    -1   1    0   
 $EndComp
@@ -4626,15 +4866,15 @@ U 1 1 4E3ED6A1
 P 9325 4100
 F 0 "R341" V 9405 4100 50  0000 C CNN
 F 1 "1K" V 9325 4100 50  0000 C CNN
-F 2 "SM0805" V 1555 5500 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 1555 5500 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V 1555 5500 60  0001 C CNN "mfg #"
-F 6 "digi" V 1555 5500 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V 1555 5500 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V 1555 5500 60  0001 C CNN "power"
-F 9 "5%" V 1555 5500 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 1555 5500 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1555 5500 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    9325 4100
 	0    1    1    0   
 $EndComp
@@ -4644,15 +4884,15 @@ U 1 1 4E3ED65E
 P 9325 1650
 F 0 "R339" V 9405 1650 50  0000 C CNN
 F 1 "1K" V 9325 1650 50  0000 C CNN
-F 2 "SM0805" V 1555 3050 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 1555 3050 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V 1555 3050 60  0001 C CNN "mfg #"
-F 6 "digi" V 1555 3050 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V 1555 3050 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V 1555 3050 60  0001 C CNN "power"
-F 9 "5%" V 1555 3050 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 1555 3050 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1555 3050 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    9325 1650
 	0    1    1    0   
 $EndComp
@@ -4690,15 +4930,15 @@ U 1 1 4E3ED65B
 P 10875 1650
 F 0 "R357" V 10955 1650 50  0000 C CNN
 F 1 "1K" V 10875 1650 50  0000 C CNN
-F 2 "SM0805" V 3105 3050 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 3105 3050 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V 3105 3050 60  0001 C CNN "mfg #"
-F 6 "digi" V 3105 3050 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V 3105 3050 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V 3105 3050 60  0001 C CNN "power"
-F 9 "5%" V 3105 3050 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 3105 3050 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 3105 3050 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    10875 1650
 	0    -1   1    0   
 $EndComp
@@ -4708,15 +4948,15 @@ U 1 1 4E3ED65A
 P 10875 2450
 F 0 "R358" V 10955 2450 50  0000 C CNN
 F 1 "1K" V 10875 2450 50  0000 C CNN
-F 2 "SM0805" V 3105 3850 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 3105 3850 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V 3105 3850 60  0001 C CNN "mfg #"
-F 6 "digi" V 3105 3850 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V 3105 3850 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V 3105 3850 60  0001 C CNN "power"
-F 9 "5%" V 3105 3850 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 3105 3850 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 3105 3850 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    10875 2450
 	0    1    -1   0   
 $EndComp
@@ -4754,15 +4994,15 @@ U 1 1 4E3ED657
 P 9325 2450
 F 0 "R340" V 9405 2450 50  0000 C CNN
 F 1 "1K" V 9325 2450 50  0000 C CNN
-F 2 "SM0805" V 1555 3850 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 1555 3850 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V 1555 3850 60  0001 C CNN "mfg #"
-F 6 "digi" V 1555 3850 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V 1555 3850 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V 1555 3850 60  0001 C CNN "power"
-F 9 "5%" V 1555 3850 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 1555 3850 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1555 3850 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    9325 2450
 	0    -1   -1   0   
 $EndComp
@@ -4797,15 +5037,15 @@ U 1 1 4E3ED64F
 P 8475 1850
 F 0 "R321" V 8555 1850 50  0000 C CNN
 F 1 "1K" V 8475 1850 50  0000 C CNN
-F 2 "SM0805" V 705 3250 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 705 3250 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V 705 3250 60  0001 C CNN "mfg #"
-F 6 "digi" V 705 3250 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V 705 3250 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V 705 3250 60  0001 C CNN "power"
-F 9 "5%" V 705 3250 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 705 3250 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 705 3250 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8475 1850
 	0    1    1    0   
 $EndComp
@@ -4815,15 +5055,15 @@ U 1 1 4E3ED64E
 P 8675 2050
 F 0 "R330" V 8755 2050 50  0000 C CNN
 F 1 "1K" V 8675 2050 50  0000 C CNN
-F 2 "SM0805" V 905 3450 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 905 3450 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V 905 3450 60  0001 C CNN "mfg #"
-F 6 "digi" V 905 3450 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V 905 3450 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V 905 3450 60  0001 C CNN "power"
-F 9 "5%" V 905 3450 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 905 3450 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 905 3450 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8675 2050
 	0    -1   -1   0   
 $EndComp
@@ -4833,15 +5073,15 @@ U 1 1 4E3ED64D
 P 11524 2050
 F 0 "R369" V 11604 2050 50  0000 C CNN
 F 1 "1K" V 11524 2050 50  0000 C CNN
-F 2 "SM0805" V 3754 3450 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 3754 3450 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V 3754 3450 60  0001 C CNN "mfg #"
-F 6 "digi" V 3754 3450 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V 3754 3450 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V 3754 3450 60  0001 C CNN "power"
-F 9 "5%" V 3754 3450 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 3754 3450 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 3754 3450 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    11524 2050
 	0    1    -1   0   
 $EndComp
@@ -4851,15 +5091,15 @@ U 1 1 4E3ED64C
 P 11724 1850
 F 0 "R378" V 11804 1850 50  0000 C CNN
 F 1 "1K" V 11724 1850 50  0000 C CNN
-F 2 "SM0805" V 3954 3250 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 3954 3250 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V 3954 3250 60  0001 C CNN "mfg #"
-F 6 "digi" V 3954 3250 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V 3954 3250 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V 3954 3250 60  0001 C CNN "power"
-F 9 "5%" V 3954 3250 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 3954 3250 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 3954 3250 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    11724 1850
 	0    -1   1    0   
 $EndComp
@@ -4878,11 +5118,15 @@ U 1 1 4E3ED64A
 P 8625 1150
 F 0 "R324" V 8705 1150 50  0000 C CNN
 F 1 "0R" V 8625 1150 50  0000 C CNN
-F 2 "SM0805" V 855 2550 60  0001 C CNN
-F 4 "vishay" V 855 2550 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 855 2550 60  0001 C CNN "mfg #"
-F 6 "newark" V 855 2550 60  0001 C CNN "vend1"
-F 7 "52K9721" V 855 2550 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8625 1150
 	0    1    1    0   
 $EndComp
@@ -4892,13 +5136,15 @@ U 1 1 4E3ED649
 P 9775 1950
 F 0 "R345" V 9855 1950 50  0000 C CNN
 F 1 "100K" V 9775 1950 50  0000 C CNN
-F 2 "SM0805" V 2005 3350 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 2005 3350 60  0001 C CNN "mfg"
-F 5 "digi" V 2005 3350 60  0001 C CNN "sm vend1"
-F 6 ".125w" V 2005 3350 60  0001 C CNN "power"
-F 7 "5%" V 2005 3350 60  0001 C CNN "tolerance"
-F 8 "Thick film" V 2005 3350 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V 2005 3350 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    9775 1950
 	0    -1   -1   0   
 $EndComp
@@ -4908,13 +5154,15 @@ U 1 1 4E3ED648
 P 9775 2150
 F 0 "R346" V 9855 2150 50  0000 C CNN
 F 1 "100K" V 9775 2150 50  0000 C CNN
-F 2 "SM0805" V 2005 3550 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 2005 3550 60  0001 C CNN "mfg"
-F 5 "digi" V 2005 3550 60  0001 C CNN "sm vend1"
-F 6 ".125w" V 2005 3550 60  0001 C CNN "power"
-F 7 "5%" V 2005 3550 60  0001 C CNN "tolerance"
-F 8 "Thick film" V 2005 3550 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V 2005 3550 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    9775 2150
 	0    1    1    0   
 $EndComp
@@ -4924,13 +5172,15 @@ U 1 1 4E3ED647
 P 10424 2150
 F 0 "R352" V 10504 2150 50  0000 C CNN
 F 1 "100K" V 10424 2150 50  0000 C CNN
-F 2 "SM0805" V 2654 3550 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 2654 3550 60  0001 C CNN "mfg"
-F 5 "digi" V 2654 3550 60  0001 C CNN "sm vend1"
-F 6 ".125w" V 2654 3550 60  0001 C CNN "power"
-F 7 "5%" V 2654 3550 60  0001 C CNN "tolerance"
-F 8 "Thick film" V 2654 3550 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V 2654 3550 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    10424 2150
 	0    -1   1    0   
 $EndComp
@@ -4940,13 +5190,15 @@ U 1 1 4E3ED646
 P 10424 1950
 F 0 "R351" V 10504 1950 50  0000 C CNN
 F 1 "100K" V 10424 1950 50  0000 C CNN
-F 2 "SM0805" V 2654 3350 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 2654 3350 60  0001 C CNN "mfg"
-F 5 "digi" V 2654 3350 60  0001 C CNN "sm vend1"
-F 6 ".125w" V 2654 3350 60  0001 C CNN "power"
-F 7 "5%" V 2654 3350 60  0001 C CNN "tolerance"
-F 8 "Thick film" V 2654 3350 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V 2654 3350 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    10424 1950
 	0    1    -1   0   
 $EndComp
@@ -4970,11 +5222,15 @@ U 1 1 4E3ED644
 P 9050 1025
 F 0 "R333" V 9130 1025 50  0000 C CNN
 F 1 "0R" V 9050 1025 50  0000 C CNN
-F 2 "SM0805" V 1280 2425 60  0001 C CNN
-F 4 "vishay" V 1280 2425 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 1280 2425 60  0001 C CNN "mfg #"
-F 6 "newark" V 1280 2425 60  0001 C CNN "vend1"
-F 7 "52K9721" V 1280 2425 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    9050 1025
 	1    0    0    -1  
 $EndComp
@@ -4984,11 +5240,15 @@ U 1 1 4E3ED643
 P 9050 2000
 F 0 "R334" V 9130 2000 50  0000 C CNN
 F 1 "0R" V 9050 2000 50  0000 C CNN
-F 2 "SM0805" V 1280 3400 60  0001 C CNN
-F 4 "vishay" V 1280 3400 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 1280 3400 60  0001 C CNN "mfg #"
-F 6 "newark" V 1280 3400 60  0001 C CNN "vend1"
-F 7 "52K9721" V 1280 3400 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    9050 2000
 	1    0    0    -1  
 $EndComp
@@ -4998,11 +5258,15 @@ U 1 1 4E3ED642
 P 11150 2000
 F 0 "R364" V 11230 2000 50  0000 C CNN
 F 1 "0R" V 11150 2000 50  0000 C CNN
-F 2 "SM0805" V 3380 3400 60  0001 C CNN
-F 4 "vishay" V 3380 3400 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 3380 3400 60  0001 C CNN "mfg #"
-F 6 "newark" V 3380 3400 60  0001 C CNN "vend1"
-F 7 "52K9721" V 3380 3400 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    11150 2000
 	-1   0    0    1   
 $EndComp
@@ -5012,11 +5276,15 @@ U 1 1 4E3ED641
 P 11150 1025
 F 0 "R363" V 11230 1025 50  0000 C CNN
 F 1 "0R" V 11150 1025 50  0000 C CNN
-F 2 "SM0805" V 3380 2425 60  0001 C CNN
-F 4 "vishay" V 3380 2425 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 3380 2425 60  0001 C CNN "mfg #"
-F 6 "newark" V 3380 2425 60  0001 C CNN "vend1"
-F 7 "52K9721" V 3380 2425 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    11150 1025
 	-1   0    0    1   
 $EndComp
@@ -5026,11 +5294,15 @@ U 1 1 4E3ED640
 P 8625 2750
 F 0 "R325" V 8705 2750 50  0000 C CNN
 F 1 "0R" V 8625 2750 50  0000 C CNN
-F 2 "SM0805" V 855 4150 60  0001 C CNN
-F 4 "vishay" V 855 4150 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 855 4150 60  0001 C CNN "mfg #"
-F 6 "newark" V 855 4150 60  0001 C CNN "vend1"
-F 7 "52K9721" V 855 4150 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8625 2750
 	0    -1   -1   0   
 $EndComp
@@ -5040,11 +5312,15 @@ U 1 1 4E3ED63F
 P 11575 2750
 F 0 "R373" V 11655 2750 50  0000 C CNN
 F 1 "0R" V 11575 2750 50  0000 C CNN
-F 2 "SM0805" V 3805 4150 60  0001 C CNN
-F 4 "vishay" V 3805 4150 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 3805 4150 60  0001 C CNN "mfg #"
-F 6 "newark" V 3805 4150 60  0001 C CNN "vend1"
-F 7 "52K9721" V 3805 4150 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    11575 2750
 	0    -1   -1   0   
 $EndComp
@@ -5054,11 +5330,15 @@ U 1 1 4E3ED63E
 P 11575 1150
 F 0 "R372" V 11655 1150 50  0000 C CNN
 F 1 "0R" V 11575 1150 50  0000 C CNN
-F 2 "SM0805" V 3805 2550 60  0001 C CNN
-F 4 "vishay" V 3805 2550 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 3805 2550 60  0001 C CNN "mfg #"
-F 6 "newark" V 3805 2550 60  0001 C CNN "vend1"
-F 7 "52K9721" V 3805 2550 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    11575 1150
 	0    1    1    0   
 $EndComp
@@ -5068,11 +5348,15 @@ U 1 1 4E3ED63D
 P 7775 1150
 F 0 "R312" V 7855 1150 50  0000 C CNN
 F 1 "0R" V 7775 1150 50  0000 C CNN
-F 2 "SM0805" V 5   2550 60  0001 C CNN
-F 4 "vishay" V 5   2550 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 5   2550 60  0001 C CNN "mfg #"
-F 6 "newark" V 5   2550 60  0001 C CNN "vend1"
-F 7 "52K9721" V 5   2550 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    7775 1150
 	0    1    1    0   
 $EndComp
@@ -5082,11 +5366,15 @@ U 1 1 4E3ED63C
 P 7775 2750
 F 0 "R313" V 7855 2750 50  0000 C CNN
 F 1 "0R" V 7775 2750 50  0000 C CNN
-F 2 "SM0805" V 5   4150 60  0001 C CNN
-F 4 "vishay" V 5   4150 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V 5   4150 60  0001 C CNN "mfg #"
-F 6 "newark" V 5   4150 60  0001 C CNN "vend1"
-F 7 "52K9721" V 5   4150 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    7775 2750
 	0    -1   -1   0   
 $EndComp
@@ -5096,11 +5384,15 @@ U 1 1 4E3ED63B
 P 4825 2750
 F 0 "R265" V 4905 2750 50  0000 C CNN
 F 1 "0R" V 4825 2750 50  0000 C CNN
-F 2 "SM0805" V -2945 4150 60  0001 C CNN
-F 4 "vishay" V -2945 4150 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -2945 4150 60  0001 C CNN "mfg #"
-F 6 "newark" V -2945 4150 60  0001 C CNN "vend1"
-F 7 "52K9721" V -2945 4150 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4825 2750
 	0    -1   -1   0   
 $EndComp
@@ -5110,11 +5402,15 @@ U 1 1 4E3ED63A
 P 7350 1025
 F 0 "R303" V 7430 1025 50  0000 C CNN
 F 1 "0R" V 7350 1025 50  0000 C CNN
-F 2 "SM0805" V -420 2425 60  0001 C CNN
-F 4 "vishay" V -420 2425 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -420 2425 60  0001 C CNN "mfg #"
-F 6 "newark" V -420 2425 60  0001 C CNN "vend1"
-F 7 "52K9721" V -420 2425 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    7350 1025
 	-1   0    0    1   
 $EndComp
@@ -5124,11 +5420,15 @@ U 1 1 4E3ED639
 P 7350 2000
 F 0 "R304" V 7430 2000 50  0000 C CNN
 F 1 "0R" V 7350 2000 50  0000 C CNN
-F 2 "SM0805" V -420 3400 60  0001 C CNN
-F 4 "vishay" V -420 3400 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -420 3400 60  0001 C CNN "mfg #"
-F 6 "newark" V -420 3400 60  0001 C CNN "vend1"
-F 7 "52K9721" V -420 3400 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    7350 2000
 	-1   0    0    1   
 $EndComp
@@ -5138,11 +5438,15 @@ U 1 1 4E3ED638
 P 5250 2000
 F 0 "R274" V 5330 2000 50  0000 C CNN
 F 1 "0R" V 5250 2000 50  0000 C CNN
-F 2 "SM0805" V -2520 3400 60  0001 C CNN
-F 4 "vishay" V -2520 3400 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -2520 3400 60  0001 C CNN "mfg #"
-F 6 "newark" V -2520 3400 60  0001 C CNN "vend1"
-F 7 "52K9721" V -2520 3400 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    5250 2000
 	1    0    0    -1  
 $EndComp
@@ -5152,11 +5456,15 @@ U 1 1 4E3ED637
 P 5250 1025
 F 0 "R273" V 5330 1025 50  0000 C CNN
 F 1 "0R" V 5250 1025 50  0000 C CNN
-F 2 "SM0805" V -2520 2425 60  0001 C CNN
-F 4 "vishay" V -2520 2425 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -2520 2425 60  0001 C CNN "mfg #"
-F 6 "newark" V -2520 2425 60  0001 C CNN "vend1"
-F 7 "52K9721" V -2520 2425 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    5250 1025
 	1    0    0    -1  
 $EndComp
@@ -5180,13 +5488,15 @@ U 1 1 4E3ED635
 P 6624 1950
 F 0 "R291" V 6704 1950 50  0000 C CNN
 F 1 "100K" V 6624 1950 50  0000 C CNN
-F 2 "SM0805" V -1146 3350 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -1146 3350 60  0001 C CNN "mfg"
-F 5 "digi" V -1146 3350 60  0001 C CNN "sm vend1"
-F 6 ".125w" V -1146 3350 60  0001 C CNN "power"
-F 7 "5%" V -1146 3350 60  0001 C CNN "tolerance"
-F 8 "Thick film" V -1146 3350 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V -1146 3350 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    6624 1950
 	0    1    -1   0   
 $EndComp
@@ -5196,13 +5506,15 @@ U 1 1 4E3ED634
 P 6624 2150
 F 0 "R292" V 6704 2150 50  0000 C CNN
 F 1 "100K" V 6624 2150 50  0000 C CNN
-F 2 "SM0805" V -1146 3550 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -1146 3550 60  0001 C CNN "mfg"
-F 5 "digi" V -1146 3550 60  0001 C CNN "sm vend1"
-F 6 ".125w" V -1146 3550 60  0001 C CNN "power"
-F 7 "5%" V -1146 3550 60  0001 C CNN "tolerance"
-F 8 "Thick film" V -1146 3550 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V -1146 3550 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    6624 2150
 	0    -1   1    0   
 $EndComp
@@ -5212,13 +5524,15 @@ U 1 1 4E3ED633
 P 5975 2150
 F 0 "R286" V 6055 2150 50  0000 C CNN
 F 1 "100K" V 5975 2150 50  0000 C CNN
-F 2 "SM0805" V -1795 3550 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -1795 3550 60  0001 C CNN "mfg"
-F 5 "digi" V -1795 3550 60  0001 C CNN "sm vend1"
-F 6 ".125w" V -1795 3550 60  0001 C CNN "power"
-F 7 "5%" V -1795 3550 60  0001 C CNN "tolerance"
-F 8 "Thick film" V -1795 3550 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V -1795 3550 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    5975 2150
 	0    1    1    0   
 $EndComp
@@ -5228,13 +5542,15 @@ U 1 1 4E3ED632
 P 5975 1950
 F 0 "R285" V 6055 1950 50  0000 C CNN
 F 1 "100K" V 5975 1950 50  0000 C CNN
-F 2 "SM0805" V -1795 3350 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -1795 3350 60  0001 C CNN "mfg"
-F 5 "digi" V -1795 3350 60  0001 C CNN "sm vend1"
-F 6 ".125w" V -1795 3350 60  0001 C CNN "power"
-F 7 "5%" V -1795 3350 60  0001 C CNN "tolerance"
-F 8 "Thick film" V -1795 3350 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V -1795 3350 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    5975 1950
 	0    -1   -1   0   
 $EndComp
@@ -5244,11 +5560,15 @@ U 1 1 4E3ED631
 P 4825 1150
 F 0 "R264" V 4905 1150 50  0000 C CNN
 F 1 "0R" V 4825 1150 50  0000 C CNN
-F 2 "SM0805" V -2945 2550 60  0001 C CNN
-F 4 "vishay" V -2945 2550 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -2945 2550 60  0001 C CNN "mfg #"
-F 6 "newark" V -2945 2550 60  0001 C CNN "vend1"
-F 7 "52K9721" V -2945 2550 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4825 1150
 	0    1    1    0   
 $EndComp
@@ -5267,15 +5587,15 @@ U 1 1 4E3ED62F
 P 7924 1850
 F 0 "R318" V 8004 1850 50  0000 C CNN
 F 1 "1K" V 7924 1850 50  0000 C CNN
-F 2 "SM0805" V 154 3250 60  0001 C CNN
-F 4 "Rohm Semiconductor" V 154 3250 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V 154 3250 60  0001 C CNN "mfg #"
-F 6 "digi" V 154 3250 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V 154 3250 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V 154 3250 60  0001 C CNN "power"
-F 9 "5%" V 154 3250 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 154 3250 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 154 3250 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    7924 1850
 	0    -1   1    0   
 $EndComp
@@ -5285,15 +5605,15 @@ U 1 1 4E3ED62E
 P 7724 2050
 F 0 "R309" V 7804 2050 50  0000 C CNN
 F 1 "1K" V 7724 2050 50  0000 C CNN
-F 2 "SM0805" V -46 3450 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -46 3450 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -46 3450 60  0001 C CNN "mfg #"
-F 6 "digi" V -46 3450 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -46 3450 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -46 3450 60  0001 C CNN "power"
-F 9 "5%" V -46 3450 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -46 3450 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -46 3450 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    7724 2050
 	0    1    -1   0   
 $EndComp
@@ -5303,15 +5623,15 @@ U 1 1 4E3ED62D
 P 4875 2050
 F 0 "R270" V 4955 2050 50  0000 C CNN
 F 1 "1K" V 4875 2050 50  0000 C CNN
-F 2 "SM0805" V -2895 3450 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -2895 3450 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -2895 3450 60  0001 C CNN "mfg #"
-F 6 "digi" V -2895 3450 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -2895 3450 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -2895 3450 60  0001 C CNN "power"
-F 9 "5%" V -2895 3450 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -2895 3450 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -2895 3450 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4875 2050
 	0    -1   -1   0   
 $EndComp
@@ -5321,15 +5641,15 @@ U 1 1 4E3ED62C
 P 4675 1850
 F 0 "R261" V 4755 1850 50  0000 C CNN
 F 1 "1K" V 4675 1850 50  0000 C CNN
-F 2 "SM0805" V -3095 3250 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -3095 3250 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -3095 3250 60  0001 C CNN "mfg #"
-F 6 "digi" V -3095 3250 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -3095 3250 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -3095 3250 60  0001 C CNN "power"
-F 9 "5%" V -3095 3250 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -3095 3250 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -3095 3250 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4675 1850
 	0    1    1    0   
 $EndComp
@@ -5364,15 +5684,15 @@ U 1 1 4E3ED624
 P 5525 2450
 F 0 "R280" V 5605 2450 50  0000 C CNN
 F 1 "1K" V 5525 2450 50  0000 C CNN
-F 2 "SM0805" V -2245 3850 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -2245 3850 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -2245 3850 60  0001 C CNN "mfg #"
-F 6 "digi" V -2245 3850 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -2245 3850 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -2245 3850 60  0001 C CNN "power"
-F 9 "5%" V -2245 3850 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -2245 3850 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -2245 3850 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    5525 2450
 	0    -1   -1   0   
 $EndComp
@@ -5410,15 +5730,15 @@ U 1 1 4E3ED621
 P 7075 2450
 F 0 "R298" V 7155 2450 50  0000 C CNN
 F 1 "1K" V 7075 2450 50  0000 C CNN
-F 2 "SM0805" V -695 3850 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -695 3850 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -695 3850 60  0001 C CNN "mfg #"
-F 6 "digi" V -695 3850 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -695 3850 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -695 3850 60  0001 C CNN "power"
-F 9 "5%" V -695 3850 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -695 3850 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -695 3850 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    7075 2450
 	0    1    -1   0   
 $EndComp
@@ -5428,15 +5748,15 @@ U 1 1 4E3ED620
 P 7075 1650
 F 0 "R297" V 7155 1650 50  0000 C CNN
 F 1 "1K" V 7075 1650 50  0000 C CNN
-F 2 "SM0805" V -695 3050 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -695 3050 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -695 3050 60  0001 C CNN "mfg #"
-F 6 "digi" V -695 3050 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -695 3050 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -695 3050 60  0001 C CNN "power"
-F 9 "5%" V -695 3050 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -695 3050 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -695 3050 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    7075 1650
 	0    -1   1    0   
 $EndComp
@@ -5474,15 +5794,15 @@ U 1 1 4E3ED61D
 P 5525 1650
 F 0 "R279" V 5605 1650 50  0000 C CNN
 F 1 "1K" V 5525 1650 50  0000 C CNN
-F 2 "SM0805" V -2245 3050 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -2245 3050 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -2245 3050 60  0001 C CNN "mfg #"
-F 6 "digi" V -2245 3050 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -2245 3050 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -2245 3050 60  0001 C CNN "power"
-F 9 "5%" V -2245 3050 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -2245 3050 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -2245 3050 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    5525 1650
 	0    1    1    0   
 $EndComp
@@ -5492,15 +5812,15 @@ U 1 1 4E3ED610
 P 1725 1650
 F 0 "R219" V 1805 1650 50  0000 C CNN
 F 1 "1K" V 1725 1650 50  0000 C CNN
-F 2 "SM0805" V -6045 3050 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -6045 3050 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -6045 3050 60  0001 C CNN "mfg #"
-F 6 "digi" V -6045 3050 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -6045 3050 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -6045 3050 60  0001 C CNN "power"
-F 9 "5%" V -6045 3050 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -6045 3050 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -6045 3050 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1725 1650
 	0    1    1    0   
 $EndComp
@@ -5538,15 +5858,15 @@ U 1 1 4E3ED60D
 P 3275 1650
 F 0 "R237" V 3355 1650 50  0000 C CNN
 F 1 "1K" V 3275 1650 50  0000 C CNN
-F 2 "SM0805" V -4495 3050 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -4495 3050 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -4495 3050 60  0001 C CNN "mfg #"
-F 6 "digi" V -4495 3050 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -4495 3050 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -4495 3050 60  0001 C CNN "power"
-F 9 "5%" V -4495 3050 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -4495 3050 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -4495 3050 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3275 1650
 	0    -1   1    0   
 $EndComp
@@ -5556,15 +5876,15 @@ U 1 1 4E3ED60C
 P 3275 2450
 F 0 "R238" V 3355 2450 50  0000 C CNN
 F 1 "1K" V 3275 2450 50  0000 C CNN
-F 2 "SM0805" V -4495 3850 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -4495 3850 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -4495 3850 60  0001 C CNN "mfg #"
-F 6 "digi" V -4495 3850 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -4495 3850 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -4495 3850 60  0001 C CNN "power"
-F 9 "5%" V -4495 3850 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -4495 3850 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -4495 3850 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3275 2450
 	0    1    -1   0   
 $EndComp
@@ -5602,15 +5922,15 @@ U 1 1 4E3ED609
 P 1725 2450
 F 0 "R220" V 1805 2450 50  0000 C CNN
 F 1 "1K" V 1725 2450 50  0000 C CNN
-F 2 "SM0805" V -6045 3850 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -6045 3850 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -6045 3850 60  0001 C CNN "mfg #"
-F 6 "digi" V -6045 3850 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -6045 3850 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -6045 3850 60  0001 C CNN "power"
-F 9 "5%" V -6045 3850 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -6045 3850 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -6045 3850 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1725 2450
 	0    -1   -1   0   
 $EndComp
@@ -5674,15 +5994,15 @@ U 1 1 4E3ED601
 P 875 1850
 F 0 "R201" V 955 1850 50  0000 C CNN
 F 1 "1K" V 875 1850 50  0000 C CNN
-F 2 "SM0805" V -6895 3250 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -6895 3250 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -6895 3250 60  0001 C CNN "mfg #"
-F 6 "digi" V -6895 3250 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -6895 3250 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -6895 3250 60  0001 C CNN "power"
-F 9 "5%" V -6895 3250 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -6895 3250 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -6895 3250 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    875  1850
 	0    1    1    0   
 $EndComp
@@ -5692,15 +6012,15 @@ U 1 1 4E3ED600
 P 1075 2050
 F 0 "R210" V 1155 2050 50  0000 C CNN
 F 1 "1K" V 1075 2050 50  0000 C CNN
-F 2 "SM0805" V -6695 3450 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -6695 3450 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -6695 3450 60  0001 C CNN "mfg #"
-F 6 "digi" V -6695 3450 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -6695 3450 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -6695 3450 60  0001 C CNN "power"
-F 9 "5%" V -6695 3450 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -6695 3450 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -6695 3450 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1075 2050
 	0    -1   -1   0   
 $EndComp
@@ -5710,15 +6030,15 @@ U 1 1 4E3ED5FF
 P 3924 2050
 F 0 "R249" V 4004 2050 50  0000 C CNN
 F 1 "1K" V 3924 2050 50  0000 C CNN
-F 2 "SM0805" V -3846 3450 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -3846 3450 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -3846 3450 60  0001 C CNN "mfg #"
-F 6 "digi" V -3846 3450 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -3846 3450 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -3846 3450 60  0001 C CNN "power"
-F 9 "5%" V -3846 3450 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -3846 3450 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -3846 3450 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3924 2050
 	0    1    -1   0   
 $EndComp
@@ -5728,15 +6048,15 @@ U 1 1 4E3ED5FE
 P 4124 1850
 F 0 "R258" V 4204 1850 50  0000 C CNN
 F 1 "1K" V 4124 1850 50  0000 C CNN
-F 2 "SM0805" V -3646 3250 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -3646 3250 60  0001 C CNN "mfg"
-F 5 "MCR10EZPF1001" V -3646 3250 60  0001 C CNN "mfg #"
-F 6 "digi" V -3646 3250 60  0001 C CNN "sm vend1"
-F 7 "RHM1.00KCRCT-ND" V -3646 3250 60  0001 C CNN "sm vend1 #"
-F 8 ".125w" V -3646 3250 60  0001 C CNN "power"
-F 9 "5%" V -3646 3250 60  0001 C CNN "tolerance"
-F 10 "Thick film" V -3646 3250 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -3646 3250 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4124 1850
 	0    -1   1    0   
 $EndComp
@@ -5755,11 +6075,15 @@ U 1 1 4E3ED5FC
 P 1025 1150
 F 0 "R204" V 1105 1150 50  0000 C CNN
 F 1 "0R" V 1025 1150 50  0000 C CNN
-F 2 "SM0805" V -6745 2550 60  0001 C CNN
-F 4 "vishay" V -6745 2550 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -6745 2550 60  0001 C CNN "mfg #"
-F 6 "newark" V -6745 2550 60  0001 C CNN "vend1"
-F 7 "52K9721" V -6745 2550 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1025 1150
 	0    1    1    0   
 $EndComp
@@ -5769,13 +6093,15 @@ U 1 1 4E3ED5FB
 P 2175 1950
 F 0 "R225" V 2255 1950 50  0000 C CNN
 F 1 "100K" V 2175 1950 50  0000 C CNN
-F 2 "SM0805" V -5595 3350 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -5595 3350 60  0001 C CNN "mfg"
-F 5 "digi" V -5595 3350 60  0001 C CNN "sm vend1"
-F 6 ".125w" V -5595 3350 60  0001 C CNN "power"
-F 7 "5%" V -5595 3350 60  0001 C CNN "tolerance"
-F 8 "Thick film" V -5595 3350 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V -5595 3350 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    2175 1950
 	0    -1   -1   0   
 $EndComp
@@ -5785,13 +6111,15 @@ U 1 1 4E3ED5FA
 P 2175 2150
 F 0 "R226" V 2255 2150 50  0000 C CNN
 F 1 "100K" V 2175 2150 50  0000 C CNN
-F 2 "SM0805" V -5595 3550 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -5595 3550 60  0001 C CNN "mfg"
-F 5 "digi" V -5595 3550 60  0001 C CNN "sm vend1"
-F 6 ".125w" V -5595 3550 60  0001 C CNN "power"
-F 7 "5%" V -5595 3550 60  0001 C CNN "tolerance"
-F 8 "Thick film" V -5595 3550 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V -5595 3550 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    2175 2150
 	0    1    1    0   
 $EndComp
@@ -5801,13 +6129,15 @@ U 1 1 4E3ED5F9
 P 2824 2150
 F 0 "R232" V 2904 2150 50  0000 C CNN
 F 1 "100K" V 2824 2150 50  0000 C CNN
-F 2 "SM0805" V -4946 3550 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -4946 3550 60  0001 C CNN "mfg"
-F 5 "digi" V -4946 3550 60  0001 C CNN "sm vend1"
-F 6 ".125w" V -4946 3550 60  0001 C CNN "power"
-F 7 "5%" V -4946 3550 60  0001 C CNN "tolerance"
-F 8 "Thick film" V -4946 3550 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V -4946 3550 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    2824 2150
 	0    -1   1    0   
 $EndComp
@@ -5817,13 +6147,15 @@ U 1 1 4E3ED5F8
 P 2824 1950
 F 0 "R231" V 2904 1950 50  0000 C CNN
 F 1 "100K" V 2824 1950 50  0000 C CNN
-F 2 "SM0805" V -4946 3350 60  0001 C CNN
-F 4 "Rohm Semiconductor" V -4946 3350 60  0001 C CNN "mfg"
-F 5 "digi" V -4946 3350 60  0001 C CNN "sm vend1"
-F 6 ".125w" V -4946 3350 60  0001 C CNN "power"
-F 7 "5%" V -4946 3350 60  0001 C CNN "tolerance"
-F 8 "Thick film" V -4946 3350 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V -4946 3350 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    2824 1950
 	0    1    -1   0   
 $EndComp
@@ -5847,11 +6179,15 @@ U 1 1 4E3ED5F6
 P 1450 1025
 F 0 "R213" V 1530 1025 50  0000 C CNN
 F 1 "0R" V 1450 1025 50  0000 C CNN
-F 2 "SM0805" V -6320 2425 60  0001 C CNN
-F 4 "vishay" V -6320 2425 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -6320 2425 60  0001 C CNN "mfg #"
-F 6 "newark" V -6320 2425 60  0001 C CNN "vend1"
-F 7 "52K9721" V -6320 2425 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1450 1025
 	1    0    0    -1  
 $EndComp
@@ -5861,11 +6197,15 @@ U 1 1 4E3ED5F5
 P 1450 2000
 F 0 "R214" V 1530 2000 50  0000 C CNN
 F 1 "0R" V 1450 2000 50  0000 C CNN
-F 2 "SM0805" V -6320 3400 60  0001 C CNN
-F 4 "vishay" V -6320 3400 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -6320 3400 60  0001 C CNN "mfg #"
-F 6 "newark" V -6320 3400 60  0001 C CNN "vend1"
-F 7 "52K9721" V -6320 3400 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1450 2000
 	1    0    0    -1  
 $EndComp
@@ -5875,11 +6215,15 @@ U 1 1 4E3ED5F4
 P 3550 2000
 F 0 "R244" V 3630 2000 50  0000 C CNN
 F 1 "0R" V 3550 2000 50  0000 C CNN
-F 2 "SM0805" V -4220 3400 60  0001 C CNN
-F 4 "vishay" V -4220 3400 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -4220 3400 60  0001 C CNN "mfg #"
-F 6 "newark" V -4220 3400 60  0001 C CNN "vend1"
-F 7 "52K9721" V -4220 3400 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3550 2000
 	-1   0    0    1   
 $EndComp
@@ -5889,11 +6233,15 @@ U 1 1 4E3ED5F3
 P 3550 1025
 F 0 "R243" V 3630 1025 50  0000 C CNN
 F 1 "0R" V 3550 1025 50  0000 C CNN
-F 2 "SM0805" V -4220 2425 60  0001 C CNN
-F 4 "vishay" V -4220 2425 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -4220 2425 60  0001 C CNN "mfg #"
-F 6 "newark" V -4220 2425 60  0001 C CNN "vend1"
-F 7 "52K9721" V -4220 2425 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3550 1025
 	-1   0    0    1   
 $EndComp
@@ -5903,11 +6251,15 @@ U 1 1 4E3ED5F2
 P 1025 2750
 F 0 "R205" V 1105 2750 50  0000 C CNN
 F 1 "0R" V 1025 2750 50  0000 C CNN
-F 2 "SM0805" V -6745 4150 60  0001 C CNN
-F 4 "vishay" V -6745 4150 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -6745 4150 60  0001 C CNN "mfg #"
-F 6 "newark" V -6745 4150 60  0001 C CNN "vend1"
-F 7 "52K9721" V -6745 4150 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1025 2750
 	0    -1   -1   0   
 $EndComp
@@ -5917,11 +6269,15 @@ U 1 1 4E3ED5F1
 P 3975 2750
 F 0 "R253" V 4055 2750 50  0000 C CNN
 F 1 "0R" V 3975 2750 50  0000 C CNN
-F 2 "SM0805" V -3795 4150 60  0001 C CNN
-F 4 "vishay" V -3795 4150 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -3795 4150 60  0001 C CNN "mfg #"
-F 6 "newark" V -3795 4150 60  0001 C CNN "vend1"
-F 7 "52K9721" V -3795 4150 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3975 2750
 	0    -1   -1   0   
 $EndComp
@@ -5931,11 +6287,15 @@ U 1 1 4E3ED5F0
 P 3975 1150
 F 0 "R252" V 4055 1150 50  0000 C CNN
 F 1 "0R" V 3975 1150 50  0000 C CNN
-F 2 "SM0805" V -3795 2550 60  0001 C CNN
-F 4 "vishay" V -3795 2550 60  0001 C CNN "mfg"
-F 5 "CRCW08050000Z0EA" V -3795 2550 60  0001 C CNN "mfg #"
-F 6 "newark" V -3795 2550 60  0001 C CNN "vend1"
-F 7 "52K9721" V -3795 2550 60  0001 C CNN "vend1 #"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "mW" V 1130 2600 60  0001 C CNN "w"
+F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3975 1150
 	0    1    1    0   
 $EndComp
