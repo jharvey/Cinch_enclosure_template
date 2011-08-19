@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/14/2011 8:37:17 PM
+EESchema Schematic File Version 2  date 8/19/2011 6:13:41 AM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -29,10 +29,10 @@ EELAYER 25  0
 EELAYER END
 $Descr User 11000 8500
 encoding utf-8
-Sheet 7 13
+Sheet 8 13
 Title "freeEMS PLUS from Cinch template "
-Date "14 aug 2011"
-Rev "A"
+Date "19 aug 2011"
+Rev "A-DRAF"
 Comp "diyefi.org/openecu.info"
 Comment1 "Stepper motor control"
 Comment2 ""
@@ -169,9 +169,9 @@ GND_PWR8
 Text Label 6525 6025 2    60   ~ 0
 GND_PWR8
 Text Label 6450 4775 0    60   ~ 0
-GND_PWR8
+GND_MC33879
 Text HLabel 6400 4775 0    60   Input ~ 0
-GND_PWR8
+GND_MC33879
 Text HLabel 9750 6300 2    60   Input ~ 0
 D5_PIN
 Text HLabel 9625 5700 2    60   Input ~ 0

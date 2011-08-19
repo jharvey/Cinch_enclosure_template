@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/14/2011 8:37:16 PM
+EESchema Schematic File Version 2  date 8/19/2011 6:13:40 AM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -29,980 +29,262 @@ EELAYER 25  0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 6 13
+Sheet 2 13
 Title "freeEMS PLUS from Cinch template "
-Date "14 aug 2011"
-Rev "A"
+Date "19 aug 2011"
+Rev "A-DRAF"
 Comp "diyefi.org/openecu.info"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	6225 5775 6225 5825
+Wire Wire Line
+	6225 5825 6200 5825
+Wire Wire Line
+	8875 5825 8225 5825
+Wire Wire Line
+	8225 5825 8225 5775
+Wire Wire Line
+	9575 3675 9575 3700
+Wire Wire Line
+	9575 3700 9600 3700
+Text Label 9600 3700 0    60   ~ 0
+GND
+Text HLabel 9575 6425 2    60   Input ~ 0
+P09
+Text HLabel 9575 6325 2    60   Input ~ 0
+P05
+Text HLabel 8225 6425 2    60   Input ~ 0
+P10
+Text HLabel 8225 6325 2    60   Input ~ 0
+P06
+Text HLabel 7325 6525 0    60   Input ~ 0
+P13
+Text HLabel 7325 6425 0    60   Input ~ 0
+P11
+Text HLabel 7325 6325 0    60   Input ~ 0
+P07
+Text HLabel 6225 6625 0    60   Input ~ 0
+MISC_1A
+Text HLabel 6225 6325 0    60   Input ~ 0
+P08
+Text HLabel 9575 6725 2    60   Input ~ 0
+INJ21_HARN
+Text HLabel 6225 6725 0    60   Input ~ 0
+INJ24_HARN
+Text HLabel 8225 6725 2    60   Input ~ 0
+INJ22_HARN
+Text HLabel 6225 4175 0    60   Input ~ 0
+RPM_LF+
+Text HLabel 6225 4075 0    60   Input ~ 0
+RPM_LF-
+Text HLabel 9575 3975 2    60   Input ~ 0
+INJ20_HARN
+Text HLabel 9575 3875 2    60   Input ~ 0
+INJ16_HARN
+Text HLabel 6225 3975 0    60   Input ~ 0
+INJ17_HARN
+Text HLabel 6225 3875 0    60   Input ~ 0
+INJ13_HARN
+Text HLabel 8225 3875 2    60   Input ~ 0
+INJ15_HARN
+Text HLabel 7325 3875 0    60   Input ~ 0
+INJ14_HARN
+Text HLabel 7325 3975 0    60   Input ~ 0
+INJ18_HARN
+Text HLabel 9575 5275 2    60   Input ~ 0
+12V_ECU
+Text HLabel 9575 5175 2    60   Input ~ 0
+MAP_GND
+Text HLabel 9575 4875 2    60   Input ~ 0
+P01
+Text HLabel 8225 4775 2    60   Input ~ 0
+O2_UN1
+Text HLabel 9575 4975 2    60   Input ~ 0
+P02
+Text HLabel 7325 6725 0    60   Input ~ 0
+INJ23_HARN
+Text Label 6200 5825 2    60   ~ 0
+GND
+Text HLabel 8225 6925 2    60   Input ~ 0
+GND5_STAGED4
+Text HLabel 7325 3675 0    60   Input ~ 0
+GND4_STAGED8
+Text HLabel 6225 5275 0    60   Input ~ 0
+STEP_GND
+Text Label 8875 5825 0    60   ~ 0
+GND
 $Comp
 L MOLEX_HARNESS_SD-64333-100 J601
 U 1 1 4E3DF531
-P 3850 3900
-F 0 "J601" H 3850 5650 70  0000 C CNN
-F 1 "MOLEX_HARNESS_SD-64333-100" H 3900 1900 70  0000 C CNN
-F 2 "Molex_SD-64333-100_on_Cinch_ModICE_w_5554_SOM" H 3850 3900 60  0001 C CNN
-	1    3850 3900
-	1    0    0    -1  
+P 7825 5275
+F 0 "J601" H 9350 5275 70  0000 C CNN
+F 1 "MOLEX_HARNESS_SD-64333-100" H 6950 5275 70  0000 C CNN
+F 2 "Molex_SD-64333-100_on_Cinch_ModICE_w_5554_SOM" H 7825 5275 60  0001 C CNN
+	1    7825 5275
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7975 2250 8050 2250
-Wire Wire Line
-	9075 5150 9000 5150
-Wire Wire Line
-	9275 4350 9000 4350
-Wire Wire Line
-	6475 4950 6525 4950
-Wire Wire Line
-	6475 4750 6525 4750
-Wire Wire Line
-	7025 4750 8000 4750
-Connection ~ 7200 4950
-Wire Wire Line
-	7200 4950 7200 5050
-Wire Wire Line
-	7925 4550 8000 4550
-Wire Wire Line
-	7925 4350 8000 4350
-Wire Wire Line
-	7925 5250 8000 5250
-Connection ~ 7200 6250
-Wire Wire Line
-	7200 6250 7200 6350
-Wire Wire Line
-	7200 6350 7025 6350
-Connection ~ 7200 5850
-Wire Wire Line
-	7200 5850 7200 5950
-Wire Wire Line
-	7200 5950 7025 5950
-Wire Wire Line
-	6475 6550 6525 6550
-Wire Wire Line
-	6475 6150 6525 6150
-Wire Wire Line
-	6475 5850 6525 5850
-Wire Wire Line
-	8000 6450 7025 6450
-Wire Wire Line
-	8000 6050 7025 6050
-Wire Wire Line
-	6525 6050 6475 6050
-Wire Wire Line
-	6525 6450 6475 6450
-Wire Wire Line
-	9125 2150 9050 2150
-Wire Wire Line
-	9000 5550 9075 5550
-Wire Wire Line
-	9000 5950 9075 5950
-Wire Wire Line
-	9000 6350 9075 6350
-Wire Wire Line
-	7925 6550 8000 6550
-Wire Wire Line
-	7925 6350 8000 6350
-Wire Wire Line
-	7925 6150 8000 6150
-Wire Wire Line
-	7925 5950 8000 5950
-Wire Wire Line
-	7925 5750 8000 5750
-Wire Wire Line
-	7925 5550 8000 5550
-Wire Wire Line
-	7925 5350 8000 5350
-Wire Wire Line
-	7925 5150 8000 5150
-Wire Wire Line
-	9050 1350 9125 1350
-Wire Wire Line
-	9050 1750 9125 1750
-Wire Wire Line
-	9125 2350 9050 2350
-Wire Wire Line
-	9050 3550 9125 3550
-Wire Wire Line
-	7975 3450 8050 3450
-Wire Wire Line
-	7975 3250 8050 3250
-Wire Wire Line
-	7975 3050 8050 3050
-Wire Wire Line
-	7975 2850 8050 2850
-Wire Wire Line
-	7975 2650 8050 2650
-Wire Wire Line
-	7975 2350 8050 2350
-Wire Wire Line
-	7975 1950 8050 1950
-Wire Wire Line
-	7975 1750 8050 1750
-Wire Wire Line
-	7975 1550 8050 1550
-Wire Wire Line
-	7975 1350 8050 1350
-Wire Wire Line
-	7975 1450 8050 1450
-Wire Wire Line
-	7975 1650 8050 1650
-Wire Wire Line
-	7975 1850 8050 1850
-Wire Wire Line
-	7975 2050 8050 2050
-Wire Wire Line
-	7975 2550 8050 2550
-Wire Wire Line
-	7975 2750 8050 2750
-Wire Wire Line
-	7975 2950 8050 2950
-Wire Wire Line
-	7975 3150 8050 3150
-Wire Wire Line
-	7975 3350 8050 3350
-Wire Wire Line
-	7975 3550 8050 3550
-Wire Wire Line
-	9050 3350 9125 3350
-Wire Wire Line
-	9050 1950 9125 1950
-Wire Wire Line
-	9050 1550 9125 1550
-Wire Wire Line
-	7925 4850 8000 4850
-Wire Wire Line
-	7925 5450 8000 5450
-Wire Wire Line
-	8000 5650 7925 5650
-Wire Wire Line
-	9000 6550 9075 6550
-Wire Wire Line
-	9000 6150 9075 6150
-Wire Wire Line
-	9000 5750 9075 5750
-Wire Wire Line
-	9000 5350 9075 5350
-Wire Wire Line
-	7975 2450 8050 2450
-Wire Wire Line
-	6475 6250 6525 6250
-Wire Wire Line
-	8000 5850 7025 5850
-Wire Wire Line
-	7025 6250 8000 6250
-Wire Wire Line
-	6475 5950 6525 5950
-Wire Wire Line
-	6475 6350 6525 6350
-Wire Wire Line
-	7025 6150 7200 6150
-Wire Wire Line
-	7200 6150 7200 6050
-Connection ~ 7200 6050
-Wire Wire Line
-	7025 6550 7200 6550
-Wire Wire Line
-	7200 6550 7200 6450
-Connection ~ 7200 6450
-Wire Wire Line
-	7925 5050 8000 5050
-Wire Wire Line
-	7925 4450 8000 4450
-Wire Wire Line
-	7925 4650 8000 4650
-Wire Wire Line
-	7200 5050 7025 5050
-Wire Wire Line
-	7025 4850 7200 4850
-Wire Wire Line
-	7200 4850 7200 4750
-Connection ~ 7200 4750
-Wire Wire Line
-	7025 4950 8000 4950
-Wire Wire Line
-	6475 4850 6525 4850
-Wire Wire Line
-	6475 5050 6525 5050
-Wire Wire Line
-	9825 4650 9775 4650
-Wire Wire Line
-	9825 4450 9775 4450
-Connection ~ 9100 4350
-Wire Wire Line
-	9100 4350 9100 4450
-Wire Wire Line
-	9100 4450 9275 4450
-Wire Wire Line
-	9275 4650 9100 4650
-Wire Wire Line
-	9100 4650 9100 4550
-Connection ~ 9100 4550
-Wire Wire Line
-	9825 4350 9775 4350
-Wire Wire Line
-	9825 4550 9775 4550
-Wire Wire Line
-	9275 4550 9000 4550
-Wire Wire Line
-	9275 4950 9000 4950
-Wire Wire Line
-	9825 4950 9775 4950
-Wire Wire Line
-	9825 4750 9775 4750
-Connection ~ 9100 4950
-Wire Wire Line
-	9100 4950 9100 5050
-Wire Wire Line
-	9100 5050 9275 5050
-Wire Wire Line
-	9275 4850 9100 4850
-Wire Wire Line
-	9100 4850 9100 4750
-Connection ~ 9100 4750
-Wire Wire Line
-	9825 4850 9775 4850
-Wire Wire Line
-	9825 5050 9775 5050
-Wire Wire Line
-	9275 4750 9000 4750
-Wire Wire Line
-	9875 3150 9825 3150
-Wire Wire Line
-	9325 3250 9150 3250
-Wire Wire Line
-	9150 3250 9150 3150
-Connection ~ 9150 3150
-Wire Wire Line
-	9875 3250 9825 3250
-Wire Wire Line
-	9050 3150 9325 3150
-Wire Wire Line
-	9325 2950 9050 2950
-Wire Wire Line
-	9875 3050 9825 3050
-Connection ~ 9150 2950
-Wire Wire Line
-	9150 2950 9150 3050
-Wire Wire Line
-	9150 3050 9325 3050
-Wire Wire Line
-	9875 2950 9825 2950
-Wire Wire Line
-	9875 2750 9825 2750
-Wire Wire Line
-	9325 2850 9150 2850
-Wire Wire Line
-	9150 2850 9150 2750
-Connection ~ 9150 2750
-Wire Wire Line
-	9875 2850 9825 2850
-Wire Wire Line
-	9050 2750 9325 2750
-Wire Wire Line
-	9325 2550 9050 2550
-Wire Wire Line
-	9875 2650 9825 2650
-Connection ~ 9150 2550
-Wire Wire Line
-	9150 2550 9150 2650
-Wire Wire Line
-	9150 2650 9325 2650
-Wire Wire Line
-	9875 2550 9825 2550
-Wire Wire Line
-	7975 2150 8050 2150
-Text HLabel 7975 2550 0    60   Input ~ 0
-AN/GPI_1
-$Comp
-L R R622
-U 1 1 4C255D9A
-P 9575 2650
-F 0 "R622" V 9550 2975 50  0000 C CNN
-F 1 "0R" V 9575 2650 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    9575 2650
-	0    -1   1    0   
-$EndComp
-$Comp
-L R R621
-U 1 1 4C255D99
-P 9575 2550
-F 0 "R621" V 9550 2875 50  0000 C CNN
-F 1 "0R" V 9575 2550 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    9575 2550
-	0    -1   1    0   
-$EndComp
-Text HLabel 9875 2650 2    60   Input ~ 0
-AN/GPI_2
-Text HLabel 9875 2850 2    60   Input ~ 0
-AN/GPI_3
-$Comp
-L R R623
-U 1 1 4C255D95
-P 9575 2750
-F 0 "R623" V 9550 3075 50  0000 C CNN
-F 1 "0R" V 9575 2750 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    9575 2750
-	0    -1   1    0   
-$EndComp
-$Comp
-L R R624
-U 1 1 4C255D94
-P 9575 2850
-F 0 "R624" V 9550 3175 50  0000 C CNN
-F 1 "0R" V 9575 2850 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    9575 2850
-	0    -1   1    0   
-$EndComp
-$Comp
-L R R626
-U 1 1 4C255D32
-P 9575 3050
-F 0 "R626" V 9550 3375 50  0000 C CNN
-F 1 "0R" V 9575 3050 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    9575 3050
-	0    -1   1    0   
-$EndComp
-$Comp
-L R R625
-U 1 1 4C255D31
-P 9575 2950
-F 0 "R625" V 9550 3275 50  0000 C CNN
-F 1 "0R" V 9575 2950 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    9575 2950
-	0    -1   1    0   
-$EndComp
-Text HLabel 9875 3050 2    60   Input ~ 0
-AN/GPI_4
-Text HLabel 9875 3250 2    60   Input ~ 0
-AN/GPI_5
-$Comp
-L R R627
-U 1 1 4C255D18
-P 9575 3150
-F 0 "R627" V 9550 3475 50  0000 C CNN
-F 1 "0R" V 9575 3150 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    9575 3150
-	0    -1   1    0   
-$EndComp
-$Comp
-L R R628
-U 1 1 4C255D17
-P 9575 3250
-F 0 "R628" V 9550 3575 50  0000 C CNN
-F 1 "0R" V 9575 3250 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    9575 3250
-	0    -1   1    0   
-$EndComp
-Text HLabel 9825 4350 2    60   Input ~ 0
-MISC_3
-Text HLabel 9825 4550 2    60   Input ~ 0
-MISC_4
-Text HLabel 9825 4750 2    60   Input ~ 0
-MISC_5
-Text HLabel 9825 4950 2    60   Input ~ 0
-MISC_6
-$Comp
-L R R617
-U 1 1 4C255AD4
-P 9525 4750
-F 0 "R617" V 9500 5075 50  0000 C CNN
-F 1 "0R" V 9525 4750 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    9525 4750
-	0    -1   1    0   
-$EndComp
-$Comp
-L R R619
-U 1 1 4C255AD3
-P 9525 4950
-F 0 "R619" V 9500 5275 50  0000 C CNN
-F 1 "0R" V 9525 4950 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    9525 4950
-	0    -1   1    0   
-$EndComp
-$Comp
-L R R620
-U 1 1 4C255AD2
-P 9525 5050
-F 0 "R620" V 9500 5375 50  0000 C CNN
-F 1 "0R" V 9525 5050 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    9525 5050
-	0    -1   1    0   
-$EndComp
-$Comp
-L R R618
-U 1 1 4C255AD1
-P 9525 4850
-F 0 "R618" V 9500 5175 50  0000 C CNN
-F 1 "0R" V 9525 4850 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    9525 4850
-	0    -1   1    0   
-$EndComp
-$Comp
-L R R614
-U 1 1 4C255A92
-P 9525 4450
-F 0 "R614" V 9500 4775 50  0000 C CNN
-F 1 "0R" V 9525 4450 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    9525 4450
-	0    -1   1    0   
-$EndComp
-$Comp
-L R R616
-U 1 1 4C255A91
-P 9525 4650
-F 0 "R616" V 9500 4975 50  0000 C CNN
-F 1 "0R" V 9525 4650 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    9525 4650
-	0    -1   1    0   
-$EndComp
-$Comp
-L R R615
-U 1 1 4C255A90
-P 9525 4550
-F 0 "R615" V 9500 4875 50  0000 C CNN
-F 1 "0R" V 9525 4550 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    9525 4550
-	0    -1   1    0   
-$EndComp
-$Comp
-L R R613
-U 1 1 4C255A8F
-P 9525 4350
-F 0 "R613" V 9500 4675 50  0000 C CNN
-F 1 "0R" V 9525 4350 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    9525 4350
-	0    -1   1    0   
-$EndComp
-Text HLabel 6475 5050 0    60   Input ~ 0
+Text HLabel 7325 5575 0    60   Input ~ 0
+CRANK+
+Text HLabel 7325 5275 0    60   Input ~ 0
+TPS+_5V
+Text HLabel 7325 5475 0    60   Input ~ 0
+TPS-_GND
+Text HLabel 9575 6925 2    60   Input ~ 0
+HS2
+Text HLabel 6225 6925 0    60   Input ~ 0
+HS3
+Text HLabel 8225 4875 2    60   Input ~ 0
+P03
+Text HLabel 8225 4975 2    60   Input ~ 0
+P04
+Text HLabel 8225 5375 2    60   Input ~ 0
 232_TX
-Text HLabel 6475 4850 0    60   Input ~ 0
+Text HLabel 8225 5475 2    60   Input ~ 0
 232_RX
-$Comp
-L R R601
-U 1 1 4C2559AC
-P 6775 4750
-F 0 "R601" V 6725 5025 50  0000 C CNN
-F 1 "0R" V 6775 4750 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    6775 4750
-	0    1    1    0   
-$EndComp
-$Comp
-L R R603
-U 1 1 4C2559AB
-P 6775 4950
-F 0 "R603" V 6725 5225 50  0000 C CNN
-F 1 "0R" V 6775 4950 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    6775 4950
-	0    1    1    0   
-$EndComp
-$Comp
-L R R604
-U 1 1 4C2559A9
-P 6775 5050
-F 0 "R604" V 6725 5325 50  0000 C CNN
-F 1 "0R" V 6775 5050 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    6775 5050
-	0    1    1    0   
-$EndComp
-$Comp
-L R R602
-U 1 1 4C2559A8
-P 6775 4850
-F 0 "R602" V 6725 5125 50  0000 C CNN
-F 1 "0R" V 6775 4850 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    6775 4850
-	0    1    1    0   
-$EndComp
-$Comp
-L R R606
-U 1 1 4C255811
-P 6775 5950
-F 0 "R606" V 6725 6200 50  0000 C CNN
-F 1 "0R" V 6775 5950 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    6775 5950
-	0    1    1    0   
-$EndComp
-$Comp
-L R R608
-U 1 1 4C255810
-P 6775 6150
-F 0 "R608" V 6725 6400 50  0000 C CNN
-F 1 "0R" V 6775 6150 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    6775 6150
-	0    1    1    0   
-$EndComp
-$Comp
-L R R612
-U 1 1 4C25580F
-P 6775 6550
-F 0 "R612" V 6725 6800 50  0000 C CNN
-F 1 "0R" V 6775 6550 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    6775 6550
-	0    1    1    0   
-$EndComp
-$Comp
-L R R610
-U 1 1 4C25580E
-P 6775 6350
-F 0 "R610" V 6725 6600 50  0000 C CNN
-F 1 "0R" V 6775 6350 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    6775 6350
-	0    1    1    0   
-$EndComp
-$Comp
-L R R609
-U 1 1 4C2557BE
-P 6775 6250
-F 0 "R609" V 6725 6500 50  0000 C CNN
-F 1 "0R" V 6775 6250 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    6775 6250
-	0    1    1    0   
-$EndComp
-$Comp
-L R R611
-U 1 1 4C2557BD
-P 6775 6450
-F 0 "R611" V 6725 6700 50  0000 C CNN
-F 1 "0R" V 6775 6450 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    6775 6450
-	0    1    1    0   
-$EndComp
-$Comp
-L R R607
-U 1 1 4C2557B4
-P 6775 6050
-F 0 "R607" V 6725 6300 50  0000 C CNN
-F 1 "0R" V 6775 6050 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    6775 6050
-	0    1    1    0   
-$EndComp
-$Comp
-L R R605
-U 1 1 4C25578F
-P 6775 5850
-F 0 "R605" V 6725 6100 50  0000 C CNN
-F 1 "0R" V 6775 5850 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "vishay,CRCW08050000Z0EA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,52K9721" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    6775 5850
-	0    1    1    0   
-$EndComp
-Text HLabel 6475 5950 0    60   Input ~ 0
+Text HLabel 6225 5075 0    60   Input ~ 0
 STEP_S1
-Text HLabel 6475 6150 0    60   Input ~ 0
+Text HLabel 6225 5175 0    60   Input ~ 0
 STEP_S4
-Text HLabel 6475 6350 0    60   Input ~ 0
+Text HLabel 6225 5375 0    60   Input ~ 0
 STEP_D5
-Text HLabel 6475 6550 0    60   Input ~ 0
+Text HLabel 6225 5475 0    60   Input ~ 0
 STEP_D8
-Text HLabel 7925 5650 0    60   Input ~ 0
-GND_PWR1
-$Comp
-L AMP35 P601
-U 1 1 4C215770
-P 8450 5450
-F 0 "P601" H 8500 6800 70  0000 C CNN
-F 1 "AMP35" H 8400 4100 70  0000 C CNN
-	1    8450 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L AMP35 P602
-U 1 1 4C21576A
-P 8500 2450
-F 0 "P602" H 8550 3800 70  0000 C CNN
-F 1 "AMP35" H 8450 1100 70  0000 C CNN
-	1    8500 2450
-	1    0    0    -1  
-$EndComp
-Text HLabel 6475 4750 0    60   Input ~ 0
+Text HLabel 8225 3675 2    60   Input ~ 0
+GND2_INJIGN
+Text HLabel 8225 6525 2    60   Input ~ 0
 FLEX_CAN_L
-Text HLabel 7975 1650 0    60   Input ~ 0
-VR+_WHBL_PIN
-Text HLabel 6475 4950 0    60   Input ~ 0
+Text HLabel 6225 6525 0    60   Input ~ 0
+P14
+Text HLabel 9575 6525 2    60   Input ~ 0
 FLEX_CAN_H
-Text HLabel 7975 2250 0    60   Input ~ 0
-VR+_WHBR_PIN
-Text HLabel 7975 2050 0    60   Input ~ 0
-VR-_WH_COMMON
-Text HLabel 7925 5250 0    60   Input ~ 0
-PUMP_33800
-Text HLabel 7975 1850 0    60   Input ~ 0
-VR+_WHFL_PIN
-Text HLabel 7925 5050 0    60   Input ~ 0
-MIL_33800
-Text HLabel 7975 2450 0    60   Input ~ 0
-VR+_WHFR_PIN
-Text HLabel 7975 2150 0    60   Input ~ 0
-VR-_CAM2_PIN
-Text HLabel 7975 2350 0    60   Input ~ 0
-VR+_CAM2_PIN
-Text HLabel 7975 1750 0    60   Input ~ 0
-VR-_CAM1_PIN
-Text HLabel 7975 1950 0    60   Input ~ 0
-VR+_CAM1_PIN
-Text HLabel 7975 1350 0    60   Input ~ 0
-VR-_CR_PIN
-Text HLabel 7975 1550 0    60   Input ~ 0
-VR+_CR_PIN
-Text HLabel 9125 1550 2    60   Input ~ 0
+Text HLabel 9575 4075 2    60   Input ~ 0
+RPM_RB-
+Text HLabel 8225 4075 2    60   Input ~ 0
+RPM_LB-
+Text HLabel 7325 6625 0    60   Input ~ 0
+PUMP_LS-1A
+Text HLabel 7325 4075 0    60   Input ~ 0
+RPM_RF-
+Text HLabel 8225 5275 2    60   Input ~ 0
+MIL_LS-1A
+Text HLabel 6225 5575 0    60   Input ~ 0
+CRANK-
+Text HLabel 8225 4175 2    60   Input ~ 0
+RPM_LB+
+Text HLabel 9575 4175 2    60   Input ~ 0
+RPM_RB+
+Text HLabel 6225 6425 0    60   Input ~ 0
+P12
+Text HLabel 7325 4175 0    60   Input ~ 0
+RPM_RF+
+Text HLabel 9575 5575 2    60   Input ~ 0
+CAM+
+Text HLabel 8225 5575 2    60   Input ~ 0
+CAM-
+Text HLabel 8225 5175 2    60   Input ~ 0
 MAP/MAF_2
-Text HLabel 9125 1350 2    60   Input ~ 0
+Text HLabel 8225 5075 2    60   Input ~ 0
 MAP/MAF_1
-Text HLabel 7975 1450 0    60   Input ~ 0
-TPS_AN
-Text HLabel 9125 1950 2    60   Input ~ 0
-GND_SENSE
-Text HLabel 7925 4850 0    60   Input ~ 0
-VBAT_SW
-Text HLabel 7925 4450 0    60   Input ~ 0
-GND_PWR3
-Text HLabel 7925 4650 0    60   Input ~ 0
-5VREG_PWR
-Text HLabel 9125 1750 2    60   Input ~ 0
-5VREG_SENSE
-Text HLabel 7925 5450 0    60   Input ~ 0
-GND_PWR2
-Text HLabel 9825 5050 2    60   Input ~ 0
-IGN9_PIN
-Text HLabel 9825 4850 2    60   Input ~ 0
-IGN10_PIN
-Text HLabel 9825 4650 2    60   Input ~ 0
-IGN11_PIN
-Text HLabel 9825 4450 2    60   Input ~ 0
-IGN12_PIN
-Text HLabel 6475 6450 0    60   Input ~ 0
-INJ9_PIN
-Text HLabel 6475 6250 0    60   Input ~ 0
-INJ10_PIN
-Text HLabel 6475 6050 0    60   Input ~ 0
-INJ11_PIN
-Text HLabel 6475 5850 0    60   Input ~ 0
-INJ12_PIN
-Text HLabel 9075 5750 2    60   Input ~ 0
-IGN5_PIN
-Text HLabel 9075 5550 2    60   Input ~ 0
-IGN6_PIN
-Text HLabel 9075 5350 2    60   Input ~ 0
-IGN7_PIN
-Text HLabel 9075 5150 2    60   Input ~ 0
-IGN8_PIN
-Text HLabel 7925 5750 0    60   Input ~ 0
-INJ5_PIN
-Text HLabel 7925 5550 0    60   Input ~ 0
-INJ6_PIN
-Text HLabel 7925 5350 0    60   Input ~ 0
-INJ7_PIN
-Text HLabel 7925 5150 0    60   Input ~ 0
-INJ8_PIN
-Text HLabel 9075 6550 2    60   Input ~ 0
-IGN1_PIN
-Text HLabel 9075 6350 2    60   Input ~ 0
-IGN2_PIN
-Text HLabel 9075 6150 2    60   Input ~ 0
-IGN3_PIN
-Text HLabel 9075 5950 2    60   Input ~ 0
-IGN4_PIN
-Text HLabel 7925 6550 0    60   Input ~ 0
-INJ1_PIN
-Text HLabel 7925 6350 0    60   Input ~ 0
-INJ2_PIN
-Text HLabel 7925 6150 0    60   Input ~ 0
-INJ3_PIN
-Text HLabel 7925 5950 0    60   Input ~ 0
-INJ4_PIN
-Text HLabel 7925 4550 0    60   Input ~ 0
-CANL-PIN
-Text HLabel 7925 4350 0    60   Input ~ 0
-CANH-PIN
-Text HLabel 7975 2650 0    60   Input ~ 0
-O2_IA2-PIN
-Text HLabel 7975 2850 0    60   Input ~ 0
-O2_IP2-PIN
-Text HLabel 7975 3050 0    60   Input ~ 0
-O2_UN2-PIN
-Text HLabel 7975 3450 0    60   Input ~ 0
-O2_HD2-PIN
-Text HLabel 7975 3250 0    60   Input ~ 0
-O2_VM2-PIN
-Text HLabel 7975 2750 0    60   Input ~ 0
-O2_IA1-PIN
-Text HLabel 7975 2950 0    60   Input ~ 0
-O2_IP1-PIN
-Text HLabel 7975 3150 0    60   Input ~ 0
-O2_UN1-PIN
-Text HLabel 7975 3550 0    60   Input ~ 0
-O2_HD1-PIN
-Text HLabel 7975 3350 0    60   Input ~ 0
-O2_VM1-PIN
-Text HLabel 9875 3150 2    60   Input ~ 0
-KNCK2+PIN
-Text HLabel 9875 2950 2    60   Input ~ 0
-KNCK2-PIN
-Text HLabel 9125 3550 2    60   Input ~ 0
-KNCK1+PIN
-Text HLabel 9125 3350 2    60   Input ~ 0
-KNCK1-PIN
-Text HLabel 9875 2750 2    60   Input ~ 0
-THERM2
-Text HLabel 9875 2550 2    60   Input ~ 0
-THERM1
-Text HLabel 9125 2150 2    60   Input ~ 0
-THERM_ENG
-Text HLabel 9125 2350 2    60   Input ~ 0
-THERM_AIR
+Text HLabel 7325 5375 0    60   Input ~ 0
+TPS_SIG
+Text HLabel 8225 5775 2    60   Input ~ 0
+GND
+Text HLabel 9575 5775 2    60   Input ~ 0
+12V_BAT
+Text HLabel 7325 6925 0    60   Input ~ 0
+GND3_INJIGN
+Text HLabel 9575 5075 2    60   Input ~ 0
+MAP+_5V
+Text HLabel 8225 3975 2    60   Input ~ 0
+INJ19_HARN
+Text HLabel 7325 5775 0    60   Input ~ 0
+GND1_INJIGN
+Text HLabel 9575 6825 2    60   Input ~ 0
+IGN09_HARN
+Text HLabel 8225 6825 2    60   Input ~ 0
+IGN10_HARN
+Text HLabel 7325 6825 0    60   Input ~ 0
+IGN11_HARN
+Text HLabel 6225 6825 0    60   Input ~ 0
+IGN12_HARN
+Text HLabel 9575 7025 2    60   Input ~ 0
+INJ09_HARN
+Text HLabel 8225 7025 2    60   Input ~ 0
+INJ10_HARN
+Text HLabel 7325 7025 0    60   Input ~ 0
+INJ11_HARN
+Text HLabel 6225 7025 0    60   Input ~ 0
+INJ12_HARN
+Text HLabel 9575 3775 2    60   Input ~ 0
+IGN05_HARN
+Text HLabel 8225 3775 2    60   Input ~ 0
+IGN06_HARN
+Text HLabel 7325 3775 0    60   Input ~ 0
+IGN07_HARN
+Text HLabel 6225 3775 0    60   Input ~ 0
+IGN08_HARN
+Text HLabel 9575 3575 2    60   Input ~ 0
+INJ05_HARN
+Text HLabel 8225 3575 2    60   Input ~ 0
+INJ06_HARN
+Text HLabel 7325 3575 0    60   Input ~ 0
+INJ07_HARN
+Text HLabel 6225 3575 0    60   Input ~ 0
+INJ08_HARN
+Text HLabel 9575 5675 2    60   Input ~ 0
+IGN01_HARN
+Text HLabel 8225 5675 2    60   Input ~ 0
+IGN02_HARN
+Text HLabel 7325 5675 0    60   Input ~ 0
+IGN03_HARN
+Text HLabel 6225 5675 0    60   Input ~ 0
+IGN04_HARN
+Text HLabel 9575 5875 2    60   Input ~ 0
+INJ01_HARN
+Text HLabel 8225 5875 2    60   Input ~ 0
+INJ02_HARN
+Text HLabel 7325 5875 0    60   Input ~ 0
+INJ03_HARN
+Text HLabel 6225 5875 0    60   Input ~ 0
+INJ04_HARN
+Text HLabel 9575 5475 2    60   Input ~ 0
+CANL
+Text HLabel 9575 5375 2    60   Input ~ 0
+CANH
+Text HLabel 6225 4275 0    60   Input ~ 0
+O2_IA2
+Text HLabel 7325 4275 0    60   Input ~ 0
+O2_IP2
+Text HLabel 8225 4275 2    60   Input ~ 0
+O2_UN2
+Text HLabel 8225 6625 2    60   Input ~ 0
+O2_HD2_PWR
+Text HLabel 9575 4275 2    60   Input ~ 0
+O2_VM2
+Text HLabel 6225 4775 0    60   Input ~ 0
+O2_IA1
+Text HLabel 7325 4775 0    60   Input ~ 0
+O2_IP1
+Text HLabel 9575 6625 2    60   Input ~ 0
+O2_HD1_PWR
+Text HLabel 9575 4775 2    60   Input ~ 0
+O2_VM1
+Text HLabel 7325 4975 0    60   Input ~ 0
+KNCK2+
+Text HLabel 6225 4975 0    60   Input ~ 0
+KNCK2-
+Text HLabel 7325 4875 0    60   Input ~ 0
+KNCK1+
+Text HLabel 6225 4875 0    60   Input ~ 0
+KNCK1-
+Text HLabel 7325 5175 0    60   Input ~ 0
+MIAT
+Text HLabel 7325 5075 0    60   Input ~ 0
+ENG_TEMP
+Text HLabel 6225 3675 0    60   Input ~ 0
+EXTRA
 $EndSCHEMATC
