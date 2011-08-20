@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/19/2011 6:13:40 AM
+EESchema Schematic File Version 2  date 8/20/2011 7:18:54 AM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -29,9 +29,9 @@ EELAYER 25  0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 2 13
+Sheet 3 13
 Title "freeEMS PLUS from Cinch template "
-Date "19 aug 2011"
+Date "20 aug 2011"
 Rev "A-DRAF"
 Comp "diyefi.org/openecu.info"
 Comment1 ""
@@ -118,10 +118,10 @@ STEP_GND
 Text Label 8875 5825 0    60   ~ 0
 GND
 $Comp
-L MOLEX_HARNESS_SD-64333-100 J601
+L MOLEX_HARNESS_SD-64333-100 J301
 U 1 1 4E3DF531
 P 7825 5275
-F 0 "J601" H 9350 5275 70  0000 C CNN
+F 0 "J301" H 9350 5275 70  0000 C CNN
 F 1 "MOLEX_HARNESS_SD-64333-100" H 6950 5275 70  0000 C CNN
 F 2 "Molex_SD-64333-100_on_Cinch_ModICE_w_5554_SOM" H 7825 5275 60  0001 C CNN
 	1    7825 5275

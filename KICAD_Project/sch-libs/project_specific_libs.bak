@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 8/18/2011 6:54:12 AM
+EESchema-LIBRARY Version 2.3  Date: 8/18/2011 6:54:24 AM
 #encoding utf-8
 #
 # 5554_SOM
@@ -1099,8 +1099,8 @@ ENDDEF
 # molex_harness_SD-64333-100
 #
 DEF molex_harness_SD-64333-100 J 0 40 Y N 1 F N
-F0 "J" 50 1750 70 H V C CNN
-F1 "molex_harness_SD-64333-100" 50 -2000 70 H V C CNN
+F0 "J" 1250 50 70 H V C CNN
+F1 "molex_harness_SD-64333-100" -1000 50 70 H V C CNN
 $FPLIST
  Molex_SD-64333-100_on_Cinch_ModICE_w_5554_SOM
 $ENDFPLIST
