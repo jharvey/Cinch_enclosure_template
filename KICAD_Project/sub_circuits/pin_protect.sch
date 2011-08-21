@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/20/2011 7:59:50 PM
+EESchema Schematic File Version 2  date 8/20/2011 10:47:21 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,7 +31,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 4 13
 Title "freeEMS PLUS from Cinch template "
-Date "20 aug 2011"
+Date "21 aug 2011"
 Rev "A-DRAF"
 Comp "diyefi.org/openecu.info"
 Comment1 "misc analog input protection circuits"
@@ -339,10 +339,10 @@ F 11 "other,more,stuff" V 1130 4950 60  0001 C CNN "misc"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR084
+L GND #PWR086
 U 1 1 4E4DAF8E
 P 4300 6300
-F 0 "#PWR084" H 4300 6300 30  0001 C CNN
+F 0 "#PWR086" H 4300 6300 30  0001 C CNN
 F 1 "GND" H 4300 6230 30  0001 C CNN
 	1    4300 6300
 	1    0    0    -1  
@@ -464,10 +464,10 @@ F 11 "other,more,stuff" V 1130 4950 60  0001 C CNN "misc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR085
+L GND #PWR087
 U 1 1 4E4DAF87
 P 4300 7500
-F 0 "#PWR085" H 4300 7500 30  0001 C CNN
+F 0 "#PWR087" H 4300 7500 30  0001 C CNN
 F 1 "GND" H 4300 7430 30  0001 C CNN
 	1    4300 7500
 	1    0    0    -1  
@@ -657,10 +657,10 @@ F 11 "other,more,stuff" V 6880 9950 60  0001 C CNN "Field8"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR086
+L GND #PWR088
 U 1 1 4E4DACB4
 P 8650 5150
-F 0 "#PWR086" H 8650 5150 30  0001 C CNN
+F 0 "#PWR088" H 8650 5150 30  0001 C CNN
 F 1 "GND" H 8650 5080 30  0001 C CNN
 	1    8650 5150
 	1    0    0    -1  
@@ -990,10 +990,10 @@ F 11 "other,more,stuff" V 2780 2600 60  0001 C CNN "misc"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR087
+L GND #PWR089
 U 1 1 4E47D7F8
 P 8650 3950
-F 0 "#PWR087" H 8650 3950 30  0001 C CNN
+F 0 "#PWR089" H 8650 3950 30  0001 C CNN
 F 1 "GND" H 8650 3880 30  0001 C CNN
 	1    8650 3950
 	1    0    0    -1  
@@ -1111,10 +1111,10 @@ F 11 "other,more,stuff" V 2780 2600 60  0001 C CNN "misc"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR088
+L GND #PWR090
 U 1 1 4E47D7F1
 P 8650 2750
-F 0 "#PWR088" H 8650 2750 30  0001 C CNN
+F 0 "#PWR090" H 8650 2750 30  0001 C CNN
 F 1 "GND" H 8650 2680 30  0001 C CNN
 	1    8650 2750
 	1    0    0    -1  
@@ -1308,10 +1308,10 @@ F 11 "other,more,stuff" V 6880 6350 60  0001 C CNN "Field8"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR089
+L GND #PWR091
 U 1 1 4E47D7E6
 P 8650 1550
-F 0 "#PWR089" H 8650 1550 30  0001 C CNN
+F 0 "#PWR091" H 8650 1550 30  0001 C CNN
 F 1 "GND" H 8650 1480 30  0001 C CNN
 	1    8650 1550
 	1    0    0    -1  
@@ -1353,10 +1353,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR090
+L GND #PWR092
 U 1 1 4E47D7E3
 P 4300 1550
-F 0 "#PWR090" H 4300 1550 30  0001 C CNN
+F 0 "#PWR092" H 4300 1550 30  0001 C CNN
 F 1 "GND" H 4300 1480 30  0001 C CNN
 	1    4300 1550
 	1    0    0    -1  
@@ -1478,10 +1478,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR091
+L GND #PWR093
 U 1 1 4E47D7D8
 P 4300 2750
-F 0 "#PWR091" H 4300 2750 30  0001 C CNN
+F 0 "#PWR093" H 4300 2750 30  0001 C CNN
 F 1 "GND" H 4300 2680 30  0001 C CNN
 	1    4300 2750
 	1    0    0    -1  
@@ -1523,10 +1523,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR092
+L GND #PWR094
 U 1 1 4E47D7D5
 P 4300 5150
-F 0 "#PWR092" H 4300 5150 30  0001 C CNN
+F 0 "#PWR094" H 4300 5150 30  0001 C CNN
 F 1 "GND" H 4300 5080 30  0001 C CNN
 	1    4300 5150
 	1    0    0    -1  
@@ -1648,10 +1648,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR093
+L GND #PWR095
 U 1 1 4E47D7CA
 P 4300 3950
-F 0 "#PWR093" H 4300 3950 30  0001 C CNN
+F 0 "#PWR095" H 4300 3950 30  0001 C CNN
 F 1 "GND" H 4300 3880 30  0001 C CNN
 	1    4300 3950
 	1    0    0    -1  
@@ -1693,10 +1693,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR094
+L GND #PWR096
 U 1 1 4E47D792
 P 1600 3950
-F 0 "#PWR094" H 1600 3950 30  0001 C CNN
+F 0 "#PWR096" H 1600 3950 30  0001 C CNN
 F 1 "GND" H 1600 3880 30  0001 C CNN
 	1    1600 3950
 	1    0    0    -1  
@@ -1818,10 +1818,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR095
+L GND #PWR097
 U 1 1 4E47D787
 P 1600 5150
-F 0 "#PWR095" H 1600 5150 30  0001 C CNN
+F 0 "#PWR097" H 1600 5150 30  0001 C CNN
 F 1 "GND" H 1600 5080 30  0001 C CNN
 	1    1600 5150
 	1    0    0    -1  
@@ -1863,10 +1863,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR096
+L GND #PWR098
 U 1 1 4E47D767
 P 1600 2750
-F 0 "#PWR096" H 1600 2750 30  0001 C CNN
+F 0 "#PWR098" H 1600 2750 30  0001 C CNN
 F 1 "GND" H 1600 2680 30  0001 C CNN
 	1    1600 2750
 	1    0    0    -1  
@@ -1992,10 +1992,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR097
+L GND #PWR099
 U 1 1 4E47D48E
 P 1600 1550
-F 0 "#PWR097" H 1600 1550 30  0001 C CNN
+F 0 "#PWR099" H 1600 1550 30  0001 C CNN
 F 1 "GND" H 1600 1480 30  0001 C CNN
 	1    1600 1550
 	1    0    0    -1  
