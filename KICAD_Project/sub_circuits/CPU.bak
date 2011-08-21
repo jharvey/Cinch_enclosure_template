@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/20/2011 7:16:33 AM
+EESchema Schematic File Version 2  date 8/20/2011 7:59:17 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -39,74 +39,58 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 21650 17250 0    60   Input ~ 0
+NoConn ~ 23900 21000
+NoConn ~ 23900 20800
+NoConn ~ 25300 20800
+NoConn ~ 25300 20900
+NoConn ~ 25300 21000
+NoConn ~ 25300 19500
+NoConn ~ 25300 19700
+NoConn ~ 23900 19700
+NoConn ~ 23900 19600
+NoConn ~ 25300 18700
+Text HLabel 23900 20500 0    60   Input ~ 0
+05_IGN_DIGI
+Text HLabel 23900 20300 0    60   Input ~ 0
+07_IGN_DIGI
+Text HLabel 25300 20200 2    60   Input ~ 0
+10_IGN_DIGI
+Text HLabel 23900 4900 0    60   Input ~ 0
+24_INJ_DIGI
+Text HLabel 25350 4800 2    60   Input ~ 0
+23_INJ_DIGI
+Text HLabel 23900 5200 0    60   Input ~ 0
 CS-TCPL2
-Text HLabel 21650 17150 0    60   Input ~ 0
+Text HLabel 23900 5100 0    60   Input ~ 0
 CS-TCPL1
-NoConn ~ 21650 17150
-NoConn ~ 21650 17250
-NoConn ~ 21650 18900
-NoConn ~ 21650 18700
-NoConn ~ 21650 18600
-NoConn ~ 21650 18500
-NoConn ~ 21650 18400
-NoConn ~ 21650 18200
-NoConn ~ 21650 18100
-NoConn ~ 21650 18000
-NoConn ~ 21650 17900
-NoConn ~ 21650 17750
-NoConn ~ 21650 17650
-NoConn ~ 21650 17550
-NoConn ~ 21650 17450
-Text HLabel 21650 18900 0    60   Input ~ 0
+Text HLabel 25300 5100 2    60   Input ~ 0
 MC33800_EN
 NoConn ~ 25300 5900
 NoConn ~ 25300 6000
-NoConn ~ 23900 6200
 NoConn ~ 25300 10300
 NoConn ~ 25300 10400
 NoConn ~ 25300 17400
-NoConn ~ 23900 18100
-NoConn ~ 23900 18200
-NoConn ~ 25300 18200
-NoConn ~ 25300 18000
-NoConn ~ 23900 20500
-NoConn ~ 25300 20500
-NoConn ~ 25300 20400
-NoConn ~ 23900 20100
 NoConn ~ 23900 19500
-NoConn ~ 23900 19300
-NoConn ~ 25300 19400
-Text HLabel 21650 17450 0    60   Input ~ 0
+Text HLabel 23900 18000 0    60   Input ~ 0
 13_INJ_DIGI
-Text HLabel 21650 17550 0    60   Input ~ 0
+Text HLabel 25300 17800 2    60   Input ~ 0
 14_INJ_DIGI
-Text HLabel 21650 17750 0    60   Input ~ 0
+Text HLabel 25300 17700 2    60   Input ~ 0
 16_INJ_DIGI
-Text HLabel 21650 17650 0    60   Input ~ 0
+Text HLabel 23900 17800 0    60   Input ~ 0
 15_INJ_DIGI
-Text HLabel 21650 18100 0    60   Input ~ 0
+Text HLabel 25300 3900 2    60   Input ~ 0
 19_INJ_DIGI
-Text HLabel 21650 18200 0    60   Input ~ 0
+Text HLabel 23900 4700 0    60   Input ~ 0
 20_INJ_DIGI
-Text HLabel 21650 18000 0    60   Input ~ 0
+Text HLabel 23900 4600 0    60   Input ~ 0
 18_INJ_DIGI
-Text HLabel 21650 17900 0    60   Input ~ 0
+Text HLabel 25300 3800 2    60   Input ~ 0
 17_INJ_DIGI
-Text HLabel 21650 18400 0    60   Input ~ 0
+Text HLabel 25350 4600 2    60   Input ~ 0
 21_INJ_DIGI
-Text HLabel 21650 18500 0    60   Input ~ 0
+Text HLabel 23900 4800 0    60   Input ~ 0
 22_INJ_DIGI
-Text HLabel 21650 18700 0    60   Input ~ 0
-24_INJ_DIGI
-Text HLabel 21650 18600 0    60   Input ~ 0
-23_INJ_DIGI
-Wire Wire Line
-	25300 9100 25350 9100
-Wire Wire Line
-	25300 9000 25350 9000
-Wire Wire Line
-	25300 8800 25350 8800
 Wire Wire Line
 	25300 1900 25350 1900
 Wire Wire Line
@@ -117,26 +101,6 @@ Wire Wire Line
 	25350 13625 25350 13600
 Wire Wire Line
 	25350 13600 25300 13600
-Wire Wire Line
-	23850 8800 23900 8800
-Wire Wire Line
-	23850 8700 23900 8700
-Wire Wire Line
-	25350 8500 25300 8500
-Wire Wire Line
-	25350 8600 25300 8600
-Wire Wire Line
-	23850 8600 23900 8600
-Wire Wire Line
-	23850 8400 23900 8400
-Wire Wire Line
-	25350 8400 25300 8400
-Wire Wire Line
-	25350 8300 25300 8300
-Wire Wire Line
-	25350 20000 25300 20000
-Wire Wire Line
-	25300 3500 25350 3500
 Wire Wire Line
 	23850 2600 23900 2600
 Wire Wire Line
@@ -156,47 +120,13 @@ Wire Wire Line
 Wire Wire Line
 	25350 20600 25300 20600
 Wire Wire Line
-	25300 20800 25350 20800
-Wire Wire Line
-	25300 21000 25350 21000
-Wire Wire Line
-	25300 21200 25350 21200
-Wire Wire Line
-	23850 21000 23900 21000
-Wire Wire Line
-	23850 20800 23900 20800
-Wire Wire Line
-	25300 19000 25350 19000
-Wire Wire Line
-	25300 19200 25350 19200
-Wire Wire Line
-	25300 19500 25350 19500
-Wire Wire Line
-	25300 19700 25350 19700
-Wire Wire Line
-	25300 20200 25350 20200
-Wire Wire Line
-	23850 20600 23900 20600
-Wire Wire Line
 	23900 20400 23850 20400
 Wire Wire Line
 	23850 20400 23850 20425
 Wire Wire Line
-	23850 20200 23900 20200
-Wire Wire Line
-	23850 19700 23900 19700
-Wire Wire Line
 	23900 18900 23850 18900
 Wire Wire Line
 	23850 18900 23850 18925
-Wire Wire Line
-	25300 18500 25350 18500
-Wire Wire Line
-	25300 18300 25350 18300
-Wire Wire Line
-	23850 18700 23900 18700
-Wire Wire Line
-	23850 18500 23900 18500
 Wire Wire Line
 	25350 18625 25350 18600
 Wire Wire Line
@@ -324,8 +254,6 @@ Wire Wire Line
 Wire Wire Line
 	23875 5000 23900 5000
 Wire Wire Line
-	23850 4700 23900 4700
-Wire Wire Line
 	23875 4525 23875 4500
 Wire Wire Line
 	23875 4500 23900 4500
@@ -341,8 +269,6 @@ Wire Wire Line
 	25325 3725 25325 3700
 Wire Wire Line
 	25325 3700 25300 3700
-Wire Wire Line
-	25300 3400 25350 3400
 Wire Wire Line
 	25350 3225 25350 3200
 Wire Wire Line
@@ -422,10 +348,6 @@ Wire Wire Line
 Wire Wire Line
 	23875 3000 23900 3000
 Wire Wire Line
-	25300 3300 25350 3300
-Wire Wire Line
-	25300 3600 25350 3600
-Wire Wire Line
 	23875 3525 23875 3500
 Wire Wire Line
 	23875 3500 23900 3500
@@ -439,8 +361,6 @@ Wire Wire Line
 	25300 4700 25350 4700
 Wire Wire Line
 	25350 4700 25350 4725
-Wire Wire Line
-	23850 4800 23900 4800
 Wire Wire Line
 	25300 5200 25325 5200
 Wire Wire Line
@@ -574,31 +494,11 @@ Wire Wire Line
 Wire Wire Line
 	23850 18400 23850 18425
 Wire Wire Line
-	23850 18300 23900 18300
-Wire Wire Line
-	23850 18600 23900 18600
-Wire Wire Line
 	23850 17300 23900 17300
-Wire Wire Line
-	25300 18400 25350 18400
-Wire Wire Line
-	25300 18700 25350 18700
-Wire Wire Line
-	23850 19100 23900 19100
 Wire Wire Line
 	23850 19425 23850 19400
 Wire Wire Line
 	23850 19400 23900 19400
-Wire Wire Line
-	23850 19600 23900 19600
-Wire Wire Line
-	23850 19925 23850 19900
-Wire Wire Line
-	23850 19900 23900 19900
-Wire Wire Line
-	23850 20300 23900 20300
-Wire Wire Line
-	25300 20300 25350 20300
 Wire Wire Line
 	25300 20100 25350 20100
 Wire Wire Line
@@ -612,21 +512,13 @@ Wire Wire Line
 Wire Wire Line
 	25350 19100 25350 19125
 Wire Wire Line
-	23850 20700 23900 20700
-Wire Wire Line
 	23850 20925 23850 20900
 Wire Wire Line
 	23850 20900 23900 20900
 Wire Wire Line
-	23850 21100 23900 21100
-Wire Wire Line
 	25300 21100 25350 21100
 Wire Wire Line
 	25350 21100 25350 21125
-Wire Wire Line
-	25300 20900 25350 20900
-Wire Wire Line
-	25300 20700 25350 20700
 Wire Wire Line
 	23850 3200 23900 3200
 Wire Wire Line
@@ -644,8 +536,6 @@ Wire Wire Line
 Wire Wire Line
 	23850 5600 23900 5600
 Wire Wire Line
-	23850 20000 23900 20000
-Wire Wire Line
 	23850 17600 23900 17600
 Wire Wire Line
 	23850 17500 23900 17500
@@ -658,49 +548,33 @@ Wire Wire Line
 	23850 3600 23900 3600
 Wire Wire Line
 	23850 17200 23900 17200
-Wire Wire Line
-	23850 9100 23900 9100
-Wire Wire Line
-	23850 9200 23900 9200
-Wire Wire Line
-	23850 8900 23900 8900
-Wire Wire Line
-	25300 8900 25350 8900
-Text HLabel 25350 9100 2    60   Input ~ 0
-AN_27_CSNS
-Text HLabel 25350 8800 2    60   Input ~ 0
-AN_31
-Text HLabel 25350 8900 2    60   Input ~ 0
-AN_29
-Text HLabel 25350 9000 2    60   Input ~ 0
-AN_27
-Text HLabel 23850 8900 0    60   Input ~ 0
-AN_30
-Text HLabel 23850 9100 0    60   Input ~ 0
-AN_28
-Text HLabel 23850 9200 0    60   Input ~ 0
-AN_26
+Text HLabel 25300 8300 2    60   Input ~ 0
+3412_CSNS
+Text HLabel 25300 8800 2    60   Input ~ 0
+P08
+Text HLabel 25300 8900 2    60   Input ~ 0
+P06
+Text HLabel 25300 9000 2    60   Input ~ 0
+P04
+Text HLabel 23900 8900 0    60   Input ~ 0
+P05
+Text HLabel 23900 9100 0    60   Input ~ 0
+P03
+Text HLabel 23900 9200 0    60   Input ~ 0
+P01
 NoConn ~ 23900 8100
 Text HLabel 25350 2000 2    60   Input ~ 0
 MC33800_PWM4_DIGI
 Text HLabel 25350 1900 2    60   Input ~ 0
 MC33800_P1_DIGI
-NoConn ~ 23900 4600
-NoConn ~ 23900 19200
 NoConn ~ 23900 19000
 NoConn ~ 23900 21200
 NoConn ~ 25300 19900
-NoConn ~ 23900 18000
 NoConn ~ 23900 18800
 NoConn ~ 23900 19800
 NoConn ~ 25300 19800
-NoConn ~ 25300 19300
 NoConn ~ 25300 18900
 NoConn ~ 25300 18800
-NoConn ~ 25300 17900
-NoConn ~ 25300 17800
-NoConn ~ 25300 17700
-NoConn ~ 23900 17800
 NoConn ~ 23900 17700
 NoConn ~ 23900 15100
 NoConn ~ 23900 15200
@@ -836,13 +710,9 @@ NoConn ~ 25300 6300
 NoConn ~ 23900 5800
 NoConn ~ 25300 4900
 NoConn ~ 25300 5000
-NoConn ~ 25300 5100
 NoConn ~ 25300 5300
 NoConn ~ 23900 5400
 NoConn ~ 23900 5300
-NoConn ~ 23900 5200
-NoConn ~ 23900 5100
-NoConn ~ 23900 4900
 NoConn ~ 23900 4300
 NoConn ~ 23900 4400
 NoConn ~ 25300 4500
@@ -853,8 +723,6 @@ NoConn ~ 23900 3900
 NoConn ~ 23900 4100
 NoConn ~ 25300 4100
 NoConn ~ 25300 4000
-NoConn ~ 25300 3900
-NoConn ~ 25300 3800
 NoConn ~ 23900 3700
 NoConn ~ 23900 2900
 NoConn ~ 23900 3100
@@ -869,26 +737,26 @@ NoConn ~ 23900 1700
 NoConn ~ 23900 1600
 Text HLabel 23850 17200 0    60   Input ~ 0
 MAX9924_2_CRANK_DIGI
-Text HLabel 25350 20000 2    60   Input ~ 0
+Text HLabel 23900 6200 0    60   Input ~ 0
 KNOCK_2_CS
 Text HLabel 23850 2700 0    60   Input ~ 0
 KNOCK_1_CS
-Text HLabel 23850 8800 0    60   Input ~ 0
-AN_32
-Text HLabel 23850 8700 0    60   Input ~ 0
-AN_34
-Text HLabel 25350 8500 2    60   Input ~ 0
-AN_35
-Text HLabel 25350 8600 2    60   Input ~ 0
-AN_33
-Text HLabel 23850 8600 0    60   Input ~ 0
-AN_36
-Text HLabel 23850 8400 0    60   Input ~ 0
-AN_38
-Text HLabel 25350 8400 2    60   Input ~ 0
-AN_37
-Text HLabel 25350 8300 2    60   Input ~ 0
-AN_39
+Text HLabel 23900 8800 0    60   Input ~ 0
+P07
+Text HLabel 23900 8700 0    60   Input ~ 0
+P09
+Text HLabel 25300 8500 2    60   Input ~ 0
+P12
+Text HLabel 25300 8600 2    60   Input ~ 0
+P10
+Text HLabel 23900 8600 0    60   Input ~ 0
+P11
+Text HLabel 23900 8400 0    60   Input ~ 0
+P13
+Text HLabel 25300 8400 2    60   Input ~ 0
+P14
+Text HLabel 25300 9100 2    60   Input ~ 0
+P02
 Text HLabel 23850 1100 0    60   Input ~ 0
 GND
 NoConn ~ 25300 1800
@@ -1324,11 +1192,11 @@ $EndComp
 $Comp
 L GND #PWR051
 U 1 1 4C1358D1
-P 23850 19925
-F 0 "#PWR051" H 23850 19925 30  0001 C CNN
-F 1 "GND" H 23850 19855 30  0001 C CNN
-	1    23850 19925
-	1    0    0    -1  
+P 23900 19900
+F 0 "#PWR051" H 23900 19900 30  0001 C CNN
+F 1 "GND" H 23900 19830 30  0001 C CNN
+	1    23900 19900
+	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR052
@@ -1618,27 +1486,27 @@ F 1 "GND" H 23850 11355 30  0001 C CNN
 	1    23850 11425
 	1    0    0    -1  
 $EndComp
-Text HLabel 25350 4800 2    60   Input ~ 0
+Text HLabel 25300 19300 2    60   Input ~ 0
 MAX9924_WHBR_DIGI
-Text HLabel 23850 4800 0    60   Input ~ 0
+Text HLabel 23900 19300 0    60   Input ~ 0
 MAX9924_WHBL_DIGI
-Text HLabel 25350 4600 2    60   Input ~ 0
+Text HLabel 25300 19400 2    60   Input ~ 0
 MAX9924_WHFR_DIGI
-Text HLabel 23850 4700 0    60   Input ~ 0
+Text HLabel 23900 19200 0    60   Input ~ 0
 MAX9924_WHFL_DIGI
 Text HLabel 23850 3800 0    60   Input ~ 0
 CJ125_2_DIAHG_DIGI
-Text HLabel 25350 3600 2    60   Input ~ 0
+Text HLabel 25300 3600 2    60   Input ~ 0
 CJ125_1_DIAHG_DIGI
-Text HLabel 25350 3500 2    60   Input ~ 0
+Text HLabel 25300 3500 2    60   Input ~ 0
 MC33926_SF_DIGI
 Text HLabel 23850 3600 0    60   Input ~ 0
 MC33926_IN2_DIGI
-Text HLabel 25350 3400 2    60   Input ~ 0
+Text HLabel 25300 3400 2    60   Input ~ 0
 MC33926_IN1_DIGI
 Text HLabel 23850 3400 0    60   Input ~ 0
 MC10XS3412_IN3_DIGI
-Text HLabel 25350 3300 2    60   Input ~ 0
+Text HLabel 25300 3300 2    60   Input ~ 0
 MC10XS3412_IN2_DIGI
 Text HLabel 23850 2400 0    60   Input ~ 0
 MC10XS3412_IN1_DIGI
@@ -1656,67 +1524,61 @@ Text HLabel 23850 17500 0    60   Input ~ 0
 MC33926_EN_DIGI
 Text HLabel 23850 17600 0    60   Input ~ 0
 MC33879_EN_DIGI
-Text HLabel 23850 18300 0    60   Input ~ 0
+Text HLabel 25300 20000 2    60   Input ~ 0
 12_IGN_DIGI
-Text HLabel 25350 18300 2    60   Input ~ 0
+Text HLabel 23900 20100 0    60   Input ~ 0
 11_IGN_DIGI
-Text HLabel 23850 18500 0    60   Input ~ 0
-10_IGN_DIGI
-Text HLabel 25350 18400 2    60   Input ~ 0
-9_IGN_DIGI
-Text HLabel 23850 18600 0    60   Input ~ 0
+Text HLabel 23900 20200 0    60   Input ~ 0
+09_IGN_DIGI
+Text HLabel 25300 17900 2    60   Input ~ 0
 12_INJ_DIGI
-Text HLabel 25350 18500 2    60   Input ~ 0
+Text HLabel 23900 18100 0    60   Input ~ 0
 11_INJ_DIGI
-Text HLabel 23850 18700 0    60   Input ~ 0
+Text HLabel 25300 18000 2    60   Input ~ 0
 10_INJ_DIGI
-Text HLabel 25350 18700 2    60   Input ~ 0
+Text HLabel 23900 18200 0    60   Input ~ 0
 09_INJ_DIGI
-Text HLabel 23850 19100 0    60   Input ~ 0
+Text HLabel 23900 19100 0    60   Input ~ 0
 MAX9924_3_CAM2_DIGI
-Text HLabel 25350 19200 2    60   Input ~ 0
+Text HLabel 25300 19200 2    60   Input ~ 0
 MAX9924_2_CAM1_DIGI
 Text HLabel 23850 17300 0    60   Input ~ 0
 MAX9924_1_CRANK_DIGI
-Text HLabel 25350 19500 2    60   Input ~ 0
+Text HLabel 25300 20300 2    60   Input ~ 0
 08_IGN_DIGI
-Text HLabel 23850 19600 0    60   Input ~ 0
-07_IGN_DIGI
-Text HLabel 25350 19700 2    60   Input ~ 0
+Text HLabel 25300 20400 2    60   Input ~ 0
 06_IGN_DIGI
-Text HLabel 23850 19700 0    60   Input ~ 0
-05_IGN_DIGI
-Text HLabel 23850 20000 0    60   Input ~ 0
+Text HLabel 23900 20000 0    60   Input ~ 0
 TJA1080_EN_FCAN
-Text HLabel 25350 20200 2    60   Input ~ 0
+Text HLabel 25300 18200 2    60   Input ~ 0
 08_INJ_DIGI
-Text HLabel 23850 20200 0    60   Input ~ 0
+Text HLabel 23900 18300 0    60   Input ~ 0
 07_INJ_DIGI
-Text HLabel 25350 20300 2    60   Input ~ 0
+Text HLabel 25300 18300 2    60   Input ~ 0
 06_INJ_DIGI
-Text HLabel 23850 20300 0    60   Input ~ 0
+Text HLabel 23900 18500 0    60   Input ~ 0
 05_INJ_DIGI
-Text HLabel 23850 20600 0    60   Input ~ 0
+Text HLabel 25300 20500 2    60   Input ~ 0
 04_IGN_DIGI
-Text HLabel 25350 20700 2    60   Input ~ 0
+Text HLabel 23900 20600 0    60   Input ~ 0
 03_IGN_DIGI
-Text HLabel 23850 20700 0    60   Input ~ 0
+Text HLabel 25300 20700 2    60   Input ~ 0
 02_IGN_DIGI
-Text HLabel 25350 20800 2    60   Input ~ 0
+Text HLabel 23900 20700 0    60   Input ~ 0
 01_IGN_DIGI
-Text HLabel 23850 20800 0    60   Input ~ 0
+Text HLabel 25300 18400 2    60   Input ~ 0
 04_INJ_DIGI
-Text HLabel 25350 20900 2    60   Input ~ 0
+Text HLabel 23900 18600 0    60   Input ~ 0
 03_INJ_DIGI
-Text HLabel 23850 21000 0    60   Input ~ 0
+Text HLabel 25300 18500 2    60   Input ~ 0
 02_INJ_DIGI
-Text HLabel 25350 21000 2    60   Input ~ 0
+Text HLabel 23900 18700 0    60   Input ~ 0
 01_INJ_DIGI
-Text HLabel 23850 21100 0    60   Input ~ 0
+Text HLabel 23900 21100 0    60   Input ~ 0
 MAX9924_3_CAM2_DIGI
-Text HLabel 25350 21200 2    60   Input ~ 0
+Text HLabel 25300 21200 2    60   Input ~ 0
 MAX9924_2_CAM1_DIGI
-Text HLabel 25350 19000 2    60   Input ~ 0
+Text HLabel 25300 19000 2    60   Input ~ 0
 MAX9924_1_CRANK_DIGI
 Text HLabel 23850 6400 0    60   Input ~ 0
 MC10XS3412_SPI-CS

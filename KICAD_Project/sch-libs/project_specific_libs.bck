@@ -1,4 +1,34 @@
-EESchema-DOCLIB  Version 2.0  Date: 8/18/2011 6:54:24 AM
+EESchema-DOCLIB  Version 2.0  Date: 8/20/2011 7:46:25 PM
+#
+$CMP 78L05
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78lxx.pdf
+$ENDCMP
+#
+$CMP LM3480
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LM3940
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LM7805
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LM7812
+D Linear Regulator +12V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
 #
 $CMP VO1400
 D opto mos 2 controls, 2 switches, norm OFF
