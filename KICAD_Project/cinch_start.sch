@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/21/2011 7:46:52 PM
+EESchema Schematic File Version 2  date 8/27/2011 7:35:52 AM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,7 +31,7 @@ $Descr C 22000 17000
 encoding utf-8
 Sheet 1 13
 Title "freeEMS PLUS from Cinch template "
-Date "21 aug 2011"
+Date "27 aug 2011"
 Rev "A-DRAF"
 Comp "diyefi.org/openecu.info"
 Comment1 ""
@@ -561,15 +561,10 @@ Wire Wire Line
 	9500 1400 9375 1400
 Wire Wire Line
 	9500 1200 9375 1200
-Connection ~ 12925 9525
 Wire Wire Line
 	13075 11525 12925 11525
 Connection ~ 12875 8075
-Wire Wire Line
-	12875 9625 13075 9625
 Connection ~ 12975 7875
-Wire Wire Line
-	12975 9425 13075 9425
 Wire Wire Line
 	12700 9325 13075 9325
 Wire Wire Line
@@ -625,15 +620,11 @@ Wire Wire Line
 	12700 7775 13075 7775
 Wire Wire Line
 	12700 9725 13075 9725
-Wire Wire Line
-	12925 9525 13075 9525
 Connection ~ 12925 7975
 Wire Wire Line
 	13075 11425 12975 11425
-Connection ~ 12975 9425
 Wire Wire Line
 	12875 11625 13075 11625
-Connection ~ 12875 9625
 Wire Wire Line
 	9500 1300 9375 1300
 Wire Wire Line
@@ -2602,22 +2593,18 @@ Text Label 9500 1200 0    60   ~ 0
 $Sheet
 S 13075 9275 1300 800 
 U 4C0F6CBF
-F0 "stepper_mc33879" 60
-F1 "sub_circuits\\stepper_mc33879.sch" 60
+F0 "stepper_L297" 60
+F1 "sub_circuits\\stepper_L297.sch" 60
 F2 "5V" I R 14375 9325 60 
-F3 "879_CS" I L 13075 9325 60 
-F4 "879_MOSI" I L 13075 9525 60 
-F5 "879_MISO" I L 13075 9625 60 
-F6 "879_SCLK" I L 13075 9425 60 
-F7 "879_EN" I L 13075 9725 60 
-F8 "VBAT" I R 14375 9425 60 
-F9 "879_IN6" I L 13075 9925 60 
-F10 "879_IN5" I L 13075 9825 60 
-F11 "D5_PIN" I R 14375 9825 60 
-F12 "S4_PIN" I R 14375 9925 60 
-F13 "S1_PIN" I R 14375 10025 60 
-F14 "D8_PIN" I R 14375 9725 60 
-F15 "GND_MC33879" I R 14375 9625 60 
+F3 "VBAT" I R 14375 9425 60 
+F4 "OUT4" I R 14375 9725 60 
+F5 "GND_L297" I R 14375 9625 60 
+F6 "OUT3" I R 14375 9825 60 
+F7 "OUT2" I R 14375 9925 60 
+F8 "OUT1" I R 14375 10025 60 
+F9 "L297_CCW" I L 13075 9725 60 
+F10 "L297_CLK" I L 13075 9825 60 
+F11 "L297_EN" I L 13075 9925 60 
 $EndSheet
 $Sheet
 S 13075 10375 1300 1325
