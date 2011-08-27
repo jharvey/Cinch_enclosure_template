@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/27/2011 7:35:52 AM
+EESchema Schematic File Version 2  date 8/27/2011 10:55:17 AM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -2605,6 +2605,7 @@ F8 "OUT1" I R 14375 10025 60
 F9 "L297_CCW" I L 13075 9725 60 
 F10 "L297_CLK" I L 13075 9825 60 
 F11 "L297_EN" I L 13075 9925 60 
+F12 "L297_VREF" I L 13075 9325 60 
 $EndSheet
 $Sheet
 S 13075 10375 1300 1325
