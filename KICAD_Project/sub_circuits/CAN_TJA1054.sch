@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/27/2011 10:55:19 AM
+EESchema Schematic File Version 2  date 8/30/2011 5:58:29 AM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,7 +31,7 @@ $Descr User 11000 8500
 encoding utf-8
 Sheet 11 13
 Title "freeEMS PLUS from Cinch template "
-Date "27 aug 2011"
+Date "30 aug 2011"
 Rev "A-DRAF"
 Comp "diyefi.org/openecu.info"
 Comment1 "comms CAN/USB/Other"
@@ -219,15 +219,15 @@ U 1 1 4E467E01
 P 9050 5950
 F 0 "C1102" V 9100 6175 50  0000 L CNN
 F 1 "10uF" V 8975 5750 50  0000 L CNN
-F 2 "SM0805-C1" V 6130 7050 60  0001 C CNN
-F 4 "ill cap,106CKE200M" V 6130 7050 60  0001 C CNN "mfg,#"
-F 5 "newark,69K7896" V 6130 7050 60  0001 C CNN "vend,#"
-F 6 "-" V 6130 7050 60  0001 C CNN "Field3"
-F 7 "-" V 6130 7050 60  0001 C CNN "Field4"
-F 8 "200,V" V 6130 7050 60  0001 C CNN "Field5"
-F 9 "20,%" V 6130 7050 60  0001 C CNN "Field6"
-F 10 "alum electro" V 6130 7050 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 6130 7050 60  0001 C CNN "Field8"
+F 2 "SM0805-C1" V 1130 2600 60  0001 C CNN
+F 4 "AVX,08053C104KAT2A" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,96M1381" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "25V" V 1130 2600 60  0001 C CNN "V"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "multi layer ceramic" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    9050 5950
 	0    1    -1   0   
 $EndComp

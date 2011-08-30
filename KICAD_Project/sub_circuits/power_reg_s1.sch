@@ -296,15 +296,15 @@ AR Path="/4D80F957/4BF8F93C" Ref="C143"  Part="1"
 AR Path="/4E391B6E/4BF8F93C" Ref="C143"  Part="1" 
 F 0 "C143" H 4000 2550 50  0000 L CNN
 F 1 "10uF" H 4000 2350 50  0000 L CNN
-F 2 "SM0805-C1" V 480 1550 60  0001 C CNN
-F 4 "ill cap,106CKE200M" V 480 1550 60  0001 C CNN "mfg,#"
-F 5 "newark,69K7896" V 480 1550 60  0001 C CNN "vend,#"
-F 6 "-,-" V 480 1550 60  0001 C CNN "Field3"
-F 7 "-,-" V 480 1550 60  0001 C CNN "Field4"
-F 8 "200,V" V 480 1550 60  0001 C CNN "Field5"
-F 9 "20,%" V 480 1550 60  0001 C CNN "Field6"
-F 10 "alum electro" V 480 1550 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 480 1550 60  0001 C CNN "Field8"
+F 2 "SM0805-C1" V 1130 2600 60  0001 C CNN
+F 4 "AVX,08053C104KAT2A" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,96M1381" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "25V" V 1130 2600 60  0001 C CNN "V"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "multi layer ceramic" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4200 2450
 	-1   0    0    -1  
 $EndComp
@@ -504,15 +504,15 @@ AR Path="/4D80F957/486CA8EA" Ref="C135"  Part="1"
 AR Path="/4E391B6E/486CA8EA" Ref="C135"  Part="1" 
 F 0 "C135" H 2250 950 50  0000 L CNN
 F 1 "100uF" H 2200 750 50  0000 L CNN
-F 2 "SM0805-C1" V -1970 -50 60  0001 C CNN
-F 4 "ill cap,107CKE035M" V -1970 -50 60  0001 C CNN "mfg,#"
-F 5 "newark,69K7903" V -1970 -50 60  0001 C CNN "vend,#"
-F 6 "-,-" V -1970 -50 60  0001 C CNN "Field3"
-F 7 "-,-" V -1970 -50 60  0001 C CNN "Field4"
-F 8 "35,V" V -1970 -50 60  0001 C CNN "Field5"
-F 9 "20,%" V -1970 -50 60  0001 C CNN "Field6"
-F 10 "alum electro" V -1970 -50 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V -1970 -50 60  0001 C CNN "Field8"
+F 2 "SM0805-C1" V 1130 2600 60  0001 C CNN
+F 4 "avx,08051C104KAT2A" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,96M1354" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "100V" V 1130 2600 60  0001 C CNN "V"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    2150 850 
 	-1   0    0    -1  
 $EndComp
@@ -526,15 +526,15 @@ AR Path="/4D80F957/486CA8E4" Ref="C139"  Part="1"
 AR Path="/4E391B6E/486CA8E4" Ref="C139"  Part="1" 
 F 0 "C139" H 3520 950 50  0000 L CNN
 F 1 "100uF" H 3450 750 50  0000 L CNN
-F 2 "SM0805-C1" V 1430 -50 60  0001 C CNN
-F 4 "ill cap,107CKE035M" V -1970 -50 60  0001 C CNN "mfg,#"
-F 5 "newark,69K7903" V -1970 -50 60  0001 C CNN "vend,#"
-F 6 "-,-" V -1970 -50 60  0001 C CNN "Field3"
-F 7 "-,-" V -1970 -50 60  0001 C CNN "Field4"
-F 8 "35,V" V -1970 -50 60  0001 C CNN "Field5"
-F 9 "20,%" V -1970 -50 60  0001 C CNN "Field6"
-F 10 "alum electro" V -1970 -50 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V -1970 -50 60  0001 C CNN "Field8"
+F 2 "SM0805-C1" V 1130 2600 60  0001 C CNN
+F 4 "avx,08051C104KAT2A" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,96M1354" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN ""
+F 7 "" V 1130 2600 60  0001 C CNN ""
+F 8 "100V" V 1130 2600 60  0001 C CNN "V"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3400 850 
 	-1   0    0    -1  
 $EndComp
