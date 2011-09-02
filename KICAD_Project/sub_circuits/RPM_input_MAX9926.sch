@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/30/2011 5:58:29 AM
+EESchema Schematic File Version 2  date 9/1/2011 7:35:07 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,7 +31,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 6 13
 Title "freeEMS PLUS from Cinch template "
-Date "30 aug 2011"
+Date "1 sep 2011"
 Rev "A-DRAF"
 Comp "diyefi.org/openecu.info"
 Comment1 "RPM input Engine and wheels"
@@ -1356,8 +1356,8 @@ F 1 "10uF" H 7400 900 50  0000 L CNN
 F 2 "SM0805-C1" V 1130 2600 60  0001 C CNN
 F 4 "AVX,08053C104KAT2A" V 1130 2600 60  0001 C CNN "mfg,mfg#"
 F 5 "newark,96M1381" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN ""
-F 7 "" V 1130 2600 60  0001 C CNN ""
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
 F 8 "25V" V 1130 2600 60  0001 C CNN "V"
 F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
 F 10 "multi layer ceramic" V 1130 2600 60  0001 C CNN "construct"
@@ -1690,8 +1690,8 @@ F 1 "10uF" H 7400 2900 50  0000 L CNN
 F 2 "SM0805-C1" V 1130 2600 60  0001 C CNN
 F 4 "AVX,08053C104KAT2A" V 1130 2600 60  0001 C CNN "mfg,mfg#"
 F 5 "newark,96M1381" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN ""
-F 7 "" V 1130 2600 60  0001 C CNN ""
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
 F 8 "25V" V 1130 2600 60  0001 C CNN "V"
 F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
 F 10 "multi layer ceramic" V 1130 2600 60  0001 C CNN "construct"
@@ -1800,8 +1800,8 @@ F 1 "10uF" H 2550 2900 50  0000 L CNN
 F 2 "SM0805-C1" V 1130 2600 60  0001 C CNN
 F 4 "AVX,08053C104KAT2A" V 1130 2600 60  0001 C CNN "mfg,mfg#"
 F 5 "newark,96M1381" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN ""
-F 7 "" V 1130 2600 60  0001 C CNN ""
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
 F 8 "25V" V 1130 2600 60  0001 C CNN "V"
 F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
 F 10 "multi layer ceramic" V 1130 2600 60  0001 C CNN "construct"
@@ -2152,8 +2152,8 @@ F 1 "10uF" H 2550 900 50  0000 L CNN
 F 2 "SM0805-C1" V 1130 2600 60  0001 C CNN
 F 4 "AVX,08053C104KAT2A" V 1130 2600 60  0001 C CNN "mfg,mfg#"
 F 5 "newark,96M1381" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN ""
-F 7 "" V 1130 2600 60  0001 C CNN ""
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
 F 8 "25V" V 1130 2600 60  0001 C CNN "V"
 F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
 F 10 "multi layer ceramic" V 1130 2600 60  0001 C CNN "construct"

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/30/2011 5:58:29 AM
+EESchema Schematic File Version 2  date 9/1/2011 7:35:08 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,7 +31,7 @@ $Descr User 11000 8500
 encoding utf-8
 Sheet 12 13
 Title "freeEMS PLUS from Cinch template "
-Date "30 aug 2011"
+Date "1 sep 2011"
 Rev "A-DRAF"
 Comp "diyefi.org/openecu.info"
 Comment1 "2 channels of Wide O2 "
@@ -366,8 +366,8 @@ F 1 "100k" V 8550 2875 50  0000 C CNN
 F 2 "SM0805" V 1130 2600 60  0001 C CNN
 F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
 F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN ""
-F 7 "" V 1130 2600 60  0001 C CNN ""
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
 F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
 F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
 F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
@@ -510,8 +510,8 @@ F 1 "100k" V 8000 2575 50  0000 C CNN
 F 2 "SM0805" V 1130 2600 60  0001 C CNN
 F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
 F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN ""
-F 7 "" V 1130 2600 60  0001 C CNN ""
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
 F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
 F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
 F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
@@ -1232,8 +1232,8 @@ F 1 "100k" V 8000 5175 50  0000 C CNN
 F 2 "SM0805" V 1130 2600 60  0001 C CNN
 F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
 F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN ""
-F 7 "" V 1130 2600 60  0001 C CNN ""
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
 F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
 F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
 F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
@@ -1378,8 +1378,8 @@ F 1 "100k" V 8550 5475 50  0000 C CNN
 F 2 "SM0805" V 1130 2600 60  0001 C CNN
 F 4 "vishay,CRCW0805100KFKEA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
 F 5 "newark,52K9808" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN ""
-F 7 "" V 1130 2600 60  0001 C CNN ""
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
 F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
 F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
 F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"

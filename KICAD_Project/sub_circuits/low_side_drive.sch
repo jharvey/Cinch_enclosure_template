@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/30/2011 5:58:29 AM
+EESchema Schematic File Version 2  date 9/1/2011 7:35:08 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,7 +31,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 10 13
 Title "freeEMS PLUS from Cinch template "
-Date "30 aug 2011"
+Date "1 sep 2011"
 Rev "A-DRAF"
 Comp "diyefi.org/openecu.info"
 Comment1 "misc high side and low side drives"
@@ -545,26 +545,26 @@ $EndComp
 $Comp
 L IRF7341 Q1002
 U 2 1 4C3E5640
+P 2500 2550
+F 0 "Q1002" H 2650 2300 60  0000 R CNN
+F 1 "IRF7341" H 2350 2500 60  0000 R CNN
+F 2 "SO8E" H 2500 2550 60  0001 C CNN
+F 4 "irf,IRF7341PBF" H 2500 2550 60  0001 C CNN "mfg,#"
+F 5 "newark,19K8259" H 2500 2550 60  0001 C CNN "vend,#"
+	2    2500 2550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L IRF7341 Q1002
+U 1 1 4C3E563E
 P 8075 1850
 F 0 "Q1002" H 8025 2000 60  0000 R CNN
 F 1 "IRF7341" H 8050 1700 60  0000 R CNN
 F 2 "SO8E" H 8075 1850 60  0001 C CNN
 F 4 "irf,IRF7341PBF" H 8075 1850 60  0001 C CNN "mfg,#"
 F 5 "newark,19K8259" H 8075 1850 60  0001 C CNN "vend,#"
-	2    8075 1850
+	1    8075 1850
 	1    0    0    -1  
-$EndComp
-$Comp
-L IRF7341 Q1002
-U 1 1 4C3E563E
-P 3525 1850
-F 0 "Q1002" H 3475 2000 60  0000 R CNN
-F 1 "IRF7341" H 3500 1700 60  0000 R CNN
-F 2 "SO8E" H 3525 1850 60  0001 C CNN
-F 4 "irf,IRF7341PBF" H 3525 1850 60  0001 C CNN "mfg,#"
-F 5 "newark,19K8259" H 3525 1850 60  0001 C CNN "vend,#"
-	1    3525 1850
-	-1   0    0    -1  
 $EndComp
 $Comp
 L IRF7341 Q1001
@@ -581,13 +581,13 @@ $EndComp
 $Comp
 L IRF7341 Q1001
 U 1 1 4C3E5179
-P 2500 2550
-F 0 "Q1001" H 2725 2800 60  0000 R CNN
-F 1 "IRF7341" H 2375 2450 60  0000 R CNN
-F 2 "SO8E" H 2500 2550 60  0001 C CNN
-F 4 "irf,IRF7341PBF" H 2500 2550 60  0001 C CNN "mfg,#"
-F 5 "newark,19K8259" H 2500 2550 60  0001 C CNN "vend,#"
-	1    2500 2550
+P 3525 1850
+F 0 "Q1001" H 3475 2000 60  0000 R CNN
+F 1 "IRF7341" H 3500 1700 60  0000 R CNN
+F 2 "SO8E" H 3525 1850 60  0001 C CNN
+F 4 "irf,IRF7341PBF" H 3525 1850 60  0001 C CNN "mfg,#"
+F 5 "newark,19K8259" H 3525 1850 60  0001 C CNN "vend,#"
+	1    3525 1850
 	-1   0    0    -1  
 $EndComp
 Text Label 3950 2650 0    60   ~ 0
