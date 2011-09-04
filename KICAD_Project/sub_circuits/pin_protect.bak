@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/1/2011 7:32:11 PM
+EESchema Schematic File Version 2  date 9/4/2011 2:44:58 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,7 +31,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 4 13
 Title "freeEMS PLUS from Cinch template "
-Date "1 sep 2011"
+Date "4 sep 2011"
 Rev "A-DRAF"
 Comp "diyefi.org/openecu.info"
 Comment1 "misc analog input protection circuits"
@@ -326,23 +326,23 @@ U 1 1 4E4DAF8F
 P 4900 5850
 F 0 "R419" V 4980 5850 50  0000 C CNN
 F 1 "1k" V 4900 5850 50  0000 C CNN
-F 2 "SM0805" V 1130 4950 60  0001 C CNN
-F 4 "vishay,CRCW08051K00FKTA" V 1130 4950 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,05F1507" V 1130 4950 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 4950 60  0001 C CNN "Field6"
-F 7 "" V 1130 4950 60  0001 C CNN "Field7"
-F 8 "125mW" V 1130 4950 60  0001 C CNN "w"
-F 9 "1%" V 1130 4950 60  0001 C CNN "tolerance"
-F 10 "thick film" V 1130 4950 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 4950 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4900 5850
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR086
+L GND #PWR409
 U 1 1 4E4DAF8E
 P 4300 6300
-F 0 "#PWR086" H 4300 6300 30  0001 C CNN
+F 0 "#PWR409" H 4300 6300 30  0001 C CNN
 F 1 "GND" H 4300 6230 30  0001 C CNN
 	1    4300 6300
 	1    0    0    -1  
@@ -371,15 +371,15 @@ U 1 1 4E4DAF8C
 P 4000 5850
 F 0 "R413" V 4080 5850 50  0000 C CNN
 F 1 "1k" V 4000 5850 50  0000 C CNN
-F 2 "SM0805" V 1130 4950 60  0001 C CNN
-F 4 "vishay,CRCW08051K00FKTA" V 1130 4950 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,05F1507" V 1130 4950 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 4950 60  0001 C CNN "Field6"
-F 7 "" V 1130 4950 60  0001 C CNN "Field7"
-F 8 "125mW" V 1130 4950 60  0001 C CNN "w"
-F 9 "1%" V 1130 4950 60  0001 C CNN "tolerance"
-F 10 "thick film" V 1130 4950 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 4950 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4000 5850
 	0    -1   -1   0   
 $EndComp
@@ -433,15 +433,15 @@ U 1 1 4E4DAF89
 P 4000 7050
 F 0 "R414" V 4080 7050 50  0000 C CNN
 F 1 "1k" V 4000 7050 50  0000 C CNN
-F 2 "SM0805" V 1130 4950 60  0001 C CNN
-F 4 "vishay,CRCW08051K00FKTA" V 1130 4950 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,05F1507" V 1130 4950 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 4950 60  0001 C CNN "Field6"
-F 7 "" V 1130 4950 60  0001 C CNN "Field7"
-F 8 "125mW" V 1130 4950 60  0001 C CNN "w"
-F 9 "1%" V 1130 4950 60  0001 C CNN "tolerance"
-F 10 "thick film" V 1130 4950 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 4950 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4000 7050
 	0    -1   -1   0   
 $EndComp
@@ -464,10 +464,10 @@ F 11 "other,more,stuff" V 1130 4950 60  0001 C CNN "misc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR087
+L GND #PWR410
 U 1 1 4E4DAF87
 P 4300 7500
-F 0 "#PWR087" H 4300 7500 30  0001 C CNN
+F 0 "#PWR410" H 4300 7500 30  0001 C CNN
 F 1 "GND" H 4300 7430 30  0001 C CNN
 	1    4300 7500
 	1    0    0    -1  
@@ -478,15 +478,15 @@ U 1 1 4E4DAF86
 P 4900 7050
 F 0 "R420" V 4980 7050 50  0000 C CNN
 F 1 "1k" V 4900 7050 50  0000 C CNN
-F 2 "SM0805" V 1130 4950 60  0001 C CNN
-F 4 "vishay,CRCW08051K00FKTA" V 1130 4950 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,05F1507" V 1130 4950 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 4950 60  0001 C CNN "Field6"
-F 7 "" V 1130 4950 60  0001 C CNN "Field7"
-F 8 "125mW" V 1130 4950 60  0001 C CNN "w"
-F 9 "1%" V 1130 4950 60  0001 C CNN "tolerance"
-F 10 "thick film" V 1130 4950 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 4950 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4900 7050
 	0    -1   -1   0   
 $EndComp
@@ -608,15 +608,15 @@ U 1 1 4E4DACB7
 P 8350 4700
 F 0 "R424" V 8430 4700 50  0000 C CNN
 F 1 "1k" V 8350 4700 50  0000 C CNN
-F 2 "SM0805" V 2780 3800 60  0001 C CNN
-F 4 "vishay,CRCW08051K00FKTA" V 2780 3800 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,05F1507" V 2780 3800 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 2780 3800 60  0001 C CNN "Field6"
-F 7 "" V 2780 3800 60  0001 C CNN "Field7"
-F 8 "125mW" V 2780 3800 60  0001 C CNN "w"
-F 9 "1%" V 2780 3800 60  0001 C CNN "tolerance"
-F 10 "thick film" V 2780 3800 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 2780 3800 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8350 4700
 	0    -1   -1   0   
 $EndComp
@@ -657,10 +657,10 @@ F 11 "other,more,stuff" V 6880 9950 60  0001 C CNN "Field8"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR088
+L GND #PWR414
 U 1 1 4E4DACB4
 P 8650 5150
-F 0 "#PWR088" H 8650 5150 30  0001 C CNN
+F 0 "#PWR414" H 8650 5150 30  0001 C CNN
 F 1 "GND" H 8650 5080 30  0001 C CNN
 	1    8650 5150
 	1    0    0    -1  
@@ -671,15 +671,15 @@ U 1 1 4E4DACB3
 P 9250 4700
 F 0 "R428" V 9330 4700 50  0000 C CNN
 F 1 "1k" V 9250 4700 50  0000 C CNN
-F 2 "SM0805" V 2780 3800 60  0001 C CNN
-F 4 "vishay,CRCW08051K00FKTA" V 2780 3800 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,05F1507" V 2780 3800 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 2780 3800 60  0001 C CNN "Field6"
-F 7 "" V 2780 3800 60  0001 C CNN "Field7"
-F 8 "125mW" V 2780 3800 60  0001 C CNN "w"
-F 9 "1%" V 2780 3800 60  0001 C CNN "tolerance"
-F 10 "thick film" V 2780 3800 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 2780 3800 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    9250 4700
 	0    -1   -1   0   
 $EndComp
@@ -977,23 +977,23 @@ U 1 1 4E47D7F9
 P 9250 3500
 F 0 "R427" V 9330 3500 50  0000 C CNN
 F 1 "1k" V 9250 3500 50  0000 C CNN
-F 2 "SM0805" V 2780 2600 60  0001 C CNN
-F 4 "vishay,CRCW08051K00FKTA" V 2780 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,05F1507" V 2780 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 2780 2600 60  0001 C CNN "Field6"
-F 7 "" V 2780 2600 60  0001 C CNN "Field7"
-F 8 "125mW" V 2780 2600 60  0001 C CNN "w"
-F 9 "1%" V 2780 2600 60  0001 C CNN "tolerance"
-F 10 "thick film" V 2780 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 2780 2600 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    9250 3500
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR089
+L GND #PWR413
 U 1 1 4E47D7F8
 P 8650 3950
-F 0 "#PWR089" H 8650 3950 30  0001 C CNN
+F 0 "#PWR413" H 8650 3950 30  0001 C CNN
 F 1 "GND" H 8650 3880 30  0001 C CNN
 	1    8650 3950
 	1    0    0    -1  
@@ -1040,15 +1040,15 @@ U 1 1 4E47D7F5
 P 8350 3500
 F 0 "R423" V 8430 3500 50  0000 C CNN
 F 1 "1k" V 8350 3500 50  0000 C CNN
-F 2 "SM0805" V 2780 2600 60  0001 C CNN
-F 4 "vishay,CRCW08051K00FKTA" V 2780 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,05F1507" V 2780 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 2780 2600 60  0001 C CNN "Field6"
-F 7 "" V 2780 2600 60  0001 C CNN "Field7"
-F 8 "125mW" V 2780 2600 60  0001 C CNN "w"
-F 9 "1%" V 2780 2600 60  0001 C CNN "tolerance"
-F 10 "thick film" V 2780 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 2780 2600 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8350 3500
 	0    -1   -1   0   
 $EndComp
@@ -1098,23 +1098,23 @@ U 1 1 4E47D7F2
 P 9250 2300
 F 0 "R426" V 9330 2300 50  0000 C CNN
 F 1 "1k" V 9250 2300 50  0000 C CNN
-F 2 "SM0805" V 2780 2600 60  0001 C CNN
-F 4 "vishay,CRCW08051K00FKTA" V 2780 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,05F1507" V 2780 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 2780 2600 60  0001 C CNN "Field6"
-F 7 "" V 2780 2600 60  0001 C CNN "Field7"
-F 8 "125mW" V 2780 2600 60  0001 C CNN "w"
-F 9 "1%" V 2780 2600 60  0001 C CNN "tolerance"
-F 10 "thick film" V 2780 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 2780 2600 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    9250 2300
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR090
+L GND #PWR412
 U 1 1 4E47D7F1
 P 8650 2750
-F 0 "#PWR090" H 8650 2750 30  0001 C CNN
+F 0 "#PWR412" H 8650 2750 30  0001 C CNN
 F 1 "GND" H 8650 2680 30  0001 C CNN
 	1    8650 2750
 	1    0    0    -1  
@@ -1161,15 +1161,15 @@ U 1 1 4E47D7EE
 P 8350 2300
 F 0 "R422" V 8430 2300 50  0000 C CNN
 F 1 "1k" V 8350 2300 50  0000 C CNN
-F 2 "SM0805" V 2780 2600 60  0001 C CNN
-F 4 "vishay,CRCW08051K00FKTA" V 2780 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,05F1507" V 2780 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 2780 2600 60  0001 C CNN "Field6"
-F 7 "" V 2780 2600 60  0001 C CNN "Field7"
-F 8 "125mW" V 2780 2600 60  0001 C CNN "w"
-F 9 "1%" V 2780 2600 60  0001 C CNN "tolerance"
-F 10 "thick film" V 2780 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 2780 2600 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8350 2300
 	0    -1   -1   0   
 $EndComp
@@ -1259,15 +1259,15 @@ U 1 1 4E47D7E9
 P 8350 1100
 F 0 "R421" V 8430 1100 50  0000 C CNN
 F 1 "1k" V 8350 1100 50  0000 C CNN
-F 2 "SM0805" V 2780 2600 60  0001 C CNN
-F 4 "vishay,CRCW08051K00FKTA" V 2780 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,05F1507" V 2780 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 2780 2600 60  0001 C CNN "Field6"
-F 7 "" V 2780 2600 60  0001 C CNN "Field7"
-F 8 "125mW" V 2780 2600 60  0001 C CNN "w"
-F 9 "1%" V 2780 2600 60  0001 C CNN "tolerance"
-F 10 "thick film" V 2780 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 2780 2600 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8350 1100
 	0    -1   -1   0   
 $EndComp
@@ -1308,10 +1308,10 @@ F 11 "other,more,stuff" V 6880 6350 60  0001 C CNN "Field8"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR091
+L GND #PWR411
 U 1 1 4E47D7E6
 P 8650 1550
-F 0 "#PWR091" H 8650 1550 30  0001 C CNN
+F 0 "#PWR411" H 8650 1550 30  0001 C CNN
 F 1 "GND" H 8650 1480 30  0001 C CNN
 	1    8650 1550
 	1    0    0    -1  
@@ -1322,15 +1322,15 @@ U 1 1 4E47D7E5
 P 9250 1100
 F 0 "R425" V 9330 1100 50  0000 C CNN
 F 1 "1k" V 9250 1100 50  0000 C CNN
-F 2 "SM0805" V 2780 2600 60  0001 C CNN
-F 4 "vishay,CRCW08051K00FKTA" V 2780 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,05F1507" V 2780 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 2780 2600 60  0001 C CNN "Field6"
-F 7 "" V 2780 2600 60  0001 C CNN "Field7"
-F 8 "125mW" V 2780 2600 60  0001 C CNN "w"
-F 9 "1%" V 2780 2600 60  0001 C CNN "tolerance"
-F 10 "thick film" V 2780 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 2780 2600 60  0001 C CNN "misc"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    9250 1100
 	0    -1   -1   0   
 $EndComp
@@ -1345,18 +1345,18 @@ F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
 F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
 F 6 "" V 1130 2600 60  0001 C CNN "Field6"
 F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
 F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4900 1100
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR092
+L GND #PWR405
 U 1 1 4E47D7E3
 P 4300 1550
-F 0 "#PWR092" H 4300 1550 30  0001 C CNN
+F 0 "#PWR405" H 4300 1550 30  0001 C CNN
 F 1 "GND" H 4300 1480 30  0001 C CNN
 	1    4300 1550
 	1    0    0    -1  
@@ -1390,8 +1390,8 @@ F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
 F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
 F 6 "" V 1130 2600 60  0001 C CNN "Field6"
 F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
 F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4000 1100
@@ -1452,8 +1452,8 @@ F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
 F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
 F 6 "" V 1130 2600 60  0001 C CNN "Field6"
 F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
 F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4000 2300
@@ -1478,10 +1478,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR093
+L GND #PWR406
 U 1 1 4E47D7D8
 P 4300 2750
-F 0 "#PWR093" H 4300 2750 30  0001 C CNN
+F 0 "#PWR406" H 4300 2750 30  0001 C CNN
 F 1 "GND" H 4300 2680 30  0001 C CNN
 	1    4300 2750
 	1    0    0    -1  
@@ -1497,8 +1497,8 @@ F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
 F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
 F 6 "" V 1130 2600 60  0001 C CNN "Field6"
 F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
 F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4900 2300
@@ -1515,18 +1515,18 @@ F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
 F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
 F 6 "" V 1130 2600 60  0001 C CNN "Field6"
 F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
 F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4900 4700
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR094
+L GND #PWR408
 U 1 1 4E47D7D5
 P 4300 5150
-F 0 "#PWR094" H 4300 5150 30  0001 C CNN
+F 0 "#PWR408" H 4300 5150 30  0001 C CNN
 F 1 "GND" H 4300 5080 30  0001 C CNN
 	1    4300 5150
 	1    0    0    -1  
@@ -1560,8 +1560,8 @@ F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
 F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
 F 6 "" V 1130 2600 60  0001 C CNN "Field6"
 F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
 F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4000 4700
@@ -1622,8 +1622,8 @@ F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
 F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
 F 6 "" V 1130 2600 60  0001 C CNN "Field6"
 F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
 F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4000 3500
@@ -1648,10 +1648,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR095
+L GND #PWR407
 U 1 1 4E47D7CA
 P 4300 3950
-F 0 "#PWR095" H 4300 3950 30  0001 C CNN
+F 0 "#PWR407" H 4300 3950 30  0001 C CNN
 F 1 "GND" H 4300 3880 30  0001 C CNN
 	1    4300 3950
 	1    0    0    -1  
@@ -1667,8 +1667,8 @@ F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
 F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
 F 6 "" V 1130 2600 60  0001 C CNN "Field6"
 F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
 F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4900 3500
@@ -1685,18 +1685,18 @@ F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
 F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
 F 6 "" V 1130 2600 60  0001 C CNN "Field6"
 F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
 F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    2200 3500
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR096
+L GND #PWR403
 U 1 1 4E47D792
 P 1600 3950
-F 0 "#PWR096" H 1600 3950 30  0001 C CNN
+F 0 "#PWR403" H 1600 3950 30  0001 C CNN
 F 1 "GND" H 1600 3880 30  0001 C CNN
 	1    1600 3950
 	1    0    0    -1  
@@ -1730,8 +1730,8 @@ F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
 F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
 F 6 "" V 1130 2600 60  0001 C CNN "Field6"
 F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
 F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1300 3500
@@ -1792,8 +1792,8 @@ F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
 F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
 F 6 "" V 1130 2600 60  0001 C CNN "Field6"
 F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
 F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1300 4700
@@ -1818,10 +1818,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR097
+L GND #PWR404
 U 1 1 4E47D787
 P 1600 5150
-F 0 "#PWR097" H 1600 5150 30  0001 C CNN
+F 0 "#PWR404" H 1600 5150 30  0001 C CNN
 F 1 "GND" H 1600 5080 30  0001 C CNN
 	1    1600 5150
 	1    0    0    -1  
@@ -1837,8 +1837,8 @@ F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
 F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
 F 6 "" V 1130 2600 60  0001 C CNN "Field6"
 F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
 F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    2200 4700
@@ -1855,18 +1855,18 @@ F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
 F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
 F 6 "" V 1130 2600 60  0001 C CNN "Field6"
 F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
 F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    2200 2300
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR098
+L GND #PWR402
 U 1 1 4E47D767
 P 1600 2750
-F 0 "#PWR098" H 1600 2750 30  0001 C CNN
+F 0 "#PWR402" H 1600 2750 30  0001 C CNN
 F 1 "GND" H 1600 2680 30  0001 C CNN
 	1    1600 2750
 	1    0    0    -1  
@@ -1900,8 +1900,8 @@ F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
 F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
 F 6 "" V 1130 2600 60  0001 C CNN "Field6"
 F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
 F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1300 2300
@@ -1966,8 +1966,8 @@ F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
 F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
 F 6 "" V 1130 2600 60  0001 C CNN "Field6"
 F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
 F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1300 1100
@@ -1992,10 +1992,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR099
+L GND #PWR401
 U 1 1 4E47D48E
 P 1600 1550
-F 0 "#PWR099" H 1600 1550 30  0001 C CNN
+F 0 "#PWR401" H 1600 1550 30  0001 C CNN
 F 1 "GND" H 1600 1480 30  0001 C CNN
 	1    1600 1550
 	1    0    0    -1  
@@ -2011,8 +2011,8 @@ F 4 "vishay,CRCW08051K00FKTA" V 1130 2600 60  0001 C CNN "mfg,mfg#"
 F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
 F 6 "" V 1130 2600 60  0001 C CNN "Field6"
 F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "125mW" V 1130 2600 60  0001 C CNN "w"
-F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
+F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
 F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    2200 1100

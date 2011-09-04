@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/1/2011 7:35:07 PM
+EESchema Schematic File Version 2  date 9/4/2011 3:29:41 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,7 +31,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 7 13
 Title "freeEMS PLUS from Cinch template "
-Date "1 sep 2011"
+Date "4 sep 2011"
 Rev "A-DRAF"
 Comp "diyefi.org/openecu.info"
 Comment1 "power regulator"
@@ -250,10 +250,10 @@ F 9 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0138
+L GND #PWR702
 U 1 1 4E3DFCE8
 P 975 7100
-F 0 "#PWR0138" H 975 7100 30  0001 C CNN
+F 0 "#PWR702" H 975 7100 30  0001 C CNN
 F 1 "GND" H 975 7030 30  0001 C CNN
 	1    975  7100
 	-1   0    0    -1  
@@ -349,10 +349,10 @@ F 11 "other,more,stuff" V -2745 5950 60  0001 C CNN "misc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0139
+L GND #PWR705
 U 1 1 4E3DFCE1
 P 3975 7100
-F 0 "#PWR0139" H 3975 7100 30  0001 C CNN
+F 0 "#PWR705" H 3975 7100 30  0001 C CNN
 F 1 "GND" H 3975 7030 30  0001 C CNN
 	1    3975 7100
 	-1   0    0    -1  
@@ -383,15 +383,15 @@ U 1 1 4D197A99
 P 1000 3600
 F 0 "D701" H 1000 3700 50  0000 C CNN
 F 1 "LED" H 1000 3500 50  0000 C CNN
-F 2 "LED-0805" H 1000 3600 60  0001 C CNN
-F 4 "OSRAM" V -2470 2150 60  0001 C CNN "mfg"
-F 5 "LH R974-LP-1-0-20-R18" V -2470 2150 60  0001 C CNN "mfg#"
-F 6 "digikey" V -2470 2150 60  0001 C CNN "vend1"
-F 7 "475-1415-1-ND" V -2470 2150 60  0001 C CNN "vend1#"
-F 8 ".02a" V -2470 2150 60  0001 C CNN "current"
-F 9 "-%" V -2470 2150 60  0001 C CNN "tol"
-F 10 "RED" V -2470 2150 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V -2470 2150 60  0001 C CNN "misc"
+F 2 "LED-0805" V 1130 2600 60  0001 C CNN
+F 4 "OSRAM,LH R974-LP-1-0-20-R18" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "DIGI,475-1415-1-ND" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 ".02A" V 1130 2600 60  0001 C CNN "A"
+F 9 "-%" V 1130 2600 60  0001 C CNN "TOL"
+F 10 "RED" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    1000 3600
 	0    1    1    0   
 $EndComp
@@ -414,28 +414,28 @@ F 11 "other,more,stuff" V -2220 1975 60  0001 C CNN "misc"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0140
+L GND #PWR708
 U 1 1 4E3DEE9D
 P 5325 3975
-F 0 "#PWR0140" H 5325 3975 30  0001 C CNN
+F 0 "#PWR708" H 5325 3975 30  0001 C CNN
 F 1 "GND" H 5325 3905 30  0001 C CNN
 	1    5325 3975
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0141
+L GND #PWR704
 U 1 1 4E3DEE94
 P 3975 6050
-F 0 "#PWR0141" H 3975 6050 30  0001 C CNN
+F 0 "#PWR704" H 3975 6050 30  0001 C CNN
 F 1 "GND" H 3975 5980 30  0001 C CNN
 	1    3975 6050
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0142
+L GND #PWR707
 U 1 1 4E3DEE87
 P 4950 2000
-F 0 "#PWR0142" H 4950 2000 30  0001 C CNN
+F 0 "#PWR707" H 4950 2000 30  0001 C CNN
 F 1 "GND" H 4950 1930 30  0001 C CNN
 	1    4950 2000
 	1    0    0    -1  
@@ -648,10 +648,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0143
+L GND #PWR706
 U 1 1 4BF26D5A
 P 4450 2000
-F 0 "#PWR0143" H 4450 2000 30  0001 C CNN
+F 0 "#PWR706" H 4450 2000 30  0001 C CNN
 F 1 "GND" H 4450 1930 30  0001 C CNN
 	1    4450 2000
 	1    0    0    -1  
@@ -903,10 +903,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0144
+L GND #PWR701
 U 1 1 486CA86E
 P 975 6050
-F 0 "#PWR0144" H 975 6050 30  0001 C CNN
+F 0 "#PWR701" H 975 6050 30  0001 C CNN
 F 1 "GND" H 975 5980 30  0001 C CNN
 	1    975  6050
 	-1   0    0    -1  
@@ -1092,10 +1092,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0145
+L GND #PWR703
 U 1 1 4C2F529B
 P 3725 4025
-F 0 "#PWR0145" H 3725 4025 30  0001 C CNN
+F 0 "#PWR703" H 3725 4025 30  0001 C CNN
 F 1 "GND" H 3725 3955 30  0001 C CNN
 	1    3725 4025
 	-1   0    0    -1  

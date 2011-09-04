@@ -1,0 +1,33 @@
+<Qucs Schematic 0.0.16>
+<Properties>
+  <View=0,0,800,800,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=DI_3.dat>
+  <DataDisplay=DI_3.sch>
+  <OpenDisplay=1>
+  <Script=DI_3.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 140 280 513 182 3 #c0c0c0 1 00 1 0 0.0005 0.001 1 -20 20 100 1 -5 5 15 315 0 225 "" "" "">
+	<"inj_top.Vt" #005500 0 3 0 0 0>
+	<"top1.Vt" #ff0000 0 3 0 0 0>
+	<"top2.Vt" #ffaa00 0 3 0 0 0>
+	<"BOOST.It" #9ba8ff 0 3 0 0 1>
+	<"inj_low.Vt" #ff007f 0 3 0 0 0>
+	<"INJ.It" #0000ff 0 3 0 0 1>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

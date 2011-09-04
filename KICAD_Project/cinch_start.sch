@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/1/2011 7:35:06 PM
+EESchema Schematic File Version 2  date 9/4/2011 3:29:40 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,7 +31,7 @@ $Descr C 22000 17000
 encoding utf-8
 Sheet 1 13
 Title "freeEMS PLUS from Cinch template "
-Date "1 sep 2011"
+Date "4 sep 2011"
 Rev "A-DRAF"
 Comp "diyefi.org/openecu.info"
 Comment1 ""
@@ -1749,10 +1749,10 @@ Entry Wire Line
 Entry Wire Line
 	7000 15000 7100 14900
 $Comp
-L GND #PWR01
+L GND #PWR103
 U 1 1 4C2F0CE4
 P 9100 15300
-F 0 "#PWR01" H 9100 15300 30  0001 C CNN
+F 0 "#PWR103" H 9100 15300 30  0001 C CNN
 F 1 "GND" H 9100 15230 30  0001 C CNN
 	1    9100 15300
 	1    0    0    -1  
@@ -1760,10 +1760,10 @@ $EndComp
 Text Label 7300 14075 0    60   ~ 0
 GND
 $Comp
-L GND #PWR02
+L GND #PWR101
 U 1 1 4C2B157A
 P 4250 7725
-F 0 "#PWR02" H 4250 7725 30  0001 C CNN
+F 0 "#PWR101" H 4250 7725 30  0001 C CNN
 F 1 "GND" H 4250 7655 30  0001 C CNN
 	1    4250 7725
 	1    0    0    -1  
@@ -2532,10 +2532,10 @@ Text Label 7650 15700 0    60   ~ 0
 Text Label 7825 8775 2    60   ~ 0
 12V
 $Comp
-L GND #PWR03
+L GND #PWR102
 U 1 1 4C15298E
 P 7800 2675
-F 0 "#PWR03" H 7800 2675 30  0001 C CNN
+F 0 "#PWR102" H 7800 2675 30  0001 C CNN
 F 1 "GND" H 7800 2605 30  0001 C CNN
 	1    7800 2675
 	1    0    0    -1  
