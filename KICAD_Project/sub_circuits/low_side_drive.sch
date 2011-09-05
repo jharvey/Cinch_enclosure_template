@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/4/2011 11:06:36 PM
+EESchema Schematic File Version 2  date 9/5/2011 3:26:59 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -32,13 +32,19 @@ encoding utf-8
 Sheet 10 13
 Title "freeEMS PLUS from Cinch template "
 Date "5 sep 2011"
-Rev "A-DRAF"
+Rev "A-DRAF1"
 Comp "diyefi.org/openecu.info"
 Comment1 "misc high side and low side drives"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 3975 3500
+Wire Wire Line
+	3975 3450 3975 3500
+Connection ~ 3975 3300
+Wire Wire Line
+	3975 3250 3975 3300
 Wire Wire Line
 	4950 4450 4850 4450
 Wire Wire Line
@@ -97,7 +103,7 @@ Wire Wire Line
 	6950 2650 6650 2650
 Connection ~ 4950 4725
 Wire Wire Line
-	4950 4650 4950 4800
+	4950 4800 4950 4650
 Wire Wire Line
 	4250 4725 4250 4550
 Connection ~ 2575 2900
@@ -369,7 +375,7 @@ Wire Wire Line
 	4850 2150 4950 2150
 Connection ~ 2400 3300
 Wire Wire Line
-	2400 3300 3175 3300
+	2400 3300 2950 3300
 Connection ~ 2400 3500
 Wire Wire Line
 	2400 4100 3175 4100
@@ -394,11 +400,11 @@ Wire Wire Line
 Wire Wire Line
 	4950 3250 4400 3250
 Wire Wire Line
-	3575 3300 4400 3300
+	3350 3300 4400 3300
 Wire Wire Line
 	4400 3300 4400 3250
 Wire Wire Line
-	3925 3200 4400 3200
+	3500 3200 4400 3200
 Wire Wire Line
 	4950 3150 4400 3150
 Wire Wire Line
@@ -408,9 +414,9 @@ Wire Wire Line
 Wire Wire Line
 	4400 3450 4950 3450
 Wire Wire Line
-	2400 4000 3525 4000
+	3525 4000 2400 4000
 Wire Wire Line
-	3525 3200 2400 3200
+	2400 3200 3100 3200
 Connection ~ 2400 3200
 Wire Wire Line
 	2400 3400 2825 3400
@@ -459,12 +465,10 @@ Wire Wire Line
 Wire Wire Line
 	4400 4250 4950 4250
 Wire Wire Line
-	4850 4150 4950 4150
+	4950 4150 4850 4150
 Connection ~ 4875 4150
 Wire Wire Line
 	4350 3100 4400 3100
-Wire Wire Line
-	4400 3100 4400 3200
 Connection ~ 4400 3150
 Wire Wire Line
 	6650 3050 7150 3050
@@ -509,6 +513,24 @@ Wire Wire Line
 Connection ~ 9300 2350
 Wire Wire Line
 	6400 1400 6400 1425
+Wire Wire Line
+	4400 3100 4400 3200
+Wire Wire Line
+	3975 3150 3975 3200
+Connection ~ 3975 3200
+Wire Wire Line
+	3975 3350 3975 3400
+Connection ~ 3975 3400
+Text HLabel 3975 3450 0    60   Input ~ 0
+800_P7
+Text HLabel 3975 3250 0    60   Input ~ 0
+800_P3
+Text HLabel 3975 3350 0    60   Input ~ 0
+800_P5
+Text Label 4350 3100 2    60   ~ 0
+800_P1
+Text HLabel 3975 3150 0    60   Input ~ 0
+800_P1
 $Comp
 L GND #PWR0154
 U 1 1 4C2B134E
@@ -662,8 +684,6 @@ Text Label 4950 4700 2    60   ~ 0
 800_CCD1
 Text Label 4400 4200 2    60   ~ 0
 800_CCD2
-Text Label 4350 3100 2    60   ~ 0
-800_P1
 Text Label 4450 4050 0    60   ~ 0
 800_PWM6
 Text Label 4450 3950 0    60   ~ 0
@@ -971,19 +991,19 @@ $EndComp
 $Comp
 L C C1009
 U 1 1 4BF6521A
-P 3725 3200
-F 0 "C1009" V 3755 3405 50  0000 L CNN
-F 1 "10nF" V 3650 3050 50  0000 L CNN
-F 2 "SM0805-C1" V 1130 2600 60  0001 C CNN
-F 4 "ill cap,106CKE200M" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,69K7896" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "200V" V 1130 2600 60  0001 C CNN "V"
-F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "alum elec" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    3725 3200
+P 3300 3200
+F 0 "C1009" V 3330 3405 50  0000 L CNN
+F 1 "10nF" V 3225 3050 50  0000 L CNN
+F 2 "SM0805-C1" V 705 2600 60  0001 C CNN
+F 4 "ill cap,106CKE200M" V 705 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,69K7896" V 705 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 705 2600 60  0001 C CNN "Field6"
+F 7 "" V 705 2600 60  0001 C CNN "Field7"
+F 8 "200V" V 705 2600 60  0001 C CNN "V"
+F 9 "10%" V 705 2600 60  0001 C CNN "tolerance"
+F 10 "alum elec" V 705 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 705 2600 60  0001 C CNN "misc"
+	1    3300 3200
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1027,19 +1047,19 @@ $EndComp
 $Comp
 L C C1006
 U 1 1 4BF65216
-P 3375 3300
-F 0 "C1006" V 3395 3495 50  0000 L CNN
-F 1 "10nF" V 3300 3100 50  0000 L CNN
-F 2 "SM0805-C1" V 1130 2600 60  0001 C CNN
-F 4 "ill cap,106CKE200M" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,69K7896" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "" V 1130 2600 60  0001 C CNN "Field6"
-F 7 "" V 1130 2600 60  0001 C CNN "Field7"
-F 8 "200V" V 1130 2600 60  0001 C CNN "V"
-F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "alum elec" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    3375 3300
+P 3150 3300
+F 0 "C1006" V 3170 3495 50  0000 L CNN
+F 1 "10nF" V 3075 3100 50  0000 L CNN
+F 2 "SM0805-C1" V 905 2600 60  0001 C CNN
+F 4 "ill cap,106CKE200M" V 905 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,69K7896" V 905 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 905 2600 60  0001 C CNN "Field6"
+F 7 "" V 905 2600 60  0001 C CNN "Field7"
+F 8 "200V" V 905 2600 60  0001 C CNN "V"
+F 9 "10%" V 905 2600 60  0001 C CNN "tolerance"
+F 10 "alum elec" V 905 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 905 2600 60  0001 C CNN "misc"
+	1    3150 3300
 	0    -1   -1   0   
 $EndComp
 $Comp
