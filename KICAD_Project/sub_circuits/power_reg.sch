@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/4/2011 3:29:41 PM
+EESchema Schematic File Version 2  date 9/4/2011 11:06:36 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,7 +31,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 7 13
 Title "freeEMS PLUS from Cinch template "
-Date "4 sep 2011"
+Date "5 sep 2011"
 Rev "A-DRAF"
 Comp "diyefi.org/openecu.info"
 Comment1 "power regulator"
@@ -250,10 +250,10 @@ F 9 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR702
+L GND #PWR0138
 U 1 1 4E3DFCE8
 P 975 7100
-F 0 "#PWR702" H 975 7100 30  0001 C CNN
+F 0 "#PWR0138" H 975 7100 30  0001 C CNN
 F 1 "GND" H 975 7030 30  0001 C CNN
 	1    975  7100
 	-1   0    0    -1  
@@ -349,10 +349,10 @@ F 11 "other,more,stuff" V -2745 5950 60  0001 C CNN "misc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR705
+L GND #PWR0139
 U 1 1 4E3DFCE1
 P 3975 7100
-F 0 "#PWR705" H 3975 7100 30  0001 C CNN
+F 0 "#PWR0139" H 3975 7100 30  0001 C CNN
 F 1 "GND" H 3975 7030 30  0001 C CNN
 	1    3975 7100
 	-1   0    0    -1  
@@ -414,28 +414,28 @@ F 11 "other,more,stuff" V -2220 1975 60  0001 C CNN "misc"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR708
+L GND #PWR0140
 U 1 1 4E3DEE9D
 P 5325 3975
-F 0 "#PWR708" H 5325 3975 30  0001 C CNN
+F 0 "#PWR0140" H 5325 3975 30  0001 C CNN
 F 1 "GND" H 5325 3905 30  0001 C CNN
 	1    5325 3975
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR704
+L GND #PWR0141
 U 1 1 4E3DEE94
 P 3975 6050
-F 0 "#PWR704" H 3975 6050 30  0001 C CNN
+F 0 "#PWR0141" H 3975 6050 30  0001 C CNN
 F 1 "GND" H 3975 5980 30  0001 C CNN
 	1    3975 6050
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR707
+L GND #PWR0142
 U 1 1 4E3DEE87
 P 4950 2000
-F 0 "#PWR707" H 4950 2000 30  0001 C CNN
+F 0 "#PWR0142" H 4950 2000 30  0001 C CNN
 F 1 "GND" H 4950 1930 30  0001 C CNN
 	1    4950 2000
 	1    0    0    -1  
@@ -648,10 +648,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR706
+L GND #PWR0143
 U 1 1 4BF26D5A
 P 4450 2000
-F 0 "#PWR706" H 4450 2000 30  0001 C CNN
+F 0 "#PWR0143" H 4450 2000 30  0001 C CNN
 F 1 "GND" H 4450 1930 30  0001 C CNN
 	1    4450 2000
 	1    0    0    -1  
@@ -903,10 +903,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR701
+L GND #PWR0144
 U 1 1 486CA86E
 P 975 6050
-F 0 "#PWR701" H 975 6050 30  0001 C CNN
+F 0 "#PWR0144" H 975 6050 30  0001 C CNN
 F 1 "GND" H 975 5980 30  0001 C CNN
 	1    975  6050
 	-1   0    0    -1  
@@ -1092,10 +1092,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR703
+L GND #PWR0145
 U 1 1 4C2F529B
 P 3725 4025
-F 0 "#PWR703" H 3725 4025 30  0001 C CNN
+F 0 "#PWR0145" H 3725 4025 30  0001 C CNN
 F 1 "GND" H 3725 3955 30  0001 C CNN
 	1    3725 4025
 	-1   0    0    -1  

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/4/2011 2:44:58 PM
+EESchema Schematic File Version 2  date 9/4/2011 8:25:22 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,7 +31,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 3 13
 Title "freeEMS PLUS from Cinch template "
-Date "4 sep 2011"
+Date "5 sep 2011"
 Rev "A-DRAF"
 Comp "diyefi.org/openecu.info"
 Comment1 ""
@@ -40,15 +40,17 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	9425 3700 9425 3675
+	7425 3675 7425 3700
 Wire Wire Line
-	6200 5825 6225 5825
+	7425 5775 7425 5820
 Wire Wire Line
-	6225 5825 6225 5775
+	7425 5820 7160 5820
 Wire Wire Line
-	7160 5820 7425 5820
+	6225 5775 6225 5825
 Wire Wire Line
-	7425 5820 7425 5775
+	6225 5825 6200 5825
+Text HLabel 9425 6925 2    60   Input ~ 0
+INJ09_HARN
 $Comp
 L MOLEX_HARNESS_SD-64333-100 J301
 U 1 1 4E3DF531
@@ -59,7 +61,7 @@ F 2 "Molex_SD-64333-100_on_Cinch_ModICE_w_5554_SOM_con-only" H 7825 5275 60  000
 	1    7825 5275
 	0    -1   -1   0   
 $EndComp
-Text Label 9425 3700 0    60   ~ 0
+Text Label 7425 3700 2    60   ~ 0
 GND
 Text HLabel 9425 6425 2    60   Input ~ 0
 P09
@@ -117,9 +119,9 @@ Text HLabel 7425 6725 0    60   Input ~ 0
 INJ23_HARN
 Text Label 6200 5825 2    60   ~ 0
 GND
-Text HLabel 7425 6925 0    60   Input ~ 0
+Text HLabel 6225 6925 0    60   Input ~ 0
 GND5_STAGED4
-Text HLabel 7425 3675 0    60   Input ~ 0
+Text HLabel 6225 3675 0    60   Input ~ 0
 GND4_STAGED8
 Text HLabel 9425 5475 2    60   Input ~ 0
 STEP_GND
@@ -131,9 +133,9 @@ Text HLabel 7425 5275 0    60   Input ~ 0
 TPS+_5V
 Text HLabel 7425 5475 0    60   Input ~ 0
 TPS-_GND
-Text HLabel 9425 6925 2    60   Input ~ 0
+Text HLabel 8225 6925 2    60   Input ~ 0
 HS2
-Text HLabel 6225 6925 0    60   Input ~ 0
+Text HLabel 7425 6925 0    60   Input ~ 0
 HS3
 Text HLabel 8225 4875 2    60   Input ~ 0
 P03
@@ -151,7 +153,7 @@ Text HLabel 8225 5575 2    60   Input ~ 0
 STEP_D5
 Text HLabel 9425 5575 2    60   Input ~ 0
 STEP_D8
-Text HLabel 8225 3675 2    60   Input ~ 0
+Text HLabel 6225 3575 0    60   Input ~ 0
 GND2_INJIGN
 Text HLabel 8225 6525 2    60   Input ~ 0
 FLEX_CAN_L
@@ -193,7 +195,7 @@ Text HLabel 7425 5775 0    60   Input ~ 0
 GND
 Text HLabel 9425 5775 2    60   Input ~ 0
 12V_BAT
-Text HLabel 8225 6925 2    60   Input ~ 0
+Text HLabel 6225 7025 0    60   Input ~ 0
 GND3_INJIGN
 Text HLabel 9425 5075 2    60   Input ~ 0
 MAP+_5V
@@ -210,12 +212,10 @@ IGN11_HARN
 Text HLabel 6225 6825 0    60   Input ~ 0
 IGN12_HARN
 Text HLabel 9425 7025 2    60   Input ~ 0
-INJ09_HARN
-Text HLabel 8225 7025 2    60   Input ~ 0
 INJ10_HARN
-Text HLabel 7425 7025 0    60   Input ~ 0
+Text HLabel 8225 7025 2    60   Input ~ 0
 INJ11_HARN
-Text HLabel 6225 7025 0    60   Input ~ 0
+Text HLabel 7425 7025 0    60   Input ~ 0
 INJ12_HARN
 Text HLabel 6225 3775 0    60   Input ~ 0
 IGN08_HARN
@@ -225,13 +225,13 @@ Text HLabel 8225 3775 2    60   Input ~ 0
 IGN06_HARN
 Text HLabel 9425 3775 2    60   Input ~ 0
 IGN05_HARN
-Text HLabel 6225 3575 0    60   Input ~ 0
-INJ08_HARN
 Text HLabel 7425 3575 0    60   Input ~ 0
-INJ07_HARN
+INJ08_HARN
 Text HLabel 8225 3575 2    60   Input ~ 0
-INJ06_HARN
+INJ07_HARN
 Text HLabel 9425 3575 2    60   Input ~ 0
+INJ06_HARN
+Text HLabel 9425 3675 2    60   Input ~ 0
 INJ05_HARN
 Text HLabel 9425 5675 2    60   Input ~ 0
 IGN01_HARN
@@ -283,6 +283,6 @@ Text HLabel 7425 5175 0    60   Input ~ 0
 MIAT
 Text HLabel 7425 5075 0    60   Input ~ 0
 ENG_TEMP
-Text HLabel 6225 3675 0    60   Input ~ 0
+Text HLabel 8225 3675 2    60   Input ~ 0
 EXTRA
 $EndSCHEMATC
