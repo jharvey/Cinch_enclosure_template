@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/5/2011 3:26:59 PM
+EESchema Schematic File Version 2  date 9/11/2011 9:31:31 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,7 +31,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 10 13
 Title "freeEMS PLUS from Cinch template "
-Date "5 sep 2011"
+Date "12 sep 2011"
 Rev "A-DRAF1"
 Comp "diyefi.org/openecu.info"
 Comment1 "misc high side and low side drives"
@@ -1542,7 +1542,7 @@ L C C1016
 U 1 1 4E467DFC
 P 7875 3200
 F 0 "C1016" V 7895 3405 50  0000 L CNN
-F 1 "10nF" V 7800 3000 50  0000 L CNN
+F 1 "10nF" V 7800 3075 50  0000 L CNN
 F 2 "SM0805-C1" V 1130 2600 60  0001 C CNN
 F 4 "ill cap,106CKE200M" V 1130 2600 60  0001 C CNN "mfg,mfg#"
 F 5 "newark,69K7896" V 1130 2600 60  0001 C CNN "vend1,vend1#"
