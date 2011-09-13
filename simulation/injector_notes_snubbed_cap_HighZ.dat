@@ -1,0 +1,46 @@
+<Qucs Dataset 0.0.16>
+<indep time 1>
+  +0.00000000000e+000
+</indep>
+<dep V3.It time>
+  -1.43936695984e-001
+</dep>
+<dep INJ.It time>
+  +8.66000181612e-006
+</dep>
+<dep V4.It time>
+  +5.12193576932e-009
+</dep>
+<dep _net8.Vt time>
+  +4.29335719226e-002
+</dep>
+<dep cap.Vt time>
+  +4.29335719226e-002
+</dep>
+<dep inj_low.Vt time>
+  +8.61218494749e-002
+</dep>
+<dep _net7.Vt time>
+  +4.00000000000e+001
+</dep>
+<dep _net6.Vt time>
+  +6.77600739817e-001
+</dep>
+<dep _net3.Vt time>
+  +1.43928035982e+001
+</dep>
+<dep _net5.Vt time>
+  +6.77600739817e-001
+</dep>
+<dep _net0.Vt time>
+  +1.43999129670e+001
+</dep>
+<dep _net4.Vt time>
+  +1.43998090470e+001
+</dep>
+<dep _net2.Vt time>
+  +1.44000000000e+001
+</dep>
+<dep _net1.Vt time>
+  +1.43999134000e+001
+</dep>
