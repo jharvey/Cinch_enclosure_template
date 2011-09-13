@@ -2,10 +2,10 @@
 <Properties>
   <View=105,-82,1855,1323,0.486857,0,0>
   <Grid=10,10,1>
-  <DataSet=injector_notes_zener_snubbed_HighZ.dat>
-  <DataDisplay=injector_notes_zener_snubbed_HighZ.dpl>
+  <DataSet=injector_notes_snubbed-resistance_HighZ.dat>
+  <DataDisplay=injector_notes_snubbed-resistance_HighZ.dpl>
   <OpenDisplay=1>
-  <Script=injector_notes_zener_snubbed_HighZ.m>
+  <Script=injector_notes_snubbed-resistance_HighZ.m>
   <RunScript=0>
   <showFrame=0>
   <FrameText0=Title>
@@ -34,8 +34,7 @@
   <R R7 1 450 210 -26 15 0 0 "12 Ohm" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "US" 0>
   <Diode D5 1 510 120 -26 -37 1 0 "1e-15 A" 0 "1" 0 "10 fF" 0 "0.5" 0 "0.7 V" 0 "0.5" 0 "0.0 fF" 0 "0.0" 0 "2.0" 0 "0.0 Ohm" 0 "0.0 ps" 0 "0" 0 "0.0" 0 "1.0" 0 "1.0" 0 "0" 0 "1 mA" 0 "26.85" 0 "3.0" 0 "1.11" 0 "0.0" 0 "0.0" 0 "0.0" 0 "0.0" 0 "0.0" 0 "0.0" 0 "26.85" 0 "1.0" 0 "normal" 0>
   <IProbe INJ 1 620 210 -26 19 0 0>
-  <R R11 1 440 120 -26 -59 1 0 "20 Ohm" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "US" 0>
-  <Vdc V4 1 580 120 -26 -62 1 0 "30 V" 1>
+  <R R11 1 580 120 -26 -59 1 0 "40 Ohm" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "US" 0>
 </Components>
 <Wires>
   <180 390 280 390 "" 0 0 0 "">
@@ -54,23 +53,22 @@
   <950 330 950 390 "" 0 0 0 "">
   <390 210 420 210 "" 0 0 0 "">
   <390 120 390 210 "" 0 0 0 "">
-  <390 120 410 120 "" 0 0 0 "">
+  <390 120 480 120 "" 0 0 0 "">
   <650 210 670 210 "" 0 0 0 "">
   <570 210 590 210 "" 0 0 0 "">
-  <540 120 550 120 "" 0 0 0 "">
   <670 210 950 210 "inj_low" 950 170 258 "">
   <670 120 670 210 "" 0 0 0 "">
+  <540 120 550 120 "" 0 0 0 "">
   <610 120 670 120 "" 0 0 0 "">
-  <470 120 480 120 "" 0 0 0 "">
-  <390 120 390 120 "inj_top" 330 40 0 "">
+  <390 120 390 120 "inj_top" 410 40 0 "">
 </Wires>
 <Diagrams>
-  <Rect 1070 1177 682 759 3 #c0c0c0 1 00 0 0 0.001 0.01 1 -152.284 20 165.377 1 -0.2 0.1 1 315 0 225 "" "" "">
+  <Rect 1070 1177 682 759 3 #c0c0c0 1 00 0 0 0.001 0.01 0 -2 2 20 0 -0.1 0.1 1 315 0 225 "" "" "">
 	<"inj_top.Vt" #005500 0 3 0 0 0>
 	<"inj_low.Vt" #ff007f 0 3 0 0 0>
 	<"INJ.It" #0000ff 0 3 0 0 1>
   </Rect>
-  <Rect 230 1177 682 759 3 #c0c0c0 1 00 0 0.005 0.0001 0.0062 0 -20 20 100 0 -0.2 0.2 1 315 0 225 "" "" "">
+  <Rect 230 1177 682 759 3 #c0c0c0 1 00 0 0.005 0.001 0.01 0 -20 20 100 0 -0.2 0.2 1 315 0 225 "" "" "">
 	<"inj_top.Vt" #005500 0 3 0 0 0>
 	<"inj_low.Vt" #ff007f 0 3 0 0 0>
 	<"INJ.It" #0000ff 0 3 0 0 1>
@@ -85,7 +83,7 @@
   <Line 590 270 0 -110 #000000 0 1>
   <Line 590 160 -170 0 #000000 0 1>
   <Text 420 140 12 #000000 0 "MI HighZ injector">
-  <Text 550 30 12 #000000 0 "zener snubber diode">
+  <Text 550 30 12 #000000 0 "snubber diode">
   <Line 540 50 -20 40 #000000 0 1>
-  <Text 700 0 24 #000000 0 "Note this snubber diode device causes about 1mS to shut off the injector.\nThe heat is disipated in an linear decay based on the 12 ohm resistance\n   and the coil field\nThis causes nearly all heat to be disipated by the injector.">
+  <Text 700 0 24 #000000 0 "Note this snubber diode device causes about 5mS to shut off the injector.\nThe heat is disipated in an expontentail decay based on the 12 ohm resistance\n   and the coil field\nThis causes nearly all heat to be disipated by the injector.">
 </Paintings>
