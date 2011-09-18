@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/11/2011 9:31:31 PM
+EESchema Schematic File Version 2  date 9/17/2011 9:52:27 AM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,7 +31,7 @@ $Descr User 11000 8500
 encoding utf-8
 Sheet 8 13
 Title "freeEMS PLUS from Cinch template "
-Date "12 sep 2011"
+Date "17 sep 2011"
 Rev "A-DRAF1"
 Comp "diyefi.org/openecu.info"
 Comment1 "Stepper motor control"
