@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/18/2011 6:29:13 PM
+EESchema Schematic File Version 2  date 9/23/2011 5:39:24 AM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,8 +31,8 @@ $Descr User 11000 8500
 encoding utf-8
 Sheet 12 13
 Title "freeEMS PLUS from Cinch template "
-Date "18 sep 2011"
-Rev "A-DRAF12"
+Date "23 sep 2011"
+Rev "A-DRAFT3"
 Comp "diyefi.org/openecu.info"
 Comment1 "2 channels of Wide O2 "
 Comment2 ""
@@ -777,16 +777,6 @@ F 11 "other,more,stuff" V 5655 4475 60  0001 C CNN "Field8"
 	1    7100 3025
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_1 P1211
-U 1 1 4E39E9B4
-P 9175 4375
-F 0 "P1211" H 9255 4375 40  0000 L CNN
-F 1 "CONN_1" H 9175 4430 30  0001 C CNN
-F 2 "PINTST" H 9175 4375 60  0001 C CNN
-	1    9175 4375
-	1    0    0    -1  
-$EndComp
 Text Label 5500 2975 0    60   ~ 0
 DIAHG-1?
 Text Label 5500 3075 0    60   ~ 0
@@ -829,16 +819,6 @@ Text Label 5500 5675 0    60   ~ 0
 DIAHD-2?
 Text Label 5500 5575 0    60   ~ 0
 DIAHG-2?
-$Comp
-L CONN_1 P1212
-U 1 1 4E467E0D
-P 9175 6975
-F 0 "P1212" H 9255 6975 40  0000 L CNN
-F 1 "CONN_1" H 9175 7030 30  0001 C CNN
-F 2 "PINTST" H 9175 6975 60  0001 C CNN
-	1    9175 6975
-	1    0    0    -1  
-$EndComp
 $Comp
 L CJ125 U1202
 U 1 1 4C0A26E3
