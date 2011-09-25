@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/23/2011 5:41:30 AM
+EESchema Schematic File Version 2  date 9/25/2011 3:58:07 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,8 +31,8 @@ $Descr C 22000 17000
 encoding utf-8
 Sheet 1 13
 Title "freeEMS PLUS from Cinch template "
-Date "23 sep 2011"
-Rev "A-DRAFT3"
+Date "25 sep 2011"
+Rev "A-DRAFT4"
 Comp "diyefi.org/openecu.info"
 Comment1 ""
 Comment2 ""
@@ -2520,7 +2520,7 @@ Text Label 14500 9425 0    60   ~ 0
 Text Label 14500 7775 0    60   ~ 0
 12V
 Text Label 14500 2100 0    60   ~ 0
-12V
+12V_BAT
 Text Label 7275 15600 0    60   ~ 0
 5V_SENSORS
 Text Label 7275 12825 0    60   ~ 0
@@ -2530,7 +2530,7 @@ Text Label 7825 2550 2    60   ~ 0
 Text Label 7825 2450 2    60   ~ 0
 5V_SENSORS
 Text Label 7825 2350 2    60   ~ 0
-12V
+12V_BAT
 Text Label 7825 8675 2    60   ~ 0
 3.3V_CPU
 Text Label 9775 2200 2    60   ~ 0

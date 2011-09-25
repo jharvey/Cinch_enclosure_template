@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/23/2011 5:39:24 AM
+EESchema Schematic File Version 2  date 9/25/2011 3:57:35 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,8 +31,8 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 9 13
 Title "freeEMS PLUS from Cinch template "
-Date "23 sep 2011"
-Rev "A-DRAFT3"
+Date "25 sep 2011"
+Rev "A-DRAFT5"
 Comp "diyefi.org/openecu.info"
 Comment1 "High side drive circuits"
 Comment2 ""
