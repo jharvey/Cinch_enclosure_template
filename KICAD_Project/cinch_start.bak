@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/25/2011 3:57:23 PM
+EESchema Schematic File Version 2  date 9/27/2011 9:44:18 AM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,8 +31,8 @@ $Descr C 22000 17000
 encoding utf-8
 Sheet 1 13
 Title "freeEMS PLUS from Cinch template "
-Date "25 sep 2011"
-Rev "A-DRAFT5"
+Date "27 sep 2011"
+Rev "A-DRAFT4"
 Comp "diyefi.org/openecu.info"
 Comment1 ""
 Comment2 ""

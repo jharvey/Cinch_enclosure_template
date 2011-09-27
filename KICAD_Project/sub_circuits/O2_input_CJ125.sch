@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/25/2011 3:58:34 PM
+EESchema Schematic File Version 2  date 9/27/2011 11:07:39 AM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,7 +31,7 @@ $Descr User 11000 8500
 encoding utf-8
 Sheet 12 13
 Title "freeEMS PLUS from Cinch template "
-Date "25 sep 2011"
+Date "27 sep 2011"
 Rev "A-DRAFT4"
 Comp "diyefi.org/openecu.info"
 Comment1 "2 channels of Wide O2 "
@@ -349,8 +349,8 @@ F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
 F 6 "" V 1130 2600 60  0001 C CNN "Field6"
 F 7 "" V 1130 2600 60  0001 C CNN "Field7"
 F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
-F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
-F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 9 "1%" V 1130 2600 60  0001 C CNN "TOL"
+F 10 "THICK FILM" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    9425 2775
 	0    1    -1   0   
@@ -417,8 +417,8 @@ F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
 F 6 "" V 1130 2600 60  0001 C CNN "Field6"
 F 7 "" V 1130 2600 60  0001 C CNN "Field7"
 F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
-F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
-F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 9 "1%" V 1130 2600 60  0001 C CNN "TOL"
+F 10 "THICK FILM" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    6300 3775
 	0    1    1    0   
@@ -1187,8 +1187,8 @@ F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
 F 6 "" V 1130 2600 60  0001 C CNN "Field6"
 F 7 "" V 1130 2600 60  0001 C CNN "Field7"
 F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
-F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
-F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 9 "1%" V 1130 2600 60  0001 C CNN "TOL"
+F 10 "THICK FILM" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    6300 6375
 	0    1    1    0   
@@ -1257,8 +1257,8 @@ F 5 "newark,05F1507" V 1130 2600 60  0001 C CNN "vend1,vend1#"
 F 6 "" V 1130 2600 60  0001 C CNN "Field6"
 F 7 "" V 1130 2600 60  0001 C CNN "Field7"
 F 8 "125mW" V 1130 2600 60  0001 C CNN "W"
-F 9 "1%" V 1130 2600 60  0001 C CNN "tol"
-F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 9 "1%" V 1130 2600 60  0001 C CNN "TOL"
+F 10 "THICK FILM" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    9450 5375
 	0    1    -1   0   
