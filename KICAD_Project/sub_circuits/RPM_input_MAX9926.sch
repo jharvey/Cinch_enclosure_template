@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/27/2011 11:07:39 AM
+EESchema Schematic File Version 2  date 9/27/2011 11:45:23 AM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -32,7 +32,7 @@ encoding utf-8
 Sheet 6 13
 Title "freeEMS PLUS from Cinch template "
 Date "27 sep 2011"
-Rev "A-DRAFT4"
+Rev "A-DRAFT5"
 Comp "diyefi.org/openecu.info"
 Comment1 "RPM input Engine and wheels"
 Comment2 ""
