@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/27/2011 11:45:22 AM
+EESchema Schematic File Version 2  date 10/2/2011 8:46:35 AM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -29,9 +29,9 @@ EELAYER 25  0
 EELAYER END
 $Descr D 34000 22000
 encoding utf-8
-Sheet 2 13
+Sheet 2 12
 Title "freeEMS PLUS from Cinch template "
-Date "27 sep 2011"
+Date "2 oct 2011"
 Rev "A-DRAFT5"
 Comp "diyefi.org/openecu.info"
 Comment1 ""
@@ -1759,9 +1759,9 @@ MC10XS3412_IN1_DIGI
 Text HLabel 25350 2300 2    60   Input ~ 0
 MC10XS3412_IN0_DIGI
 Text HLabel 23850 2300 0    60   Input ~ 0
-L297_CLK
+A4988_CLK
 Text HLabel 25350 2100 2    60   Input ~ 0
-L297_CCW
+A4988_CCW
 Text HLabel 23850 2200 0    60   Input ~ 0
 MC33800_P5_DIGI
 Text HLabel 23850 2100 0    60   Input ~ 0
@@ -1769,7 +1769,7 @@ MC33800_P3_DIGI
 Text HLabel 23850 17500 0    60   Input ~ 0
 MC33926_EN_DIGI
 Text HLabel 23850 17600 0    60   Input ~ 0
-L297_EN
+A4988_EN
 Text HLabel 25300 20000 2    60   Input ~ 0
 12_IGN_DIGI
 Text HLabel 23900 20100 0    60   Input ~ 0

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/27/2011 11:45:21 AM
+EESchema Schematic File Version 2  date 10/2/2011 8:46:34 AM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -29,9 +29,9 @@ EELAYER 25  0
 EELAYER END
 $Descr C 22000 17000
 encoding utf-8
-Sheet 1 13
+Sheet 1 12
 Title "freeEMS PLUS from Cinch template "
-Date "27 sep 2011"
+Date "2 oct 2011"
 Rev "A-DRAFT5"
 Comp "diyefi.org/openecu.info"
 Comment1 ""
@@ -39,6 +39,32 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 13250 9525
+Connection ~ 14675 9925
+Wire Wire Line
+	14675 9925 14675 10125
+Wire Wire Line
+	14675 10125 13250 10125
+Wire Wire Line
+	13250 10125 13250 9425
+Wire Wire Line
+	16450 9325 14550 9325
+Wire Wire Line
+	12700 9925 13350 9925
+Wire Wire Line
+	12700 9225 13350 9225
+Connection ~ 13300 9625
+Wire Wire Line
+	13300 9625 13350 9625
+Wire Wire Line
+	16450 9925 14550 9925
+Connection ~ 14600 9825
+Wire Wire Line
+	14600 9825 14600 10075
+Wire Wire Line
+	14600 10075 13300 10075
+Wire Wire Line
+	13300 10075 13300 9325
 Wire Wire Line
 	12700 8575 13075 8575
 Wire Wire Line
@@ -190,8 +216,6 @@ Wire Wire Line
 Wire Wire Line
 	14375 8075 16450 8075
 Wire Wire Line
-	14375 9625 16450 9625
-Wire Wire Line
 	14375 5425 16450 5425
 Wire Wire Line
 	14375 3225 16450 3225
@@ -288,13 +312,13 @@ Wire Wire Line
 Wire Wire Line
 	14375 11525 16450 11525
 Wire Wire Line
-	14375 9925 16450 9925
+	16450 9625 14550 9625
 Wire Wire Line
-	14375 10025 16450 10025
+	16450 9725 14550 9725
 Wire Wire Line
-	14375 9825 16450 9825
+	16450 9525 14550 9525
 Wire Wire Line
-	14375 9725 16450 9725
+	16450 9425 14550 9425
 Wire Wire Line
 	14375 6500 16450 6500
 Wire Wire Line
@@ -366,8 +390,6 @@ Wire Wire Line
 Wire Wire Line
 	13125 12075 12700 12075
 Wire Wire Line
-	12700 9925 13075 9925
-Wire Wire Line
 	12700 11325 13075 11325
 Wire Wire Line
 	12700 11125 13075 11125
@@ -402,8 +424,6 @@ Wire Wire Line
 Wire Wire Line
 	13075 11425 12975 11425
 Connection ~ 12925 7975
-Wire Wire Line
-	12700 9725 13075 9725
 Wire Wire Line
 	12700 7775 13075 7775
 Wire Wire Line
@@ -474,9 +494,9 @@ Wire Wire Line
 Wire Wire Line
 	14375 7775 14500 7775
 Wire Wire Line
-	14375 9425 14500 9425
+	14550 9225 14675 9225
 Wire Wire Line
-	14500 9325 14375 9325
+	14550 9825 14650 9825
 Wire Wire Line
 	14500 7675 14375 7675
 Wire Wire Line
@@ -497,8 +517,6 @@ Wire Wire Line
 	12700 11025 13075 11025
 Wire Wire Line
 	12700 11225 13075 11225
-Wire Wire Line
-	12700 9825 13075 9825
 Wire Wire Line
 	13125 12175 12700 12175
 Wire Wire Line
@@ -895,6 +913,31 @@ Wire Wire Line
 	12700 8275 13075 8275
 Wire Wire Line
 	12700 8475 13075 8475
+Wire Wire Line
+	13300 9325 13350 9325
+Wire Wire Line
+	13300 9725 13350 9725
+Connection ~ 13300 9725
+Wire Wire Line
+	12700 9825 13350 9825
+Wire Wire Line
+	13250 9425 13350 9425
+Wire Wire Line
+	13250 9525 13350 9525
+Entry Wire Line
+	16450 9925 16550 10025
+Text Label 15950 9925 0    60   ~ 0
+GND
+$Comp
+L POLOLU_A4988 U101
+U 1 1 4E88435A
+P 13950 9575
+F 0 "U101" H 13950 10025 60  0000 C CNN
+F 1 "POLOLU_A4988" V 13950 9575 50  0000 C CNN
+F 2 "SWDIP8_.6W" H 13950 9575 60  0001 C CNN
+	1    13950 9575
+	-1   0    0    1   
+$EndComp
 $Sheet
 S 9825 1750 2875 14500
 U 4C0E2CC7
@@ -1024,9 +1067,9 @@ F122 "P02" I R 12700 14475 60
 F123 "09_IGN_DIGI" I R 12700 6500 60 
 F124 "RS232_2_TX" I R 12700 13525 60 
 F125 "RS232_2_RX" I R 12700 13625 60 
-F126 "L297_CLK" I R 12700 9825 60 
-F127 "L297_CCW" I R 12700 9725 60 
-F128 "L297_EN" I R 12700 9925 60 
+F126 "A4988_CLK" I R 12700 9825 60 
+F127 "A4988_CCW" I R 12700 9925 60 
+F128 "A4988_EN" I R 12700 9225 60 
 $EndSheet
 $Comp
 L CONN_1 P123
@@ -1119,10 +1162,10 @@ F0 "amp_connector" 60
 F1 "sub_circuits\\amp_connector.sch" 60
 F2 "232_TX" I R 6125 6950 60 
 F3 "232_RX" I R 6125 7050 60 
-F4 "STEP_S1" I R 6125 8950 60 
-F5 "STEP_S4" I R 6125 9050 60 
-F6 "STEP_D5" I R 6125 9150 60 
-F7 "STEP_D8" I R 6125 9250 60 
+F4 "STEP_1A" I R 6125 8950 60 
+F5 "STEP_2A" I R 6125 9050 60 
+F6 "STEP_1B" I R 6125 9150 60 
+F7 "STEP_2B" I R 6125 9250 60 
 F8 "FLEX_CAN_L" I R 6125 6750 60 
 F9 "FLEX_CAN_H" I R 6125 6850 60 
 F10 "MAP/MAF_2" I R 6125 2250 60 
@@ -1779,10 +1822,10 @@ Text Label 15800 8075 0    60   ~ 0
 O2_UPPER_DR
 Text Label 15850 8175 0    60   ~ 0
 O2_DOWN_DR
-Text Label 15950 9625 0    60   ~ 0
+Text Label 15950 9325 0    60   ~ 0
 GND6_MISC
 Entry Wire Line
-	16450 9625 16550 9725
+	16450 9325 16550 9425
 Entry Wire Line
 	16450 5425 16550 5525
 Text Label 15725 5425 0    60   ~ 0
@@ -1902,13 +1945,13 @@ IGN11
 Text Label 6900 12400 2    60   ~ 0
 IGN12
 Text Label 6900 9250 2    60   ~ 0
-D8
+2B
 Text Label 6900 9150 2    60   ~ 0
-D5
+1B
 Text Label 6900 8950 2    60   ~ 0
-S1
+1A
 Text Label 6900 9050 2    60   ~ 0
-S4
+2A
 Text Label 6900 9850 2    60   ~ 0
 HS2
 Text Label 6900 9950 2    60   ~ 0
@@ -2281,21 +2324,21 @@ Entry Wire Line
 Text Label 16450 11525 2    60   ~ 0
 HS2
 Entry Wire Line
-	16450 9925 16550 10025
-Text Label 15950 9925 0    60   ~ 0
-S4
-Text Label 15950 10025 0    60   ~ 0
-S1
-Entry Wire Line
-	16450 10025 16550 10125
-Entry Wire Line
-	16450 9825 16550 9925
-Text Label 15950 9825 0    60   ~ 0
-D5
+	16450 9625 16550 9725
+Text Label 15950 9625 0    60   ~ 0
+1A
 Text Label 15950 9725 0    60   ~ 0
-D8
+1B
 Entry Wire Line
 	16450 9725 16550 9825
+Entry Wire Line
+	16450 9525 16550 9625
+Text Label 15950 9525 0    60   ~ 0
+2A
+Text Label 15950 9425 0    60   ~ 0
+2B
+Entry Wire Line
+	16450 9425 16550 9525
 Entry Wire Line
 	16450 6500 16550 6600
 Text Label 15950 6800 0    60   ~ 0
@@ -2513,9 +2556,9 @@ Text Label 14500 10525 0    60   ~ 0
 3.3V_CPU
 Text Label 14500 7675 0    60   ~ 0
 3.3V_CPU
-Text Label 14500 9325 0    60   ~ 0
+Text Label 14650 9825 0    60   ~ 0
 5V_CPU
-Text Label 14500 9425 0    60   ~ 0
+Text Label 14675 9225 0    60   ~ 0
 12V
 Text Label 14500 7775 0    60   ~ 0
 12V
@@ -2547,22 +2590,6 @@ Text Label 9500 1300 0    60   ~ 0
 5V_SENSORS
 Text Label 9500 1200 0    60   ~ 0
 12V
-$Sheet
-S 13075 9275 1300 800 
-U 4C0F6CBF
-F0 "stepper_L297" 60
-F1 "sub_circuits\\stepper_L297.sch" 60
-F2 "5V" I R 14375 9325 60 
-F3 "VBAT" I R 14375 9425 60 
-F4 "OUT4" I R 14375 9725 60 
-F5 "GND_L297" I R 14375 9625 60 
-F6 "OUT3" I R 14375 9825 60 
-F7 "OUT2" I R 14375 9925 60 
-F8 "OUT1" I R 14375 10025 60 
-F9 "L297_CCW" I L 13075 9725 60 
-F10 "L297_CLK" I L 13075 9825 60 
-F11 "L297_EN" I L 13075 9925 60 
-$EndSheet
 $Sheet
 S 13075 10375 1300 1325
 U 4C0E2D45

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/27/2011 11:45:22 AM
+EESchema Schematic File Version 2  date 10/2/2011 8:46:35 AM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -29,9 +29,9 @@ EELAYER 25  0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 4 13
+Sheet 4 12
 Title "freeEMS PLUS from Cinch template "
-Date "27 sep 2011"
+Date "2 oct 2011"
 Rev "A-DRAFT5"
 Comp "diyefi.org/openecu.info"
 Comment1 "misc analog input protection circuits"
