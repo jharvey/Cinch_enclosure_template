@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/2/2011 8:46:35 AM
+EESchema Schematic File Version 2  date 10/4/2011 8:27:03 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,7 +31,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 3 12
 Title "freeEMS PLUS from Cinch template "
-Date "2 oct 2011"
+Date "5 oct 2011"
 Rev "A-DRAFT5"
 Comp "diyefi.org/openecu.info"
 Comment1 ""
@@ -147,13 +147,13 @@ Text HLabel 8225 5275 2    60   Input ~ 0
 232_TX
 Text HLabel 9425 5275 2    60   Input ~ 0
 232_RX
-Text HLabel 7425 5575 0    60   Input ~ 0
+Text HLabel 8225 5575 2    60   Input ~ 0
 STEP_1A
 Text HLabel 8225 5475 2    60   Input ~ 0
 STEP_1B
-Text HLabel 8225 5575 2    60   Input ~ 0
-STEP_1B
 Text HLabel 9425 5575 2    60   Input ~ 0
+STEP_2A
+Text HLabel 7425 5575 0    60   Input ~ 0
 STEP_2B
 Text HLabel 6225 3575 0    60   Input ~ 0
 GND2_INJIGN

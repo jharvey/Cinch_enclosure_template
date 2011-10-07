@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/2/2011 7:21:44 AM
+EESchema Schematic File Version 2  date 10/4/2011 8:13:00 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,7 +31,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 5 12
 Title "freeEMS PLUS from Cinch template "
-Date "2 oct 2011"
+Date "5 oct 2011"
 Rev "A-DRAFT5"
 Comp "diyefi.org/openecu.info"
 Comment1 "Injection circuits"
@@ -2061,13 +2061,13 @@ Text HLabel 11325 2850 2    60   Output ~ 0
 IGN_SIG0-3
 Text HLabel 8875 2850 0    60   Output ~ 0
 IGN_SIG0-0
-Text HLabel 9975 2800 0    60   Output ~ 0
+Text HLabel 9975 1300 0    60   Output ~ 0
 IGN_OUT0-0
 Text HLabel 10225 2800 2    60   Output ~ 0
 IGN_OUT0-3
 Text HLabel 10225 1300 2    60   Output ~ 0
 IGN_OUT0-2
-Text HLabel 9975 1300 0    60   Output ~ 0
+Text HLabel 9975 2800 0    60   Output ~ 0
 IGN_OUT0-1
 Text HLabel 11325 1050 2    60   Output ~ 0
 IGN_SIG0-2

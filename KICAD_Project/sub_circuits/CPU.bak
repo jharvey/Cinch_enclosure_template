@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/2/2011 7:21:43 AM
+EESchema Schematic File Version 2  date 10/4/2011 8:12:59 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,7 +31,7 @@ $Descr D 34000 22000
 encoding utf-8
 Sheet 2 12
 Title "freeEMS PLUS from Cinch template "
-Date "2 oct 2011"
+Date "5 oct 2011"
 Rev "A-DRAFT5"
 Comp "diyefi.org/openecu.info"
 Comment1 ""
@@ -1837,11 +1837,11 @@ MC33XX_MCXS_SPI-MISO
 Text HLabel 25350 5800 2    60   Input ~ 0
 MC33XX_MCXS_SPI-CLK
 Text HLabel 25350 5600 2    60   Input ~ 0
-CJ125-(1,2)_SDCARD_SPI-MOSI
+CJ125_SDCARD_SPI-MOSI
 Text HLabel 23850 5700 0    60   Input ~ 0
-CJ125-(1,2)_SDCARD_SPI-MISO
+CJ125_SDCARD_SPI-MISO
 Text HLabel 25350 5500 2    60   Input ~ 0
-CJ125-(1,2)_SDCARD_SPI-CLK
+CJ125_SDCARD_SPI-CLK
 Text HLabel 23850 5600 0    60   Input ~ 0
 SDCARD_2_SPI-CS
 Text HLabel 25350 5400 2    60   Input ~ 0
