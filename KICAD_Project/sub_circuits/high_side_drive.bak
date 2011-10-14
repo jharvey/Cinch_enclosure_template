@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/4/2011 8:13:00 PM
+EESchema Schematic File Version 2  date 10/11/2011 7:17:49 AM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -29,141 +29,141 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
-Sheet 9 12
-Title "freeEMS PLUS from Cinch template "
-Date "5 oct 2011"
+Sheet 8 12
+Title "Open5xxxECU (o5e), an ECU that is no longer affiliated with freeEMS."
+Date "11 oct 2011"
 Rev "A-DRAFT5"
-Comp "diyefi.org/openecu.info"
+Comp "http://open5xxxecu.org/"
 Comment1 "High side drive circuits"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+NoConn ~ 10450 4450
 Wire Wire Line
-	8000 3925 8000 3975
+	10450 4450 10450 4425
 Wire Wire Line
-	8500 4125 8500 4175
-Connection ~ 10950 6325
+	10450 4425 10300 4425
 Wire Wire Line
-	9700 3925 9550 3925
+	7750 4900 7750 4875
 Wire Wire Line
-	10300 4425 10450 4425
-Connection ~ 10950 5325
+	8500 3925 8600 3925
 Wire Wire Line
-	10950 5325 10850 5325
+	8600 3925 8600 4275
 Wire Wire Line
-	8000 4875 7750 4875
+	8100 4125 8000 4125
 Wire Wire Line
-	8500 4875 8600 4875
-Wire Wire Line
-	8500 4975 8600 4975
-Wire Wire Line
-	7750 4975 8000 4975
-Wire Wire Line
-	9350 3925 9350 3775
-Wire Wire Line
-	8500 6100 8750 6100
-Wire Wire Line
-	9250 6100 9350 6100
-Wire Wire Line
-	8500 3775 8750 3775
-Wire Wire Line
-	9350 3775 9250 3775
-Wire Wire Line
-	7750 4675 8000 4675
-Wire Wire Line
-	8500 4675 8600 4675
-Wire Wire Line
-	8500 4775 8600 4775
-Wire Wire Line
-	8500 4475 8600 4475
-Wire Wire Line
-	7750 4475 8000 4475
-Wire Wire Line
-	7750 4775 8000 4775
-Wire Wire Line
-	8500 4375 8600 4375
-Wire Wire Line
-	7750 4375 8000 4375
-Wire Wire Line
-	7750 5375 8000 5375
-Wire Wire Line
-	7750 5175 8000 5175
-Wire Wire Line
-	10300 5600 10300 5875
-Wire Wire Line
-	9900 5600 9900 5825
-Wire Wire Line
-	8900 5625 8900 5875
-Wire Wire Line
-	9150 5875 9150 5825
-Wire Wire Line
-	9450 3875 9450 3925
-Wire Wire Line
-	8500 5175 8600 5175
-Wire Wire Line
-	8500 5375 8600 5375
-Wire Wire Line
-	8500 5275 8600 5275
-Wire Wire Line
-	9800 5875 9800 5825
-Wire Wire Line
-	9450 5825 9450 5875
-Wire Wire Line
-	8600 5475 8500 5475
-Wire Wire Line
-	8500 5475 8500 5875
-Connection ~ 8500 5625
-Wire Wire Line
-	9150 5825 8900 5825
-Connection ~ 8900 5825
-Connection ~ 10300 5825
-Wire Wire Line
-	9800 5825 9900 5825
-Wire Wire Line
-	7750 5275 8000 5275
-Wire Wire Line
-	9350 6100 9350 5825
-Wire Wire Line
-	7750 5075 8000 5075
-Wire Wire Line
-	8500 5075 8600 5075
-Wire Wire Line
-	7750 4275 8000 4275
-Wire Wire Line
-	8500 4275 8600 4275
-Wire Wire Line
-	10950 4425 10850 4425
-Wire Wire Line
-	10450 5325 10300 5325
-Wire Wire Line
-	10950 6375 10950 3925
-Wire Wire Line
-	10950 3925 10100 3925
-Connection ~ 10950 4425
-Wire Wire Line
-	9700 6325 9550 6325
-Wire Wire Line
-	9550 6325 9550 5825
+	8000 4125 8000 4275
 Wire Wire Line
 	10950 6325 10100 6325
 Wire Wire Line
-	8000 4275 8000 4125
+	9550 5825 9550 6325
 Wire Wire Line
-	8000 4125 8100 4125
+	9550 6325 9700 6325
 Wire Wire Line
-	8600 4275 8600 3925
+	10100 3925 10950 3925
 Wire Wire Line
-	8600 3925 8500 3925
+	10950 3925 10950 6375
 Wire Wire Line
-	7750 4875 7750 4900
+	10450 5325 10300 5325
+Wire Wire Line
+	8600 4275 8500 4275
+Wire Wire Line
+	8000 4275 7750 4275
+Wire Wire Line
+	8500 5075 8600 5075
+Wire Wire Line
+	7750 5075 8000 5075
+Wire Wire Line
+	9350 5825 9350 6100
+Wire Wire Line
+	7750 5275 8000 5275
+Wire Wire Line
+	9800 5825 9900 5825
+Connection ~ 10300 5825
+Connection ~ 8900 5825
+Wire Wire Line
+	8900 5825 9150 5825
+Connection ~ 8500 5625
+Wire Wire Line
+	8500 5875 8500 5475
+Wire Wire Line
+	8500 5475 8600 5475
+Wire Wire Line
+	9450 5825 9450 5875
+Wire Wire Line
+	9800 5825 9800 5875
+Wire Wire Line
+	8500 5275 8600 5275
+Wire Wire Line
+	8500 5375 8600 5375
+Wire Wire Line
+	8500 5175 8600 5175
+Wire Wire Line
+	9450 3875 9450 3925
+Wire Wire Line
+	9150 5825 9150 5875
+Wire Wire Line
+	8900 5625 8900 5875
+Wire Wire Line
+	9900 5825 9900 5600
+Wire Wire Line
+	10300 5600 10300 5875
+Wire Wire Line
+	7750 5175 8000 5175
+Wire Wire Line
+	7750 5375 8000 5375
+Wire Wire Line
+	7750 4375 8000 4375
+Wire Wire Line
+	8500 4375 8600 4375
+Wire Wire Line
+	7750 4775 8000 4775
+Wire Wire Line
+	7750 4475 8000 4475
+Wire Wire Line
+	8500 4475 8600 4475
+Wire Wire Line
+	8500 4775 8600 4775
+Wire Wire Line
+	8500 4675 8600 4675
+Wire Wire Line
+	7750 4675 8000 4675
+Wire Wire Line
+	9250 3775 9350 3775
+Wire Wire Line
+	8500 3775 8750 3775
+Wire Wire Line
+	9350 6100 9250 6100
+Wire Wire Line
+	8500 6100 8750 6100
+Wire Wire Line
+	9350 3775 9350 3925
+Wire Wire Line
+	7750 4975 8000 4975
+Wire Wire Line
+	8500 4975 8600 4975
+Wire Wire Line
+	8500 4875 8600 4875
+Wire Wire Line
+	7750 4875 8000 4875
+Wire Wire Line
+	10950 5325 10850 5325
+Connection ~ 10950 5325
+Wire Wire Line
+	9700 3925 9550 3925
+Connection ~ 10950 6325
+Wire Wire Line
+	8500 4125 8500 4175
+Wire Wire Line
+	8000 3925 8000 3975
 Text HLabel 7750 4975 0    60   Input ~ 0
 3412_WAKE
 $Comp
-L GND #PWR0140
+L GND #PWR0141
 U 1 1 4C1CA88F
 P 7750 4900
-F 0 "#PWR0140" H 7750 4900 30  0001 C CNN
+F 0 "#PWR0141" H 7750 4900 30  0001 C CNN
 F 1 "GND" H 7750 4830 30  0001 C CNN
 	1    7750 4900
 	1    0    0    -1  
@@ -172,15 +172,13 @@ Text HLabel 9550 6325 0    60   Input ~ 0
 HS3_PIN
 Text HLabel 10350 5325 1    60   Input ~ 0
 HS1_PIN
-Text HLabel 10350 4425 1    60   Input ~ 0
-HS0_PIN
 Text HLabel 9600 3925 1    60   Input ~ 0
 HS2_PIN
 $Comp
-L GND #PWR0141
+L GND #PWR0142
 U 1 1 4C09B719
 P 8500 4175
-F 0 "#PWR0141" H 8500 4175 30  0001 C CNN
+F 0 "#PWR0142" H 8500 4175 30  0001 C CNN
 F 1 "GND" H 8500 4105 30  0001 C CNN
 	1    8500 4175
 	1    0    0    -1  
@@ -314,10 +312,10 @@ F 11 "other,more,stuff" V 6980 7425 60  0001 C CNN "Field8"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0142
+L GND #PWR0143
 U 1 1 4BF94289
 P 8000 3975
-F 0 "#PWR0142" H 8000 3975 30  0001 C CNN
+F 0 "#PWR0143" H 8000 3975 30  0001 C CNN
 F 1 "GND" H 8000 3905 30  0001 C CNN
 	1    8000 3975
 	1    0    0    -1  
@@ -537,10 +535,10 @@ F 11 "other,more,stuff" V 1130 2300 60  0001 C CNN "misc"
 	0    -1   1    0   
 $EndComp
 $Comp
-L GND #PWR0143
+L GND #PWR0144
 U 1 1 4BF94163
 P 10300 5875
-F 0 "#PWR0143" H 10300 5875 30  0001 C CNN
+F 0 "#PWR0144" H 10300 5875 30  0001 C CNN
 F 1 "GND" H 10300 5805 30  0001 C CNN
 	1    10300 5875
 	1    0    0    -1  
@@ -594,19 +592,19 @@ F 9 "other,more,stuff" V 1130 2300 60  0001 C CNN "misc"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0144
+L GND #PWR0145
 U 1 1 4BF93FBA
 P 9450 3875
-F 0 "#PWR0144" H 9450 3875 30  0001 C CNN
+F 0 "#PWR0145" H 9450 3875 30  0001 C CNN
 F 1 "GND" H 9450 3805 30  0001 C CNN
 	1    9450 3875
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR0145
+L GND #PWR0146
 U 1 1 4BF93FB3
 P 9150 5875
-F 0 "#PWR0145" H 9150 5875 30  0001 C CNN
+F 0 "#PWR0146" H 9150 5875 30  0001 C CNN
 F 1 "GND" H 9150 5805 30  0001 C CNN
 	1    9150 5875
 	1    0    0    -1  
@@ -632,19 +630,19 @@ $EndComp
 Text HLabel 9800 5875 3    60   Input ~ 0
 BATV
 $Comp
-L GND #PWR0146
+L GND #PWR0147
 U 1 1 4BF50953
 P 9450 5875
-F 0 "#PWR0146" H 9450 5875 30  0001 C CNN
+F 0 "#PWR0147" H 9450 5875 30  0001 C CNN
 F 1 "GND" H 9450 5805 30  0001 C CNN
 	1    9450 5875
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0147
+L GND #PWR0148
 U 1 1 4BF5090D
 P 10950 6375
-F 0 "#PWR0147" H 10950 6375 30  0001 C CNN
+F 0 "#PWR0148" H 10950 6375 30  0001 C CNN
 F 1 "GND" H 10950 6305 30  0001 C CNN
 	1    10950 6375
 	1    0    0    -1  
@@ -672,23 +670,5 @@ F 8 "multi layer ceramic" V 1130 2600 60  0001 C CNN "construct"
 F 9 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8700 5625
 	0    1    1    0   
-$EndComp
-$Comp
-L C C908
-U 1 1 4E467DEE
-P 10650 4425
-F 0 "C908" V 10700 4525 50  0000 L CNN
-F 1 "22nF" V 10700 4275 50  0000 L CNN
-F 2 "SM0805" V 7730 5525 60  0001 C CNN
-F 4 "murata,GRM216R71H223KA01D" V 6980 7425 60  0001 C CNN "mfg,#"
-F 5 "newark,38K1698" V 6980 7425 60  0001 C CNN "vend,#"
-F 6 "-" V 6980 7425 60  0001 C CNN "Field3"
-F 7 "-" V 6980 7425 60  0001 C CNN "Field4"
-F 8 "50,V" V 6980 7425 60  0001 C CNN "Field5"
-F 9 "10,%" V 6980 7425 60  0001 C CNN "Field6"
-F 10 "Ceramic" V 6980 7425 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 6980 7425 60  0001 C CNN "Field8"
-	1    10650 4425
-	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/4/2011 8:13:01 PM
+EESchema Schematic File Version 2  date 10/11/2011 7:17:49 AM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -30,10 +30,10 @@ EELAYER END
 $Descr User 11000 8500
 encoding utf-8
 Sheet 11 12
-Title "freeEMS PLUS from Cinch template "
-Date "5 oct 2011"
+Title "Open5xxxECU (o5e), an ECU that is no longer affiliated with freeEMS."
+Date "11 oct 2011"
 Rev "A-DRAFT5"
-Comp "diyefi.org/openecu.info"
+Comp "http://open5xxxecu.org/"
 Comment1 "comms CAN/USB/Other"
 Comment2 ""
 Comment3 ""
@@ -159,10 +159,10 @@ F 2 "PINTST" H 9950 6150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0156
+L GND #PWR0157
 U 1 1 4E467E0B
 P 8650 6050
-F 0 "#PWR0156" H 8650 6050 30  0001 C CNN
+F 0 "#PWR0157" H 8650 6050 30  0001 C CNN
 F 1 "GND" H 8650 5980 30  0001 C CNN
 	1    8650 6050
 	0    -1   -1   0   
@@ -178,10 +178,10 @@ TJA1054_EN
 Text HLabel 8700 5950 1    60   Input ~ 0
 VBAT
 $Comp
-L GND #PWR0157
+L GND #PWR0158
 U 1 1 4E467E0A
 P 9350 6000
-F 0 "#PWR0157" H 9350 6000 30  0001 C CNN
+F 0 "#PWR0158" H 9350 6000 30  0001 C CNN
 F 1 "GND" H 9350 5930 30  0001 C CNN
 	1    9350 6000
 	1    0    0    -1  
@@ -205,10 +205,10 @@ F 11 "other,more,stuff" V 5580 8200 60  0001 C CNN "Field8"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR0158
+L GND #PWR0159
 U 1 1 4E467E07
 P 8775 7075
-F 0 "#PWR0158" H 8775 7075 30  0001 C CNN
+F 0 "#PWR0159" H 8775 7075 30  0001 C CNN
 F 1 "GND" H 8775 7005 30  0001 C CNN
 	1    8775 7075
 	1    0    0    -1  

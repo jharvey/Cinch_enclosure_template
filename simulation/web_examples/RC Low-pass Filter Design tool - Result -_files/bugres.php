@@ -1,0 +1,10 @@
+document.write('<form method="POST" action="http://okawa-denshi.jp/post.php?ln=en">');
+document.write('<font size="-1">');
+document.write('<font color="#000080">&diams;</font><b>Suggestion box</b><br>');
+document.write('&nbsp;&nbsp;We\'ll use your suggestion to improve site quality in future.<br>');
+document.write('&nbsp;&nbsp;<textarea name="iken" cols="55" rows="3"></textarea>');
+document.write('<input type="hidden" name="curl" value="',location.href,'">');
+document.write('<input type="hidden" name="dt" value="2011_10_13_18_54_6">');
+document.write('<input type="submit" name="submit" value="Submit">');
+document.write('</font>');
+document.write('</form>');

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/4/2011 8:27:04 PM
+EESchema Schematic File Version 2  date 10/11/2011 7:34:30 AM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -30,10 +30,10 @@ EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 8 12
-Title "freeEMS PLUS from Cinch template "
-Date "5 oct 2011"
+Title "Open5xxxECU (o5e), an ECU that is no longer affiliated with freeEMS."
+Date "11 oct 2011"
 Rev "A-DRAFT5"
-Comp "diyefi.org/openecu.info"
+Comp "http://open5xxxecu.org/"
 Comment1 "High side drive circuits"
 Comment2 ""
 Comment3 ""
@@ -160,10 +160,10 @@ Wire Wire Line
 Text HLabel 7750 4975 0    60   Input ~ 0
 3412_WAKE
 $Comp
-L GND #PWR0140
+L GND #PWR0141
 U 1 1 4C1CA88F
 P 7750 4900
-F 0 "#PWR0140" H 7750 4900 30  0001 C CNN
+F 0 "#PWR0141" H 7750 4900 30  0001 C CNN
 F 1 "GND" H 7750 4830 30  0001 C CNN
 	1    7750 4900
 	1    0    0    -1  
@@ -175,10 +175,10 @@ HS1_PIN
 Text HLabel 9600 3925 1    60   Input ~ 0
 HS2_PIN
 $Comp
-L GND #PWR0141
+L GND #PWR0142
 U 1 1 4C09B719
 P 8500 4175
-F 0 "#PWR0141" H 8500 4175 30  0001 C CNN
+F 0 "#PWR0142" H 8500 4175 30  0001 C CNN
 F 1 "GND" H 8500 4105 30  0001 C CNN
 	1    8500 4175
 	1    0    0    -1  
@@ -312,10 +312,10 @@ F 11 "other,more,stuff" V 6980 7425 60  0001 C CNN "Field8"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0142
+L GND #PWR0143
 U 1 1 4BF94289
 P 8000 3975
-F 0 "#PWR0142" H 8000 3975 30  0001 C CNN
+F 0 "#PWR0143" H 8000 3975 30  0001 C CNN
 F 1 "GND" H 8000 3905 30  0001 C CNN
 	1    8000 3975
 	1    0    0    -1  
@@ -535,10 +535,10 @@ F 11 "other,more,stuff" V 1130 2300 60  0001 C CNN "misc"
 	0    -1   1    0   
 $EndComp
 $Comp
-L GND #PWR0143
+L GND #PWR0144
 U 1 1 4BF94163
 P 10300 5875
-F 0 "#PWR0143" H 10300 5875 30  0001 C CNN
+F 0 "#PWR0144" H 10300 5875 30  0001 C CNN
 F 1 "GND" H 10300 5805 30  0001 C CNN
 	1    10300 5875
 	1    0    0    -1  
@@ -592,19 +592,19 @@ F 9 "other,more,stuff" V 1130 2300 60  0001 C CNN "misc"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0144
+L GND #PWR0145
 U 1 1 4BF93FBA
 P 9450 3875
-F 0 "#PWR0144" H 9450 3875 30  0001 C CNN
+F 0 "#PWR0145" H 9450 3875 30  0001 C CNN
 F 1 "GND" H 9450 3805 30  0001 C CNN
 	1    9450 3875
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR0145
+L GND #PWR0146
 U 1 1 4BF93FB3
 P 9150 5875
-F 0 "#PWR0145" H 9150 5875 30  0001 C CNN
+F 0 "#PWR0146" H 9150 5875 30  0001 C CNN
 F 1 "GND" H 9150 5805 30  0001 C CNN
 	1    9150 5875
 	1    0    0    -1  
@@ -630,19 +630,19 @@ $EndComp
 Text HLabel 9800 5875 3    60   Input ~ 0
 BATV
 $Comp
-L GND #PWR0146
+L GND #PWR0147
 U 1 1 4BF50953
 P 9450 5875
-F 0 "#PWR0146" H 9450 5875 30  0001 C CNN
+F 0 "#PWR0147" H 9450 5875 30  0001 C CNN
 F 1 "GND" H 9450 5805 30  0001 C CNN
 	1    9450 5875
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0147
+L GND #PWR0148
 U 1 1 4BF5090D
 P 10950 6375
-F 0 "#PWR0147" H 10950 6375 30  0001 C CNN
+F 0 "#PWR0148" H 10950 6375 30  0001 C CNN
 F 1 "GND" H 10950 6305 30  0001 C CNN
 	1    10950 6375
 	1    0    0    -1  

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/4/2011 8:27:04 PM
+EESchema Schematic File Version 2  date 10/11/2011 7:34:29 AM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -30,10 +30,10 @@ EELAYER END
 $Descr B 17000 11000
 encoding utf-8
 Sheet 5 12
-Title "freeEMS PLUS from Cinch template "
-Date "5 oct 2011"
+Title "Open5xxxECU (o5e), an ECU that is no longer affiliated with freeEMS."
+Date "11 oct 2011"
 Rev "A-DRAFT5"
-Comp "diyefi.org/openecu.info"
+Comp "http://open5xxxecu.org/"
 Comment1 "Injection circuits"
 Comment2 ""
 Comment3 ""
@@ -2222,10 +2222,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR0100
+L GND #PWR0101
 U 1 1 4E3ED75D
 P 8925 6950
-F 0 "#PWR0100" H 8925 6950 30  0001 C CNN
+F 0 "#PWR0101" H 8925 6950 30  0001 C CNN
 F 1 "GND" H 8925 6880 30  0001 C CNN
 	1    8925 6950
 	1    0    0    -1  
@@ -2303,10 +2303,10 @@ F 11 "other,more,stuff" V 1131 2600 60  0001 C CNN "misc"
 	0    -1   1    0   
 $EndComp
 $Comp
-L GND #PWR0101
+L GND #PWR0102
 U 1 1 4E3ED753
 P 11275 6950
-F 0 "#PWR0101" H 11275 6950 30  0001 C CNN
+F 0 "#PWR0102" H 11275 6950 30  0001 C CNN
 F 1 "GND" H 11275 6880 30  0001 C CNN
 	1    11275 6950
 	-1   0    0    -1  
@@ -2542,10 +2542,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR0102
+L GND #PWR0103
 U 1 1 4E3ED738
 P 7475 6950
-F 0 "#PWR0102" H 7475 6950 30  0001 C CNN
+F 0 "#PWR0103" H 7475 6950 30  0001 C CNN
 F 1 "GND" H 7475 6880 30  0001 C CNN
 	1    7475 6950
 	-1   0    0    -1  
@@ -2639,10 +2639,10 @@ F 7 "96M1352" H 6700 5850 60  0001 C CNN "vend1 #"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0103
+L GND #PWR0104
 U 1 1 4E3ED72E
 P 5125 6950
-F 0 "#PWR0103" H 5125 6950 30  0001 C CNN
+F 0 "#PWR0104" H 5125 6950 30  0001 C CNN
 F 1 "GND" H 5125 6880 30  0001 C CNN
 	1    5125 6950
 	1    0    0    -1  
@@ -2936,10 +2936,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR0104
+L GND #PWR0105
 U 1 1 4E3ED71B
 P 1325 6950
-F 0 "#PWR0104" H 1325 6950 30  0001 C CNN
+F 0 "#PWR0105" H 1325 6950 30  0001 C CNN
 F 1 "GND" H 1325 6880 30  0001 C CNN
 	1    1325 6950
 	1    0    0    -1  
@@ -3033,10 +3033,10 @@ F 11 "other,more,stuff" V 1131 2600 60  0001 C CNN "misc"
 	0    -1   1    0   
 $EndComp
 $Comp
-L GND #PWR0105
+L GND #PWR0106
 U 1 1 4E3ED711
 P 3675 6950
-F 0 "#PWR0105" H 3675 6950 30  0001 C CNN
+F 0 "#PWR0106" H 3675 6950 30  0001 C CNN
 F 1 "GND" H 3675 6880 30  0001 C CNN
 	1    3675 6950
 	-1   0    0    -1  
@@ -3286,10 +3286,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR0106
+L GND #PWR0107
 U 1 1 4E3ED6F6
 P 3675 4550
-F 0 "#PWR0106" H 3675 4550 30  0001 C CNN
+F 0 "#PWR0107" H 3675 4550 30  0001 C CNN
 F 1 "GND" H 3675 4480 30  0001 C CNN
 	1    3675 4550
 	-1   0    0    -1  
@@ -3383,10 +3383,10 @@ F 7 "96M1352" H 2900 3450 60  0001 C CNN "vend1 #"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0107
+L GND #PWR0108
 U 1 1 4E3ED6EC
 P 1325 4550
-F 0 "#PWR0107" H 1325 4550 30  0001 C CNN
+F 0 "#PWR0108" H 1325 4550 30  0001 C CNN
 F 1 "GND" H 1325 4480 30  0001 C CNN
 	1    1325 4550
 	1    0    0    -1  
@@ -3680,10 +3680,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR0108
+L GND #PWR0109
 U 1 1 4E3ED6D9
 P 5125 4550
-F 0 "#PWR0108" H 5125 4550 30  0001 C CNN
+F 0 "#PWR0109" H 5125 4550 30  0001 C CNN
 F 1 "GND" H 5125 4480 30  0001 C CNN
 	1    5125 4550
 	1    0    0    -1  
@@ -3761,10 +3761,10 @@ F 11 "other,more,stuff" V 1131 2600 60  0001 C CNN "misc"
 	0    -1   1    0   
 $EndComp
 $Comp
-L GND #PWR0109
+L GND #PWR0110
 U 1 1 4E3ED6CF
 P 7475 4550
-F 0 "#PWR0109" H 7475 4550 30  0001 C CNN
+F 0 "#PWR0110" H 7475 4550 30  0001 C CNN
 F 1 "GND" H 7475 4480 30  0001 C CNN
 	1    7475 4550
 	-1   0    0    -1  
@@ -3986,10 +3986,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR0110
+L GND #PWR0111
 U 1 1 4E3ED6B4
 P 11275 4550
-F 0 "#PWR0110" H 11275 4550 30  0001 C CNN
+F 0 "#PWR0111" H 11275 4550 30  0001 C CNN
 F 1 "GND" H 11275 4480 30  0001 C CNN
 	1    11275 4550
 	-1   0    0    -1  
@@ -4067,10 +4067,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0111
+L GND #PWR0112
 U 1 1 4E3ED6AA
 P 8925 4550
-F 0 "#PWR0111" H 8925 4550 30  0001 C CNN
+F 0 "#PWR0112" H 8925 4550 30  0001 C CNN
 F 1 "GND" H 8925 4480 30  0001 C CNN
 	1    8925 4550
 	1    0    0    -1  
@@ -4364,10 +4364,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR0112
+L GND #PWR0113
 U 1 1 4E3ED655
 P 8925 2100
-F 0 "#PWR0112" H 8925 2100 30  0001 C CNN
+F 0 "#PWR0113" H 8925 2100 30  0001 C CNN
 F 1 "GND" H 8925 2030 30  0001 C CNN
 	1    8925 2100
 	1    0    0    -1  
@@ -4445,10 +4445,10 @@ F 11 "other,more,stuff" V 1131 2600 60  0001 C CNN "misc"
 	0    -1   1    0   
 $EndComp
 $Comp
-L GND #PWR0113
+L GND #PWR0114
 U 1 1 4E3ED64B
 P 11275 2100
-F 0 "#PWR0113" H 11275 2100 30  0001 C CNN
+F 0 "#PWR0114" H 11275 2100 30  0001 C CNN
 F 1 "GND" H 11275 2030 30  0001 C CNN
 	1    11275 2100
 	-1   0    0    -1  
@@ -4684,10 +4684,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR0114
+L GND #PWR0115
 U 1 1 4E3ED630
 P 7475 2100
-F 0 "#PWR0114" H 7475 2100 30  0001 C CNN
+F 0 "#PWR0115" H 7475 2100 30  0001 C CNN
 F 1 "GND" H 7475 2030 30  0001 C CNN
 	1    7475 2100
 	-1   0    0    -1  
@@ -4781,10 +4781,10 @@ F 7 "96M1352" H 6700 1000 60  0001 C CNN "vend1 #"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0115
+L GND #PWR0116
 U 1 1 4E3ED626
 P 5125 2100
-F 0 "#PWR0115" H 5125 2100 30  0001 C CNN
+F 0 "#PWR0116" H 5125 2100 30  0001 C CNN
 F 1 "GND" H 5125 2030 30  0001 C CNN
 	1    5125 2100
 	1    0    0    -1  
@@ -5093,10 +5093,10 @@ F 7 "751-1367-2-ND" H 1025 1550 60  0001 C CNN "sm vend 1 #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0116
+L GND #PWR0117
 U 1 1 4E3ED607
 P 1325 2100
-F 0 "#PWR0116" H 1325 2100 30  0001 C CNN
+F 0 "#PWR0117" H 1325 2100 30  0001 C CNN
 F 1 "GND" H 1325 2030 30  0001 C CNN
 	1    1325 2100
 	1    0    0    -1  
@@ -5190,10 +5190,10 @@ F 11 "other,more,stuff" V 1131 2600 60  0001 C CNN "misc"
 	0    -1   1    0   
 $EndComp
 $Comp
-L GND #PWR0117
+L GND #PWR0118
 U 1 1 4E3ED5FD
 P 3675 2100
-F 0 "#PWR0117" H 3675 2100 30  0001 C CNN
+F 0 "#PWR0118" H 3675 2100 30  0001 C CNN
 F 1 "GND" H 3675 2030 30  0001 C CNN
 	1    3675 2100
 	-1   0    0    -1  

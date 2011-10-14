@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/4/2011 8:27:03 PM
+EESchema Schematic File Version 2  date 10/11/2011 7:34:29 AM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -30,10 +30,10 @@ EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 3 12
-Title "freeEMS PLUS from Cinch template "
-Date "5 oct 2011"
+Title "Open5xxxECU (o5e), an ECU that is no longer affiliated with freeEMS."
+Date "11 oct 2011"
 Rev "A-DRAFT5"
-Comp "diyefi.org/openecu.info"
+Comp "http://open5xxxecu.org/"
 Comment1 ""
 Comment2 ""
 Comment3 ""
