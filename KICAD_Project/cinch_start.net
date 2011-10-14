@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  10/11/2011 7:17:46 AM
+# EESchema Netlist Version 1.1 created  10/14/2011 5:25:35 AM
 (
  ( /4E88435A SWDIP8_.6W  U101 POLOLU_A4988 {Lib=POLOLU_A4988}
   (    1 GND )
@@ -295,7 +295,7 @@
   (  42D ? )
   (  43A ? )
   (  43B ? )
-  (  43C /CPU/CS-TCPL1 )
+  (  43C /SENSOR_INPUTS.sch/CS-TCPL1 )
   (  43D /low_side_drive1/EN0 )
   (  44A ? )
   (  44B GND )
@@ -554,7 +554,7 @@
   (  1G1 /amp_connector/12V_ECU )
   (  1G2 /amp_connector/MIL_LS-1A )
   (  1G3 /SENSOR_INPUTS.sch/AN_HARN_TPS )
-  (  1G4 /RPM_sub_circuit.sch/CAM+ )
+  (  1G4 /amp_connector/CAM+ )
   (  1H1 /low_side_drive1/GND_MC33800 )
   (  1H2 /amp_connector/STEP_1B )
   (  1H3 GND )
@@ -658,340 +658,228 @@
   (   15 /pin_protect/AN_HARN_P01 )
   (   16 ? )
  )
- ( /4C17511F/4E4DAF8F SM0805  R419 1k {Lib=R}
-  (    1 N-000523 )
+ ( /4C17511F/4E4DAF8F SM0805  R419 2.2k {Lib=R}
+  (    1 /pin_protect/AN_CPU13 )
   (    2 /pin_protect/AN_HARN13 )
  )
- ( /4C17511F/4E4DAF8D SM0805-C1  C413 100nf {Lib=C}
-  (    1 N-000523 )
-  (    2 GND )
- )
- ( /4C17511F/4E4DAF8C SM0805  R413 1k {Lib=R}
-  (    1 /pin_protect/AN_CPU13 )
-  (    2 N-000523 )
- )
- ( /4C17511F/4E4DAF8B SM0805-C1  C419 100nf {Lib=C}
+ ( /4C17511F/4E4DAF8B SM0805-C1  C419 .01uf {Lib=C}
   (    1 /pin_protect/AN_CPU13 )
   (    2 GND )
  )
- ( /4C17511F/4E4DAF8A SM0805-C1  C420 100nf {Lib=C}
+ ( /4C17511F/4E4DAF8A SM0805-C1  C420 .01uf {Lib=C}
   (    1 /pin_protect/AN_CPU14 )
   (    2 GND )
  )
- ( /4C17511F/4E4DAF89 SM0805  R414 1k {Lib=R}
+ ( /4C17511F/4E4DAF86 SM0805  R420 2.2k {Lib=R}
   (    1 /pin_protect/AN_CPU14 )
-  (    2 N-000525 )
- )
- ( /4C17511F/4E4DAF88 SM0805-C1  C414 100nf {Lib=C}
-  (    1 N-000525 )
-  (    2 GND )
- )
- ( /4C17511F/4E4DAF86 SM0805  R420 1k {Lib=R}
-  (    1 N-000525 )
   (    2 /pin_protect/AN_HARN14 )
  )
  ( /4C17511F/4E4DAF85 SOD-123  D417 H-AN-D {Lib=DIODE}
-  (    1 N-000523 )
+  (    1 /pin_protect/AN_CPU13 )
   (    2 /CPU/3.3V )
  )
  ( /4C17511F/4E4DAF84 SOD-123  D419 H-AN-D {Lib=DIODE}
-  (    1 N-000525 )
+  (    1 /pin_protect/AN_CPU14 )
   (    2 /CPU/3.3V )
  )
  ( /4C17511F/4E4DAF83 SOD-123  D420 L-AN-D {Lib=DIODE}
   (    1 GND )
-  (    2 N-000525 )
+  (    2 /pin_protect/AN_CPU14 )
  )
  ( /4C17511F/4E4DAF82 SOD-123  D418 L-AN-D {Lib=DIODE}
   (    1 GND )
-  (    2 N-000523 )
+  (    2 /pin_protect/AN_CPU13 )
  )
- ( /4C17511F/4E4DACB9 SM0805-C1  C428 100nf {Lib=C}
+ ( /4C17511F/4E4DACB9 SM0805-C1  C428 .01uf {Lib=C}
   (    1 /pin_protect/AN_CPU_P04 )
   (    2 GND )
  )
  ( /4C17511F/4E4DACB8 SOD-123  D427 H-AN-D {Lib=DIODE}
-  (    1 N-000524 )
-  (    2 /CPU/3.3V )
- )
- ( /4C17511F/4E4DACB7 SM0805  R424 1k {Lib=R}
   (    1 /pin_protect/AN_CPU_P04 )
-  (    2 N-000524 )
- )
- ( /4C17511F/4E4DACB6 SM0805-C1  C424 100nf {Lib=C}
-  (    1 N-000524 )
-  (    2 GND )
+  (    2 /CPU/3.3V )
  )
  ( /4C17511F/4E4DACB5 SOD-123  D428 L-AN-D {Lib=DIODE}
   (    1 GND )
-  (    2 N-000524 )
+  (    2 /pin_protect/AN_CPU_P04 )
  )
- ( /4C17511F/4E4DACB3 SM0805  R428 1k {Lib=R}
-  (    1 N-000524 )
+ ( /4C17511F/4E4DACB3 SM0805  R428 2.2k {Lib=R}
+  (    1 /pin_protect/AN_CPU_P04 )
   (    2 /pin_protect/AN_HARN_P04 )
  )
  ( /4C17511F/4E4814F0 SOD-123  D412 L-AN-D {Lib=DIODE}
   (    1 GND )
-  (    2 N-000531 )
+  (    2 /pin_protect/AN_CPU10 )
  )
  ( /4C17511F/4E4814EE SOD-123  D414 L-AN-D {Lib=DIODE}
   (    1 GND )
-  (    2 N-000527 )
+  (    2 /pin_protect/AN_CPU11 )
  )
  ( /4C17511F/4E4814E5 SOD-123  D416 L-AN-D {Lib=DIODE}
   (    1 GND )
-  (    2 N-000532 )
+  (    2 /pin_protect/AN_CPU12 )
  )
  ( /4C17511F/4E4814E4 SOD-123  D408 L-AN-D {Lib=DIODE}
   (    1 GND )
-  (    2 N-000529 )
+  (    2 /pin_protect/AN_CPU08 )
  )
  ( /4C17511F/4E4814E2 SOD-123  D406 L-AN-D {Lib=DIODE}
   (    1 GND )
-  (    2 N-000526 )
+  (    2 /pin_protect/AN_CPU07 )
  )
  ( /4C17511F/4E4814E0 SOD-123  D404 L-AN-D {Lib=DIODE}
   (    1 GND )
-  (    2 N-000530 )
+  (    2 /pin_protect/AN_CPU06 )
  )
  ( /4C17511F/4E4814DE SOD-123  D402 L-AN-D {Lib=DIODE}
   (    1 GND )
-  (    2 N-000528 )
+  (    2 /pin_protect/AN_CPU05 )
  )
  ( /4C17511F/4E4814DD SOD-123  D410 L-AN-D {Lib=DIODE}
   (    1 GND )
-  (    2 N-000533 )
+  (    2 /pin_protect/AN_CPU09 )
  )
  ( /4C17511F/4E4814DA SOD-123  D403 H-AN-D {Lib=DIODE}
-  (    1 N-000530 )
+  (    1 /pin_protect/AN_CPU06 )
   (    2 /CPU/3.3V )
  )
  ( /4C17511F/4E4814D8 SOD-123  D405 H-AN-D {Lib=DIODE}
-  (    1 N-000526 )
+  (    1 /pin_protect/AN_CPU07 )
   (    2 /CPU/3.3V )
  )
  ( /4C17511F/4E4814D6 SOD-123  D407 H-AN-D {Lib=DIODE}
-  (    1 N-000529 )
+  (    1 /pin_protect/AN_CPU08 )
   (    2 /CPU/3.3V )
  )
  ( /4C17511F/4E4814D5 SOD-123  D415 H-AN-D {Lib=DIODE}
-  (    1 N-000532 )
+  (    1 /pin_protect/AN_CPU12 )
   (    2 /CPU/3.3V )
  )
  ( /4C17511F/4E4814D3 SOD-123  D413 H-AN-D {Lib=DIODE}
-  (    1 N-000527 )
+  (    1 /pin_protect/AN_CPU11 )
   (    2 /CPU/3.3V )
  )
  ( /4C17511F/4E4814D0 SOD-123  D411 H-AN-D {Lib=DIODE}
-  (    1 N-000531 )
+  (    1 /pin_protect/AN_CPU10 )
   (    2 /CPU/3.3V )
  )
  ( /4C17511F/4E4814CE SOD-123  D409 H-AN-D {Lib=DIODE}
-  (    1 N-000533 )
+  (    1 /pin_protect/AN_CPU09 )
   (    2 /CPU/3.3V )
  )
  ( /4C17511F/4E4814CA SOD-123  D401 H-AN-D {Lib=DIODE}
-  (    1 N-000528 )
+  (    1 /pin_protect/AN_CPU05 )
   (    2 /CPU/3.3V )
  )
- ( /4C17511F/4E47D7F9 SM0805  R427 1k {Lib=R}
-  (    1 N-000520 )
+ ( /4C17511F/4E47D7F9 SM0805  R427 2.2k {Lib=R}
+  (    1 /pin_protect/AN_CPU_P03 )
   (    2 /pin_protect/AN_HARN_P03 )
  )
  ( /4C17511F/4E47D7F7 SOD-123  D426 L-AN-D {Lib=DIODE}
   (    1 GND )
-  (    2 N-000520 )
- )
- ( /4C17511F/4E47D7F6 SM0805-C1  C423 100nf {Lib=C}
-  (    1 N-000520 )
-  (    2 GND )
- )
- ( /4C17511F/4E47D7F5 SM0805  R423 1k {Lib=R}
-  (    1 /pin_protect/AN_CPU_P03 )
-  (    2 N-000520 )
+  (    2 /pin_protect/AN_CPU_P03 )
  )
  ( /4C17511F/4E47D7F4 SOD-123  D425 H-AN-D {Lib=DIODE}
-  (    1 N-000520 )
+  (    1 /pin_protect/AN_CPU_P03 )
   (    2 /CPU/3.3V )
  )
- ( /4C17511F/4E47D7F3 SM0805-C1  C427 100nf {Lib=C}
+ ( /4C17511F/4E47D7F3 SM0805-C1  C427 .01uf {Lib=C}
   (    1 /pin_protect/AN_CPU_P03 )
   (    2 GND )
  )
- ( /4C17511F/4E47D7F2 SM0805  R426 1k {Lib=R}
-  (    1 N-000522 )
+ ( /4C17511F/4E47D7F2 SM0805  R426 2.2k {Lib=R}
+  (    1 /pin_protect/AN_CPU_P02 )
   (    2 /pin_protect/AN_HARN_P02 )
  )
  ( /4C17511F/4E47D7F0 SOD-123  D424 L-AN-D {Lib=DIODE}
   (    1 GND )
-  (    2 N-000522 )
- )
- ( /4C17511F/4E47D7EF SM0805-C1  C422 100nf {Lib=C}
-  (    1 N-000522 )
-  (    2 GND )
- )
- ( /4C17511F/4E47D7EE SM0805  R422 1k {Lib=R}
-  (    1 /pin_protect/AN_CPU_P02 )
-  (    2 N-000522 )
+  (    2 /pin_protect/AN_CPU_P02 )
  )
  ( /4C17511F/4E47D7ED SOD-123  D423 H-AN-D {Lib=DIODE}
-  (    1 N-000522 )
+  (    1 /pin_protect/AN_CPU_P02 )
   (    2 /CPU/3.3V )
  )
- ( /4C17511F/4E47D7EC SM0805-C1  C426 100nf {Lib=C}
+ ( /4C17511F/4E47D7EC SM0805-C1  C426 .01uf {Lib=C}
   (    1 /pin_protect/AN_CPU_P02 )
   (    2 GND )
  )
- ( /4C17511F/4E47D7EB SM0805-C1  C425 100nf {Lib=C}
+ ( /4C17511F/4E47D7EB SM0805-C1  C425 .01uf {Lib=C}
   (    1 /pin_protect/AN_CPU_P01 )
   (    2 GND )
  )
  ( /4C17511F/4E47D7EA SOD-123  D421 H-AN-D {Lib=DIODE}
-  (    1 N-000521 )
-  (    2 /CPU/3.3V )
- )
- ( /4C17511F/4E47D7E9 SM0805  R421 1k {Lib=R}
   (    1 /pin_protect/AN_CPU_P01 )
-  (    2 N-000521 )
- )
- ( /4C17511F/4E47D7E8 SM0805-C1  C421 100nf {Lib=C}
-  (    1 N-000521 )
-  (    2 GND )
+  (    2 /CPU/3.3V )
  )
  ( /4C17511F/4E47D7E7 SOD-123  D422 L-AN-D {Lib=DIODE}
   (    1 GND )
-  (    2 N-000521 )
+  (    2 /pin_protect/AN_CPU_P01 )
  )
- ( /4C17511F/4E47D7E5 SM0805  R425 1k {Lib=R}
-  (    1 N-000521 )
+ ( /4C17511F/4E47D7E5 SM0805  R425 2.2k {Lib=R}
+  (    1 /pin_protect/AN_CPU_P01 )
   (    2 /pin_protect/AN_HARN_P01 )
  )
- ( /4C17511F/4E47D7E4 SM0805  R415 1k {Lib=R}
-  (    1 N-000533 )
+ ( /4C17511F/4E47D7E4 SM0805  R415 2.2k {Lib=R}
+  (    1 /pin_protect/AN_CPU09 )
   (    2 /pin_protect/AN_HARN09 )
  )
- ( /4C17511F/4E47D7E1 SM0805-C1  C409 100nf {Lib=C}
-  (    1 N-000533 )
-  (    2 GND )
- )
- ( /4C17511F/4E47D7E0 SM0805  R409 1k {Lib=R}
-  (    1 /pin_protect/AN_CPU09 )
-  (    2 N-000533 )
- )
- ( /4C17511F/4E47D7DE SM0805-C1  C415 100nf {Lib=C}
+ ( /4C17511F/4E47D7DE SM0805-C1  C415 .01uf {Lib=C}
   (    1 /pin_protect/AN_CPU09 )
   (    2 GND )
  )
- ( /4C17511F/4E47D7DD SM0805-C1  C416 100nf {Lib=C}
+ ( /4C17511F/4E47D7DD SM0805-C1  C416 .01uf {Lib=C}
   (    1 /pin_protect/AN_CPU10 )
   (    2 GND )
  )
- ( /4C17511F/4E47D7DB SM0805  R410 1k {Lib=R}
+ ( /4C17511F/4E47D7D7 SM0805  R416 2.2k {Lib=R}
   (    1 /pin_protect/AN_CPU10 )
-  (    2 N-000531 )
- )
- ( /4C17511F/4E47D7DA SM0805-C1  C410 100nf {Lib=C}
-  (    1 N-000531 )
-  (    2 GND )
- )
- ( /4C17511F/4E47D7D7 SM0805  R416 1k {Lib=R}
-  (    1 N-000531 )
   (    2 /pin_protect/AN_HARN10 )
  )
- ( /4C17511F/4E47D7D6 SM0805  R418 1k {Lib=R}
-  (    1 N-000532 )
+ ( /4C17511F/4E47D7D6 SM0805  R418 2.2k {Lib=R}
+  (    1 /pin_protect/AN_CPU12 )
   (    2 /pin_protect/AN_HARN12 )
  )
- ( /4C17511F/4E47D7D3 SM0805-C1  C412 100nf {Lib=C}
-  (    1 N-000532 )
-  (    2 GND )
- )
- ( /4C17511F/4E47D7D2 SM0805  R412 1k {Lib=R}
-  (    1 /pin_protect/AN_CPU12 )
-  (    2 N-000532 )
- )
- ( /4C17511F/4E47D7D0 SM0805-C1  C418 100nf {Lib=C}
+ ( /4C17511F/4E47D7D0 SM0805-C1  C418 .01uf {Lib=C}
   (    1 /pin_protect/AN_CPU12 )
   (    2 GND )
  )
- ( /4C17511F/4E47D7CF SM0805-C1  C417 100nf {Lib=C}
+ ( /4C17511F/4E47D7CF SM0805-C1  C417 .01uf {Lib=C}
   (    1 /pin_protect/AN_CPU11 )
   (    2 GND )
  )
- ( /4C17511F/4E47D7CD SM0805  R411 1k {Lib=R}
+ ( /4C17511F/4E47D7C9 SM0805  R417 2.2k {Lib=R}
   (    1 /pin_protect/AN_CPU11 )
-  (    2 N-000527 )
- )
- ( /4C17511F/4E47D7CC SM0805-C1  C411 100nf {Lib=C}
-  (    1 N-000527 )
-  (    2 GND )
- )
- ( /4C17511F/4E47D7C9 SM0805  R417 1k {Lib=R}
-  (    1 N-000527 )
   (    2 /pin_protect/AN_HARN11 )
  )
- ( /4C17511F/4E47D793 SM0805  R407 1k {Lib=R}
-  (    1 N-000526 )
+ ( /4C17511F/4E47D793 SM0805  R407 2.2k {Lib=R}
+  (    1 /pin_protect/AN_CPU07 )
   (    2 /pin_protect/AN_HARN07 )
  )
- ( /4C17511F/4E47D790 SM0805-C1  C403 100nf {Lib=C}
-  (    1 N-000526 )
-  (    2 GND )
- )
- ( /4C17511F/4E47D78F SM0805  R403 1k {Lib=R}
-  (    1 /pin_protect/AN_CPU07 )
-  (    2 N-000526 )
- )
- ( /4C17511F/4E47D78D SM0805-C1  C407 100nf {Lib=C}
+ ( /4C17511F/4E47D78D SM0805-C1  C407 .01uf {Lib=C}
   (    1 /pin_protect/AN_CPU07 )
   (    2 GND )
  )
- ( /4C17511F/4E47D78C SM0805-C1  C408 100nf {Lib=C}
+ ( /4C17511F/4E47D78C SM0805-C1  C408 .01uf {Lib=C}
   (    1 /pin_protect/AN_CPU08 )
   (    2 GND )
  )
- ( /4C17511F/4E47D78A SM0805  R404 1k {Lib=R}
+ ( /4C17511F/4E47D786 SM0805  R408 2.2k {Lib=R}
   (    1 /pin_protect/AN_CPU08 )
-  (    2 N-000529 )
- )
- ( /4C17511F/4E47D789 SM0805-C1  C404 100nf {Lib=C}
-  (    1 N-000529 )
-  (    2 GND )
- )
- ( /4C17511F/4E47D786 SM0805  R408 1k {Lib=R}
-  (    1 N-000529 )
   (    2 /pin_protect/AN_HARN08 )
  )
- ( /4C17511F/4E47D768 SM0805  R406 1k {Lib=R}
-  (    1 N-000530 )
+ ( /4C17511F/4E47D768 SM0805  R406 2.2k {Lib=R}
+  (    1 /pin_protect/AN_CPU06 )
   (    2 /pin_protect/AN_HARN06 )
  )
- ( /4C17511F/4E47D765 SM0805-C1  C402 100nf {Lib=C}
-  (    1 N-000530 )
-  (    2 GND )
- )
- ( /4C17511F/4E47D764 SM0805  R402 1k {Lib=R}
-  (    1 /pin_protect/AN_CPU06 )
-  (    2 N-000530 )
- )
- ( /4C17511F/4E47D762 SM0805-C1  C406 100nf {Lib=C}
+ ( /4C17511F/4E47D762 SM0805-C1  C406 .01uf {Lib=C}
   (    1 /pin_protect/AN_CPU06 )
   (    2 GND )
  )
- ( /4C17511F/4E47D715 SM0805-C1  C405 100nf {Lib=C}
+ ( /4C17511F/4E47D715 SM0805-C1  C405 .01uf {Lib=C}
   (    1 /pin_protect/AN_CPU05 )
   (    2 GND )
  )
- ( /4C17511F/4E47D491 SM0805  R401 1k {Lib=R}
+ ( /4C17511F/4E47D48D SM0805  R405 2.2k {Lib=R}
   (    1 /pin_protect/AN_CPU05 )
-  (    2 N-000528 )
- )
- ( /4C17511F/4E47D490 SM0805-C1  C401 100nf {Lib=C}
-  (    1 N-000528 )
-  (    2 GND )
- )
- ( /4C17511F/4E47D48D SM0805  R405 1k {Lib=R}
-  (    1 N-000528 )
   (    2 /pin_protect/AN_HARN05 )
  )
  ( /4E0724BC/4E81E696 PINTST  P504 CONN_1 {Lib=CONN_1}
@@ -1008,7 +896,7 @@
  )
  ( /4E0724BC/4E5198AA SOT23-3  U524 LM3480 {Lib=LM3480}
   (    1 /SENSOR_INPUTS.sch/12V_BAT )
-  (    2 N-000636 )
+  (    2 N-000622 )
   (    3 /efi/GND5 )
  )
  ( /4E0724BC/4E5198A6 SOT23-3  U522 LM3480 {Lib=LM3480}
@@ -1033,409 +921,409 @@
  )
  ( /4E0724BC/4E46D421 relay-SOP04  U529 OPTO {Lib=VO1400}
   (    1 /CPU/24_INJ_DIGI )
-  (    2 N-000609 )
-  (    3 N-000610 )
-  (    4 N-000603 )
+  (    2 N-000595 )
+  (    3 N-000596 )
+  (    4 N-000589 )
  )
  ( /4E0724BC/4E46D435 relay-SOP04  U545 OPTO {Lib=VO1400}
   (    1 /CPU/12_IGN_DIGI )
-  (    2 N-000543 )
-  (    3 N-000637 )
-  (    4 N-000611 )
+  (    2 N-000529 )
+  (    3 N-000623 )
+  (    4 N-000597 )
  )
  ( /4E0724BC/4E46D434 relay-SOP04  U543 OPTO {Lib=VO1400}
   (    1 /CPU/08_IGN_DIGI )
-  (    2 N-000554 )
-  (    3 N-000648 )
-  (    4 N-000599 )
+  (    2 N-000540 )
+  (    3 N-000634 )
+  (    4 N-000585 )
  )
  ( /4E0724BC/4E46D433 relay-SOP04  U541 OPTO {Lib=VO1400}
   (    1 /CPU/04_IGN_DIGI )
-  (    2 N-000643 )
-  (    3 N-000653 )
-  (    4 N-000600 )
+  (    2 N-000629 )
+  (    3 N-000639 )
+  (    4 N-000586 )
  )
  ( /4E0724BC/4E46D431 relay-SOP04  U526 OPTO {Lib=VO1400}
   (    1 /CPU/15_INJ_DIGI )
-  (    2 N-000538 )
-  (    3 N-000563 )
-  (    4 N-000557 )
+  (    2 N-000524 )
+  (    3 N-000549 )
+  (    4 N-000543 )
  )
  ( /4E0724BC/4E46D42F relay-SOP04  U528 OPTO {Lib=VO1400}
   (    1 /CPU/17_INJ_DIGI )
-  (    2 N-000552 )
-  (    3 N-000650 )
-  (    4 N-000601 )
+  (    2 N-000538 )
+  (    3 N-000636 )
+  (    4 N-000587 )
  )
  ( /4E0724BC/4E46D42E relay-SOP04  U530 OPTO {Lib=VO1400}
   (    1 /CPU/23_INJ_DIGI )
-  (    2 N-000602 )
-  (    3 N-000603 )
-  (    4 N-000604 )
- )
- ( /4E0724BC/4E46D42D relay-SOP04  U515 OPTO {Lib=VO1400}
-  (    1 /CPU/12_INJ_DIGI )
-  (    2 N-000605 )
-  (    3 N-000629 )
-  (    4 N-000606 )
- )
- ( /4E0724BC/4E46D42B relay-SOP04  U513 OPTO {Lib=VO1400}
-  (    1 /CPU/08_INJ_DIGI )
-  (    2 N-000542 )
-  (    3 N-000659 )
-  (    4 N-000607 )
- )
- ( /4E0724BC/4E46D429 relay-SOP04  U544 OPTO {Lib=VO1400}
-  (    1 /CPU/11_IGN_DIGI )
-  (    2 N-000544 )
-  (    3 N-000608 )
-  (    4 N-000637 )
- )
- ( /4E0724BC/4E46D428 relay-SOP04  U542 OPTO {Lib=VO1400}
-  (    1 /CPU/07_IGN_DIGI )
-  (    2 N-000622 )
-  (    3 N-000623 )
-  (    4 N-000648 )
- )
- ( /4E0724BC/4E46D426 relay-SOP04  U540 OPTO {Lib=VO1400}
-  (    1 /CPU/03_IGN_DIGI )
-  (    2 N-000540 )
-  (    3 N-000624 )
-  (    4 N-000653 )
- )
- ( /4E0724BC/4E46D424 relay-SOP04  U525 OPTO {Lib=VO1400}
-  (    1 /CPU/16_INJ_DIGI )
-  (    2 N-000625 )
-  (    3 N-000558 )
-  (    4 N-000563 )
- )
- ( /4E0724BC/4E46D423 relay-SOP04  U527 OPTO {Lib=VO1400}
-  (    1 /CPU/18_INJ_DIGI )
-  (    2 N-000626 )
-  (    3 N-000627 )
-  (    4 N-000650 )
- )
- ( /4E0724BC/4E46D420 relay-SOP04  U514 OPTO {Lib=VO1400}
-  (    1 /CPU/11_INJ_DIGI )
-  (    2 N-000547 )
-  (    3 N-000628 )
-  (    4 N-000629 )
- )
- ( /4E0724BC/4E46D41E relay-SOP04  U512 OPTO {Lib=VO1400}
-  (    1 /CPU/07_INJ_DIGI )
-  (    2 N-000630 )
-  (    3 N-000631 )
-  (    4 N-000659 )
- )
- ( /4E0724BC/4E46D41B relay-SOP04  U536 OPTO {Lib=VO1400}
-  (    1 /CPU/09_IGN_DIGI )
-  (    2 N-000598 )
-  (    3 N-000620 )
-  (    4 N-000632 )
- )
- ( /4E0724BC/4E46D41A relay-SOP04  U534 OPTO {Lib=VO1400}
-  (    1 /CPU/05_IGN_DIGI )
-  (    2 N-000633 )
-  (    3 N-000577 )
-  (    4 N-000634 )
- )
- ( /4E0724BC/4E46D418 relay-SOP04  U532 OPTO {Lib=VO1400}
-  (    1 /CPU/01_IGN_DIGI )
-  (    2 N-000654 )
-  (    3 N-000580 )
-  (    4 N-000612 )
- )
- ( /4E0724BC/4E46D416 relay-SOP04  U517 OPTO {Lib=VO1400}
-  (    1 /CPU/13_INJ_DIGI )
-  (    2 N-000562 )
-  (    3 N-000560 )
-  (    4 N-000556 )
- )
- ( /4E0724BC/4E46D414 relay-SOP04  U519 OPTO {Lib=VO1400}
-  (    1 /CPU/20_INJ_DIGI )
-  (    2 N-000651 )
-  (    3 N-000662 )
-  (    4 N-000613 )
- )
- ( /4E0724BC/4E46D412 relay-SOP04  U521 OPTO {Lib=VO1400}
-  (    1 /CPU/22_INJ_DIGI )
-  (    2 N-000614 )
-  (    3 N-000585 )
-  (    4 N-000615 )
- )
- ( /4E0724BC/4E46D40E relay-SOP04  U506 OPTO {Lib=VO1400}
-  (    1 /CPU/09_INJ_DIGI )
-  (    2 N-000660 )
-  (    3 N-000638 )
-  (    4 N-000616 )
- )
- ( /4E0724BC/4E46D40D relay-SOP04  U504 OPTO {Lib=VO1400}
-  (    1 /CPU/05_INJ_DIGI )
-  (    2 N-000617 )
-  (    3 N-000590 )
-  (    4 N-000618 )
- )
- ( /4E0724BC/4E46D40A relay-SOP04  U535 OPTO {Lib=VO1400}
-  (    1 /CPU/10_IGN_DIGI )
-  (    2 N-000545 )
-  (    3 N-000619 )
-  (    4 N-000620 )
- )
- ( /4E0724BC/4E46D408 relay-SOP04  U533 OPTO {Lib=VO1400}
-  (    1 /CPU/06_IGN_DIGI )
-  (    2 N-000621 )
-  (    3 N-000576 )
-  (    4 N-000577 )
- )
- ( /4E0724BC/4E46D406 relay-SOP04  U531 OPTO {Lib=VO1400}
-  (    1 /CPU/02_IGN_DIGI )
-  (    2 N-000578 )
-  (    3 N-000579 )
-  (    4 N-000580 )
- )
- ( /4E0724BC/4E46D405 relay-SOP04  U516 OPTO {Lib=VO1400}
-  (    1 /CPU/14_INJ_DIGI )
-  (    2 N-000561 )
-  (    3 N-000559 )
-  (    4 N-000560 )
- )
- ( /4E0724BC/4E46D403 relay-SOP04  U518 OPTO {Lib=VO1400}
-  (    1 /CPU/19_INJ_DIGI )
-  (    2 N-000581 )
-  (    3 N-000582 )
-  (    4 N-000662 )
- )
- ( /4E0724BC/4E46D402 relay-SOP04  U520 OPTO {Lib=VO1400}
-  (    1 /CPU/21_INJ_DIGI )
-  (    2 N-000583 )
-  (    3 N-000584 )
-  (    4 N-000585 )
- )
- ( /4E0724BC/4E46D400 relay-SOP04  U505 OPTO {Lib=VO1400}
-  (    1 /CPU/10_INJ_DIGI )
-  (    2 N-000586 )
-  (    3 N-000587 )
-  (    4 N-000638 )
- )
- ( /4E0724BC/4E46D3FE relay-SOP04  U503 OPTO {Lib=VO1400}
-  (    1 /CPU/06_INJ_DIGI )
   (    2 N-000588 )
   (    3 N-000589 )
   (    4 N-000590 )
  )
+ ( /4E0724BC/4E46D42D relay-SOP04  U515 OPTO {Lib=VO1400}
+  (    1 /CPU/12_INJ_DIGI )
+  (    2 N-000591 )
+  (    3 N-000615 )
+  (    4 N-000592 )
+ )
+ ( /4E0724BC/4E46D42B relay-SOP04  U513 OPTO {Lib=VO1400}
+  (    1 /CPU/08_INJ_DIGI )
+  (    2 N-000528 )
+  (    3 N-000645 )
+  (    4 N-000593 )
+ )
+ ( /4E0724BC/4E46D429 relay-SOP04  U544 OPTO {Lib=VO1400}
+  (    1 /CPU/11_IGN_DIGI )
+  (    2 N-000530 )
+  (    3 N-000594 )
+  (    4 N-000623 )
+ )
+ ( /4E0724BC/4E46D428 relay-SOP04  U542 OPTO {Lib=VO1400}
+  (    1 /CPU/07_IGN_DIGI )
+  (    2 N-000608 )
+  (    3 N-000609 )
+  (    4 N-000634 )
+ )
+ ( /4E0724BC/4E46D426 relay-SOP04  U540 OPTO {Lib=VO1400}
+  (    1 /CPU/03_IGN_DIGI )
+  (    2 N-000526 )
+  (    3 N-000610 )
+  (    4 N-000639 )
+ )
+ ( /4E0724BC/4E46D424 relay-SOP04  U525 OPTO {Lib=VO1400}
+  (    1 /CPU/16_INJ_DIGI )
+  (    2 N-000611 )
+  (    3 N-000544 )
+  (    4 N-000549 )
+ )
+ ( /4E0724BC/4E46D423 relay-SOP04  U527 OPTO {Lib=VO1400}
+  (    1 /CPU/18_INJ_DIGI )
+  (    2 N-000612 )
+  (    3 N-000613 )
+  (    4 N-000636 )
+ )
+ ( /4E0724BC/4E46D420 relay-SOP04  U514 OPTO {Lib=VO1400}
+  (    1 /CPU/11_INJ_DIGI )
+  (    2 N-000533 )
+  (    3 N-000614 )
+  (    4 N-000615 )
+ )
+ ( /4E0724BC/4E46D41E relay-SOP04  U512 OPTO {Lib=VO1400}
+  (    1 /CPU/07_INJ_DIGI )
+  (    2 N-000616 )
+  (    3 N-000617 )
+  (    4 N-000645 )
+ )
+ ( /4E0724BC/4E46D41B relay-SOP04  U536 OPTO {Lib=VO1400}
+  (    1 /CPU/09_IGN_DIGI )
+  (    2 N-000584 )
+  (    3 N-000606 )
+  (    4 N-000618 )
+ )
+ ( /4E0724BC/4E46D41A relay-SOP04  U534 OPTO {Lib=VO1400}
+  (    1 /CPU/05_IGN_DIGI )
+  (    2 N-000619 )
+  (    3 N-000563 )
+  (    4 N-000620 )
+ )
+ ( /4E0724BC/4E46D418 relay-SOP04  U532 OPTO {Lib=VO1400}
+  (    1 /CPU/01_IGN_DIGI )
+  (    2 N-000640 )
+  (    3 N-000566 )
+  (    4 N-000598 )
+ )
+ ( /4E0724BC/4E46D416 relay-SOP04  U517 OPTO {Lib=VO1400}
+  (    1 /CPU/13_INJ_DIGI )
+  (    2 N-000548 )
+  (    3 N-000546 )
+  (    4 N-000542 )
+ )
+ ( /4E0724BC/4E46D414 relay-SOP04  U519 OPTO {Lib=VO1400}
+  (    1 /CPU/20_INJ_DIGI )
+  (    2 N-000637 )
+  (    3 N-000648 )
+  (    4 N-000599 )
+ )
+ ( /4E0724BC/4E46D412 relay-SOP04  U521 OPTO {Lib=VO1400}
+  (    1 /CPU/22_INJ_DIGI )
+  (    2 N-000600 )
+  (    3 N-000571 )
+  (    4 N-000601 )
+ )
+ ( /4E0724BC/4E46D40E relay-SOP04  U506 OPTO {Lib=VO1400}
+  (    1 /CPU/09_INJ_DIGI )
+  (    2 N-000646 )
+  (    3 N-000624 )
+  (    4 N-000602 )
+ )
+ ( /4E0724BC/4E46D40D relay-SOP04  U504 OPTO {Lib=VO1400}
+  (    1 /CPU/05_INJ_DIGI )
+  (    2 N-000603 )
+  (    3 N-000576 )
+  (    4 N-000604 )
+ )
+ ( /4E0724BC/4E46D40A relay-SOP04  U535 OPTO {Lib=VO1400}
+  (    1 /CPU/10_IGN_DIGI )
+  (    2 N-000531 )
+  (    3 N-000605 )
+  (    4 N-000606 )
+ )
+ ( /4E0724BC/4E46D408 relay-SOP04  U533 OPTO {Lib=VO1400}
+  (    1 /CPU/06_IGN_DIGI )
+  (    2 N-000607 )
+  (    3 N-000562 )
+  (    4 N-000563 )
+ )
+ ( /4E0724BC/4E46D406 relay-SOP04  U531 OPTO {Lib=VO1400}
+  (    1 /CPU/02_IGN_DIGI )
+  (    2 N-000564 )
+  (    3 N-000565 )
+  (    4 N-000566 )
+ )
+ ( /4E0724BC/4E46D405 relay-SOP04  U516 OPTO {Lib=VO1400}
+  (    1 /CPU/14_INJ_DIGI )
+  (    2 N-000547 )
+  (    3 N-000545 )
+  (    4 N-000546 )
+ )
+ ( /4E0724BC/4E46D403 relay-SOP04  U518 OPTO {Lib=VO1400}
+  (    1 /CPU/19_INJ_DIGI )
+  (    2 N-000567 )
+  (    3 N-000568 )
+  (    4 N-000648 )
+ )
+ ( /4E0724BC/4E46D402 relay-SOP04  U520 OPTO {Lib=VO1400}
+  (    1 /CPU/21_INJ_DIGI )
+  (    2 N-000569 )
+  (    3 N-000570 )
+  (    4 N-000571 )
+ )
+ ( /4E0724BC/4E46D400 relay-SOP04  U505 OPTO {Lib=VO1400}
+  (    1 /CPU/10_INJ_DIGI )
+  (    2 N-000572 )
+  (    3 N-000573 )
+  (    4 N-000624 )
+ )
+ ( /4E0724BC/4E46D3FE relay-SOP04  U503 OPTO {Lib=VO1400}
+  (    1 /CPU/06_INJ_DIGI )
+  (    2 N-000574 )
+  (    3 N-000575 )
+  (    4 N-000576 )
+ )
  ( /4E0724BC/4E46D3E1 relay-SOP04  U511 OPTO {Lib=VO1400}
   (    1 /CPU/04_INJ_DIGI )
-  (    2 N-000535 )
-  (    3 N-000565 )
-  (    4 N-000573 )
+  (    2 N-000521 )
+  (    3 N-000551 )
+  (    4 N-000559 )
  )
  ( /4E0724BC/4E46D3DE relay-SOP04  U502 OPTO {Lib=VO1400}
   (    1 /CPU/01_INJ_DIGI )
-  (    2 N-000566 )
-  (    3 N-000564 )
-  (    4 N-000574 )
+  (    2 N-000552 )
+  (    3 N-000550 )
+  (    4 N-000560 )
  )
  ( /4E0724BC/4E46D3D5 relay-SOP04  U510 OPTO {Lib=VO1400}
   (    1 /CPU/03_INJ_DIGI )
-  (    2 N-000575 )
-  (    3 N-000572 )
-  (    4 N-000565 )
+  (    2 N-000561 )
+  (    3 N-000558 )
+  (    4 N-000551 )
  )
  ( /4E0724BC/4E3ED766 SM0805  R643 1K {Lib=R}
-  (    1 N-000596 )
-  (    2 N-000619 )
+  (    1 N-000582 )
+  (    2 N-000605 )
  )
  ( /4E0724BC/4E3ED765 SO8E_ST  Q529 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000596 )
+  (    1 N-000582 )
   (    2 /amp_connector/IGN10_HARN )
   (    3 /efi/GND3 )
  )
  ( /4E0724BC/4E3ED764 SO8E_ST  Q535 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000597 )
+  (    1 N-000583 )
   (    2 /amp_connector/IGN11_HARN )
   (    3 /efi/GND3 )
  )
  ( /4E0724BC/4E3ED763 SM0805  R661 1K {Lib=R}
-  (    1 N-000597 )
-  (    2 N-000608 )
+  (    1 N-000583 )
+  (    2 N-000594 )
  )
  ( /4E0724BC/4E3ED762 SM0805  R662 1K {Lib=R}
-  (    1 N-000611 )
-  (    2 N-000592 )
+  (    1 N-000597 )
+  (    2 N-000578 )
  )
  ( /4E0724BC/4E3ED761 SO8E_ST  Q530 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000591 )
+  (    1 N-000577 )
   (    2 /amp_connector/IGN09_HARN )
   (    3 /efi/GND3 )
  )
  ( /4E0724BC/4E3ED760 SO8E_ST  Q536 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000592 )
+  (    1 N-000578 )
   (    2 /amp_connector/IGN12_HARN )
   (    3 /efi/GND3 )
  )
  ( /4E0724BC/4E3ED75F SM0805  R644 1K {Lib=R}
-  (    1 N-000632 )
-  (    2 N-000591 )
+  (    1 N-000618 )
+  (    2 N-000577 )
  )
  ( /4E0724BC/4E3ED757 SM0805  R623 1K {Lib=R}
   (    1 GND )
-  (    2 N-000545 )
+  (    2 N-000531 )
  )
  ( /4E0724BC/4E3ED756 SM0805  R632 1K {Lib=R}
-  (    1 N-000598 )
+  (    1 N-000584 )
   (    2 GND )
  )
  ( /4E0724BC/4E3ED755 SM0805  R671 1K {Lib=R}
-  (    1 N-000543 )
+  (    1 N-000529 )
   (    2 GND )
  )
  ( /4E0724BC/4E3ED754 SM0805  R680 1K {Lib=R}
   (    1 GND )
-  (    2 N-000544 )
+  (    2 N-000530 )
  )
  ( /4E0724BC/4E3ED751 SM0805  R649 100K {Lib=R}
-  (    1 N-000596 )
+  (    1 N-000582 )
   (    2 /efi/GND3 )
  )
  ( /4E0724BC/4E3ED750 SM0805  R650 100K {Lib=R}
   (    1 /efi/GND3 )
-  (    2 N-000591 )
+  (    2 N-000577 )
  )
  ( /4E0724BC/4E3ED74F SM0805  R656 100K {Lib=R}
   (    1 /efi/GND3 )
-  (    2 N-000592 )
+  (    2 N-000578 )
  )
  ( /4E0724BC/4E3ED74E SM0805  R655 100K {Lib=R}
-  (    1 N-000597 )
+  (    1 N-000583 )
   (    2 /efi/GND3 )
  )
  ( /4E0724BC/4E3ED74C SM0805  R637 0R {Lib=R}
   (    1 /efi/5V_GND3 )
-  (    2 N-000620 )
+  (    2 N-000606 )
  )
  ( /4E0724BC/4E3ED749 SM0805  R667 0R {Lib=R}
-  (    1 N-000637 )
+  (    1 N-000623 )
   (    2 /efi/5V_GND3 )
  )
  ( /4E0724BC/4E3ED742 SM0805  R607 0R {Lib=R}
-  (    1 N-000603 )
-  (    2 N-000636 )
+  (    1 N-000589 )
+  (    2 N-000622 )
  )
  ( /4E0724BC/4E3ED73F SM0805  R577 0R {Lib=R}
-  (    1 N-000636 )
-  (    2 N-000585 )
+  (    1 N-000622 )
+  (    2 N-000571 )
  )
  ( /4E0724BC/4E3ED73E SM0805  C509 1uF {Lib=CP1}
-  (    1 N-000636 )
+  (    1 N-000622 )
   (    2 /efi/GND5 )
  )
  ( /4E0724BC/4E3ED73D SM0805  R595 100K {Lib=R}
-  (    1 N-000594 )
+  (    1 N-000580 )
   (    2 /efi/GND5 )
  )
  ( /4E0724BC/4E3ED73C SM0805  R596 100K {Lib=R}
   (    1 /efi/GND5 )
-  (    2 N-000546 )
+  (    2 N-000532 )
  )
  ( /4E0724BC/4E3ED73B SM0805  R590 100K {Lib=R}
   (    1 /efi/GND5 )
-  (    2 N-000635 )
+  (    2 N-000621 )
  )
  ( /4E0724BC/4E3ED73A SM0805  R589 100K {Lib=R}
-  (    1 N-000595 )
+  (    1 N-000581 )
   (    2 /efi/GND5 )
  )
  ( /4E0724BC/4E3ED737 SM0805  R620 1K {Lib=R}
   (    1 GND )
-  (    2 N-000609 )
+  (    2 N-000595 )
  )
  ( /4E0724BC/4E3ED736 SM0805  R611 1K {Lib=R}
-  (    1 N-000602 )
+  (    1 N-000588 )
   (    2 GND )
  )
  ( /4E0724BC/4E3ED735 SM0805  R572 1K {Lib=R}
-  (    1 N-000614 )
+  (    1 N-000600 )
   (    2 GND )
  )
  ( /4E0724BC/4E3ED734 SM0805  R563 1K {Lib=R}
   (    1 GND )
-  (    2 N-000583 )
+  (    2 N-000569 )
  )
  ( /4E0724BC/4E3ED730 SM0805  C512 1uF {Lib=CP1}
   (    1 /SENSOR_INPUTS.sch/12V_BAT )
   (    2 /efi/GND5 )
  )
  ( /4E0724BC/4E3ED72C SM0805  R584 1K {Lib=R}
-  (    1 N-000635 )
-  (    2 N-000615 )
+  (    1 N-000621 )
+  (    2 N-000601 )
  )
  ( /4E0724BC/4E3ED72B SO8E_ST  Q524 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000546 )
+  (    1 N-000532 )
   (    2 /efi/EFI_OUT5-3 )
   (    3 /efi/GND5 )
  )
  ( /4E0724BC/4E3ED72A SO8E_ST  Q518 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000635 )
+  (    1 N-000621 )
   (    2 /efi/EFI_OUT5-1 )
   (    3 /efi/GND5 )
  )
  ( /4E0724BC/4E3ED729 SM0805  R602 1K {Lib=R}
-  (    1 N-000604 )
-  (    2 N-000546 )
+  (    1 N-000590 )
+  (    2 N-000532 )
  )
  ( /4E0724BC/4E3ED728 SM0805  R601 1K {Lib=R}
-  (    1 N-000594 )
-  (    2 N-000610 )
+  (    1 N-000580 )
+  (    2 N-000596 )
  )
  ( /4E0724BC/4E3ED727 SO8E_ST  Q523 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000594 )
+  (    1 N-000580 )
   (    2 /efi/EFI_OUT5-2 )
   (    3 /efi/GND5 )
  )
  ( /4E0724BC/4E3ED726 SO8E_ST  Q517 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000595 )
+  (    1 N-000581 )
   (    2 /efi/EFI_OUT5-0 )
   (    3 /efi/GND5 )
  )
  ( /4E0724BC/4E3ED725 SM0805  R583 1K {Lib=R}
-  (    1 N-000584 )
-  (    2 N-000595 )
+  (    1 N-000570 )
+  (    2 N-000581 )
  )
  ( /4E0724BC/4E3ED724 SM0805  R523 1K {Lib=R}
-  (    1 N-000639 )
-  (    2 N-000587 )
+  (    1 N-000625 )
+  (    2 N-000573 )
  )
  ( /4E0724BC/4E3ED723 SO8E_ST  Q505 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000639 )
+  (    1 N-000625 )
   (    2 /efi/EFI_OUT2-1 )
   (    3 /efi/GND3 )
  )
  ( /4E0724BC/4E3ED722 SO8E_ST  Q511 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000647 )
+  (    1 N-000633 )
   (    2 /efi/EFI_OUT2-2 )
   (    3 /efi/GND3 )
  )
  ( /4E0724BC/4E3ED721 SM0805  R541 1K {Lib=R}
-  (    1 N-000647 )
-  (    2 N-000628 )
+  (    1 N-000633 )
+  (    2 N-000614 )
  )
  ( /4E0724BC/4E3ED720 SM0805  R542 1K {Lib=R}
-  (    1 N-000606 )
-  (    2 N-000537 )
+  (    1 N-000592 )
+  (    2 N-000523 )
  )
  ( /4E0724BC/4E3ED71F SO8E_ST  Q506 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000661 )
+  (    1 N-000647 )
   (    2 /efi/EFI_OUT2-0 )
   (    3 /efi/GND3 )
  )
  ( /4E0724BC/4E3ED71E SO8E_ST  Q512 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000537 )
+  (    1 N-000523 )
   (    2 /efi/EFI_OUT2-3 )
   (    3 /efi/GND3 )
  )
  ( /4E0724BC/4E3ED71D SM0805  R524 1K {Lib=R}
-  (    1 N-000616 )
-  (    2 N-000661 )
+  (    1 N-000602 )
+  (    2 N-000647 )
  )
  ( /4E0724BC/4E3ED719 SM0805  C506 1uF {Lib=CP1}
   (    1 /SENSOR_INPUTS.sch/12V_BAT )
@@ -1443,34 +1331,34 @@
  )
  ( /4E0724BC/4E3ED715 SM0805  R503 1K {Lib=R}
   (    1 GND )
-  (    2 N-000586 )
+  (    2 N-000572 )
  )
  ( /4E0724BC/4E3ED714 SM0805  R512 1K {Lib=R}
-  (    1 N-000660 )
+  (    1 N-000646 )
   (    2 GND )
  )
  ( /4E0724BC/4E3ED713 SM0805  R551 1K {Lib=R}
-  (    1 N-000605 )
+  (    1 N-000591 )
   (    2 GND )
  )
  ( /4E0724BC/4E3ED712 SM0805  R560 1K {Lib=R}
   (    1 GND )
-  (    2 N-000547 )
+  (    2 N-000533 )
  )
  ( /4E0724BC/4E3ED70F SM0805  R529 100K {Lib=R}
-  (    1 N-000639 )
+  (    1 N-000625 )
   (    2 /efi/GND3 )
  )
  ( /4E0724BC/4E3ED70E SM0805  R530 100K {Lib=R}
   (    1 /efi/GND3 )
-  (    2 N-000661 )
+  (    2 N-000647 )
  )
  ( /4E0724BC/4E3ED70D SM0805  R536 100K {Lib=R}
   (    1 /efi/GND3 )
-  (    2 N-000537 )
+  (    2 N-000523 )
  )
  ( /4E0724BC/4E3ED70C SM0805  R535 100K {Lib=R}
-  (    1 N-000647 )
+  (    1 N-000633 )
   (    2 /efi/GND3 )
  )
  ( /4E0724BC/4E3ED70B SM0805  C503 1uF {Lib=CP1}
@@ -1479,449 +1367,449 @@
  )
  ( /4E0724BC/4E3ED70A SM0805  R517 0R {Lib=R}
   (    1 /efi/5V_GND3 )
-  (    2 N-000638 )
+  (    2 N-000624 )
  )
  ( /4E0724BC/4E3ED707 SM0805  R547 0R {Lib=R}
-  (    1 N-000629 )
+  (    1 N-000615 )
   (    2 /efi/5V_GND3 )
  )
  ( /4E0724BC/4E3ED700 SM0805  R545 0R {Lib=R}
-  (    1 N-000659 )
+  (    1 N-000645 )
   (    2 /efi/5V_GND2 )
  )
  ( /4E0724BC/4E3ED6FD SM0805  R515 0R {Lib=R}
   (    1 /efi/5V_GND2 )
-  (    2 N-000590 )
+  (    2 N-000576 )
  )
  ( /4E0724BC/4E3ED6FC SM0805  C502 1uF {Lib=CP1}
   (    1 /efi/5V_GND2 )
   (    2 /efi/GND2 )
  )
  ( /4E0724BC/4E3ED6FB SM0805  R533 100K {Lib=R}
-  (    1 N-000642 )
+  (    1 N-000628 )
   (    2 /efi/GND2 )
  )
  ( /4E0724BC/4E3ED6FA SM0805  R534 100K {Lib=R}
   (    1 /efi/GND2 )
-  (    2 N-000541 )
+  (    2 N-000527 )
  )
  ( /4E0724BC/4E3ED6F9 SM0805  R528 100K {Lib=R}
   (    1 /efi/GND2 )
-  (    2 N-000658 )
+  (    2 N-000644 )
  )
  ( /4E0724BC/4E3ED6F8 SM0805  R527 100K {Lib=R}
-  (    1 N-000664 )
+  (    1 N-000650 )
   (    2 /efi/GND2 )
  )
  ( /4E0724BC/4E3ED6F5 SM0805  R559 1K {Lib=R}
   (    1 GND )
-  (    2 N-000630 )
+  (    2 N-000616 )
  )
  ( /4E0724BC/4E3ED6F4 SM0805  R550 1K {Lib=R}
-  (    1 N-000542 )
+  (    1 N-000528 )
   (    2 GND )
  )
  ( /4E0724BC/4E3ED6F3 SM0805  R511 1K {Lib=R}
-  (    1 N-000617 )
+  (    1 N-000603 )
   (    2 GND )
  )
  ( /4E0724BC/4E3ED6F2 SM0805  R502 1K {Lib=R}
   (    1 GND )
-  (    2 N-000588 )
+  (    2 N-000574 )
  )
  ( /4E0724BC/4E3ED6EE SM0805  C505 1uF {Lib=CP1}
   (    1 /SENSOR_INPUTS.sch/12V_BAT )
   (    2 /efi/GND2 )
  )
  ( /4E0724BC/4E3ED6EA SM0805  R522 1K {Lib=R}
-  (    1 N-000618 )
-  (    2 N-000658 )
+  (    1 N-000604 )
+  (    2 N-000644 )
  )
  ( /4E0724BC/4E3ED6E9 SO8E_ST  Q510 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000541 )
+  (    1 N-000527 )
   (    2 /efi/EFI_OUT1-3 )
   (    3 /efi/GND2 )
  )
  ( /4E0724BC/4E3ED6E8 SO8E_ST  Q504 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000658 )
+  (    1 N-000644 )
   (    2 /efi/EFI_OUT1-0 )
   (    3 /efi/GND2 )
  )
  ( /4E0724BC/4E3ED6E7 SM0805  R540 1K {Lib=R}
-  (    1 N-000607 )
-  (    2 N-000541 )
+  (    1 N-000593 )
+  (    2 N-000527 )
  )
  ( /4E0724BC/4E3ED6E6 SM0805  R539 1K {Lib=R}
-  (    1 N-000631 )
-  (    2 N-000642 )
+  (    1 N-000617 )
+  (    2 N-000628 )
  )
  ( /4E0724BC/4E3ED6E5 SO8E_ST  Q509 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000642 )
+  (    1 N-000628 )
   (    2 /efi/EFI_OUT1-2 )
   (    3 /efi/GND2 )
  )
  ( /4E0724BC/4E3ED6E4 SO8E_ST  Q503 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000664 )
+  (    1 N-000650 )
   (    2 /efi/EFI_OUT1-1 )
   (    3 /efi/GND2 )
  )
  ( /4E0724BC/4E3ED6E3 SM0805  R521 1K {Lib=R}
-  (    1 N-000589 )
-  (    2 N-000664 )
+  (    1 N-000575 )
+  (    2 N-000650 )
  )
  ( /4E0724BC/4E3ED6E2 SM0805  R581 1K {Lib=R}
-  (    1 N-000582 )
-  (    2 N-000663 )
+  (    1 N-000568 )
+  (    2 N-000649 )
  )
  ( /4E0724BC/4E3ED6E1 SO8E_ST  Q515 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000663 )
+  (    1 N-000649 )
   (    2 /efi/EFI_OUT4-0 )
   (    3 /efi/GND4 )
  )
  ( /4E0724BC/4E3ED6E0 SO8E_ST  Q521 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000641 )
+  (    1 N-000627 )
   (    2 /efi/EFI_OUT4-2 )
   (    3 /efi/GND4 )
  )
  ( /4E0724BC/4E3ED6DF SM0805  R599 1K {Lib=R}
-  (    1 N-000627 )
-  (    2 N-000641 )
+  (    1 N-000613 )
+  (    2 N-000627 )
  )
  ( /4E0724BC/4E3ED6DE SM0805  R600 1K {Lib=R}
-  (    1 N-000601 )
-  (    2 N-000551 )
+  (    1 N-000587 )
+  (    2 N-000537 )
  )
  ( /4E0724BC/4E3ED6DD SO8E_ST  Q516 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000652 )
+  (    1 N-000638 )
   (    2 /efi/EFI_OUT4-1 )
   (    3 /efi/GND4 )
  )
  ( /4E0724BC/4E3ED6DC SO8E_ST  Q522 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000551 )
+  (    1 N-000537 )
   (    2 /efi/EFI_OUT4-3 )
   (    3 /efi/GND4 )
  )
  ( /4E0724BC/4E3ED6DB SM0805  R582 1K {Lib=R}
-  (    1 N-000613 )
-  (    2 N-000652 )
+  (    1 N-000599 )
+  (    2 N-000638 )
  )
  ( /4E0724BC/4E3ED6D3 SM0805  R562 1K {Lib=R}
   (    1 GND )
-  (    2 N-000581 )
+  (    2 N-000567 )
  )
  ( /4E0724BC/4E3ED6D2 SM0805  R571 1K {Lib=R}
-  (    1 N-000651 )
+  (    1 N-000637 )
   (    2 GND )
  )
  ( /4E0724BC/4E3ED6D1 SM0805  R610 1K {Lib=R}
-  (    1 N-000552 )
+  (    1 N-000538 )
   (    2 GND )
  )
  ( /4E0724BC/4E3ED6D0 SM0805  R619 1K {Lib=R}
   (    1 GND )
-  (    2 N-000626 )
+  (    2 N-000612 )
  )
  ( /4E0724BC/4E3ED6CD SM0805  R587 100K {Lib=R}
-  (    1 N-000663 )
+  (    1 N-000649 )
   (    2 /efi/GND4 )
  )
  ( /4E0724BC/4E3ED6CC SM0805  R588 100K {Lib=R}
   (    1 /efi/GND4 )
-  (    2 N-000652 )
+  (    2 N-000638 )
  )
  ( /4E0724BC/4E3ED6CB SM0805  R594 100K {Lib=R}
   (    1 /efi/GND4 )
-  (    2 N-000551 )
+  (    2 N-000537 )
  )
  ( /4E0724BC/4E3ED6CA SM0805  R593 100K {Lib=R}
-  (    1 N-000641 )
+  (    1 N-000627 )
   (    2 /efi/GND4 )
  )
  ( /4E0724BC/4E3ED6C8 SM0805  R575 0R {Lib=R}
   (    1 /efi/5V_GND4 )
-  (    2 N-000662 )
+  (    2 N-000648 )
  )
  ( /4E0724BC/4E3ED6C5 SM0805  R605 0R {Lib=R}
-  (    1 N-000650 )
+  (    1 N-000636 )
   (    2 /efi/5V_GND4 )
  )
  ( /4E0724BC/4E3ED6BE SM0805  R665 0R {Lib=R}
-  (    1 N-000648 )
+  (    1 N-000634 )
   (    2 /efi/5V_GND2 )
  )
  ( /4E0724BC/4E3ED6BB SM0805  R635 0R {Lib=R}
   (    1 /efi/5V_GND2 )
-  (    2 N-000577 )
+  (    2 N-000563 )
  )
  ( /4E0724BC/4E3ED6B9 SM0805  R653 100K {Lib=R}
-  (    1 N-000553 )
+  (    1 N-000539 )
   (    2 /efi/GND2 )
  )
  ( /4E0724BC/4E3ED6B8 SM0805  R654 100K {Lib=R}
   (    1 /efi/GND2 )
-  (    2 N-000640 )
+  (    2 N-000626 )
  )
  ( /4E0724BC/4E3ED6B7 SM0805  R648 100K {Lib=R}
   (    1 /efi/GND2 )
-  (    2 N-000649 )
+  (    2 N-000635 )
  )
  ( /4E0724BC/4E3ED6B6 SM0805  R647 100K {Lib=R}
-  (    1 N-000656 )
+  (    1 N-000642 )
   (    2 /efi/GND2 )
  )
  ( /4E0724BC/4E3ED6B3 SM0805  R679 1K {Lib=R}
   (    1 GND )
-  (    2 N-000622 )
+  (    2 N-000608 )
  )
  ( /4E0724BC/4E3ED6B2 SM0805  R670 1K {Lib=R}
-  (    1 N-000554 )
+  (    1 N-000540 )
   (    2 GND )
  )
  ( /4E0724BC/4E3ED6B1 SM0805  R631 1K {Lib=R}
-  (    1 N-000633 )
+  (    1 N-000619 )
   (    2 GND )
  )
  ( /4E0724BC/4E3ED6B0 SM0805  R622 1K {Lib=R}
   (    1 GND )
-  (    2 N-000621 )
+  (    2 N-000607 )
  )
  ( /4E0724BC/4E3ED6A8 SM0805  R642 1K {Lib=R}
-  (    1 N-000634 )
-  (    2 N-000649 )
+  (    1 N-000620 )
+  (    2 N-000635 )
  )
  ( /4E0724BC/4E3ED6A7 SO8E_ST  Q534 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000640 )
+  (    1 N-000626 )
   (    2 /amp_connector/IGN08_HARN )
   (    3 /efi/GND2 )
  )
  ( /4E0724BC/4E3ED6A6 SO8E_ST  Q528 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000649 )
+  (    1 N-000635 )
   (    2 /amp_connector/IGN05_HARN )
   (    3 /efi/GND2 )
  )
  ( /4E0724BC/4E3ED6A5 SM0805  R660 1K {Lib=R}
-  (    1 N-000599 )
-  (    2 N-000640 )
+  (    1 N-000585 )
+  (    2 N-000626 )
  )
  ( /4E0724BC/4E3ED6A4 SM0805  R659 1K {Lib=R}
-  (    1 N-000553 )
-  (    2 N-000623 )
+  (    1 N-000539 )
+  (    2 N-000609 )
  )
  ( /4E0724BC/4E3ED6A3 SO8E_ST  Q533 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000553 )
+  (    1 N-000539 )
   (    2 /amp_connector/IGN07_HARN )
   (    3 /efi/GND2 )
  )
  ( /4E0724BC/4E3ED6A2 SO8E_ST  Q527 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000656 )
+  (    1 N-000642 )
   (    2 /amp_connector/IGN06_HARN )
   (    3 /efi/GND2 )
  )
  ( /4E0724BC/4E3ED6A1 SM0805  R641 1K {Lib=R}
-  (    1 N-000656 )
-  (    2 N-000576 )
+  (    1 N-000642 )
+  (    2 N-000562 )
  )
  ( /4E0724BC/4E3ED65E SM0805  R639 1K {Lib=R}
-  (    1 N-000657 )
-  (    2 N-000579 )
+  (    1 N-000643 )
+  (    2 N-000565 )
  )
  ( /4E0724BC/4E3ED65D SO8E_ST  Q525 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000657 )
+  (    1 N-000643 )
   (    2 /amp_connector/IGN01_HARN )
   (    3 /efi/GND1 )
  )
  ( /4E0724BC/4E3ED65C SO8E_ST  Q531 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000644 )
+  (    1 N-000630 )
   (    2 /amp_connector/IGN03_HARN )
   (    3 /efi/GND1 )
  )
  ( /4E0724BC/4E3ED65B SM0805  R657 1K {Lib=R}
-  (    1 N-000644 )
-  (    2 N-000624 )
+  (    1 N-000630 )
+  (    2 N-000610 )
  )
  ( /4E0724BC/4E3ED65A SM0805  R658 1K {Lib=R}
-  (    1 N-000600 )
-  (    2 N-000539 )
+  (    1 N-000586 )
+  (    2 N-000525 )
  )
  ( /4E0724BC/4E3ED659 SO8E_ST  Q526 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000655 )
+  (    1 N-000641 )
   (    2 /amp_connector/IGN02_HARN )
   (    3 /efi/GND1 )
  )
  ( /4E0724BC/4E3ED658 SO8E_ST  Q532 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000539 )
+  (    1 N-000525 )
   (    2 /amp_connector/IGN04_HARN )
   (    3 /efi/GND1 )
  )
  ( /4E0724BC/4E3ED657 SM0805  R640 1K {Lib=R}
-  (    1 N-000612 )
-  (    2 N-000655 )
+  (    1 N-000598 )
+  (    2 N-000641 )
  )
  ( /4E0724BC/4E3ED64F SM0805  R621 1K {Lib=R}
   (    1 GND )
-  (    2 N-000578 )
+  (    2 N-000564 )
  )
  ( /4E0724BC/4E3ED64E SM0805  R630 1K {Lib=R}
-  (    1 N-000654 )
+  (    1 N-000640 )
   (    2 GND )
  )
  ( /4E0724BC/4E3ED64D SM0805  R669 1K {Lib=R}
-  (    1 N-000643 )
+  (    1 N-000629 )
   (    2 GND )
  )
  ( /4E0724BC/4E3ED64C SM0805  R678 1K {Lib=R}
   (    1 GND )
-  (    2 N-000540 )
+  (    2 N-000526 )
  )
  ( /4E0724BC/4E3ED649 SM0805  R645 100K {Lib=R}
-  (    1 N-000657 )
+  (    1 N-000643 )
   (    2 /efi/GND1 )
  )
  ( /4E0724BC/4E3ED648 SM0805  R646 100K {Lib=R}
   (    1 /efi/GND1 )
-  (    2 N-000655 )
+  (    2 N-000641 )
  )
  ( /4E0724BC/4E3ED647 SM0805  R652 100K {Lib=R}
   (    1 /efi/GND1 )
-  (    2 N-000539 )
+  (    2 N-000525 )
  )
  ( /4E0724BC/4E3ED646 SM0805  R651 100K {Lib=R}
-  (    1 N-000644 )
+  (    1 N-000630 )
   (    2 /efi/GND1 )
  )
  ( /4E0724BC/4E3ED644 SM0805  R633 0R {Lib=R}
   (    1 /efi/5V_GND1 )
-  (    2 N-000580 )
+  (    2 N-000566 )
  )
  ( /4E0724BC/4E3ED641 SM0805  R663 0R {Lib=R}
-  (    1 N-000653 )
+  (    1 N-000639 )
   (    2 /efi/5V_GND1 )
  )
  ( /4E0724BC/4E3ED63A SM0805  R603 0R {Lib=R}
-  (    1 N-000563 )
+  (    1 N-000549 )
   (    2 /efi/5V_GND4 )
  )
  ( /4E0724BC/4E3ED637 SM0805  R573 0R {Lib=R}
   (    1 /efi/5V_GND4 )
-  (    2 N-000560 )
+  (    2 N-000546 )
  )
  ( /4E0724BC/4E3ED636 SM0805  C507 1uF {Lib=CP1}
   (    1 /efi/5V_GND4 )
   (    2 /efi/GND4 )
  )
  ( /4E0724BC/4E3ED635 SM0805  R591 100K {Lib=R}
-  (    1 N-000534 )
+  (    1 N-000520 )
   (    2 /efi/GND4 )
  )
  ( /4E0724BC/4E3ED634 SM0805  R592 100K {Lib=R}
   (    1 /efi/GND4 )
-  (    2 N-000645 )
+  (    2 N-000631 )
  )
  ( /4E0724BC/4E3ED633 SM0805  R586 100K {Lib=R}
   (    1 /efi/GND4 )
-  (    2 N-000555 )
+  (    2 N-000541 )
  )
  ( /4E0724BC/4E3ED632 SM0805  R585 100K {Lib=R}
-  (    1 N-000568 )
+  (    1 N-000554 )
   (    2 /efi/GND4 )
  )
  ( /4E0724BC/4E3ED62F SM0805  R618 1K {Lib=R}
   (    1 GND )
-  (    2 N-000625 )
+  (    2 N-000611 )
  )
  ( /4E0724BC/4E3ED62E SM0805  R609 1K {Lib=R}
-  (    1 N-000538 )
+  (    1 N-000524 )
   (    2 GND )
  )
  ( /4E0724BC/4E3ED62D SM0805  R570 1K {Lib=R}
-  (    1 N-000562 )
+  (    1 N-000548 )
   (    2 GND )
  )
  ( /4E0724BC/4E3ED62C SM0805  R561 1K {Lib=R}
   (    1 GND )
-  (    2 N-000561 )
+  (    2 N-000547 )
  )
  ( /4E0724BC/4E3ED628 SM0805  C510 1uF {Lib=CP1}
   (    1 /SENSOR_INPUTS.sch/12V_BAT )
   (    2 /efi/GND4 )
  )
  ( /4E0724BC/4E3ED624 SM0805  R580 1K {Lib=R}
-  (    1 N-000556 )
-  (    2 N-000555 )
+  (    1 N-000542 )
+  (    2 N-000541 )
  )
  ( /4E0724BC/4E3ED623 SO8E_ST  Q520 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000645 )
+  (    1 N-000631 )
   (    2 /efi/EFI_OUT3-3 )
   (    3 /efi/GND4 )
  )
  ( /4E0724BC/4E3ED622 SO8E_ST  Q514 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000555 )
+  (    1 N-000541 )
   (    2 /efi/EFI_OUT3-0 )
   (    3 /efi/GND4 )
  )
  ( /4E0724BC/4E3ED621 SM0805  R598 1K {Lib=R}
-  (    1 N-000557 )
-  (    2 N-000645 )
+  (    1 N-000543 )
+  (    2 N-000631 )
  )
  ( /4E0724BC/4E3ED620 SM0805  R597 1K {Lib=R}
-  (    1 N-000534 )
-  (    2 N-000558 )
+  (    1 N-000520 )
+  (    2 N-000544 )
  )
  ( /4E0724BC/4E3ED61F SO8E_ST  Q519 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000534 )
+  (    1 N-000520 )
   (    2 /efi/EFI_OUT3-2 )
   (    3 /efi/GND4 )
  )
  ( /4E0724BC/4E3ED61E SO8E_ST  Q513 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000568 )
+  (    1 N-000554 )
   (    2 /efi/EFI_OUT3-1 )
   (    3 /efi/GND4 )
  )
  ( /4E0724BC/4E3ED61D SM0805  R579 1K {Lib=R}
-  (    1 N-000568 )
-  (    2 N-000559 )
+  (    1 N-000554 )
+  (    2 N-000545 )
  )
  ( /4E0724BC/4E3ED610 SM0805  R519 1K {Lib=R}
-  (    1 N-000569 )
-  (    2 N-000571 )
+  (    1 N-000555 )
+  (    2 N-000557 )
  )
  ( /4E0724BC/4E3ED60F SO8E_ST  Q501 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000569 )
+  (    1 N-000555 )
   (    2 /efi/EFI_OUT0-1 )
   (    3 /efi/GND1 )
  )
  ( /4E0724BC/4E3ED60E SO8E_ST  Q507 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000536 )
+  (    1 N-000522 )
   (    2 /efi/EFI_OUT0-2 )
   (    3 /efi/GND1 )
  )
  ( /4E0724BC/4E3ED60D SM0805  R537 1K {Lib=R}
-  (    1 N-000536 )
-  (    2 N-000572 )
+  (    1 N-000522 )
+  (    2 N-000558 )
  )
  ( /4E0724BC/4E3ED60C SM0805  R538 1K {Lib=R}
-  (    1 N-000573 )
-  (    2 N-000646 )
+  (    1 N-000559 )
+  (    2 N-000632 )
  )
  ( /4E0724BC/4E3ED60B SO8E_ST  Q502 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000567 )
+  (    1 N-000553 )
   (    2 /efi/EFI_OUT0-0 )
   (    3 /efi/GND1 )
  )
  ( /4E0724BC/4E3ED60A SO8E_ST  Q508 OVP_DRIVER {Lib=IRGS14C40L}
-  (    1 N-000646 )
+  (    1 N-000632 )
   (    2 /efi/EFI_OUT0-3 )
   (    3 /efi/GND1 )
  )
  ( /4E0724BC/4E3ED609 SM0805  R520 1K {Lib=R}
-  (    1 N-000574 )
-  (    2 N-000567 )
+  (    1 N-000560 )
+  (    2 N-000553 )
  )
  ( /4E0724BC/4E3ED608 relay-SOP04  U501 OPTO {Lib=VO1400}
   (    1 /CPU/02_INJ_DIGI )
-  (    2 N-000570 )
-  (    3 N-000571 )
-  (    4 N-000564 )
+  (    2 N-000556 )
+  (    3 N-000557 )
+  (    4 N-000550 )
  )
  ( /4E0724BC/4E3ED605 SM0805  C504 1uF {Lib=CP1}
   (    1 /SENSOR_INPUTS.sch/12V_BAT )
@@ -1929,34 +1817,34 @@
  )
  ( /4E0724BC/4E3ED601 SM0805  R501 1K {Lib=R}
   (    1 GND )
-  (    2 N-000570 )
+  (    2 N-000556 )
  )
  ( /4E0724BC/4E3ED600 SM0805  R510 1K {Lib=R}
-  (    1 N-000566 )
+  (    1 N-000552 )
   (    2 GND )
  )
  ( /4E0724BC/4E3ED5FF SM0805  R549 1K {Lib=R}
-  (    1 N-000535 )
+  (    1 N-000521 )
   (    2 GND )
  )
  ( /4E0724BC/4E3ED5FE SM0805  R558 1K {Lib=R}
   (    1 GND )
-  (    2 N-000575 )
+  (    2 N-000561 )
  )
  ( /4E0724BC/4E3ED5FB SM0805  R525 100K {Lib=R}
-  (    1 N-000569 )
+  (    1 N-000555 )
   (    2 /efi/GND1 )
  )
  ( /4E0724BC/4E3ED5FA SM0805  R526 100K {Lib=R}
   (    1 /efi/GND1 )
-  (    2 N-000567 )
+  (    2 N-000553 )
  )
  ( /4E0724BC/4E3ED5F9 SM0805  R532 100K {Lib=R}
   (    1 /efi/GND1 )
-  (    2 N-000646 )
+  (    2 N-000632 )
  )
  ( /4E0724BC/4E3ED5F8 SM0805  R531 100K {Lib=R}
-  (    1 N-000536 )
+  (    1 N-000522 )
   (    2 /efi/GND1 )
  )
  ( /4E0724BC/4E3ED5F7 SM0805  C501 1uF {Lib=CP1}
@@ -1965,171 +1853,171 @@
  )
  ( /4E0724BC/4E3ED5F6 SM0805  R513 0R {Lib=R}
   (    1 /efi/5V_GND1 )
-  (    2 N-000564 )
+  (    2 N-000550 )
  )
  ( /4E0724BC/4E3ED5F3 SM0805  R543 0R {Lib=R}
-  (    1 N-000565 )
+  (    1 N-000551 )
   (    2 /efi/5V_GND1 )
  )
  ( /4E1209C1/4E39E403 SM0805  R723 5k {Lib=R}
   (    1 /CAN_TJA1054/5V )
-  (    2 N-000685 )
+  (    2 N-000671 )
  )
  ( /4E1209C1/4E39E401 SM0805  R732 5k {Lib=R}
   (    1 /RPM_sub_circuit.sch/RF_SIG+ )
-  (    2 N-000682 )
+  (    2 N-000668 )
  )
  ( /4E1209C1/4E39E3FF SM0805  R731 5k {Lib=R}
   (    1 /RPM_sub_circuit.sch/RF_SIG- )
-  (    2 N-000679 )
+  (    2 N-000665 )
  )
  ( /4E1209C1/4E39E3FD SM0805  R730 5k {Lib=R}
   (    1 /RPM_sub_circuit.sch/LF_SIG- )
-  (    2 N-000670 )
+  (    2 N-000656 )
  )
  ( /4E1209C1/4E39E3FB SM0805  R729 5k {Lib=R}
   (    1 /RPM_sub_circuit.sch/LF_SIG+ )
-  (    2 N-000671 )
+  (    2 N-000657 )
  )
  ( /4E1209C1/4E39E3F9 SM0805  R717 5k {Lib=R}
   (    1 /CAN_TJA1054/5V )
-  (    2 N-000681 )
+  (    2 N-000667 )
  )
  ( /4E1209C1/4E39E3F6 SM0805  R718 5k {Lib=R}
-  (    1 N-000671 )
-  (    2 N-000681 )
+  (    1 N-000657 )
+  (    2 N-000667 )
  )
  ( /4E1209C1/4E39E3F0 SM0805  R719 5k {Lib=R}
-  (    1 N-000670 )
-  (    2 N-000680 )
+  (    1 N-000656 )
+  (    2 N-000666 )
  )
  ( /4E1209C1/4E39E3EE SM0805  R720 5k {Lib=R}
   (    1 /CAN_TJA1054/5V )
-  (    2 N-000693 )
+  (    2 N-000679 )
  )
  ( /4E1209C1/4E39E3EC SM0805  R721 5k {Lib=R}
-  (    1 N-000679 )
-  (    2 N-000683 )
+  (    1 N-000665 )
+  (    2 N-000669 )
  )
  ( /4E1209C1/4E39E3E9 SM0805  R713 5k {Lib=R}
-  (    1 N-000680 )
-  (    2 N-000681 )
+  (    1 N-000666 )
+  (    2 N-000667 )
  )
  ( /4E1209C1/4E39E3E7 SM0805  R722 5k {Lib=R}
-  (    1 N-000682 )
-  (    2 N-000693 )
+  (    1 N-000668 )
+  (    2 N-000679 )
  )
  ( /4E1209C1/4E39E3E4 SM0805  R714 5k {Lib=R}
-  (    1 N-000693 )
-  (    2 N-000683 )
+  (    1 N-000679 )
+  (    2 N-000669 )
  )
  ( /4E1209C1/4E39E3DE SM0805  R715 5k {Lib=R}
-  (    1 N-000684 )
-  (    2 N-000685 )
+  (    1 N-000670 )
+  (    2 N-000671 )
  )
  ( /4E1209C1/4E39E3DA SM0805  R724 5k {Lib=R}
-  (    1 N-000686 )
-  (    2 N-000685 )
+  (    1 N-000672 )
+  (    2 N-000671 )
  )
  ( /4E1209C1/4E39E3D8 SM0805  R733 5k {Lib=R}
   (    1 /RPM_sub_circuit.sch/LB_SIG+ )
-  (    2 N-000686 )
+  (    2 N-000672 )
  )
  ( /4E1209C1/4E39E3D6 SM0805  R734 5k {Lib=R}
   (    1 /RPM_sub_circuit.sch/LB_SIG- )
-  (    2 N-000687 )
+  (    2 N-000673 )
  )
  ( /4E1209C1/4E39E3D4 SM0805  R725 5k {Lib=R}
-  (    1 N-000687 )
-  (    2 N-000684 )
+  (    1 N-000673 )
+  (    2 N-000670 )
  )
  ( /4E1209C1/4E39E3D2 SM0805  R726 5k {Lib=R}
   (    1 /CAN_TJA1054/5V )
-  (    2 N-000694 )
+  (    2 N-000680 )
  )
  ( /4E1209C1/4E39E3CF SM0805  R736 5k {Lib=R}
   (    1 /RPM_sub_circuit.sch/RB_SIG+ )
-  (    2 N-000688 )
+  (    2 N-000674 )
  )
  ( /4E1209C1/4E39E3CD SM0805  R735 5k {Lib=R}
   (    1 /RPM_sub_circuit.sch/RB_SIG- )
-  (    2 N-000674 )
+  (    2 N-000660 )
  )
  ( /4E1209C1/4E39E3CB SM0805  R727 5k {Lib=R}
-  (    1 N-000674 )
-  (    2 N-000675 )
+  (    1 N-000660 )
+  (    2 N-000661 )
  )
  ( /4E1209C1/4E39E3C7 SM0805  R728 5k {Lib=R}
-  (    1 N-000688 )
-  (    2 N-000694 )
+  (    1 N-000674 )
+  (    2 N-000680 )
  )
  ( /4E1209C1/4E39E3C0 SM0805  R716 5k {Lib=R}
-  (    1 N-000694 )
-  (    2 N-000675 )
+  (    1 N-000680 )
+  (    2 N-000661 )
  )
  ( /4E1209C1/4E39E3AF SM0805  R689 5k {Lib=R}
   (    1 /CAN_TJA1054/5V )
-  (    2 N-000669 )
+  (    2 N-000655 )
  )
  ( /4E1209C1/4E39E3AD SM0805  R690 5k {Lib=R}
-  (    1 N-000676 )
-  (    2 N-000669 )
+  (    1 N-000662 )
+  (    2 N-000655 )
  )
  ( /4E1209C1/4E39E3A9 SM0805  R701 5k {Lib=R}
   (    1 /amp_connector/CRANK+ )
-  (    2 N-000676 )
+  (    2 N-000662 )
  )
  ( /4E1209C1/4E39E3A5 SM0805  R702 5k {Lib=R}
   (    1 /amp_connector/CRANK- )
-  (    2 N-000677 )
+  (    2 N-000663 )
  )
  ( /4E1209C1/4E39E3A0 SM0805  R691 5k {Lib=R}
-  (    1 N-000677 )
-  (    2 N-000668 )
+  (    1 N-000663 )
+  (    2 N-000654 )
  )
  ( /4E1209C1/4E39E39D SM0805  R704 5k {Lib=R}
-  (    1 /RPM_sub_circuit.sch/CAM+ )
-  (    2 N-000691 )
+  (    1 /amp_connector/CAM+ )
+  (    2 N-000677 )
  )
  ( /4E1209C1/4E39E39B SM0805  R703 5k {Lib=R}
   (    1 /RPM_sub_circuit.sch/CAM- )
-  (    2 N-000678 )
+  (    2 N-000664 )
  )
  ( /4E1209C1/4E39E399 SM0805  R692 5k {Lib=R}
   (    1 /CAN_TJA1054/5V )
-  (    2 N-000692 )
+  (    2 N-000678 )
  )
  ( /4E1209C1/4E39E396 SM0805  R693 5k {Lib=R}
-  (    1 N-000678 )
-  (    2 N-000667 )
+  (    1 N-000664 )
+  (    2 N-000653 )
  )
  ( /4E1209C1/4E39E393 SM0805  R694 5k {Lib=R}
-  (    1 N-000691 )
-  (    2 N-000692 )
+  (    1 N-000677 )
+  (    2 N-000678 )
  )
  ( /4E1209C1/4E39E390 SM0805  R685 5k {Lib=R}
-  (    1 N-000668 )
-  (    2 N-000669 )
+  (    1 N-000654 )
+  (    2 N-000655 )
  )
  ( /4E1209C1/4E39E38D SM0805  R686 5k {Lib=R}
-  (    1 N-000692 )
-  (    2 N-000667 )
+  (    1 N-000678 )
+  (    2 N-000653 )
  )
  ( /4E1209C1/4E39DFC1 SM0805  R709 10k {Lib=R}
   (    1 /CAN_TJA1054/5V )
   (    2 /CPU/MAX9924_WHFL_DIGI )
  )
  ( /4E1209C1/4E39DFC0 SM0805  C613 1nF {Lib=C}
-  (    1 N-000680 )
-  (    2 N-000681 )
+  (    1 N-000666 )
+  (    2 N-000667 )
  )
  ( /4E1209C1/4E39DFBE SM0805-C1  C611 10uF {Lib=C}
   (    1 GND )
   (    2 /CAN_TJA1054/5V )
  )
  ( /4E1209C1/4E39DFBB SM0805  C614 1nF {Lib=C}
-  (    1 N-000693 )
-  (    2 N-000683 )
+  (    1 N-000679 )
+  (    2 N-000669 )
  )
  ( /4E1209C1/4E39DFB8 SM0805  R710 10k {Lib=R}
   (    1 /CPU/MAX9924_WHFR_DIGI )
@@ -2148,14 +2036,14 @@
   (    6 GND )
   (    7 ? )
   (    8 GND )
-  (    9 N-000693 )
-  (   10 N-000683 )
+  (    9 N-000679 )
+  (   10 N-000669 )
   (   11 GND )
   (   12 GND )
   (   13 GND )
   (   14 /CAN_TJA1054/5V )
-  (   15 N-000680 )
-  (   16 N-000681 )
+  (   15 N-000666 )
+  (   16 N-000667 )
  )
  ( /4E1209C1/4E39DF3A MAXIM-10-QSOP16  U604 MAX9926/9927 {Lib=MAX9926/9927}
   (    1 GND )
@@ -2166,14 +2054,14 @@
   (    6 GND )
   (    7 ? )
   (    8 GND )
-  (    9 N-000694 )
-  (   10 N-000675 )
+  (    9 N-000680 )
+  (   10 N-000661 )
   (   11 GND )
   (   12 GND )
   (   13 GND )
   (   14 /CAN_TJA1054/5V )
-  (   15 N-000684 )
-  (   16 N-000685 )
+  (   15 N-000670 )
+  (   16 N-000671 )
  )
  ( /4E1209C1/4E39DF39 SM0805-C1  C610 0.1uF {Lib=C}
   (    1 GND )
@@ -2184,16 +2072,16 @@
   (    2 /CAN_TJA1054/5V )
  )
  ( /4E1209C1/4E39DF35 SM0805  C616 1nF {Lib=C}
-  (    1 N-000694 )
-  (    2 N-000675 )
+  (    1 N-000680 )
+  (    2 N-000661 )
  )
  ( /4E1209C1/4E39DF32 SM0805-C1  C612 10uF {Lib=C}
   (    1 GND )
   (    2 /CAN_TJA1054/5V )
  )
  ( /4E1209C1/4E39DF30 SM0805  C615 1nF {Lib=C}
-  (    1 N-000684 )
-  (    2 N-000685 )
+  (    1 N-000670 )
+  (    2 N-000671 )
  )
  ( /4E1209C1/4E39DF2F SM0805  R711 10k {Lib=R}
   (    1 /CAN_TJA1054/5V )
@@ -2208,14 +2096,14 @@
   (    6 GND )
   (    7 ? )
   (    8 GND )
-  (    9 N-000692 )
-  (   10 N-000667 )
+  (    9 N-000678 )
+  (   10 N-000653 )
   (   11 GND )
   (   12 GND )
   (   13 GND )
   (   14 /CAN_TJA1054/5V )
-  (   15 N-000668 )
-  (   16 N-000669 )
+  (   15 N-000654 )
+  (   16 N-000655 )
  )
  ( /4E1209C1/4ADA0C57 SM0805-C1  C601 0.1uF {Lib=C}
   (    1 GND )
@@ -2226,16 +2114,16 @@
   (    2 /CAN_TJA1054/5V )
  )
  ( /4E1209C1/4AD9CD25 SM0805  C606 1nF {Lib=C}
-  (    1 N-000692 )
-  (    2 N-000667 )
+  (    1 N-000678 )
+  (    2 N-000653 )
  )
  ( /4E1209C1/4AD9CB8E SM0805-C1  C603 10uF {Lib=C}
   (    1 GND )
   (    2 /CAN_TJA1054/5V )
  )
  ( /4E1209C1/4AD9C851 SM0805  C605 1nF {Lib=C}
-  (    1 N-000668 )
-  (    2 N-000669 )
+  (    1 N-000654 )
+  (    2 N-000655 )
  )
  ( /4E1209C1/4AD9C75B SM0805  R681 10k {Lib=R}
   (    1 /CAN_TJA1054/5V )
@@ -2275,15 +2163,15 @@
  )
  ( /4E391B6E/4D197A99 LED-0805  D701 LED {Lib=LED}
   (    1 /power_regulator_constant/+12V )
-  (    2 N-000695 )
+  (    2 N-000681 )
  )
  ( /4E391B6E/4D197A9A SM0805  R737 3.3k {Lib=R}
   (    1 GND )
-  (    2 N-000695 )
+  (    2 N-000681 )
  )
  ( /4E391B6E/4BF266C9 SM4.7uH  L701 4.7uH {Lib=INDUCTOR}
   (    1 /power_regulator_constant/+12V )
-  (    2 N-000696 )
+  (    2 N-000682 )
  )
  ( /4E391B6E/4895133C SM0805-C1  C705 100nF {Lib=C}
   (    1 /SENSOR_INPUTS.sch/12V_BAT )
@@ -2295,14 +2183,14 @@
  )
  ( /4E391B6E/486ECB4E D4-SMB  D702 STTH4R02S {Lib=DIODE}
   (    1 /SENSOR_INPUTS.sch/12V_BAT )
-  (    2 N-000696 )
+  (    2 N-000682 )
  )
  ( /4E391B6E/486ECB44 DO214  D703 TPSMA27A {Lib=DIODE}
   (    1 GND )
-  (    2 N-000696 )
+  (    2 N-000682 )
  )
  ( /4E391B6E/486CA8EA SM0805-C1  C708 100uF {Lib=CAPAPOL}
-  (    1 N-000696 )
+  (    1 N-000682 )
   (    2 GND )
  )
  ( /4E391B6E/486CA8E4 SM0805-C1  C714 100uF {Lib=CAPAPOL}
@@ -2310,7 +2198,7 @@
   (    2 GND )
  )
  ( /4E391B6E/4D893030 SM0805-C1  C709 100nF {Lib=C}
-  (    1 N-000696 )
+  (    1 N-000682 )
   (    2 GND )
  )
  ( /4E391B6E/4CB21BF3 SM2512  C710 22uF {Lib=C}
@@ -2335,21 +2223,21 @@
  )
  ( /4E391B6E/4D803D42 SM0805  R739 100k {Lib=R}
   (    1 /CAN_TJA1054/5V )
-  (    2 N-000697 )
+  (    2 N-000683 )
  )
  ( /4E391B6E/4D803C1B SOD-123  D706 5v1 {Lib=ZENER}
   (    1 GND )
-  (    2 N-000698 )
+  (    2 N-000684 )
  )
  ( /4E391B6E/4D803292 DPAK5  U703 MCP1826 {Lib=MCP1826}
-  (    1 N-000698 )
+  (    1 N-000684 )
   (    2 /power_regulator_constant/+12V )
   (    3 GND )
   (    4 /CAN_TJA1054/5V )
-  (    5 N-000697 )
+  (    5 N-000683 )
  )
  ( /4E391B6E/4CC4C2A7 SM0805  R738 10k {Lib=R}
-  (    1 N-000698 )
+  (    1 N-000684 )
   (    2 /CPU/3.3V_CONST )
  )
  ( /4E391B6E/4C2F52A3 SM0805-C1  C717 0.1uF {Lib=C}
@@ -2492,9 +2380,9 @@
  )
  ( /4C0E2D2F/4C3E5656 SO8E  Q1003 IRF7341 {Lib=IRF7341}
   (    1 /low_side_drive1/GND_PWR8 )
-  (    2 N-000478 )
+  (    2 N-000485 )
   (    3 /low_side_drive1/GND_PWR8 )
-  (    4 N-000479 )
+  (    4 N-000478 )
   (    5 /amp_connector/O2_HD1_PWR )
   (    6 /amp_connector/O2_HD1_PWR )
   (    7 /amp_connector/O2_HD2_PWR )
@@ -2502,7 +2390,7 @@
  )
  ( /4C0E2D2F/4C3E5640 SO8E  Q1001 IRF7341 {Lib=IRF7341}
   (    1 /low_side_drive1/GND_PWR8 )
-  (    2 N-000493 )
+  (    2 N-000484 )
   (    3 /low_side_drive1/GND_PWR8 )
   (    4 N-000466 )
   (    5 /low_side_drive1/misc3_drv_LO )
@@ -2512,9 +2400,9 @@
  )
  ( /4C0E2D2F/4C3E563E SO8E  Q1002 IRF7341 {Lib=IRF7341}
   (    1 /low_side_drive1/GND_PWR8 )
-  (    2 N-000496 )
+  (    2 N-000481 )
   (    3 /low_side_drive1/GND_PWR8 )
-  (    4 N-000477 )
+  (    4 N-000486 )
   (    5 /amp_connector/PUMP_LS-1A )
   (    6 /amp_connector/PUMP_LS-1A )
   (    7 /amp_connector/MIL_LS-1A )
@@ -2525,7 +2413,7 @@
  )
  ( /4C0E2D2F/4BF654C5 SM0805  R1009 0R {Lib=R}
   (    1 /low_side_drive1/GND_PWR8 )
-  (    2 N-000487 )
+  (    2 N-000491 )
  )
  ( /4C0E2D2F/4BF656AF PINTST  P1015 CONN_1 {Lib=CONN_1}
   (    1 /low_side_drive1/800_CCD2 )
@@ -2540,12 +2428,12 @@
  )
  ( /4C0E2D2F/4BF655BB SOIC54  U1001 MC33800 {Lib=MC33800}
   (    1 /amp_connector/MIL_LS-1A )
-  (    2 N-000495 )
+  (    2 N-000480 )
   (    3 /low_side_drive1/misc3_drv_LO )
-  (    4 N-000494 )
+  (    4 N-000482 )
   (    5 /amp_connector/MISC_1A )
-  (    6 N-000492 )
-  (    7 N-000487 )
+  (    6 N-000483 )
+  (    7 N-000491 )
   (    8 N-000468 )
   (    9 /high_side_drive1/3412_SI )
   (   10 /high_side_drive1/3412_SCLK )
@@ -2566,17 +2454,17 @@
   (   25 /low_side_drive1/EN0 )
   (   26 N-000471 )
   (   27 /low_side_drive1/800_CCD1 )
-  (   28 N-000484 )
+  (   28 N-000488 )
   (   29 GND )
   (   30 /power_regulator_constant/+12V )
   (   31 GND )
   (   32 N-000476 )
   (   33 /CPU/3.3V )
   (   34 /high_side_drive1/3412_SO )
-  (   35 N-000482 )
+  (   35 N-000487 )
   (   36 /low_side_drive1/col_fan_LO )
   (   37 /low_side_drive1/col_tmp_LO )
-  (   38 N-000485 )
+  (   38 N-000489 )
   (   39 /low_side_drive1/GND_PWR8 )
   (   40 /low_side_drive1/fault_LO )
   (   41 /low_side_drive1/tac_out_LO )
@@ -2586,8 +2474,8 @@
   (   45 /low_side_drive1/purge_LO )
   (   46 /low_side_drive1/GND_PWR8 )
   (   47 N-000470 )
-  (   48 N-000488 )
-  (   49 N-000486 )
+  (   48 N-000492 )
+  (   49 N-000490 )
   (   50 /amp_connector/O2_HD1_PWR )
   (   51 N-000472 )
   (   52 /amp_connector/O2_HD2_PWR )
@@ -2595,14 +2483,14 @@
   (   54 /amp_connector/PUMP_LS-1A )
  )
  ( /4C0E2D2F/4BF654BB PINTST  P1016 CONN_1 {Lib=CONN_1}
-  (    1 N-000487 )
+  (    1 N-000491 )
  )
  ( /4C0E2D2F/4BF65450 PINTST  P1018 CONN_1 {Lib=CONN_1}
-  (    1 N-000488 )
+  (    1 N-000492 )
  )
  ( /4C0E2D2F/4E467E08 SM0805  R1012 0R {Lib=R}
   (    1 /low_side_drive1/GND_PWR8 )
-  (    2 N-000488 )
+  (    2 N-000492 )
  )
  ( /4C0E2D2F/4BF65288 PINTST  P1012 CONN_1 {Lib=CONN_1}
   (    1 /low_side_drive1/800_PWM4 )
@@ -2678,11 +2566,11 @@
   (    1 /amp_connector/MISC_1A )
  )
  ( /4C0E2D2F/4BF65136 SM0805  R1001 0R {Lib=R}
-  (    1 N-000493 )
-  (    2 N-000492 )
+  (    1 N-000484 )
+  (    2 N-000483 )
  )
  ( /4C0E2D2F/4BF65135 SM0805  R1002 NA {Lib=R}
-  (    1 N-000493 )
+  (    1 N-000484 )
   (    2 /low_side_drive1/GND_PWR8 )
  )
  ( /4C0E2D2F/4BF65130 SM0805  R1004 NA {Lib=R}
@@ -2691,17 +2579,17 @@
  )
  ( /4C0E2D2F/4BF6512F SM0805  R1006 0R {Lib=R}
   (    1 N-000466 )
-  (    2 N-000494 )
+  (    2 N-000482 )
  )
  ( /4C0E2D2F/4BF6512E PINTST  P1002 CONN_1 {Lib=CONN_1}
   (    1 /low_side_drive1/misc3_drv_LO )
  )
  ( /4C0E2D2F/4BF6512D SM0805  R1008 0R {Lib=R}
-  (    1 N-000496 )
-  (    2 N-000495 )
+  (    1 N-000481 )
+  (    2 N-000480 )
  )
  ( /4C0E2D2F/4E467E04 SM0805  R1005 NA {Lib=R}
-  (    1 N-000496 )
+  (    1 N-000481 )
   (    2 /low_side_drive1/GND_PWR8 )
  )
  ( /4C0E2D2F/4BF65129 PINTST  P1004 CONN_1 {Lib=CONN_1}
@@ -2711,26 +2599,26 @@
   (    1 /amp_connector/PUMP_LS-1A )
  )
  ( /4C0E2D2F/4BF650CE SM0805  R1014 NA {Lib=R}
-  (    1 N-000477 )
+  (    1 N-000486 )
   (    2 /low_side_drive1/GND_PWR8 )
  )
  ( /4C0E2D2F/4BF650CD SM0805  R1010 0R {Lib=R}
-  (    1 N-000477 )
+  (    1 N-000486 )
   (    2 N-000473 )
  )
  ( /4C0E2D2F/4BF64F5A PINTST  P1030 CONN_1 {Lib=CONN_1}
   (    1 /amp_connector/O2_HD2_PWR )
  )
  ( /4C0E2D2F/4BF64F59 SM0805  R1013 0R {Lib=R}
-  (    1 N-000478 )
+  (    1 N-000485 )
   (    2 N-000472 )
  )
  ( /4C0E2D2F/4BF64F58 SM0805  R1016 NA {Lib=R}
-  (    1 N-000478 )
+  (    1 N-000485 )
   (    2 /low_side_drive1/GND_PWR8 )
  )
  ( /4C0E2D2F/4BF64D08 D4-SMA  D1002 MBRA340T3 {Lib=ZENER}
-  (    1 N-000484 )
+  (    1 N-000488 )
   (    2 /SENSOR_INPUTS.sch/12V_BAT )
  )
  ( /4C0E2D2F/4BF509BE PINTST  P1019 CONN_1 {Lib=CONN_1}
@@ -2780,10 +2668,10 @@
  )
  ( /4C0E2D2F/4BF5072D SM0805-C1  C1017 10nF {Lib=C}
   (    1 /low_side_drive1/GND_PWR8 )
-  (    2 N-000485 )
+  (    2 N-000489 )
  )
  ( /4C0E2D2F/4BF5072C PINTST  P1025 CONN_1 {Lib=CONN_1}
-  (    1 N-000485 )
+  (    1 N-000489 )
  )
  ( /4C0E2D2F/4BF3BECD SM0805-C1  C1023 10nF {Lib=C}
   (    1 /low_side_drive1/GND_PWR8 )
@@ -2797,16 +2685,16 @@
   (    2 /low_side_drive1/col_tmp_LO )
  )
  ( /4C0E2D2F/4BF3BF0A SM0805  R1018 NA {Lib=R}
-  (    1 N-000479 )
+  (    1 N-000478 )
   (    2 /low_side_drive1/GND_PWR8 )
  )
  ( /4C0E2D2F/4BF3BF07 SM0805  R1015 0R {Lib=R}
-  (    1 N-000479 )
-  (    2 N-000486 )
+  (    1 N-000478 )
+  (    2 N-000490 )
  )
  ( /4C0E2D2F/4BF3BED5 SM0805  R1011 0R {Lib=R}
   (    1 GND )
-  (    2 N-000482 )
+  (    2 N-000487 )
  )
  ( /4C0E2D2F/4BF3BED4 SM0805  R1017 24R {Lib=R}
   (    1 /low_side_drive1/GND_PWR8 )
@@ -2846,7 +2734,7 @@
   (    2 /power_regulator_constant/+12V )
  )
  ( /4C0E2CE0/4C313BED SM0805  R1102 511 {Lib=R}
-  (    1 N-000464 )
+  (    1 N-000463 )
   (    2 /amp_connector/CANH )
  )
  ( /4C0E2CE0/4E467E0E PINTST  P1102 CONN_1 {Lib=CONN_1}
@@ -2860,8 +2748,8 @@
   (    5 ? )
   (    6 ? )
   (    7 ? )
-  (    8 N-000464 )
-  (    9 N-000463 )
+  (    8 N-000463 )
+  (    9 N-000464 )
   (   10 /CAN_TJA1054/5V )
   (   11 /amp_connector/CANH )
   (   12 /amp_connector/CANL )
@@ -2872,7 +2760,7 @@
   (    1 /amp_connector/CANL )
  )
  ( /4C0E2CE0/4E467E09 SM0805  R1101 511 {Lib=R}
-  (    1 N-000463 )
+  (    1 N-000464 )
   (    2 /amp_connector/CANL )
  )
  ( /4C0E2CE0/4E467E01 SM0805-C1  C1102 10uF {Lib=C}
@@ -3117,11 +3005,11 @@
   (    1 GND )
   (    2 /SENSOR_INPUTS.sch/AN_CPU_TPS )
  )
- ( /4C0E2BD1/4E4821E9 SM0805-C1  C1305 15nf {Lib=C}
+ ( /4C0E2BD1/4E4821E9 SM0805-C1  C1305 .01uf {Lib=C}
   (    1 /SENSOR_INPUTS.sch/AN_CPU_TPS )
   (    2 GND )
  )
- ( /4C0E2BD1/4E4821DE SM0805-C1  C1304 15nf {Lib=C}
+ ( /4C0E2BD1/4E4821DE SM0805-C1  C1304 .01uf {Lib=C}
   (    1 /SENSOR_INPUTS.sch/AN_CPU_ET )
   (    2 GND )
  )
@@ -3165,7 +3053,7 @@
   (    3 /SENSOR_INPUTS.sch/TCPL1+ )
   (    4 /CPU/3.3V )
   (    5 /high_side_drive1/3412_SCLK )
-  (    6 /CPU/CS-TCPL1 )
+  (    6 /SENSOR_INPUTS.sch/CS-TCPL1 )
   (    7 /SENSOR_INPUTS.sch/MISO )
   (    8 ? )
  )
@@ -3173,15 +3061,15 @@
   (    1 /CAN_TJA1054/5V )
   (    2 /SENSOR_INPUTS.sch/AN_HARN_ET )
  )
- ( /4C0E2BD1/4E47FC8B SM0805  R1303 1k {Lib=R}
+ ( /4C0E2BD1/4E47FC8B SM0805  R1303 2.2k {Lib=R}
   (    1 /SENSOR_INPUTS.sch/AN_CPU_TPS )
   (    2 /SENSOR_INPUTS.sch/AN_HARN_TPS )
  )
- ( /4C0E2BD1/4E47FC7E SM0805  R1302 1k {Lib=R}
+ ( /4C0E2BD1/4E47FC7E SM0805  R1302 2.2k {Lib=R}
   (    1 /SENSOR_INPUTS.sch/AN_CPU_ET )
   (    2 /SENSOR_INPUTS.sch/AN_HARN_ET )
  )
- ( /4C0E2BD1/4E467DF0 SM0805  R1301 1k {Lib=R}
+ ( /4C0E2BD1/4E467DF0 SM0805  R1301 2.2k {Lib=R}
   (    1 /SENSOR_INPUTS.sch/AN_CPU_MIAT )
   (    2 /SENSOR_INPUTS.sch/AN_HARN_MIAT )
  )
@@ -3397,7 +3285,7 @@
   (    1 /CAN_TJA1054/5V )
   (    2 GND )
  )
- ( /4C0E2BD1/4E467DE8 SM0805-C1  C1303 15nf {Lib=C}
+ ( /4C0E2BD1/4E467DE8 SM0805-C1  C1303 .01uf {Lib=C}
   (    1 /SENSOR_INPUTS.sch/AN_CPU_MIAT )
   (    2 GND )
  )
@@ -3447,36 +3335,12 @@ $component R419
  R?-*
  SM1206
 $endlist
-$component C413
- SM*
- C?
- C1-1
-$endlist
-$component R413
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
 $component C419
  SM*
  C?
  C1-1
 $endlist
 $component C420
- SM*
- C?
- C1-1
-$endlist
-$component R414
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C414
  SM*
  C?
  C1-1
@@ -3512,18 +3376,6 @@ $endlist
 $component D427
  D?
  S*
-$endlist
-$component R424
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C424
- SM*
- C?
- C1-1
 $endlist
 $component D428
  D?
@@ -3611,18 +3463,6 @@ $component D426
  D?
  S*
 $endlist
-$component C423
- SM*
- C?
- C1-1
-$endlist
-$component R423
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
 $component D425
  D?
  S*
@@ -3643,18 +3483,6 @@ $component D424
  D?
  S*
 $endlist
-$component C422
- SM*
- C?
- C1-1
-$endlist
-$component R422
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
 $component D423
  D?
  S*
@@ -3672,18 +3500,6 @@ $endlist
 $component D421
  D?
  S*
-$endlist
-$component R421
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C421
- SM*
- C?
- C1-1
 $endlist
 $component D422
  D?
@@ -3703,36 +3519,12 @@ $component R415
  R?-*
  SM1206
 $endlist
-$component C409
- SM*
- C?
- C1-1
-$endlist
-$component R409
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
 $component C415
  SM*
  C?
  C1-1
 $endlist
 $component C416
- SM*
- C?
- C1-1
-$endlist
-$component R410
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C410
  SM*
  C?
  C1-1
@@ -3751,36 +3543,12 @@ $component R418
  R?-*
  SM1206
 $endlist
-$component C412
- SM*
- C?
- C1-1
-$endlist
-$component R412
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
 $component C418
  SM*
  C?
  C1-1
 $endlist
 $component C417
- SM*
- C?
- C1-1
-$endlist
-$component R411
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C411
  SM*
  C?
  C1-1
@@ -3799,36 +3567,12 @@ $component R407
  R?-*
  SM1206
 $endlist
-$component C403
- SM*
- C?
- C1-1
-$endlist
-$component R403
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
 $component C407
  SM*
  C?
  C1-1
 $endlist
 $component C408
- SM*
- C?
- C1-1
-$endlist
-$component R404
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C404
  SM*
  C?
  C1-1
@@ -3847,36 +3591,12 @@ $component R406
  R?-*
  SM1206
 $endlist
-$component C402
- SM*
- C?
- C1-1
-$endlist
-$component R402
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
 $component C406
  SM*
  C?
  C1-1
 $endlist
 $component C405
- SM*
- C?
- C1-1
-$endlist
-$component R401
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C401
  SM*
  C?
  C1-1
@@ -6410,8 +6130,8 @@ $endfootprintlist
 }
 { Pin List by Nets
 Net 1 "/CPU/02_INJ_DIGI" "02_INJ_DIGI"
- U501 1
  P201 73B
+ U501 1
 Net 2 "/CPU/14_INJ_DIGI" "14_INJ_DIGI"
  U516 1
  P201 66B
@@ -6419,11 +6139,11 @@ Net 3 "/CPU/15_INJ_DIGI" "15_INJ_DIGI"
  U526 1
  P201 66A
 Net 4 "/CPU/06_INJ_DIGI" "06_INJ_DIGI"
- U503 1
  P201 71B
+ U503 1
 Net 5 "/CPU/08_INJ_DIGI" "08_INJ_DIGI"
- P201 70B
  U513 1
+ P201 70B
 Net 6 "/CPU/17_INJ_DIGI" "17_INJ_DIGI"
  U528 1
  P201 30D
@@ -6431,41 +6151,41 @@ Net 7 "/CPU/20_INJ_DIGI" "20_INJ_DIGI"
  P201 39C
  U519 1
 Net 8 "/CPU/04_INJ_DIGI" "04_INJ_DIGI"
- P201 72B
  U511 1
+ P201 72B
 Net 9 "/efi/EFI_OUT3-1" "EFI_OUT3-1"
  Q513 2
  J301 2E3
 Net 10 "/efi/EFI_OUT3-2" "EFI_OUT3-2"
- Q519 2
  J301 2E2
+ Q519 2
 Net 11 "/efi/EFI_OUT3-0" "EFI_OUT3-0"
  J301 2E4
  Q514 2
 Net 12 "/efi/EFI_OUT4-1" "EFI_OUT4-1"
- J301 2C1
  Q516 2
+ J301 2C1
 Net 13 "/efi/EFI_OUT3-3" "EFI_OUT3-3"
  Q520 2
  J301 2E1
 Net 14 "/efi/EFI_OUT4-3" "EFI_OUT4-3"
- J301 2D1
  Q522 2
+ J301 2D1
 Net 15 "/efi/EFI_OUT2-3" "EFI_OUT2-3"
  J301 3H3
  Q512 2
 Net 16 "/CPU/12_INJ_DIGI" "12_INJ_DIGI"
- U515 1
  P201 67B
+ U515 1
 Net 17 "/CPU/10_INJ_DIGI" "10_INJ_DIGI"
- U505 1
  P201 68B
+ U505 1
 Net 18 "/efi/EFI_OUT5-1" "EFI_OUT5-1"
  J301 3E2
  Q518 2
 Net 19 "/CPU/22_INJ_DIGI" "22_INJ_DIGI"
- P201 40C
  U521 1
+ P201 40C
 Net 20 "/CPU/23_INJ_DIGI" "23_INJ_DIGI"
  U530 1
  P201 40D
@@ -6476,68 +6196,68 @@ Net 22 "/efi/EFI_OUT5-0" "EFI_OUT5-0"
  Q517 2
  J301 3E1
 Net 23 "/efi/EFI_OUT4-0" "EFI_OUT4-0"
- J301 2C2
  Q515 2
+ J301 2C2
 Net 24 "/efi/EFI_OUT4-2" "EFI_OUT4-2"
  J301 2D2
  Q521 2
 Net 36 "/amp_connector/FLEX_CAN_L" "FLEX_CAN_L"
- T101 2
  J301 3C2
  D101 2
+ T101 2
 Net 37 "/amp_connector/FLEX_CAN_H" "FLEX_CAN_H"
  J301 3C1
- T101 1
  D101 1
+ T101 1
 Net 38 "/CPU/CANHA" "CANHA"
+ P113 1
  P201 21D
  T101 4
- P113 1
 Net 39 "/SENSOR_INPUTS.sch/12V_BAT" "12V_BAT"
- R1306 1
- U901 15
- P501 1
- C505 1
- C512 1
- D1001 2
- D1002 2
- C504 1
  U1203 8
- D702 1
- R101 1
+ C504 1
+ D1002 2
+ R1306 1
  C907 1
- P504 1
- C510 1
- P503 1
+ C505 1
  C906 1
- J301 1L2
- C705 1
- C506 1
- U507 1
- U508 1
- U509 1
- P502 1
- U522 1
+ D1001 2
+ C512 1
  U524 1
+ C506 1
+ U522 1
+ U508 1
+ U507 1
+ J301 1L2
+ P501 1
+ P502 1
+ P503 1
+ P504 1
+ U901 15
+ C705 1
+ C510 1
+ U509 1
+ R101 1
+ D702 1
 Net 40 "/CPU/3.3V_CONST" "3.3V_CONST"
- P201 6C
  R738 2
+ P201 6C
 Net 41 "/efi/GND5" "GND5"
- C509 2
- R590 1
  J301 3G4
- R589 2
  R596 1
- R595 2
- C512 2
- Q517 3
- U524 3
- Q524 3
  Q523 3
+ Q517 3
+ C512 2
+ R590 1
+ R589 2
+ Q524 3
  Q518 3
+ U524 3
+ R595 2
+ C509 2
 Net 42 "/CPU/08_IGN_DIGI" "08_IGN_DIGI"
- P201 91B
  U543 1
+ P201 91B
 Net 43 "/CPU/12_IGN_DIGI" "12_IGN_DIGI"
  U545 1
  P201 88B
@@ -6548,250 +6268,242 @@ Net 45 "/CPU/02_IGN_DIGI" "02_IGN_DIGI"
  P201 95B
  U531 1
 Net 46 "/CPU/06_IGN_DIGI" "06_IGN_DIGI"
- U533 1
  P201 92B
+ U533 1
 Net 47 "/CPU/10_IGN_DIGI" "10_IGN_DIGI"
  P201 90B
  U535 1
 Net 48 "/CPU/MAX9924_1_CRANK_DIGI" "MAX9924_1_CRANK_DIGI"
+ P201 78B
+ P201 61A
  R681 2
  U601 4
- P201 61A
- P201 78B
 Net 49 "/CPU/MAX9924_WHBR_DIGI" "MAX9924_WHBR_DIGI"
+ R712 1
  P201 76B
  U604 5
- R712 1
 Net 50 "/CPU/MAX9924_WHFR_DIGI" "MAX9924_WHFR_DIGI"
- U603 5
  R710 1
  P201 77B
+ U603 5
 Net 51 "/CPU/MAX9924_WHFL_DIGI" "MAX9924_WHFL_DIGI"
- U603 4
  R709 2
+ U603 4
  P201 79A
 Net 52 "/CPU/MAX9924_WHBL_DIGI" "MAX9924_WHBL_DIGI"
- R711 2
  P201 80A
  U604 4
+ R711 2
 Net 53 "/pin protect/AN_HARN12" "AN_HARN12"
- U401 9
  J301 3B4
+ U401 9
  R418 2
 Net 54 "/pin protect/AN_HARN14" "AN_HARN14"
  R420 2
  U401 11
  J301 3C4
 Net 55 "GND" "GND"
- C907 2
- U901 23
- C906 2
- C901 1
- C1329 1
- U901 14
- C1310 1
- C1309 1
- U1303 3
- R901 1
- C1002 1
- C1007 1
- C1005 1
- C1010 1
- C1008 1
- C1011 1
- C1009 1
- U1304 3
- C1331 1
- R1011 1
- C1327 1
- C1014 1
- C1326 1
- C1330 2
- C1003 2
- C1328 2
- R1007 1
- C1012 1
- U1001 29
- C1324 1
- U1001 31
- C1325 1
- U1001 22
- C1004 1
- C1006 1
- C1001 1
- R907 1
- C909 2
- C904 1
- C905 2
- C1312 1
- U1301 1
- U1203 4
- C902 1
  C903 1
+ U901 17
+ U1203 4
+ R901 1
+ U901 14
+ U901 23
+ U1201 24
+ C907 2
+ C906 2
+ C902 1
+ C901 1
+ C1013 2
+ U1301 1
+ C1303 2
+ R1307 2
+ C1009 1
+ C1011 1
+ C1008 1
+ C1321 2
+ C1329 1
+ U1303 3
  C1320 1
  C1306 2
- U901 17
- C1303 2
- C1321 2
- C1323 1
- C1322 2
- C1015 1
- U1307 2
- C1311 1
- C1102 1
- C1101 1
- U1306 2
- C1316 1
- C1319 2
  U1101 13
+ C1319 2
+ U1001 29
+ U1001 31
+ U1001 22
  C1318 1
  C1317 2
+ C1015 1
  C1315 1
+ C1010 1
+ C1005 1
+ C1014 1
  U1305 2
- C1013 2
- R1307 2
+ C1007 1
+ C1003 2
+ C1002 1
+ R1007 1
+ C1012 1
+ R1011 1
+ C1001 1
+ C1006 1
+ C1004 1
+ U1306 2
+ C1316 1
+ C1312 1
+ C1101 1
+ C1102 1
+ C1331 1
+ U1304 3
+ C1311 1
+ U1307 2
+ C1322 2
+ C1323 1
+ C905 2
+ C904 1
+ C909 2
+ C1309 1
+ R907 1
+ C1310 1
+ C1325 1
+ C1324 1
+ C1328 2
+ C1330 2
+ C1326 1
+ C1327 1
  SW202 1
- SW201 1
- P201 92A
- P201 82A
- P201 72A
- P201 62A
- P201 52A
- P201 42A
- P201 32A
- C1215 1
- P201 22A
- C1209 1
- P201 12A
- R1206 1
- C1203 2
- R1217 1
- C1201 2
  SW202 2
  D201 2
+ P201 12A
+ P201 22A
+ P201 32A
+ P201 42A
+ P201 52A
+ P201 62A
+ P201 72A
+ P201 82A
+ P201 92A
+ P201 7A
+ P201 4B
+ P201 9B
+ P201 3C
  P201 9D
  P201 3D
  P201 7C
- P201 3C
- P201 2A
- P201 9B
- P201 4B
- P201 7A
- P201 77A
  P201 67A
+ P201 77A
+ P201 87A
+ P201 97A
  P201 57A
  P201 47A
  P201 37A
  P201 27A
  P201 17A
- P201 97A
- P201 87A
+ SW201 1
+ C1208 2
+ C1202 2
+ R1218 1
  C1213 1
- P201 92C
- P201 82C
- P201 72C
- P201 62C
- P201 52C
- P201 42C
- P201 32C
- C1207 2
- P201 22C
- P201 12C
- P201 29B
- P201 19B
- P201 99B
- P201 89B
- P201 79B
- P201 69B
- P201 59B
+ C1204 2
+ R1209 1
  C1210 1
  C1216 1
- P201 94D
- P201 84D
+ C1212 1
+ C1207 2
+ P201 2A
+ C1211 1
+ P201 17C
+ P201 27C
+ P201 37C
+ P201 47C
+ P201 57C
+ P201 67C
+ P201 97C
+ P201 87C
+ P201 77C
+ P201 99D
+ P201 89D
+ P201 79D
+ P201 69D
+ P201 59D
+ P201 49D
+ P201 39D
+ P201 29D
+ P201 19D
+ C1215 1
+ C1209 1
+ R1206 1
+ C1203 2
+ R1217 1
+ C1201 2
+ P201 52C
+ P201 62C
+ P201 72C
+ P201 82C
+ P201 92C
+ C1214 1
+ P201 19B
+ P201 29B
+ P201 39B
+ P201 49B
+ P201 59B
+ P201 69B
+ P201 79B
+ P201 89B
+ P201 99B
+ P201 22C
+ P201 12C
+ U1202 24
+ P201 14D
+ P201 24D
+ P201 34D
+ P201 44D
+ P201 54D
+ P201 64D
  P201 74D
+ P201 84D
+ P201 94D
  P201 94B
  P201 84B
  P201 74B
- C1212 1
  P201 64B
  P201 54B
  P201 44B
  P201 34B
  P201 24B
  P201 14B
- C1208 2
- C1202 2
- R1218 1
- P201 49B
- P201 39B
- U1201 24
- C1211 1
- P201 67C
- P201 57C
- P201 47C
- P201 37C
- P201 27C
- P201 17C
- P201 99D
- P201 89D
- P201 79D
- P201 69D
- P201 59D
- U1202 24
- P201 49D
- P201 39D
- P201 29D
- P201 19D
- P201 64D
- P201 54D
- C1204 2
- R1209 1
- P201 44D
- P201 34D
- P201 24D
- P201 14D
- C1214 1
- P201 97C
- P201 87C
- P201 77C
+ P201 32C
+ P201 42C
  R623 1
  R632 2
  R671 2
  R680 1
- R561 1
- R570 2
- R609 2
- R618 1
- C715 2
- J301 2G2
- C705 2
+ C425 2
+ C426 2
+ C427 2
+ D424 1
  J301 1E1
- J301 1L4
+ C407 2
+ C408 2
+ C705 2
+ D422 1
  J301 1H3
- C713 2
- C702 2
- C704 2
- U702 4
- D703 1
  J301 1L3
+ J301 2G2
+ J301 1L4
+ C611 1
  U604 1
  U604 3
  U604 6
- U604 8
- U604 11
- C603 1
+ R502 1
+ R571 2
+ R562 1
+ U603 1
+ C609 1
+ C610 1
  U604 13
  U604 12
  C612 1
- C611 1
- C609 1
- U603 1
- U601 1
- U601 3
- U601 6
- U601 8
- U601 11
- U601 12
  U601 13
  C601 1
  U603 3
@@ -6800,135 +6512,129 @@ Net 55 "GND" "GND"
  U603 11
  U603 12
  U603 13
+ U604 8
+ U604 11
+ C603 1
+ U601 1
+ U601 3
+ U601 6
+ U601 8
+ U601 11
+ U601 12
+ R630 2
+ R621 1
  R558 1
  R549 2
  R510 2
  R501 1
+ R561 1
+ R570 2
+ R609 2
+ R618 1
+ R678 1
+ R669 2
+ R572 2
+ R611 2
+ R620 1
+ R619 1
+ R610 2
+ R622 1
+ R631 2
+ R670 2
+ R679 1
  R560 1
  R551 2
  R512 2
  R503 1
  R511 2
  R550 2
- R678 1
- R669 2
- R630 2
- R621 1
- R610 2
- R622 1
- R631 2
- R670 2
- R679 1
- R502 1
- R571 2
- R562 1
- C610 1
  R559 1
  R563 1
- R572 2
- R611 2
- R620 1
- R619 1
- D404 1
- D402 1
- D410 1
- C426 2
- C425 2
- C421 2
- D422 1
- D101 3
  D426 1
- C423 2
  D414 1
+ C428 2
+ D428 1
+ D412 1
+ C419 2
+ C420 2
+ C703 2
+ C701 2
+ C712 2
+ C710 2
+ C709 2
+ C714 2
  D416 1
  D408 1
  D406 1
- U101 11
- U101 12
- D418 1
- C428 2
- C424 2
- D428 1
- D412 1
- C427 2
- D424 1
- C422 2
- C413 2
- C1301 2
- C1307 2
- C1308 2
+ D404 1
+ D706 1
+ D402 1
+ D410 1
  U702 2
  U701 4
+ U701 2
+ C1308 2
  C1304 2
  C1305 2
+ D101 3
  D1306 1
- U401 8
  D1304 1
  D1302 1
+ D420 1
+ D418 1
  U1302 1
  C1302 2
- U701 2
- C416 2
- C410 2
- C403 2
- C709 2
- C714 2
- C701 2
- C414 2
- C418 2
- C703 2
+ C1301 2
+ C1307 2
+ C704 2
+ C702 2
+ C713 2
  C717 2
- C408 2
- C712 2
  C716 2
- C710 2
  U703 3
- C706 2
- C407 2
- C409 2
- D420 1
- C415 2
+ C418 2
  R737 1
- C402 2
- C707 2
- C412 2
- C406 2
- D706 1
- C405 2
+ U401 8
+ C706 2
  C711 2
- C401 2
  C718 2
- C420 2
+ C707 2
  C417 2
+ U101 12
+ U101 11
+ U702 4
+ C715 2
+ C416 2
  C708 2
- C404 2
- C411 2
- C419 2
+ D703 1
+ C406 2
  U101 1
+ C415 2
+ C405 2
 Net 56 "/RPM_sub_circuit.sch/RB_SIG+" "RB_SIG+"
  J301 2D4
  R736 1
 Net 57 "/efi/GND4" "GND4"
+ R586 1
+ Q514 3
+ R585 2
+ Q520 3
+ R592 1
+ C510 2
+ Q519 3
+ J301 2G1
+ Q513 3
+ C507 2
+ R591 2
  Q522 3
  Q516 3
  Q515 3
  Q521 3
- R587 2
- R588 1
- R594 1
- R593 2
  U522 3
- R586 1
- R592 1
- R591 2
- R585 2
- C507 2
- Q513 3
- Q519 3
- Q514 3
- Q520 3
- J301 2G1
- C510 2
+ R593 2
+ R594 1
+ R588 1
+ R587 2
 Net 58 "/low_side_drive1/GND_MC33800" "GND_MC33800"
  J301 1H1
  U101 7
@@ -6939,92 +6645,114 @@ Net 60 "/amp_connector/IGN09_HARN" "IGN09_HARN"
  J301 3F1
  Q530 2
 Net 61 "/pin protect/AN_CPU_P02" "AN_CPU_P02"
- R422 1
- P201 83D
  C426 1
+ D423 1
+ D424 2
+ P201 83D
+ R426 1
  P201 98B
 Net 62 "/pin protect/AN_HARN_P03" "AN_HARN_P03"
  U401 13
  J301 1B3
  R427 2
 Net 63 "/pin protect/AN_CPU_P03" "AN_CPU_P03"
- C427 1
+ R427 1
  P201 97B
- R423 1
+ D426 2
+ D425 1
  P201 83C
+ C427 1
 Net 64 "/pin protect/AN_HARN_P04" "AN_HARN_P04"
  R428 2
  J301 1C2
  U401 12
 Net 65 "/amp_connector/EXTRA" "EXTRA"
- P101 1
  J301 2G3
+ P101 1
 Net 66 "/pin protect/AN_CPU08" "AN_CPU08"
- R404 1
  C408 1
+ R408 1
+ D407 1
  P201 80D
+ D408 2
  P201 76A
 Net 67 "/pin protect/AN_CPU07" "AN_CPU07"
- P201 80C
- P201 85A
  C407 1
- R403 1
+ P201 85A
+ D406 2
+ R407 1
+ D405 1
+ P201 80C
 Net 68 "/pin protect/AN_CPU11" "AN_CPU11"
- R411 1
+ D413 1
  C417 1
- P201 78C
+ D414 2
  P201 63B
+ P201 78C
+ R417 1
 Net 69 "/pin protect/AN_CPU12" "AN_CPU12"
- P201 77D
- R412 1
+ D415 1
  P201 62B
+ D416 2
+ P201 77D
  C418 1
+ R418 1
 Net 70 "/pin protect/AN_CPU10" "AN_CPU10"
- P201 78D
- P201 65A
- R410 1
  C416 1
+ D412 2
+ P201 65A
+ D411 1
+ R416 1
+ P201 78D
 Net 71 "/pin protect/AN_CPU09" "AN_CPU09"
- P201 75B
- R409 1
- C415 1
+ R415 1
  P201 79C
+ C415 1
+ P201 75B
+ D410 2
+ D409 1
 Net 72 "/pin protect/AN_CPU14" "AN_CPU14"
  C420 1
- R414 1
- P201 76D
+ D420 2
  P201 60B
+ D419 1
+ P201 76D
+ R420 1
 Net 73 "/pin protect/AN_CPU13" "AN_CPU13"
- P201 76C
+ D418 2
  C419 1
+ P201 76C
+ D417 1
  P201 61B
- R413 1
+ R419 1
 Net 74 "/pin protect/AN_CPU_P01" "AN_CPU_P01"
  C425 1
- P201 100A
- R421 1
+ D421 1
+ D422 2
+ R425 1
  P201 84C
+ P201 100A
 Net 75 "/pin protect/AN_HARN_P01" "AN_HARN_P01"
+ R425 2
  J301 1B4
  U401 15
- R425 2
 Net 76 "/pin protect/AN_HARN_P02" "AN_HARN_P02"
  U401 14
  R426 2
  J301 1C1
 Net 77 "/amp_connector/12V_ECU" "12V_ECU"
- C909 1
- U901 21
  J301 1G1
+ U901 21
+ C909 1
 Net 79 "/high_side_drive1/3412_CS" "3412_CS"
- P201 56C
  R910 1
+ P201 56C
 Net 80 "/high_side_drive1/3412_IN0" "3412_IN0"
  R903 1
  P201 15D
 Net 81 "/high_side_drive1/3412_IN1" "3412_IN1"
- P201 16C
  R904 1
+ P201 16C
 Net 82 "/high_side_drive1/3412_IN2" "3412_IN2"
  R905 1
  P201 86B
@@ -7032,87 +6760,88 @@ Net 83 "/high_side_drive1/3412_IN3" "3412_IN3"
  P201 26C
  R906 1
 Net 84 "/high_side_drive1/3412_FS1" "3412_FS1"
- R913 1
  P201 87B
+ R913 1
 Net 85 "/high_side_drive1/3412_SO" "3412_SO"
+ R914 1
  U1001 34
  P201 51C
- R914 1
 Net 86 "/high_side_drive1/3412_CSNS" "3412_CSNS"
- C901 2
  R902 1
+ C901 2
  P201 85B
 Net 87 "/high_side_drive1/3412_WAKE" "3412_WAKE"
  R908 1
  R101 2
 Net 88 "/power regulator constant/+12V" "+12V"
+ D705 2
+ C1015 2
+ C702 1
+ U701 1
+ C704 1
+ U702 1
+ C715 1
+ U1001 30
+ U1101 14
+ L701 1
+ C1102 2
+ C703 1
+ C701 1
+ D704 2
+ C714 1
+ C707 1
  C706 1
  D707 2
  U703 2
  D701 1
- U1101 14
- D705 2
- C1102 2
- L701 1
- C702 1
- C704 1
- C715 1
- C703 1
- C701 1
- D704 2
- C1015 2
- U701 1
- C714 1
- U702 1
- C707 1
- U1001 30
- C1209 2
+ U101 8
  U1202 1
  U1201 1
  C1210 2
- U101 8
+ C1209 2
 Net 89 "/CAN_TJA1054/5V" "5V"
- J301 1E2
- R1320 1
- J301 1D2
- J301 1F3
+ C1322 1
  C1317 1
- U1101 10
- C1319 1
- R1321 1
+ R1320 1
+ U1307 3
+ U1305 3
+ C1327 2
+ D1301 2
+ C1321 1
+ R717 1
  R681 1
  C603 2
  R682 2
  C601 2
  R711 1
- U1303 9
  C612 2
  U604 14
  C610 2
  R712 2
- R1304 1
- R1305 1
- C1101 2
  U1306 3
- U1304 9
- U1305 3
- D1301 2
- C1321 1
- C1322 1
- U1307 3
- C1327 2
+ R1321 1
+ C1319 1
+ D1303 2
+ D1305 2
  C1326 2
+ J301 1E2
+ J301 1D2
+ J301 1F3
  C1324 2
  C1325 2
- D1305 2
- D1303 2
- R723 1
- U703 4
- C717 1
+ U1304 9
+ R739 1
+ C718 1
+ D707 1
  C716 1
+ C717 1
+ U703 4
+ C1101 2
+ R723 1
  C609 2
  R710 2
  C611 2
+ R1305 1
  R709 1
  U603 14
  R726 1
@@ -7120,14 +6849,13 @@ Net 89 "/CAN_TJA1054/5V" "5V"
  R692 1
  R689 1
  U601 14
- R717 1
- D707 1
- C718 1
- R739 1
+ U1303 9
+ R1304 1
+ U1101 10
 Net 90 "/low_side_drive1/800_P3" "800_P3"
- C1006 2
- P1006 1
  U1001 13
+ P1006 1
+ C1006 2
  P201 13C
 Net 91 "/low_side_drive1/800_P7" "800_P7"
  P201 12D
@@ -7136,22 +6864,22 @@ Net 91 "/low_side_drive1/800_P7" "800_P7"
  U1001 15
 Net 92 "/low_side_drive1/misc3_drv_LO" "misc3_drv_LO"
  P126 1
- P1002 1
- Q1001 5
  Q1001 6
  U1001 3
+ Q1001 5
+ P1002 1
 Net 93 "/low_side_drive1/800_CS" "800_CS"
- U1001 11
  P201 55C
+ U1001 11
 Net 94 "/low_side_drive1/800_LRFDBK" "800_LRFDBK"
- P1003 1
- P201 85C
  R1003 1
+ P201 85C
+ P1003 1
  C1003 1
 Net 95 "/CPU/CANLA" "CANLA"
+ P201 20D
  T101 3
  P114 1
- P201 20D
 Net 96 "/CPU/CANHB" "CANHB"
  P115 1
  P201 18C
@@ -7159,84 +6887,84 @@ Net 97 "/CPU/CANLB" "CANLB"
  P116 1
  P201 18D
 Net 98 "/CPU/MC33926_FB_AN" "MC33926_FB_AN"
- P117 1
  P201 86C
+ P117 1
 Net 99 "/CPU/MC33926_IN1_DIGI" "MC33926_IN1_DIGI"
  P118 1
  P201 51D
 Net 100 "/CPU/MC33926_SF_DIGI" "MC33926_SF_DIGI"
- P201 52D
  P120 1
+ P201 52D
 Net 101 "/CPU/MC33926_EN_DIGI" "MC33926_EN_DIGI"
- P121 1
  P201 63A
+ P121 1
 Net 102 "/CPU/3.3V" "3.3V"
- U1301 4
  C1014 2
- U1001 33
- SW201 3
- D419 2
- D417 2
- D427 2
- U702 3
- C711 1
- D705 1
- C713 1
- C1301 1
- C1302 1
- U1302 4
- C903 2
- C902 2
- U901 13
- P201 1C
- P201 2C
- R909 1
- D423 2
- D425 2
- D421 2
- D407 2
- D405 2
- D403 2
- D401 2
- D409 2
- D411 2
- D413 2
- D415 2
- P201 1D
- P201 2D
  P201 4D
+ U1001 33
+ C711 1
+ P201 1D
+ U702 3
+ C1302 1
+ U1301 4
+ C1301 1
+ P201 2D
+ U1302 4
+ SW201 3
+ C713 1
+ D705 1
+ D415 2
+ D413 2
+ D411 2
+ D409 2
+ D401 2
+ R909 1
+ D403 2
+ D405 2
+ U901 13
+ D419 2
+ P201 2C
+ P201 1C
+ D427 2
+ D417 2
+ D407 2
  P201 5D
  P201 6D
+ D425 2
+ D423 2
+ D421 2
+ C902 2
+ C903 2
 Net 103 "/efi/EFI_OUT0-0" "EFI_OUT0-0"
- J301 1M1
  Q502 2
+ J301 1M1
 Net 104 "/efi/EFI_OUT0-1" "EFI_OUT0-1"
- Q501 2
  J301 1M2
+ Q501 2
 Net 105 "/CPU/5V" "5V"
- C710 1
  D704 1
- U1201 17
- U101 2
- U1202 17
- P201 4C
- U701 3
- U101 13
- U101 14
- C1213 2
- U101 10
- R1201 2
  C712 1
- C1214 2
- R1202 2
+ C710 1
  P201 5C
+ U101 2
+ U101 14
+ P201 4C
+ U101 13
+ U101 10
+ U1202 17
+ R1202 2
+ C1213 2
+ U1201 17
+ R1201 2
+ C1214 2
+ U701 3
 Net 106 "/SENSOR_INPUTS.sch/TCPL1+" "TCPL1+"
  U1301 3
  P102 1
 Net 107 "/CPU/BAT_SENSE_AN" "BAT_SENSE_AN"
- P201 95C
- R1307 1
  R1306 2
+ R1307 1
+ P201 95C
 Net 108 "/SENSOR_INPUTS.sch/CS-KN2" "CS-KN2"
  P201 54C
  U1304 10
@@ -7245,17 +6973,17 @@ Net 109 "/SENSOR_INPUTS.sch/CPU_AN_KNOCK_2+" "CPU_AN_KNOCK_2+"
  R1311 2
  C1312 2
 Net 110 "/SENSOR_INPUTS.sch/CPU_AN_KNOCK_2-" "CPU_AN_KNOCK_2-"
- C1311 2
- R1310 2
  P201 97D
+ R1310 2
+ C1311 2
 Net 111 "/SENSOR_INPUTS.sch/CPU_AN_KNOCK_1-" "CPU_AN_KNOCK_1-"
- R1308 2
  C1309 2
+ R1308 2
  P201 98D
 Net 112 "/SENSOR_INPUTS.sch/CPU_AN_KNOCK_1+" "CPU_AN_KNOCK_1+"
- P201 100C
  C1310 2
  R1309 2
+ P201 100C
 Net 113 "/SENSOR_INPUTS.sch/CS-KN1" "CS-KN1"
  U1303 10
  P201 16D
@@ -7263,86 +6991,86 @@ Net 114 "/SENSOR_INPUTS.sch/TCPL2+" "TCPL2+"
  U1302 3
  P104 1
 Net 115 "/SENSOR_INPUTS.sch/TCPL2-" "TCPL2-"
- U1302 2
  P105 1
+ U1302 2
 Net 116 "/high_side_drive1/3412_SCLK" "3412_SCLK"
- U1001 10
- P201 50D
  U1303 1
+ P201 50D
  R911 1
+ U1001 10
  U1301 5
- U1302 5
  U1304 1
+ U1302 5
 Net 117 "/CPU/CS-TCPL2" "CS-TCPL2"
  P201 44C
  U1302 6
 Net 118 "/SENSOR_INPUTS.sch/MISO" "MISO"
- U1303 2
  U1301 7
+ U1303 2
  U1302 7
  U1304 2
 Net 119 "/SENSOR_INPUTS.sch/AN_CPU_MIAT" "AN_CPU_MIAT"
  R1301 1
+ P201 94C
  D1301 1
  C1303 1
- P201 94C
  D1302 2
 Net 120 "/SENSOR_INPUTS.sch/AN_CPU_TPS" "AN_CPU_TPS"
- D1305 1
  R1303 1
- D1306 2
  P201 91D
+ D1305 1
  C1305 1
+ D1306 2
 Net 121 "/SENSOR_INPUTS.sch/CPU_AN_MAP1" "CPU_AN_MAP1"
- P201 90D
- P201 93C
- C1320 2
  J301 1D1
- U1305 1
- U1203 6
- U1203 7
- U1306 1
- C1316 2
+ C1320 2
  R1321 2
- C1318 2
+ C1316 2
+ U1306 1
+ P201 90D
+ U1305 1
  R1320 2
+ C1318 2
+ U1203 6
+ P201 93C
+ U1203 7
  C1315 2
 Net 122 "/SENSOR_INPUTS.sch/TCPL1-" "TCPL1-"
- U1301 2
  P103 1
+ U1301 2
 Net 123 "/O2_input_CJ125/CJ125-1_SI" "CJ125-1_SI"
  U1201 15
  P201 41D
 Net 124 "/O2_input_CJ125/CJ125-1_UR" "CJ125-1_UR"
  C1203 1
- R1211 2
  P201 87D
+ R1211 2
 Net 125 "/O2_input_CJ125/CJ125-1_UA" "CJ125-1_UA"
- P201 89C
  C1215 2
  R1223 1
+ P201 89C
 Net 126 "/CPU/TJA1054_2_CAN_RX" "TJA1054_2_CAN_RX"
  U1101 3
  P201 24C
 Net 127 "/CPU/TJA1054_1_CAN_TX" "TJA1054_1_CAN_TX"
- P201 25C
  U1101 2
+ P201 25C
 Net 128 "/O2_input_CJ125/CJ125-2_UA" "CJ125-2_UA"
- P201 88C
  C1216 2
  R1224 1
+ P201 88C
 Net 129 "/O2_input_CJ125/CJ125-2_UR" "CJ125-2_UR"
+ P201 86D
  C1204 1
  R1212 2
- P201 86D
 Net 130 "/O2_input_CJ125/CJ125-1_SCK" "CJ125-1_SCK"
  U1201 13
- U1202 13
  P201 47D
+ U1202 13
 Net 131 "/O2_input_CJ125/CJ125-1_SS" "CJ125-1_SS"
  U1202 16
- P201 48D
  U1201 16
+ P201 48D
 Net 132 "/O2_input_CJ125/CJ125-2_SI" "CJ125-2_SI"
  P201 46D
  U1202 15
@@ -7350,32 +7078,32 @@ Net 133 "/O2_input_CJ125/O2-2_DIAHG_PIN" "O2-2_DIAHG_PIN"
  U1202 6
  P112 1
 Net 134 "/O2_input_CJ125/O2-2_DIAHD_PIN" "O2-2_DIAHD_PIN"
- R1210 2
  P111 1
+ R1210 2
 Net 135 "/O2_input_CJ125/O2-1_DIAHD_PIN" "O2-1_DIAHD_PIN"
- P109 1
  R1207 2
+ P109 1
 Net 136 "/O2_input_CJ125/O2-1_DIAHG_PIN" "O2-1_DIAHG_PIN"
- U1201 6
  P110 1
+ U1201 6
 Net 137 "/amp_connector/IGN06_HARN" "IGN06_HARN"
- J301 2F3
  Q527 2
+ J301 2F3
 Net 138 "/amp_connector/IGN07_HARN" "IGN07_HARN"
- J301 2F2
  Q533 2
+ J301 2F2
 Net 139 "/amp_connector/IGN08_HARN" "IGN08_HARN"
  Q534 2
  J301 2F1
 Net 140 "/amp_connector/IGN01_HARN" "IGN01_HARN"
- J301 1K1
  Q525 2
+ J301 1K1
 Net 141 "/amp_connector/IGN02_HARN" "IGN02_HARN"
  Q526 2
  J301 1K2
 Net 142 "/amp_connector/IGN04_HARN" "IGN04_HARN"
- Q532 2
  J301 1K4
+ Q532 2
 Net 143 "/amp_connector/IGN03_HARN" "IGN03_HARN"
  J301 1K3
  Q531 2
@@ -7398,22 +7126,22 @@ Net 149 "/RPM_sub_circuit.sch/RF_SIG-" "RF_SIG-"
  J301 2B3
  R731 1
 Net 150 "/RPM_sub_circuit.sch/RF_SIG+" "RF_SIG+"
- J301 2B4
  R732 1
+ J301 2B4
 Net 151 "/RPM_sub_circuit.sch/LF_SIG+" "LF_SIG+"
  J301 2A3
  R729 1
 Net 152 "/RPM_sub_circuit.sch/LF_SIG-" "LF_SIG-"
- R730 1
  J301 2A4
+ R730 1
 Net 153 "/amp_connector/HS3" "HS3"
- U901 18
- J301 3G3
  C905 1
+ J301 3G3
+ U901 18
 Net 154 "/amp_connector/HS2" "HS2"
- J301 3G2
- C904 2
  U901 22
+ C904 2
+ J301 3G2
 Net 155 "/amp_connector/STEP_2A" "STEP_2A"
  U101 5
  J301 1J1
@@ -7421,17 +7149,17 @@ Net 156 "/amp_connector/STEP_1A" "STEP_1A"
  U101 4
  J301 1J2
 Net 157 "/amp_connector/STEP_1B" "STEP_1B"
- U101 3
  J301 1H2
+ U101 3
 Net 158 "/amp_connector/STEP_2B" "STEP_2B"
  U101 6
  J301 1J3
 Net 159 "/amp_connector/IGN12_HARN" "IGN12_HARN"
- J301 3F4
  Q536 2
+ J301 3F4
 Net 160 "/amp_connector/IGN11_HARN" "IGN11_HARN"
- Q535 2
  J301 3F3
+ Q535 2
 Net 161 "/amp_connector/IGN10_HARN" "IGN10_HARN"
  J301 3F2
  Q529 2
@@ -7442,332 +7170,332 @@ Net 163 "/efi/EFI_OUT2-0" "EFI_OUT2-0"
  Q506 2
  J301 3G1
 Net 164 "/efi/EFI_OUT2-2" "EFI_OUT2-2"
- J301 3H2
  Q511 2
+ J301 3H2
 Net 165 "/efi/EFI_OUT1-3" "EFI_OUT1-3"
- Q510 2
  J301 2H2
+ Q510 2
 Net 166 "/efi/EFI_OUT1-2" "EFI_OUT1-2"
- Q509 2
  J301 2H3
+ Q509 2
 Net 167 "/efi/EFI_OUT1-0" "EFI_OUT1-0"
  J301 2G4
  Q504 2
 Net 168 "/efi/EFI_OUT1-1" "EFI_OUT1-1"
- Q503 2
  J301 2H4
+ Q503 2
 Net 169 "/SENSOR_INPUTS.sch/AN_HARN_ET" "AN_HARN_ET"
  J301 1D3
- R1305 2
  U1203 2
- R1302 2
  C1307 1
+ R1305 2
+ R1302 2
 Net 170 "/efi/GND1" "GND1"
- Q502 3
- C504 2
- Q507 3
- Q532 3
- Q501 3
- R645 2
- R646 1
- R652 1
- R651 2
- Q525 3
- Q531 3
- Q526 3
- C501 2
- U507 3
- J301 1L1
- R531 2
- R532 1
- R526 1
  R525 2
+ R526 1
+ R532 1
+ R531 2
+ C501 2
+ C504 2
+ Q501 3
+ Q507 3
+ Q502 3
  Q508 3
+ R651 2
+ R652 1
+ R646 1
+ R645 2
+ Q532 3
+ J301 1L1
+ U507 3
+ Q526 3
+ Q531 3
+ Q525 3
 Net 171 "/efi/GND2" "GND2"
- R647 2
- U508 3
- J301 2H1
- Q534 3
  R527 2
+ C505 2
+ R533 2
+ R528 1
+ R534 1
+ R654 1
+ R653 2
+ Q528 3
+ Q534 3
+ U508 3
+ R647 2
  R648 1
  Q503 3
  Q509 3
  Q504 3
  Q510 3
- C505 2
  Q527 3
+ J301 2H1
  Q533 3
- R653 2
- R654 1
- Q528 3
- R533 2
  C502 2
- R528 1
- R534 1
 Net 172 "/efi/GND3" "GND3"
- Q506 3
+ R530 1
  U509 3
- Q535 3
- C503 2
- Q511 3
- Q505 3
+ Q536 3
  Q530 3
+ R529 2
+ Q535 3
+ J301 3H4
+ Q505 3
+ C503 2
+ R535 2
+ R536 1
+ Q512 3
+ Q506 3
+ R649 2
+ R650 1
+ R656 1
+ R655 2
+ Q511 3
  C506 2
  Q529 3
- Q536 3
- R655 2
- R656 1
- R650 1
- R649 2
- R529 2
- R530 1
- Q512 3
- R536 1
- R535 2
- J301 3H4
 Net 173 "/amp_connector/O2_HD1_PWR" "O2_HD1_PWR"
- U1001 50
- P1031 1
- Q1003 5
  J301 3D1
  Q1003 6
+ P1031 1
+ Q1003 5
+ U1001 50
 Net 174 "/amp_connector/O2_HD2_PWR" "O2_HD2_PWR"
+ U1001 52
  P1030 1
- J301 3D2
  Q1003 8
  Q1003 7
- U1001 52
+ J301 3D2
 Net 175 "/amp_connector/PUMP_LS-1A" "PUMP_LS-1A"
  J301 3D3
- P1029 1
  U1001 54
  Q1002 5
  Q1002 6
+ P1029 1
 Net 176 "/amp_connector/MIL_LS-1A" "MIL_LS-1A"
+ U1001 1
+ P1004 1
  J301 1G2
  Q1002 7
  Q1002 8
- P1004 1
- U1001 1
 Net 177 "/amp_connector/MISC_1A" "MISC_1A"
- Q1001 7
  Q1001 8
- P1001 1
- J301 3D4
  U1001 5
+ J301 3D4
+ Q1001 7
+ P1001 1
 Net 178 "/SENSOR_INPUTS.sch/AN_HARN_TPS" "AN_HARN_TPS"
- C1308 1
  U1203 3
- J301 1G3
  R1303 2
-Net 179 "/RPM_sub_circuit.sch/CAM+" "CAM+"
- R704 1
+ C1308 1
+ J301 1G3
+Net 179 "/amp_connector/CAM+" "CAM+"
  J301 1G4
+ R704 1
 Net 180 "/RPM_sub_circuit.sch/CAM-" "CAM-"
- R703 1
  J301 1F4
+ R703 1
 Net 181 "/amp_connector/CRANK-" "CRANK-"
  R702 1
  J301 1J4
 Net 182 "/amp_connector/CRANK+" "CRANK+"
- R701 1
  J301 1H4
+ R701 1
 Net 183 "/amp_connector/CANH" "CANH"
- P1102 1
- U1101 11
- R1102 2
  J301 1D4
+ R1102 2
+ U1101 11
+ P1102 1
 Net 184 "/amp_connector/CANL" "CANL"
- U1101 12
  R1101 2
- P1101 1
  J301 1E4
+ P1101 1
+ U1101 12
 Net 185 "/O2_input_CJ125/O2-2_VM_PIN" "O2-2_VM_PIN"
  R1214 1
- U1202 18
  J301 2A2
+ U1202 18
 Net 186 "/O2_input_CJ125/O2-2_UN_PIN" "O2-2_UN_PIN"
  R1221 1
  U1202 2
- J301 2A1
  C1208 1
+ J301 2A1
 Net 187 "/O2_input_CJ125/O2-2_IA_PIN" "O2-2_IA_PIN"
  U1202 4
- R1208 2
- R1222 1
  J301 2B1
+ R1222 1
+ R1208 2
 Net 188 "/O2_input_CJ125/O2-2_IP_PIN" "O2-2_IP_PIN"
- U1202 3
- R1208 1
  J301 2B2
+ R1208 1
+ U1202 3
 Net 189 "/O2_input_CJ125/O2-1_IP_PIN" "O2-1_IP_PIN"
- U1201 3
  J301 1A2
  R1205 1
+ U1201 3
 Net 190 "/O2_input_CJ125/O2-1_IA_PIN" "O2-1_IA_PIN"
- R1220 1
- U1201 4
- R1205 2
  J301 1A1
+ R1220 1
+ R1205 2
+ U1201 4
 Net 191 "/O2_input_CJ125/O2-1_UN_PIN" "O2-1_UN_PIN"
  C1207 1
- R1219 1
- J301 1B1
  U1201 2
+ J301 1B1
+ R1219 1
 Net 192 "/O2_input_CJ125/O2-1_VM_PIN" "O2-1_VM_PIN"
  U1201 18
- J301 1B2
  R1213 1
+ J301 1B2
 Net 193 "/SENSOR_INPUTS.sch/AN_HARN_KNOCK2-" "AN_HARN_KNOCK2-"
- R1319 1
  C1331 2
  J301 1C3
+ R1319 1
 Net 194 "/SENSOR_INPUTS.sch/AN_HARN_KNOCK2+" "AN_HARN_KNOCK2+"
+ C1330 1
  J301 1C4
  R1318 1
- C1330 1
 Net 195 "/SENSOR_INPUTS.sch/AN_HARN_KNOCK1+" "AN_HARN_KNOCK1+"
- R1316 1
- J301 1A3
  C1328 1
+ J301 1A3
+ R1316 1
 Net 196 "/SENSOR_INPUTS.sch/AN_HARN_KNOCK1-" "AN_HARN_KNOCK1-"
  J301 1A4
  C1329 2
  R1317 1
 Net 197 "/SENSOR_INPUTS.sch/AN_HARN_MIAT" "AN_HARN_MIAT"
- C1306 1
- J301 1E3
- R1304 2
  U1203 1
  R1301 2
+ R1304 2
+ J301 1E3
+ C1306 1
 Net 198 "/amp_connector/232_RX" "232_RX"
+ J301 1F1
  P125 1
+ P201 21C
  P123 1
  P201 22D
- P201 21C
- J301 1F1
 Net 199 "/amp_connector/232_TX" "232_TX"
- P122 1
  J301 1F2
- P201 23D
- P201 23C
  P124 1
+ P122 1
+ P201 23C
+ P201 23D
 Net 200 "/O2_input_CJ125/CJ125-1_SO" "CJ125-1_SO"
+ U1202 14
  P201 49C
  U1201 14
- U1202 14
 Net 201 "/CPU/MAX9924_2_CAM1_DIGI" "MAX9924_2_CAM1_DIGI"
- P201 80B
  P201 100B
+ P201 80B
 Net 202 "/CPU/A4988_EN" "A4988_EN"
- P201 64A
  U101 9
+ P201 64A
 Net 203 "/CPU/A4988_CCW" "A4988_CCW"
- U101 16
  P201 13D
+ U101 16
 Net 204 "/CPU/MAX9924_2_CRANK_DIGI" "MAX9924_2_CRANK_DIGI"
- P201 60A
- R682 1
  U601 5
+ R682 1
+ P201 60A
 Net 205 "/SENSOR_INPUTS.sch/CPU_AN_AAP" "CPU_AN_AAP"
- U1203 5
  C1323 2
  P201 93D
  U1307 1
+ U1203 5
 Net 206 "/CPU/01_IGN_DIGI" "01_IGN_DIGI"
- P201 95A
  U532 1
+ P201 95A
 Net 207 "/CPU/03_IGN_DIGI" "03_IGN_DIGI"
- U540 1
  P201 94A
+ U540 1
 Net 208 "/CPU/05_INJ_DIGI" "05_INJ_DIGI"
  P201 73A
  U504 1
 Net 209 "/CPU/07_INJ_DIGI" "07_INJ_DIGI"
- P201 71A
  U512 1
+ P201 71A
 Net 210 "/CPU/05_IGN_DIGI" "05_IGN_DIGI"
  U534 1
  P201 93A
 Net 211 "/CPU/07_IGN_DIGI" "07_IGN_DIGI"
- P201 91A
  U542 1
+ P201 91A
 Net 212 "/CPU/09_INJ_DIGI" "09_INJ_DIGI"
  U506 1
  P201 70A
 Net 213 "/CPU/11_INJ_DIGI" "11_INJ_DIGI"
- U514 1
  P201 69A
+ U514 1
 Net 214 "/CPU/11_IGN_DIGI" "11_IGN_DIGI"
- U544 1
  P201 89A
+ U544 1
 Net 215 "/high_side_drive1/3412_SI" "3412_SI"
  P201 53C
  U1001 9
  R912 1
 Net 216 "/CPU/MAX9924_3_CAM2_DIGI" "MAX9924_3_CAM2_DIGI"
- P201 99A
  P201 78A
+ P201 99A
 Net 217 "/low_side_drive1/800_P1" "800_P1"
- U1001 12
- P201 11D
  P1005 1
  C1009 2
+ P201 11D
+ U1001 12
 Net 218 "/low_side_drive1/800_P5" "800_P5"
- U1001 14
  P1007 1
- C1004 2
+ U1001 14
  P201 14C
+ C1004 2
 Net 219 "/CPU/MC33926_IN2_DIGI" "MC33926_IN2_DIGI"
  P201 50C
  P119 1
 Net 220 "/SENSOR_INPUTS.sch/AN_CPU_ET" "AN_CPU_ET"
  D1303 1
  R1302 1
- P201 92D
  C1304 1
  D1304 2
+ P201 92D
 Net 221 "/efi/EFI_OUT5-3" "EFI_OUT5-3"
  Q524 2
  J301 3E4
 Net 222 "/pin protect/AN_HARN08" "AN_HARN08"
  U401 4
- R408 2
  J301 3A4
+ R408 2
 Net 223 "/pin protect/AN_HARN07" "AN_HARN07"
+ U401 3
  J301 3A3
  R407 2
- U401 3
 Net 224 "/pin protect/AN_HARN11" "AN_HARN11"
- J301 3B3
- U401 7
  R417 2
+ U401 7
+ J301 3B3
 Net 225 "/pin protect/AN_HARN13" "AN_HARN13"
+ R419 2
  U401 10
  J301 3C3
- R419 2
 Net 226 "/pin protect/AN_HARN06" "AN_HARN06"
- R406 2
- J301 3A2
  U401 2
+ J301 3A2
+ R406 2
 Net 227 "/pin protect/AN_HARN10" "AN_HARN10"
- J301 3B2
  R416 2
+ J301 3B2
  U401 6
 Net 228 "/pin protect/AN_HARN05" "AN_HARN05"
+ J301 3A1
  R405 2
  U401 1
- J301 3A1
 Net 229 "/pin protect/AN_HARN09" "AN_HARN09"
- J301 3B1
  U401 5
+ J301 3B1
  R415 2
-Net 230 "/CPU/CS-TCPL1" "CS-TCPL1"
- P201 43C
+Net 230 "/SENSOR_INPUTS.sch/CS-TCPL1" "CS-TCPL1"
  U1301 6
+ P201 43C
 Net 231 "/low_side_drive1/EN0" "EN0"
- U1001 25
  P201 43D
+ U1001 25
 Net 232 "/CPU/24_INJ_DIGI" "24_INJ_DIGI"
  U529 1
  P201 41C
@@ -7775,141 +7503,147 @@ Net 233 "/CPU/21_INJ_DIGI" "21_INJ_DIGI"
  U520 1
  P201 38D
 Net 234 "/CPU/18_INJ_DIGI" "18_INJ_DIGI"
- U527 1
  P201 38C
+ U527 1
 Net 235 "/CPU/19_INJ_DIGI" "19_INJ_DIGI"
- P201 31D
  U518 1
+ P201 31D
 Net 236 "/CPU/16_INJ_DIGI" "16_INJ_DIGI"
  U525 1
  P201 65B
 Net 237 "/CPU/13_INJ_DIGI" "13_INJ_DIGI"
- U517 1
  P201 68A
+ U517 1
 Net 238 "/CPU/01_INJ_DIGI" "01_INJ_DIGI"
- P201 75A
  U502 1
+ P201 75A
 Net 239 "/CPU/03_INJ_DIGI" "03_INJ_DIGI"
  U510 1
  P201 74A
 Net 240 "/CPU/A4988_CLK" "A4988_CLK"
- P201 15C
  U101 15
+ P201 15C
 Net 241 "/CPU/09_IGN_DIGI" "09_IGN_DIGI"
  U536 1
  P201 90A
 Net 242 "/pin protect/AN_CPU05" "AN_CPU05"
  C405 1
- R401 1
  P201 96B
  P201 81C
+ R405 1
+ D402 2
+ D401 1
 Net 243 "/pin protect/AN_CPU_P04" "AN_CPU_P04"
  P201 82D
- R424 1
- C428 1
  P201 96A
+ R428 1
+ D428 2
+ D427 1
+ C428 1
 Net 244 "/pin protect/AN_CPU06" "AN_CPU06"
- P201 86A
- P201 81D
- R402 1
  C406 1
+ D403 1
+ P201 86A
+ D404 2
+ P201 81D
+ R406 1
 Net 245 "" ""
- R1314 1
  R1317 2
  U1303 6
+ R1314 1
 Net 246 "" ""
- U1303 7
- R1314 2
  R1312 1
+ R1314 2
+ U1303 7
 Net 247 "" ""
  U1303 4
  R1308 1
  C1313 2
 Net 248 "" ""
+ U1303 5
  C1313 1
  R1309 1
- U1303 5
 Net 249 "" ""
- U1304 8
- R1313 2
  R1318 2
+ R1313 2
+ U1304 8
 Net 250 "" ""
  R1315 2
- U1304 7
  R1313 1
+ U1304 7
 Net 251 "" ""
- R1315 1
  R1319 2
+ R1315 1
  U1304 6
 Net 252 "" ""
  R1316 2
  R1312 2
  U1303 8
 Net 253 "" ""
- U1304 4
  R1310 1
  C1314 2
+ U1304 4
 Net 254 "" ""
- C1314 1
  R1311 1
  U1304 5
+ C1314 1
 Net 266 "" ""
- U1201 23
  R1217 2
+ U1201 23
 Net 267 "" ""
  C1211 2
  U1201 22
 Net 268 "" ""
- U1201 21
  R1223 2
+ U1201 21
 Net 269 "" ""
- R1215 1
- R1219 2
  R1220 2
+ R1215 1
  U1201 20
+ R1219 2
 Net 270 "" ""
- U1201 9
  R1213 2
+ U1201 9
 Net 271 "" ""
- R1203 1
  U1201 10
+ R1203 1
 Net 272 "" ""
- C1205 2
  U1201 11
+ C1205 2
 Net 273 "" ""
- R1203 2
  C1205 1
+ R1203 2
 Net 274 "" ""
- U1201 7
  R1207 1
+ U1201 7
 Net 275 "" ""
  U1201 19
  R1215 2
 Net 276 "" ""
  C1202 1
- U1202 8
  R1202 1
+ U1202 8
 Net 277 "" ""
  U1202 11
  C1206 2
 Net 278 "" ""
- R1204 2
  C1206 1
+ R1204 2
 Net 279 "" ""
  U1202 23
  R1218 2
 Net 280 "" ""
- C1212 2
  U1202 22
+ C1212 2
 Net 281 "" ""
- R1212 1
  U1202 12
+ R1212 1
 Net 282 "" ""
- R1224 2
  U1202 21
+ R1224 2
 Net 283 "" ""
- R1204 1
  U1202 10
+ R1204 1
 Net 284 "" ""
  U1202 7
  R1210 1
@@ -7917,231 +7651,231 @@ Net 285 "" ""
  U1202 5
  R1209 2
 Net 286 "" ""
- U1202 9
  R1214 2
+ U1202 9
 Net 287 "" ""
- R1216 2
  U1202 19
+ R1216 2
 Net 288 "" ""
- R1221 2
  R1222 2
- R1216 1
  U1202 20
+ R1221 2
+ R1216 1
 Net 289 "" ""
- C1201 1
  R1201 1
  U1201 8
+ C1201 1
 Net 290 "" ""
  U1201 5
  R1206 2
 Net 291 "" ""
- U1201 12
  R1211 1
+ U1201 12
 Net 373 "" ""
  D201 1
  R201 1
 Net 374 "" ""
- R201 2
  P201 98A
+ R201 2
 Net 391 "" ""
  P201 9C
  SW201 2
 Net 456 "" ""
- SW202 3
- SW202 4
  P201 10C
+ SW202 4
+ SW202 3
 Net 463 "" ""
- R1101 1
- U1101 9
-Net 464 "" ""
  U1101 8
  R1102 1
+Net 464 "" ""
+ R1101 1
+ U1101 9
 Net 465 "/low_side_drive1/GND_PWR8" "GND_PWR8"
- U1001 46
- R1016 2
- R1017 1
- R1018 2
- C1021 1
- C1023 1
- R1012 1
- R1014 2
- R1005 2
- C1020 1
- C1024 1
+ U1001 39
  U1001 44
- R1002 2
- R1004 2
+ C1022 1
  Q1001 3
- Q1002 3
- Q1001 1
- C1018 1
+ Q1002 1
+ R1005 2
+ R1004 2
+ R1002 2
+ R1014 2
+ R1017 1
+ C1016 1
+ C1017 1
+ R1009 1
+ C1024 1
+ Q1003 3
+ C1020 1
  Q1003 1
  C1019 1
- Q1003 3
- C1017 1
- C1016 1
- U1001 39
- C1022 1
- Q1002 1
- R1009 1
+ Q1001 1
+ Q1002 3
+ C1018 1
+ R1016 2
+ C1023 1
+ R1012 1
+ U1001 46
+ R1018 2
+ C1021 1
 Net 466 "" ""
- Q1001 4
  R1004 1
  R1006 1
+ Q1001 4
 Net 467 "" ""
- U1001 24
  D1001 1
+ U1001 24
 Net 468 "" ""
- R1003 2
  U1001 8
+ R1003 2
 Net 469 "/low_side_drive1/main_LO" "main_LO"
- U1001 43
  P1021 1
  C1016 2
+ U1001 43
 Net 470 "" ""
- U1001 47
- R1017 2
  P1019 1
+ R1017 2
+ U1001 47
 Net 471 "" ""
- R1007 2
  U1001 26
+ R1007 2
 Net 472 "" ""
- R1013 2
  U1001 51
+ R1013 2
 Net 473 "" ""
- R1010 2
  U1001 53
+ R1010 2
 Net 474 "/low_side_drive1/fault_LO" "fault_LO"
  C1024 2
- U1001 40
  P1024 1
+ U1001 40
 Net 475 "/low_side_drive1/purge_LO" "purge_LO"
  U1001 45
- P1020 1
  C1019 2
+ P1020 1
 Net 476 "" ""
  U1001 32
  C1018 2
  P1028 1
-Net 477 "" ""
- Q1002 4
- R1010 1
- R1014 1
+Net 477 "/low_side_drive1/800_CCD1" "800_CCD1"
+ P1017 1
+ C1012 2
+ U1001 27
 Net 478 "" ""
- R1016 1
- R1013 1
- Q1003 2
-Net 479 "" ""
+ R1015 1
  R1018 1
  Q1003 4
- R1015 1
-Net 480 "/low_side_drive1/col_tmp_LO" "col_tmp_LO"
+Net 479 "/low_side_drive1/col_tmp_LO" "col_tmp_LO"
  C1021 2
  P1026 1
  U1001 37
-Net 481 "/low_side_drive1/800_CCD1" "800_CCD1"
- C1012 2
- P1017 1
- U1001 27
+Net 480 "" ""
+ R1008 2
+ U1001 2
+Net 481 "" ""
+ Q1002 2
+ R1005 1
+ R1008 1
 Net 482 "" ""
- R1011 2
- U1001 35
-Net 483 "/low_side_drive1/col_fan_LO" "col_fan_LO"
- P1027 1
- U1001 36
- C1023 2
+ U1001 4
+ R1006 2
+Net 483 "" ""
+ R1001 2
+ U1001 6
 Net 484 "" ""
- D1002 1
- U1001 28
+ R1001 1
+ R1002 1
+ Q1001 2
 Net 485 "" ""
- P1025 1
- C1017 2
- U1001 38
+ Q1003 2
+ R1013 1
+ R1016 1
 Net 486 "" ""
+ R1010 1
+ R1014 1
+ Q1002 4
+Net 487 "" ""
+ U1001 35
+ R1011 2
+Net 488 "" ""
+ U1001 28
+ D1002 1
+Net 489 "" ""
+ C1017 2
+ P1025 1
+ U1001 38
+Net 490 "" ""
  U1001 49
  R1015 2
-Net 487 "" ""
- U1001 7
+Net 491 "" ""
  P1016 1
  R1009 2
-Net 488 "" ""
- P1018 1
+ U1001 7
+Net 492 "" ""
  U1001 48
+ P1018 1
  R1012 2
-Net 489 "/low_side_drive1/tac_out_LO" "tac_out_LO"
- U1001 41
- C1022 2
+Net 493 "/low_side_drive1/tac_out_LO" "tac_out_LO"
  P1023 1
-Net 490 "/low_side_drive1/misc1_LO" "misc1_LO"
+ C1022 2
+ U1001 41
+Net 494 "/low_side_drive1/misc1_LO" "misc1_LO"
  P1022 1
- U1001 42
  C1020 2
-Net 491 "/low_side_drive1/800_CCD2" "800_CCD2"
+ U1001 42
+Net 495 "/low_side_drive1/800_CCD2" "800_CCD2"
  U1001 23
  P1015 1
  C1013 1
-Net 492 "" ""
- R1001 2
- U1001 6
-Net 493 "" ""
- R1002 1
- R1001 1
- Q1001 2
-Net 494 "" ""
- U1001 4
- R1006 2
-Net 495 "" ""
- R1008 2
- U1001 2
-Net 496 "" ""
- R1005 1
- R1008 1
- Q1002 2
+Net 496 "/low_side_drive1/col_fan_LO" "col_fan_LO"
+ C1023 2
+ U1001 36
+ P1027 1
 Net 497 "/low_side_drive1/800_PWM4" "800_PWM4"
  P1012 1
- C1002 2
  U1001 19
+ C1002 2
 Net 498 "/low_side_drive1/800_PWM3" "800_PWM3"
- U1001 18
  C1005 2
  P1011 1
+ U1001 18
 Net 499 "/low_side_drive1/800_PWM2" "800_PWM2"
- P1010 1
  C1007 2
  U1001 17
+ P1010 1
 Net 500 "/low_side_drive1/800_PWM1" "800_PWM1"
  P1009 1
- C1010 2
  U1001 16
+ C1010 2
 Net 501 "/low_side_drive1/800_PWM6" "800_PWM6"
  U1001 21
- C1008 2
  P1014 1
+ C1008 2
 Net 502 "/low_side_drive1/800_PWM5" "800_PWM5"
  C1011 2
  P1013 1
  U1001 20
 Net 503 "" ""
- R907 2
  U901 7
+ R907 2
 Net 504 "" ""
  R908 2
  U901 8
 Net 505 "" ""
- U901 24
  R913 2
+ U901 24
 Net 506 "" ""
- U901 16
  R914 2
+ U901 16
 Net 507 "" ""
- R905 2
  U901 5
+ R905 2
 Net 508 "" ""
  U901 6
  R906 2
 Net 509 "" ""
- R904 2
  U901 3
+ R904 2
 Net 512 "" ""
  R909 2
  U901 9
@@ -8153,680 +7887,596 @@ Net 515 "" ""
  U901 2
  R903 2
 Net 516 "" ""
- U901 10
  R910 2
+ U901 10
 Net 517 "" ""
- R912 2
  U901 12
+ R912 2
 Net 518 "" ""
  U901 11
  R911 2
 Net 520 "" ""
- R427 1
- D426 2
- C423 1
- R423 2
- D425 1
-Net 521 "" ""
- R425 1
- D422 2
- C421 1
- R421 2
- D421 1
-Net 522 "" ""
- R422 2
- D423 1
- C422 1
- D424 2
- R426 1
-Net 523 "" ""
- R419 1
- R413 2
- D418 2
- C413 1
- D417 1
-Net 524 "" ""
- R428 1
- D428 2
- C424 1
- R424 2
- D427 1
-Net 525 "" ""
- D420 2
- D419 1
- R414 2
- C414 1
- R420 1
-Net 526 "" ""
- D405 1
- R403 2
- C403 1
- R407 1
- D406 2
-Net 527 "" ""
- D414 2
- R417 1
- C411 1
- D413 1
- R411 2
-Net 528 "" ""
- R401 2
- D401 1
- D402 2
- R405 1
- C401 1
-Net 529 "" ""
- D407 1
- C404 1
- R408 1
- R404 2
- D408 2
-Net 530 "" ""
- C402 1
- R402 2
- D404 2
- R406 1
- D403 1
-Net 531 "" ""
- C410 1
- R410 2
- D411 1
- R416 1
- D412 2
-Net 532 "" ""
- C412 1
- R412 2
- D415 1
- D416 2
- R418 1
-Net 533 "" ""
- D409 1
- C409 1
- R409 2
- D410 2
- R415 1
-Net 534 "" ""
+ R597 1
  Q519 1
  R591 1
- R597 1
-Net 535 "" ""
- U511 2
+Net 521 "" ""
  R549 1
-Net 536 "" ""
- Q507 1
+ U511 2
+Net 522 "" ""
  R531 1
+ Q507 1
  R537 1
-Net 537 "" ""
- Q512 1
- R542 2
+Net 523 "" ""
  R536 2
-Net 538 "" ""
- U526 2
+ R542 2
+ Q512 1
+Net 524 "" ""
  R609 1
-Net 539 "" ""
- R658 2
+ U526 2
+Net 525 "" ""
  R652 2
+ R658 2
  Q532 1
-Net 540 "" ""
+Net 526 "" ""
  U540 2
  R678 2
-Net 541 "" ""
- R540 2
+Net 527 "" ""
  R534 2
+ R540 2
  Q510 1
-Net 542 "" ""
- U513 2
+Net 528 "" ""
  R550 1
-Net 543 "" ""
+ U513 2
+Net 529 "" ""
  U545 2
  R671 1
-Net 544 "" ""
- U544 2
+Net 530 "" ""
  R680 2
-Net 545 "" ""
+ U544 2
+Net 531 "" ""
  U535 2
  R623 2
-Net 546 "" ""
- R596 2
- Q524 1
+Net 532 "" ""
  R602 2
-Net 547 "" ""
- U514 2
+ Q524 1
+ R596 2
+Net 533 "" ""
  R560 2
-Net 548 "/efi/5V_GND1" "5V_GND1"
- R663 2
+ U514 2
+Net 534 "/efi/5V_GND1" "5V_GND1"
  R633 1
- C501 1
- R513 1
+ R663 2
  R543 2
  U507 2
-Net 549 "/efi/5V_GND2" "5V_GND2"
- R635 1
+ R513 1
+ C501 1
+Net 535 "/efi/5V_GND2" "5V_GND2"
  C502 1
- R665 2
- R545 2
  R515 1
+ R545 2
+ R665 2
+ R635 1
  U508 2
-Net 550 "/efi/5V_GND4" "5V_GND4"
+Net 536 "/efi/5V_GND4" "5V_GND4"
  U522 2
  R575 1
  R605 2
- C507 1
- R573 1
  R603 2
-Net 551 "" ""
+ R573 1
+ C507 1
+Net 537 "" ""
  R594 2
  Q522 1
  R600 2
-Net 552 "" ""
- U528 2
+Net 538 "" ""
  R610 1
-Net 553 "" ""
+ U528 2
+Net 539 "" ""
+ R653 1
  R659 1
  Q533 1
- R653 1
-Net 554 "" ""
- R670 1
+Net 540 "" ""
  U543 2
-Net 555 "" ""
- R586 2
- Q514 1
+ R670 1
+Net 541 "" ""
  R580 2
-Net 556 "" ""
+ Q514 1
+ R586 2
+Net 542 "" ""
  R580 1
  U517 4
-Net 557 "" ""
+Net 543 "" ""
  U526 4
  R598 1
-Net 558 "" ""
+Net 544 "" ""
  R597 2
  U525 3
-Net 559 "" ""
+Net 545 "" ""
  U516 3
  R579 2
-Net 560 "" ""
+Net 546 "" ""
+ R573 2
  U516 4
  U517 3
- R573 2
-Net 561 "" ""
+Net 547 "" ""
  R561 2
  U516 2
-Net 562 "" ""
+Net 548 "" ""
  U517 2
  R570 1
-Net 563 "" ""
- U526 3
- U525 4
+Net 549 "" ""
  R603 1
-Net 564 "" ""
+ U525 4
+ U526 3
+Net 550 "" ""
  U501 4
- R513 2
  U502 3
-Net 565 "" ""
+ R513 2
+Net 551 "" ""
  R543 1
  U511 3
  U510 4
-Net 566 "" ""
- R510 1
+Net 552 "" ""
  U502 2
-Net 567 "" ""
+ R510 1
+Net 553 "" ""
+ Q502 1
  R520 2
  R526 2
- Q502 1
-Net 568 "" ""
- R585 1
+Net 554 "" ""
  R579 1
+ R585 1
  Q513 1
-Net 569 "" ""
- Q501 1
- R525 1
+Net 555 "" ""
  R519 1
-Net 570 "" ""
- R501 2
+ R525 1
+ Q501 1
+Net 556 "" ""
  U501 2
-Net 571 "" ""
+ R501 2
+Net 557 "" ""
  U501 3
  R519 2
-Net 572 "" ""
+Net 558 "" ""
  U510 3
  R537 2
-Net 573 "" ""
+Net 559 "" ""
  R538 1
  U511 4
-Net 574 "" ""
+Net 560 "" ""
  R520 1
  U502 4
-Net 575 "" ""
- R558 2
+Net 561 "" ""
  U510 2
-Net 576 "" ""
+ R558 2
+Net 562 "" ""
  R641 2
  U533 3
-Net 577 "" ""
- U534 3
- R635 2
+Net 563 "" ""
  U533 4
-Net 578 "" ""
- R621 2
+ R635 2
+ U534 3
+Net 564 "" ""
  U531 2
-Net 579 "" ""
- R639 2
+ R621 2
+Net 565 "" ""
  U531 3
-Net 580 "" ""
- U531 4
- R633 2
+ R639 2
+Net 566 "" ""
  U532 3
-Net 581 "" ""
- R562 2
+ R633 2
+ U531 4
+Net 567 "" ""
  U518 2
-Net 582 "" ""
- R581 1
+ R562 2
+Net 568 "" ""
  U518 3
-Net 583 "" ""
+ R581 1
+Net 569 "" ""
  R563 2
  U520 2
-Net 584 "" ""
- R583 1
+Net 570 "" ""
  U520 3
-Net 585 "" ""
+ R583 1
+Net 571 "" ""
  R577 2
  U521 3
  U520 4
-Net 586 "" ""
- U505 2
+Net 572 "" ""
  R503 2
-Net 587 "" ""
+ U505 2
+Net 573 "" ""
  U505 3
  R523 2
-Net 588 "" ""
+Net 574 "" ""
  U503 2
  R502 2
-Net 589 "" ""
+Net 575 "" ""
  U503 3
  R521 1
-Net 590 "" ""
- U503 4
+Net 576 "" ""
  U504 3
+ U503 4
  R515 2
-Net 591 "" ""
- Q530 1
+Net 577 "" ""
  R644 2
+ Q530 1
  R650 2
-Net 592 "" ""
+Net 578 "" ""
  R662 2
- R656 2
  Q536 1
-Net 593 "/efi/5V_GND3" "5V_GND3"
- R547 2
+ R656 2
+Net 579 "/efi/5V_GND3" "5V_GND3"
  R517 1
- R637 1
+ R547 2
  U509 2
  C503 1
+ R637 1
  R667 2
-Net 594 "" ""
- R595 1
+Net 580 "" ""
  R601 1
+ R595 1
  Q523 1
-Net 595 "" ""
- Q517 1
- R583 2
+Net 581 "" ""
  R589 1
-Net 596 "" ""
- R649 1
- R643 1
+ R583 2
+ Q517 1
+Net 582 "" ""
  Q529 1
-Net 597 "" ""
- R661 1
+ R643 1
+ R649 1
+Net 583 "" ""
  R655 1
  Q535 1
-Net 598 "" ""
- U536 2
+ R661 1
+Net 584 "" ""
  R632 1
-Net 599 "" ""
+ U536 2
+Net 585 "" ""
  U543 4
  R660 1
-Net 600 "" ""
- U541 4
+Net 586 "" ""
  R658 1
-Net 601 "" ""
- U528 4
+ U541 4
+Net 587 "" ""
  R600 1
-Net 602 "" ""
+ U528 4
+Net 588 "" ""
  R611 1
  U530 2
-Net 603 "" ""
+Net 589 "" ""
+ R607 1
  U530 3
  U529 4
- R607 1
-Net 604 "" ""
+Net 590 "" ""
  R602 1
  U530 4
-Net 605 "" ""
+Net 591 "" ""
  U515 2
  R551 1
-Net 606 "" ""
+Net 592 "" ""
  R542 1
  U515 4
-Net 607 "" ""
+Net 593 "" ""
  R540 1
  U513 4
-Net 608 "" ""
+Net 594 "" ""
  U544 3
  R661 2
-Net 609 "" ""
+Net 595 "" ""
  U529 2
  R620 2
-Net 610 "" ""
- U529 3
+Net 596 "" ""
  R601 2
-Net 611 "" ""
+ U529 3
+Net 597 "" ""
  R662 1
  U545 4
-Net 612 "" ""
+Net 598 "" ""
  U532 4
  R640 1
-Net 613 "" ""
+Net 599 "" ""
  U519 4
  R582 1
-Net 614 "" ""
+Net 600 "" ""
  U521 2
  R572 1
-Net 615 "" ""
- R584 2
+Net 601 "" ""
  U521 4
-Net 616 "" ""
+ R584 2
+Net 602 "" ""
  U506 4
  R524 1
-Net 617 "" ""
+Net 603 "" ""
  U504 2
  R511 1
-Net 618 "" ""
+Net 604 "" ""
  U504 4
  R522 1
-Net 619 "" ""
- R643 2
+Net 605 "" ""
  U535 3
-Net 620 "" ""
+ R643 2
+Net 606 "" ""
+ U535 4
  R637 2
  U536 3
- U535 4
-Net 621 "" ""
+Net 607 "" ""
  R622 2
  U533 2
-Net 622 "" ""
+Net 608 "" ""
  U542 2
  R679 2
-Net 623 "" ""
- U542 3
+Net 609 "" ""
  R659 2
-Net 624 "" ""
+ U542 3
+Net 610 "" ""
  U540 3
  R657 2
-Net 625 "" ""
+Net 611 "" ""
  R618 2
  U525 2
-Net 626 "" ""
+Net 612 "" ""
  U527 2
  R619 2
-Net 627 "" ""
+Net 613 "" ""
  R599 1
  U527 3
-Net 628 "" ""
- R541 2
+Net 614 "" ""
  U514 3
-Net 629 "" ""
+ R541 2
+Net 615 "" ""
  U515 3
  U514 4
  R547 1
-Net 630 "" ""
- R559 2
+Net 616 "" ""
  U512 2
-Net 631 "" ""
+ R559 2
+Net 617 "" ""
  U512 3
  R539 1
-Net 632 "" ""
- U536 4
+Net 618 "" ""
  R644 1
-Net 633 "" ""
- U534 2
+ U536 4
+Net 619 "" ""
  R631 1
-Net 634 "" ""
- U534 4
+ U534 2
+Net 620 "" ""
  R642 1
-Net 635 "" ""
- Q518 1
+ U534 4
+Net 621 "" ""
  R584 1
+ Q518 1
  R590 2
-Net 636 "" ""
- U524 2
- C509 1
- R577 1
+Net 622 "" ""
  R607 2
-Net 637 "" ""
- R667 1
+ R577 1
+ C509 1
+ U524 2
+Net 623 "" ""
  U545 3
  U544 4
-Net 638 "" ""
- R517 2
+ R667 1
+Net 624 "" ""
  U506 3
  U505 4
-Net 639 "" ""
+ R517 2
+Net 625 "" ""
  R523 1
  Q505 1
  R529 1
-Net 640 "" ""
+Net 626 "" ""
+ R660 2
  R654 2
  Q534 1
- R660 2
-Net 641 "" ""
- Q521 1
+Net 627 "" ""
  R599 2
+ Q521 1
  R593 1
-Net 642 "" ""
+Net 628 "" ""
  R533 1
- Q509 1
  R539 2
-Net 643 "" ""
- R669 1
+ Q509 1
+Net 629 "" ""
  U541 2
-Net 644 "" ""
- R651 1
+ R669 1
+Net 630 "" ""
  Q531 1
+ R651 1
  R657 1
-Net 645 "" ""
- R592 2
- Q520 1
+Net 631 "" ""
  R598 2
-Net 646 "" ""
+ Q520 1
+ R592 2
+Net 632 "" ""
  R532 2
- R538 2
  Q508 1
-Net 647 "" ""
- R535 1
+ R538 2
+Net 633 "" ""
  R541 1
+ R535 1
  Q511 1
-Net 648 "" ""
+Net 634 "" ""
+ R665 1
  U542 4
  U543 3
- R665 1
-Net 649 "" ""
- R648 2
+Net 635 "" ""
  Q528 1
  R642 2
-Net 650 "" ""
- R605 1
+ R648 2
+Net 636 "" ""
  U528 3
+ R605 1
  U527 4
-Net 651 "" ""
+Net 637 "" ""
  R571 1
  U519 2
-Net 652 "" ""
- R588 2
+Net 638 "" ""
  R582 2
  Q516 1
-Net 653 "" ""
+ R588 2
+Net 639 "" ""
  R663 1
- U541 3
  U540 4
-Net 654 "" ""
- R630 1
+ U541 3
+Net 640 "" ""
  U532 2
-Net 655 "" ""
- Q526 1
+ R630 1
+Net 641 "" ""
  R640 2
  R646 2
-Net 656 "" ""
- R647 1
+ Q526 1
+Net 642 "" ""
  R641 1
+ R647 1
  Q527 1
-Net 657 "" ""
- R645 1
- Q525 1
+Net 643 "" ""
  R639 1
-Net 658 "" ""
- Q504 1
+ Q525 1
+ R645 1
+Net 644 "" ""
  R528 2
  R522 2
-Net 659 "" ""
+ Q504 1
+Net 645 "" ""
  R545 1
- U512 4
  U513 3
-Net 660 "" ""
+ U512 4
+Net 646 "" ""
  U506 2
  R512 1
-Net 661 "" ""
- Q506 1
- R524 2
+Net 647 "" ""
  R530 2
-Net 662 "" ""
- U519 3
+ R524 2
+ Q506 1
+Net 648 "" ""
  U518 4
+ U519 3
  R575 2
-Net 663 "" ""
- Q515 1
+Net 649 "" ""
  R581 2
  R587 1
-Net 664 "" ""
- R527 1
+ Q515 1
+Net 650 "" ""
  Q503 1
+ R527 1
  R521 2
-Net 667 "" ""
- C606 2
- U601 10
+Net 653 "" ""
  R693 2
+ U601 10
+ C606 2
  R686 2
-Net 668 "" ""
- C605 1
+Net 654 "" ""
  R685 1
- R691 2
  U601 15
-Net 669 "" ""
+ C605 1
+ R691 2
+Net 655 "" ""
+ C605 2
+ U601 16
  R685 2
  R690 2
  R689 2
- U601 16
- C605 2
-Net 670 "" ""
- R719 1
+Net 656 "" ""
  R730 2
-Net 671 "" ""
- R718 1
+ R719 1
+Net 657 "" ""
  R729 2
-Net 674 "" ""
- R735 2
+ R718 1
+Net 660 "" ""
  R727 1
-Net 675 "" ""
- R727 2
- U604 10
- C616 2
+ R735 2
+Net 661 "" ""
  R716 2
-Net 676 "" ""
+ C616 2
+ U604 10
+ R727 2
+Net 662 "" ""
  R701 2
  R690 1
-Net 677 "" ""
+Net 663 "" ""
  R702 2
  R691 1
-Net 678 "" ""
- R693 1
+Net 664 "" ""
  R703 2
-Net 679 "" ""
- R731 2
+ R693 1
+Net 665 "" ""
  R721 1
-Net 680 "" ""
- U603 15
- R713 1
- R719 2
+ R731 2
+Net 666 "" ""
  C613 1
-Net 681 "" ""
- U603 16
+ R713 1
+ U603 15
+ R719 2
+Net 667 "" ""
  R713 2
  C613 2
- R717 2
  R718 2
-Net 682 "" ""
- R732 2
+ R717 2
+ U603 16
+Net 668 "" ""
  R722 1
-Net 683 "" ""
+ R732 2
+Net 669 "" ""
  R721 2
- R714 2
- C614 2
  U603 10
-Net 684 "" ""
- R725 2
+ C614 2
+ R714 2
+Net 670 "" ""
  R715 1
  U604 15
+ R725 2
  C615 1
-Net 685 "" ""
- C615 2
+Net 671 "" ""
  U604 16
- R715 2
  R723 2
+ C615 2
  R724 2
-Net 686 "" ""
- R724 1
+ R715 2
+Net 672 "" ""
  R733 2
-Net 687 "" ""
- R734 2
+ R724 1
+Net 673 "" ""
  R725 1
-Net 688 "" ""
+ R734 2
+Net 674 "" ""
  R728 1
  R736 2
-Net 691 "" ""
+Net 677 "" ""
  R694 1
  R704 2
-Net 692 "" ""
- R692 2
+Net 678 "" ""
  U601 9
- R694 2
- C606 1
  R686 1
-Net 693 "" ""
+ R694 2
+ R692 2
+ C606 1
+Net 679 "" ""
  R720 2
- U603 9
  R722 2
  R714 1
+ U603 9
  C614 1
-Net 694 "" ""
+Net 680 "" ""
  R726 2
- C616 1
- U604 9
  R716 1
  R728 2
-Net 695 "" ""
+ C616 1
+ U604 9
+Net 681 "" ""
  D701 2
  R737 2
-Net 696 "" ""
+Net 682 "" ""
  C708 1
  C709 1
- D702 2
  D703 2
+ D702 2
  L701 2
-Net 697 "" ""
- R739 2
+Net 683 "" ""
  U703 5
-Net 698 "" ""
- D706 2
+ R739 2
+Net 684 "" ""
  U703 1
  R738 1
+ D706 2
 }
 #End
