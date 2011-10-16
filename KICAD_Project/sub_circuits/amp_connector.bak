@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/14/2011 5:23:44 AM
+EESchema Schematic File Version 2  date 10/16/2011 6:57:39 AM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,7 +31,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 3 12
 Title "Open5xxxECU (o5e), an ECU that is no longer affiliated with freeEMS."
-Date "14 oct 2011"
+Date "16 oct 2011"
 Rev "A-DRAFT5"
 Comp "http://open5xxxecu.org/"
 Comment1 ""
@@ -67,23 +67,23 @@ F 2 "Molex_SD-64333-100_on_Cinch_ModICE_w_5554_SOM_con-only" H 7825 5275 60  000
 $EndComp
 Text Label 7425 3700 2    60   ~ 0
 GND
-Text HLabel 9425 6425 2    60   Input ~ 0
-P09
-Text HLabel 9425 6325 2    60   Input ~ 0
-P05
-Text HLabel 8225 6425 2    60   Input ~ 0
-P10
-Text HLabel 8225 6325 2    60   Input ~ 0
-P06
-Text HLabel 7425 6525 0    60   Input ~ 0
-P13
 Text HLabel 7425 6425 0    60   Input ~ 0
-P11
+P09
+Text HLabel 8225 6325 2    60   Input ~ 0
+P05
+Text HLabel 6225 6425 0    60   Input ~ 0
+P10
 Text HLabel 7425 6325 0    60   Input ~ 0
-P07
-Text HLabel 6225 6625 0    60   Input ~ 0
-MISC_1A
+P06
+Text HLabel 7425 6625 0    60   Input ~ 0
+P13
+Text HLabel 7425 6525 0    60   Input ~ 0
+P11
 Text HLabel 6225 6325 0    60   Input ~ 0
+P07
+Text HLabel 9425 6325 2    60   Input ~ 0
+MISC_1A
+Text HLabel 8225 6425 2    60   Input ~ 0
 P08
 Text HLabel 9425 6725 2    60   Input ~ 0
 INJ21_HARN
@@ -159,15 +159,15 @@ Text HLabel 6225 3575 0    60   Input ~ 0
 GND2_INJIGN
 Text HLabel 8225 6525 2    60   Input ~ 0
 FLEX_CAN_L
-Text HLabel 6225 6525 0    60   Input ~ 0
+Text HLabel 6225 6625 0    60   Input ~ 0
 P14
-Text HLabel 9425 6525 2    60   Input ~ 0
+Text HLabel 8225 6625 2    60   Input ~ 0
 FLEX_CAN_H
 Text HLabel 8225 3975 2    60   Input ~ 0
 RPM_RB-
 Text HLabel 9425 4075 2    60   Input ~ 0
 RPM_LB-
-Text HLabel 7425 6625 0    60   Input ~ 0
+Text HLabel 9425 6425 2    60   Input ~ 0
 PUMP_LS-1A
 Text HLabel 9425 4175 2    60   Input ~ 0
 RPM_RF-
@@ -177,7 +177,7 @@ Text HLabel 6225 5575 0    60   Input ~ 0
 CRANK-
 Text HLabel 9425 3975 2    60   Input ~ 0
 RPM_RB+
-Text HLabel 6225 6425 0    60   Input ~ 0
+Text HLabel 6225 6525 0    60   Input ~ 0
 P12
 Text HLabel 8225 4175 2    60   Input ~ 0
 RPM_RF+
@@ -259,7 +259,7 @@ Text HLabel 7425 4175 0    60   Input ~ 0
 O2_IP2
 Text HLabel 6225 4275 0    60   Input ~ 0
 O2_UN2
-Text HLabel 8225 6625 2    60   Input ~ 0
+Text HLabel 9425 6525 2    60   Input ~ 0
 O2_HD2_PWR
 Text HLabel 7425 4275 0    60   Input ~ 0
 O2_VM2

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/14/2011 5:26:22 AM
+EESchema Schematic File Version 2  date 10/16/2011 7:32:23 AM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,7 +31,7 @@ $Descr User 11000 8500
 encoding utf-8
 Sheet 11 12
 Title "Open5xxxECU (o5e), an ECU that is no longer affiliated with freeEMS."
-Date "14 oct 2011"
+Date "16 oct 2011"
 Rev "A-DRAFT5"
 Comp "http://open5xxxecu.org/"
 Comment1 "2 channels of Wide O2 "
@@ -326,12 +326,14 @@ P 8375 2675
 F 0 "C1211" V 8400 2850 50  0000 L CNN
 F 1 "100nF" V 8400 2500 50  0000 L CNN
 F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "avx,08051C104KAT2A" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,96M1354" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "100V" V 1130 2600 60  0001 C CNN "V"
-F 7 "10%" V 1130 2600 60  0001 C CNN "tolerance"
-F 8 "ceramic" V 1130 2600 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
+F 4 "AVX,08055C104KAT2A" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,27C8438" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "200V" V 1130 2600 60  0001 C CNN "V"
+F 9 "10%" V 1130 2600 60  0001 C CNN "TOL"
+F 10 "CERAMIC" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8375 2675
 	0    1    1    0   
 $EndComp
@@ -380,12 +382,14 @@ P 9750 3050
 F 0 "C1215" H 9825 3150 50  0000 L CNN
 F 1 "10nF" H 9550 3150 50  0000 L CNN
 F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "ill cap,106CKE200M" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,69K7896" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "200V" V 1130 2600 60  0001 C CNN "V"
-F 7 "10%" V 1130 2600 60  0001 C CNN "tolerance"
-F 8 "alum elec" V 1130 2600 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
+F 4 "AVX,08055C103KAT2A" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,07J3575" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "50V" V 1130 2600 60  0001 C CNN "V"
+F 9 "10%" V 1130 2600 60  0001 C CNN "TOL"
+F 10 "CERAMIC" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    9750 3050
 	1    0    0    1   
 $EndComp
@@ -599,12 +603,14 @@ P 6100 3525
 F 0 "C1205" V 6000 3350 50  0000 L CNN
 F 1 "100nF" V 6000 3700 50  0000 L CNN
 F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "avx,08051C104KAT2A" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,96M1354" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "100V" V 1130 2600 60  0001 C CNN "V"
-F 7 "10%" V 1130 2600 60  0001 C CNN "tolerance"
-F 8 "ceramic" V 1130 2600 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
+F 4 "AVX,08055C104KAT2A" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,27C8438" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "200V" V 1130 2600 60  0001 C CNN "V"
+F 9 "10%" V 1130 2600 60  0001 C CNN "TOL"
+F 10 "CERAMIC" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    6100 3525
 	0    -1   -1   0   
 $EndComp
@@ -997,12 +1003,14 @@ P 6100 6125
 F 0 "C1206" V 6000 5950 50  0000 L CNN
 F 1 "100nF" V 6000 6300 50  0000 L CNN
 F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "avx,08051C104KAT2A" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,96M1354" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "100V" V 1130 2600 60  0001 C CNN "V"
-F 7 "10%" V 1130 2600 60  0001 C CNN "tolerance"
-F 8 "ceramic" V 1130 2600 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
+F 4 "AVX,08055C104KAT2A" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,27C8438" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "200V" V 1130 2600 60  0001 C CNN "V"
+F 9 "10%" V 1130 2600 60  0001 C CNN "TOL"
+F 10 "CERAMIC" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    6100 6125
 	0    -1   -1   0   
 $EndComp
@@ -1218,12 +1226,14 @@ P 9775 5650
 F 0 "C1216" H 9850 5750 50  0000 L CNN
 F 1 "10nF" H 9575 5750 50  0000 L CNN
 F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "ill cap,106CKE200M" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,69K7896" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "200V" V 1130 2600 60  0001 C CNN "V"
-F 7 "10%" V 1130 2600 60  0001 C CNN "tolerance"
-F 8 "alum elec" V 1130 2600 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
+F 4 "AVX,08055C103KAT2A" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,07J3575" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "50V" V 1130 2600 60  0001 C CNN "V"
+F 9 "10%" V 1130 2600 60  0001 C CNN "TOL"
+F 10 "CERAMIC" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    9775 5650
 	1    0    0    1   
 $EndComp
@@ -1272,12 +1282,14 @@ P 8375 5275
 F 0 "C1212" V 8400 5450 50  0000 L CNN
 F 1 "100nF" V 8400 5125 50  0000 L CNN
 F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "avx,08051C104KAT2A" V 1130 2600 60  0001 C CNN "mfg,mfg#"
-F 5 "newark,96M1354" V 1130 2600 60  0001 C CNN "vend1,vend1#"
-F 6 "100V" V 1130 2600 60  0001 C CNN "V"
-F 7 "10%" V 1130 2600 60  0001 C CNN "tolerance"
-F 8 "ceramic" V 1130 2600 60  0001 C CNN "construct"
-F 9 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
+F 4 "AVX,08055C104KAT2A" V 1130 2600 60  0001 C CNN "mfg,mfg#"
+F 5 "newark,27C8438" V 1130 2600 60  0001 C CNN "vend1,vend1#"
+F 6 "" V 1130 2600 60  0001 C CNN "Field6"
+F 7 "" V 1130 2600 60  0001 C CNN "Field7"
+F 8 "200V" V 1130 2600 60  0001 C CNN "V"
+F 9 "10%" V 1130 2600 60  0001 C CNN "TOL"
+F 10 "CERAMIC" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8375 5275
 	0    1    1    0   
 $EndComp
