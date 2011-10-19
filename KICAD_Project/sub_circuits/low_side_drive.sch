@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/16/2011 7:32:21 AM
+EESchema Schematic File Version 2  date 10/19/2011 7:02:35 AM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -29,16 +29,20 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
-Sheet 9 12
+Sheet 2 12
 Title "Open5xxxECU (o5e), an ECU that is no longer affiliated with freeEMS."
-Date "16 oct 2011"
-Rev "A-DRAFT5"
+Date "19 oct 2011"
+Rev "A-DRAFT6"
 Comp "http://open5xxxecu.org/"
 Comment1 "misc high side and low side drives"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	6650 2350 7125 2350
+Wire Wire Line
+	6650 2550 7600 2550
 $Comp
 L CONN_1 P1017
 U 1 1 4BF3BED0
@@ -119,8 +123,6 @@ Wire Wire Line
 	6650 2150 6750 2150
 Wire Wire Line
 	6750 2150 6750 1950
-Wire Wire Line
-	6650 2350 7125 2350
 Wire Wire Line
 	7125 2350 7125 2250
 Wire Wire Line
@@ -215,8 +217,6 @@ Wire Wire Line
 	3075 2750 3275 2750
 Wire Wire Line
 	6650 4650 6775 4650
-Wire Wire Line
-	6650 2550 7600 2550
 Wire Wire Line
 	8100 2550 8100 2650
 Wire Wire Line

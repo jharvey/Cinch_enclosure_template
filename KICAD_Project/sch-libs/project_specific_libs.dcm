@@ -1,4 +1,10 @@
-EESchema-DOCLIB  Version 2.0  Date: 10/11/2011 7:16:41 AM
+EESchema-DOCLIB  Version 2.0  Date: 10/19/2011 6:40:44 AM
+#
+$CMP 7812
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
 #
 $CMP 78L05
 D Linear Regulator +5V

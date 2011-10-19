@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/16/2011 7:32:22 AM
+EESchema Schematic File Version 2  date 10/19/2011 7:02:36 AM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -29,10 +29,10 @@ EELAYER 25  0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 5 12
+Sheet 6 12
 Title "Open5xxxECU (o5e), an ECU that is no longer affiliated with freeEMS."
-Date "16 oct 2011"
-Rev "A-DRAFT5"
+Date "19 oct 2011"
+Rev "A-DRAFT6"
 Comp "http://open5xxxecu.org/"
 Comment1 "Injection circuits"
 Comment2 ""
