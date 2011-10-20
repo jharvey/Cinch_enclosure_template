@@ -1,0 +1,9 @@
+Notes for gen2
+
+Different harness connector, one that goes straight to the PCB, and has power devices dumping heat out the back. Perhaps with 2 connectors such that analog stuff can appraoch the processor in a start config. 
+
+install the SP720 and SP723 earlier on, such that they are included.
+
+Modularize parts if it like th injectocts, such that sub boards can be bulk processed. For example, 4 low side drive, or the WO2 circuit.
+
+
