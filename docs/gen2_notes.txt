@@ -6,4 +6,5 @@ install the SP720 and SP723 earlier on, such that they are included.
 
 Modularize parts if it like th injectocts, such that sub boards can be bulk processed. For example, 4 low side drive, or the WO2 circuit.
 
+change AN/DIGI protect parts to smaller SMT, such that they can be packed tighter together. 
 
