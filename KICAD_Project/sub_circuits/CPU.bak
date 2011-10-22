@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/21/2011 5:44:51 AM
+EESchema Schematic File Version 2  date 10/22/2011 9:34:40 AM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,7 +31,7 @@ $Descr D 34000 22000
 encoding utf-8
 Sheet 3 12
 Title "Open5xxxECU (o5e), an ECU that is no longer affiliated with freeEMS."
-Date "21 oct 2011"
+Date "22 oct 2011"
 Rev "A-DRAFT7"
 Comp "http://open5xxxecu.org/"
 Comment1 ""
@@ -39,6 +39,26 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L CONN_20X2 P203
+U 1 1 4EA2C062
+P 21350 19200
+F 0 "P203" H 21350 20250 60  0000 C CNN
+F 1 "CONN_20X2" V 21350 19200 50  0000 C CNN
+F 2 "PIN_ARRAY_20X2" H 21350 19200 60  0001 C CNN
+	1    21350 19200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_20X2 P202
+U 1 1 4EA2C05B
+P 27050 9800
+F 0 "P202" H 27050 10850 60  0000 C CNN
+F 1 "CONN_20X2" V 27050 9800 50  0000 C CNN
+F 2 "PIN_ARRAY_20X2" H 27050 9800 60  0001 C CNN
+	1    27050 9800
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	23100 2050 23100 1900
 Wire Wire Line

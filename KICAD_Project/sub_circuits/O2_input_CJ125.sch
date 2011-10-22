@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/21/2011 6:23:35 AM
+EESchema Schematic File Version 2  date 10/22/2011 9:43:21 AM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,8 +31,8 @@ $Descr User 11000 8500
 encoding utf-8
 Sheet 11 12
 Title "Open5xxxECU (o5e), an ECU that is no longer affiliated with freeEMS."
-Date "21 oct 2011"
-Rev "A-DRAFT7"
+Date "22 oct 2011"
+Rev "A-DRAFT8"
 Comp "http://open5xxxecu.org/"
 Comment1 "2 channels of Wide O2 "
 Comment2 ""
@@ -758,13 +758,13 @@ F 1 "GND" H 8675 2505 30  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 8925 2875 0    60   ~ 0
-UN-1?
+UN-1
 Text Label 8925 2975 0    60   ~ 0
-IA-1?
+IA-1
 Text Label 5800 2775 0    60   ~ 0
-IA-1?
+IA-1
 Text Label 5775 2500 0    60   ~ 0
-UN-1?
+UN-1
 $Comp
 L CJ125 U1201
 U 1 1 4E39E9B7
@@ -784,11 +784,11 @@ F 11 "other,more,stuff" V 5655 4475 60  0001 C CNN "Field8"
 	1    0    0    -1  
 $EndComp
 Text Label 5500 2975 0    60   ~ 0
-DIAHG-1?
+DIAHG-1
 Text Label 5500 3075 0    60   ~ 0
-DIAHD-1?
+DIAHD-1
 Text Label 5775 2600 0    60   ~ 0
-IP-1?
+IP-1
 Text HLabel 5450 2775 0    60   Input ~ 0
 O2-1_IA_PIN
 Text HLabel 5350 2550 0    60   Input ~ 0
@@ -820,11 +820,11 @@ O2-2_IP_PIN
 Text HLabel 5450 5375 0    60   Input ~ 0
 O2-2_IA_PIN
 Text Label 5775 5200 0    60   ~ 0
-IP-2?
+IP-2
 Text Label 5500 5675 0    60   ~ 0
-DIAHD-2?
+DIAHD-2
 Text Label 5500 5575 0    60   ~ 0
-DIAHG-2?
+DIAHG-2
 $Comp
 L CJ125 U1202
 U 1 1 4C0A26E3
@@ -844,13 +844,13 @@ F 11 "other,more,stuff" V 5655 7075 60  0001 C CNN "Field8"
 	1    0    0    -1  
 $EndComp
 Text Label 5775 5100 0    60   ~ 0
-UN-2?
+UN-2
 Text Label 5800 5375 0    60   ~ 0
-IA-2?
+IA-2
 Text Label 8925 5575 0    60   ~ 0
-IA-2?
+IA-2
 Text Label 8925 5475 0    60   ~ 0
-UN-2?
+UN-2
 $Comp
 L GND #PWR0168
 U 1 1 4C09CD98

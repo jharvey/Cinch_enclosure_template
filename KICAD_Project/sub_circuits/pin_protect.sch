@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/21/2011 6:23:34 AM
+EESchema Schematic File Version 2  date 10/22/2011 9:43:20 AM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,14 +31,15 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 5 12
 Title "Open5xxxECU (o5e), an ECU that is no longer affiliated with freeEMS."
-Date "21 oct 2011"
-Rev "A-DRAFT7"
+Date "22 oct 2011"
+Rev "A-DRAFT8"
 Comp "http://open5xxxecu.org/"
 Comment1 "misc analog input protection circuits"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+NoConn ~ 8900 5850
 Wire Wire Line
 	1050 3900 1600 3900
 Wire Wire Line
@@ -348,8 +349,6 @@ Text HLabel 8900 6050 2    60   Output ~ 0
 AN_HARN_P02
 Text HLabel 8900 5950 2    60   Output ~ 0
 AN_HARN_P01
-Text HLabel 8900 5850 2    60   Input ~ 0
-12V_BAT
 $Comp
 L GND #PWR094
 U 1 1 4E9423F6

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/21/2011 5:44:53 AM
+EESchema Schematic File Version 2  date 10/22/2011 9:34:42 AM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,7 +31,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 12 12
 Title "Open5xxxECU (o5e), an ECU that is no longer affiliated with freeEMS."
-Date "21 oct 2011"
+Date "22 oct 2011"
 Rev "A-DRAFT7"
 Comp "http://open5xxxecu.org/"
 Comment1 "misc input signals"
@@ -863,7 +863,7 @@ U 1 1 4E3DD647
 P 9750 2000
 F 0 "U1306" H 10300 2400 70  0000 C CNN
 F 1 "MPX4250A" H 9650 1750 70  0000 C CNN
-F 2 "MPX4---AP" V 5780 3100 60  0001 C CNN
+F 2 "MPX-4_MAP" V 5780 3100 60  0001 C CNN
 F 4 "freescale" V 5780 3100 60  0001 C CNN "mfg"
 F 5 "MPX4250AP" V 5780 3100 60  0001 C CNN "mfg#"
 F 6 "digikey" V 5780 3100 60  0001 C CNN "vend1"
@@ -1663,7 +1663,7 @@ U 1 1 4C2F532E
 P 9750 1000
 F 0 "U1305" H 10300 1400 70  0000 C CNN
 F 1 "MPX4250A" H 9650 750 70  0000 C CNN
-F 2 "MPX4---AP" V 5780 2100 60  0001 C CNN
+F 2 "MPX-4_MAP" V 5780 2100 60  0001 C CNN
 F 4 "freescale" V 5780 2100 60  0001 C CNN "mfg"
 F 5 "MPX4250AP" V 5780 2100 60  0001 C CNN "mfg#"
 F 6 "digikey" V 5780 2100 60  0001 C CNN "vend1"
