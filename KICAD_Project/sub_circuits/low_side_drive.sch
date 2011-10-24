@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/22/2011 9:43:20 AM
+EESchema Schematic File Version 2  date 10/23/2011 8:38:08 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -29,10 +29,10 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
-Sheet 2 12
+Sheet 3 12
 Title "Open5xxxECU (o5e), an ECU that is no longer affiliated with freeEMS."
-Date "22 oct 2011"
-Rev "A-DRAFT8"
+Date "24 oct 2011"
+Rev "A-DRAFT10"
 Comp "http://open5xxxecu.org/"
 Comment1 "misc high side and low side drives"
 Comment2 ""
@@ -445,10 +445,10 @@ Text Label 4350 3100 2    60   ~ 0
 Text HLabel 3975 3150 0    60   Input ~ 0
 800_P1
 $Comp
-L GND #PWR04
+L GND #PWR086
 U 1 1 4C2B134E
 P 6800 1450
-F 0 "#PWR04" H 6800 1450 30  0001 C CNN
+F 0 "#PWR086" H 6800 1450 30  0001 C CNN
 F 1 "GND" H 6800 1380 30  0001 C CNN
 	1    6800 1450
 	1    0    0    -1  
@@ -1030,28 +1030,28 @@ F 11 "other,more,stuff" V 1730 5250 60  0001 C CNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L GND #PWR087
 U 1 1 4BF50AC9
 P 4875 4175
-F 0 "#PWR05" H 4875 4175 30  0001 C CNN
+F 0 "#PWR087" H 4875 4175 30  0001 C CNN
 F 1 "GND" H 4875 4105 30  0001 C CNN
 	1    4875 4175
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L GND #PWR088
 U 1 1 4BF5091E
 P 6725 4575
-F 0 "#PWR06" H 6725 4575 30  0001 C CNN
+F 0 "#PWR088" H 6725 4575 30  0001 C CNN
 F 1 "GND" H 6725 4505 30  0001 C CNN
 	1    6725 4575
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L GND #PWR089
 U 1 1 4BF50915
 P 6700 4375
-F 0 "#PWR07" H 6700 4375 30  0001 C CNN
+F 0 "#PWR089" H 6700 4375 30  0001 C CNN
 F 1 "GND" H 6700 4305 30  0001 C CNN
 	1    6700 4375
 	1    0    0    -1  
@@ -1253,10 +1253,10 @@ F 11 "other,more,stuff" V 680 6000 60  0001 C CNN "Field8"
 	0    -1   1    0   
 $EndComp
 $Comp
-L GND #PWR08
+L GND #PWR090
 U 1 1 4BF3BCE7
 P 4150 4600
-F 0 "#PWR08" H 4150 4600 30  0001 C CNN
+F 0 "#PWR090" H 4150 4600 30  0001 C CNN
 F 1 "GND" H 4150 4530 30  0001 C CNN
 	1    4150 4600
 	-1   0    0    -1  
@@ -1280,10 +1280,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR09
+L GND #PWR091
 U 1 1 4BF3BCD4
 P 2575 2975
-F 0 "#PWR09" H 2575 2975 30  0001 C CNN
+F 0 "#PWR091" H 2575 2975 30  0001 C CNN
 F 1 "GND" H 2575 2905 30  0001 C CNN
 	1    2575 2975
 	-1   0    0    -1  
@@ -1319,7 +1319,7 @@ Text HLabel 4850 2850 0    60   Input ~ 0
 Text HLabel 6750 4050 2    60   Input ~ 0
 800_SO
 Text HLabel 6750 4150 2    60   Input ~ 0
-3.3V
+VDD
 $Comp
 L C C1014
 U 1 1 4E467DF8
@@ -1339,19 +1339,19 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR010
+L GND #PWR092
 U 1 1 4BF34837
 P 7650 4150
-F 0 "#PWR010" H 7650 4150 30  0001 C CNN
+F 0 "#PWR092" H 7650 4150 30  0001 C CNN
 F 1 "GND" H 7650 4080 30  0001 C CNN
 	1    7650 4150
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L GND #PWR093
 U 1 1 4BF34814
 P 7650 4450
-F 0 "#PWR011" H 7650 4450 30  0001 C CNN
+F 0 "#PWR093" H 7650 4450 30  0001 C CNN
 F 1 "GND" H 7650 4380 30  0001 C CNN
 	1    7650 4450
 	1    0    0    -1  

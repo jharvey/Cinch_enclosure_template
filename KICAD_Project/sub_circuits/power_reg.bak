@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/22/2011 9:34:41 AM
+EESchema Schematic File Version 2  date 10/23/2011 8:36:41 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,8 +31,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 8 12
 Title "Open5xxxECU (o5e), an ECU that is no longer affiliated with freeEMS."
-Date "22 oct 2011"
-Rev "A-DRAFT7"
+Date "24 oct 2011"
+Rev "A-DRAFT9"
 Comp "http://open5xxxecu.org/"
 Comment1 "power regulator"
 Comment2 ""
@@ -521,7 +521,7 @@ F 1 "GND" H 3975 7030 30  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Label 1325 6650 2    60   ~ 0
-6v reg
+12V
 Text Notes 4800 6600 0    60   ~ 0
 THIS SECTION CONTAINS\n\nSMALL FILTERING CAPS TO PREVENT OSSILATION\nLARGER BULK CAPS TO HANDLE THE BULK NEEDS\nLDO REGULATOR TO GENERATE A 1 AMP 3.3V PERCISSION LOW RIPPLE SOURCE
 Text HLabel 3975 6650 2    60   Output ~ 0

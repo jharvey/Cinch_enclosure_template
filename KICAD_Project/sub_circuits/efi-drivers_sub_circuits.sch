@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/22/2011 9:43:20 AM
+EESchema Schematic File Version 2  date 10/23/2011 8:38:09 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,54 +31,14 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 6 12
 Title "Open5xxxECU (o5e), an ECU that is no longer affiliated with freeEMS."
-Date "22 oct 2011"
-Rev "A-DRAFT8"
+Date "24 oct 2011"
+Rev "A-DRAFT10"
 Comp "http://open5xxxecu.org/"
 Comment1 "Injection circuits"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CONN_1 P504
-U 1 1 4E81E696
-P 6850 5625
-F 0 "P504" H 6930 5625 40  0000 L CNN
-F 1 "CONN_1" H 6850 5680 30  0001 C CNN
-F 2 "PINTST" H 6850 5625 60  0001 C CNN
-	1    6850 5625
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1 P503
-U 1 1 4E81E68D
-P 6850 775
-F 0 "P503" H 6930 775 40  0000 L CNN
-F 1 "CONN_1" H 6850 830 30  0001 C CNN
-F 2 "PINTST" H 6850 775 60  0001 C CNN
-	1    6850 775 
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1 P502
-U 1 1 4E81D301
-P 3050 5625
-F 0 "P502" H 3130 5625 40  0000 L CNN
-F 1 "CONN_1" H 3050 5680 30  0001 C CNN
-F 2 "PINTST" H 3050 5625 60  0001 C CNN
-	1    3050 5625
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1 P501
-U 1 1 4E81D176
-P 3050 3225
-F 0 "P501" H 3130 3225 40  0000 L CNN
-F 1 "CONN_1" H 3050 3280 30  0001 C CNN
-F 2 "PINTST" H 3050 3225 60  0001 C CNN
-	1    3050 3225
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5925 3650 6300 3650
 Wire Wire Line
