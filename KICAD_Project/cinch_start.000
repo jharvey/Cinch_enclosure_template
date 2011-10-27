@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date 10/23/2011 3:54:17 PM
+PCBNEW-BOARD Version 1 date 10/23/2011 4:00:42 PM
 
 # Created by Pcbnew(2011-07-08 BZR 3044)-stable
 
@@ -43951,7 +43951,7 @@ ZCorner 9750 31350 0
 ZCorner 9950 70650 1
 $endCZONE_OUTLINE
 $CZONE_OUTLINE
-ZInfo 4EA44296 250 "/power_regulator_constant/12V_BAT"
+ZInfo 4EA44296 254 "GND"
 ZLayer 3
 ZAux 14 E
 ZClearance 90 T

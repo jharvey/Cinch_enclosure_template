@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/23/2011 8:38:09 PM
+EESchema Schematic File Version 2  date 10/26/2011 8:35:32 PM
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,8 +31,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 7 12
 Title "Open5xxxECU (o5e), an ECU that is no longer affiliated with freeEMS."
-Date "24 oct 2011"
-Rev "A-DRAFT10"
+Date "27 oct 2011"
+Rev "A-DRAFT12"
 Comp "http://open5xxxecu.org/"
 Comment1 "RPM input Engine and wheels"
 Comment2 ""
